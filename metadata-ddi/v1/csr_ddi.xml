@@ -1,0 +1,2031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codeBook xmlns:act="http://ced2ar.org/ns/activities#" xmlns:ced2ar="http://ced2ar.org/ns/core#" xmlns:RePEc="https://ideas.repec.org/#" xmlns:exn="http://ced2ar.org/ns/external#" xmlns:repeca="https://ideas.repec.org/e/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:tr="http://example.com/ns/tr#" xmlns:ex="http://example.com/ns/ex#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:saxon="http://xml.apache.org/xslt" xmlns:ns0="http://purl.org/dc/elements/1.1/" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dc="http://purl.org/dc/terms/" xmlns="ddi:codebook:2_5" xsi:schemaLocation="ddi:codebook:2_5 http://www.ncrn.cornell.edu/docs/ddi/2.5.NCRN.P/schemas/codebook.xsd">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>Census of Services</titl>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="Cornell University">Virtual RDC</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="Cornell NCRN Project">Cornell NSF-Census Research Network</producer>
+        <copyright>Cornell NCRN Project</copyright>
+        <prodDate date="December 2015">December 2015</prodDate>
+        <prodPlac>Cornell Institute for Social and Economic Research (CISER), Cornell University, Ithaca NY<ExtLink URI="http://ciser.cornell.edu"/>
+        </prodPlac>
+        <software>The Comprehensive Extensible Data Documentation and Access Repository 2.7</software>
+        <software>The Comprehensive Extensible Data Documentation and Access Repository 2.6</software>
+        <software>The Comprehensive Extensible Data Documentation and Access Repository 2.6</software>
+        <fundAg abbr="NSF">National Science Foundation (NSF)</fundAg>
+        <grantNo agency="National Science Foundation">1131848</grantNo>
+      </prodStmt>
+      <distStmt source="producer">
+        <distrbtr URI="http://www.ncrn.cornell.edu" abbr="Cornell NCRN Project">NSF-Census Research Network - Cornell node</distrbtr>
+        <distrbtr URI="http://www.ciser.cornell.edu" abbr="CISER">Cornell Institute for Social and Economic Research</distrbtr>
+        <distrbtr URI="http://www.ilr.cornell.edu/ldi" abbr="LDI">Labor Dynamics Institute</distrbtr>
+        <distDate date="2015">2015</distDate>
+      </distStmt>
+      <verStmt>
+        <version date="2015-11-19 12:01:57 (auto-generated)"/>
+      </verStmt>
+      <biblCit>
+        <p>Lars Vilhuber. DDI Codebook for the Census of Services [Codebook file]. Cornell Institute for Social and Economic Research and Labor Dynamics Institute [distributor]. Cornell University, Ithaca, NY, 2015</p>
+      </biblCit>
+    </citation>
+    <docSrc>
+      <titlStmt>
+        <titl>Census of Services</titl>
+      </titlStmt>
+    </docSrc>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>Census of Services</titl>
+        <IDNo>89</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>United States Department of Commerce. Bureau of the Census.</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="Census">United States Department of Commerce. Bureau of the Census.</producer>
+        <copyright>none</copyright>
+        <prodPlac>Washington, DC, USA</prodPlac>
+      </prodStmt>
+      <distStmt>
+        <distrbtr>United States Department of Commerce. Bureau of the Census. Research Data Center</distrbtr>
+      </distStmt>
+      <biblCit>
+        <p>U.S. Census Bureau. Census of Services [Computer file]. Washington DC; United States Department of Commerce. Bureau of the Census. Research Data Center [access], Washington DC, 2017</p>
+      </biblCit>
+    </citation>
+    <stdyInfo>
+      <abstract><p>The Census of Service Industries (CSR) is comprised of the following two-digit NAICS sectors: (51) Information (54) Professional Scientific and Technical Services (55) Management of Companies and Enterprises (56) Administrative and Support and Waste Management and Remediation Services (61) Educational Services (62) Health Care and Social Assistance (71) Arts Entertainment and Recreation (72) Accommodation and Food Services and (81) Other Services (except Public Administration)</p>
+
+<p>Firms in the Economic Census are divided into those sent report forms and those not sent report forms. Establishments sent a report form include large employers i.e. all multi-establishment firms and all single-establishment employer firms with payroll above a specified cutoff as well as a sample of small employers i.e. single-establishment firms with payroll below a specified cutoff in industries for which specialized data precludes reliance solely on administrative records sources. The sample is stratified by industry and geography.</p>
+
+<p>Small employers i.e. single-establishment firms with payroll below a specified cutoff are not selected into the small employer sample. Although the payroll cutoff varies by kind of business small employers not sent a report form generally include firms with less than 10 employees and represent about 10 percent of total revenue of establishments covered in the census.  Data on revenue payroll and employment for these small employers were derived or estimated from administrative records of other federal agencies. Some of these firms were sent a shorter version of a report form to obtain industry classification information only.</p></abstract>
+      <sumDscr>
+        <nation abbr="U.S.">United States of America</nation>
+        <anlyUnit>Quinquenially (every five years)</anlyUnit>
+        <anlyUnit>Calendar Year</anlyUnit>
+        <anlyUnit>Establishment</anlyUnit>
+        <universe>Business</universe>
+        <universe>Combination (industries)</universe>
+        <universe>NAICS 51 54-81</universe>
+      </sumDscr>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <dataCollector abbr="Census">U.S. Census Bureau</dataCollector>
+        <sampProc>y</sampProc>
+      </dataColl>
+    </method>
+    <dataAccs>
+      <useStmt>
+        <confDec>To obtain this dataset, the user must complete the RDC application process, and be approved for use of this dataset.</confDec>
+        <restrctn>Title 13 U.S.C.</restrctn>
+        <restrctn>y</restrctn>
+        <conditions>Users must (i) successfully apply for RDC access (ii) pass review by agencies (iii) pass security clearance</conditions>
+      </useStmt>
+    </dataAccs>
+    <othrStdyMat>
+      <relPubl>http:www.census.govprodwwwabsbusiness.html</relPubl>
+    </othrStdyMat>
+  </stdyDscr>
+  <fileDscr ID="csr_yyyy_base">
+    <fileTxt>
+      <fileName>csr_yyyy_base.sas7bdat</fileName>
+      <dimensns>
+        <caseQnty></caseQnty>
+        <varQnty>128</varQnty>
+      </dimensns>
+      <fileType>SAS</fileType>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="csr_yyyy_line">
+    <fileTxt>
+      <fileName>csr_yyyy_line.sas7bdat</fileName>
+      <dimensns>
+        <caseQnty></caseQnty>
+        <varQnty>7</varQnty>
+      </dimensns>
+      <fileType>SAS</fileType>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="csr_yyyy_misc">
+    <fileTxt>
+      <fileName>csr_yyyy_misc.sas7bdat</fileName>
+      <dimensns>
+        <caseQnty></caseQnty>
+        <varQnty>150</varQnty>
+      </dimensns>
+      <fileType>SAS</fileType>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="csr_yyyy_tral">
+    <fileTxt>
+      <fileName>csr_yyyy_tral.sas7bdat</fileName>
+      <dimensns>
+        <caseQnty></caseQnty>
+        <varQnty>8</varQnty>
+      </dimensns>
+      <fileType>SAS</fileType>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr>
+    <var ID="WZVgLsZXNjHuVbuc" dcml="0" files="csr_yyyy_tral" name="itemcode">
+      <location EndPos="7" StartPos="7" width="1"/>
+      <labl xml-lang="en">TRAILER DATA ITEM CODE (KEYCODE ON FORM--LEFT PADDED WITH ZEROS TO MAKE 4 CHARAC</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="VHJPh7zfrTWwyglq" dcml="0" files="csr_yyyy_tral" name="itemvalue_pf">
+      <location EndPos="6" StartPos="6" width="1"/>
+      <labl xml-lang="en">2002 ADDED FLAG--NEED TO FIGURE OUT MEANING, VALUES AS FOR OTHER SOURCE FLAGS (_</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="m4MK08S1ngIYo2Nw" dcml="0" files="csr_yyyy_tral" name="itemvalue_rf">
+      <location EndPos="5" StartPos="5" width="1"/>
+      <labl xml-lang="en">FLAG FOR REPORTED VALUE OF TRAILER ITEM--USUALLY R=RESPONSE</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="jdf9JszXBt4qajZP" dcml="0" files="csr_yyyy_tral" name="itemvalue_r">
+      <location EndPos="4" StartPos="4" width="1"/>
+      <labl xml-lang="en">REPORTED VALUE FOR THIS TRAILER DATA ITEM (0 OFTEN MEANS MISSING)</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var>
+    <var ID="pq3MkcgjB1ncYRk8" dcml="0" files="csr_yyyy_tral" name="itemvalue_f">
+      <location EndPos="3" StartPos="3" width="1"/>
+      <labl xml-lang="en">FLAG INDICATING SOURCE OF TRAILER VALUE (R=RESPONSE, ETC)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="XHTaU0iCFCwZMJ5p" dcml="0" files="csr_yyyy_tral" name="itemvalue">
+      <location EndPos="2" StartPos="2" width="1"/>
+      <labl xml-lang="en">EDITED VALUE FOR THIS TRAILER DATA ITEM (0 OFTEN MEANS MISSING)</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var>
+    <var ID="NlNzj1XghBNMCxBN" dcml="0" files="csr_yyyy_tral" name="useflag">
+      <location EndPos="1" StartPos="1" width="1"/>
+      <labl xml-lang="en">FLAG FOR WHETHER TRAILER DATA FOR THIS ESTAB IS USABLE (IE USED FOR PUBLICATION)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="WhrRUpOD1ozDtHQa" dcml="0" files="csr_yyyy_misc" name="optype_xfr">
+      <location EndPos="148" StartPos="148" width="1"/>
+      <labl xml-lang="en">TYPE-OF-OPERATION CODE FOR CASES TRANSFERRED TO WHOLESALE</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="bCJcaaecCB9Y80yC" dcml="0" files="csr_yyyy_misc" name="data_update">
+      <location EndPos="147" StartPos="147" width="1"/>
+      <labl xml-lang="en">DATE OF UPDATE? (SAS DATE/TIME VALUE)</labl>
+      <txt/>
+      <varFormat category="date" formatname="Long" schema="other" type="character">%d</varFormat>
+    </var>
+    <var ID="pEFel7aqYtEshb0Z" dcml="0" files="csr_yyyy_misc" name="naics_random">
+      <location EndPos="146" StartPos="146" width="1"/>
+      <labl xml-lang="en">RANDOM--CLOSEST IN DATADICT IS NAICSRANDOM, VALUES 0/1</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%2.0g</varFormat>
+    </var>
+    <var ID="ZPgESlmivgEDt7bw" dcml="0" files="csr_yyyy_misc" name="limupdt">
+      <location EndPos="145" StartPos="145" width="1"/>
+      <labl xml-lang="en">LIMUPDT--SEEMS LIKELY RELATED TO LIMADJ (Y/N VAR)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="Hdtc8Cy7oZpH4bfG" dcml="0" files="csr_yyyy_misc" name="naics_update">
+      <location EndPos="144" StartPos="144" width="1"/>
+      <labl xml-lang="en">NAICS UPDATE</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var>
+    <var ID="MyrA9s18AcOhRjxD" dcml="0" files="csr_yyyy_misc" name="linenum">
+      <location EndPos="143" StartPos="143" width="1"/>
+      <labl xml-lang="en">LINE NUMBER CORRECTION/ADDITION TO LOCATIONS OF OPERATIONS (MAYBE)</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="RGlXi8B8Gz2F9Qm0" dcml="0" files="csr_yyyy_misc" name="empq1_dcurr12_f">
+      <location EndPos="142" StartPos="142" width="1"/>
+      <labl xml-lang="en">SOMETHING TO DO WITH MARCH 12TH EMPLOYMENT, FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="FVuvE6x6CHfR8xkc" dcml="0" files="csr_yyyy_misc" name="payqtr1_dcurr11_f">
+      <location EndPos="141" StartPos="141" width="1"/>
+      <labl xml-lang="en">SOMETHING TO DO WITH 1ST QUARTER PAY, FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="zg6qMRFiBLb9JCsL" dcml="0" files="csr_yyyy_misc" name="payann_dcurr10_f">
+      <location EndPos="140" StartPos="140" width="1"/>
+      <labl xml-lang="en">SOMETHING TO DO WITH ANNUAL PAY, FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="Z3yc2Iy6zYcBcC5T" dcml="0" files="csr_yyyy_misc" name="rcpt_dcurr9_f">
+      <location EndPos="139" StartPos="139" width="1"/>
+      <labl xml-lang="en">SOMETHING TO DO WITH RECEIPTS, FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="wvmsEp5dBBdwEBJj" dcml="0" files="csr_yyyy_misc" name="empq1_dcurr12">
+      <location EndPos="138" StartPos="138" width="1"/>
+      <labl xml-lang="en">SOMETHING TO DO WITH MARCH 12TH EMPLOYMENT</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="OMTySpfGXWzc4NuK" dcml="0" files="csr_yyyy_misc" name="payqtr1_dcurr11">
+      <location EndPos="137" StartPos="137" width="1"/>
+      <labl xml-lang="en">SOMETHING TO DO WITH 1ST QUARTER PAY</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="jPH6ToPwmRXZ2POz" dcml="0" files="csr_yyyy_misc" name="payann_dcurr10">
+      <location EndPos="136" StartPos="136" width="1"/>
+      <labl xml-lang="en">SOMETHING TO DO WITH ANNUAL PAY</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="C7PUuWUinoFbq2zV" dcml="0" files="csr_yyyy_misc" name="rcpt_dcurr9">
+      <location EndPos="135" StartPos="135" width="1"/>
+      <labl xml-lang="en">CORR WITH RCPTOT_R=.999 WHEN NOT ZERO</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="beIOLeWXUvKQeyxj" dcml="0" files="csr_yyyy_misc" name="id_dcurr8">
+      <location EndPos="134" StartPos="134" width="1"/>
+      <labl xml-lang="en">SOME SORT OF IDENTIFIER--ONLY FOR SOME MU'S, SAME FORMAT AS SURVUID</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="QwceYnHwHds3LfDT" dcml="0" files="csr_yyyy_misc" name="id_dcurr7">
+      <location EndPos="133" StartPos="133" width="1"/>
+      <labl xml-lang="en">SOME SORT OF IDENTIFIER--ONLY FOR SOME MU'S, SAME FORMAT AS SURVUID</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="BvOCjVbhx7vI5qts" dcml="0" files="csr_yyyy_misc" name="mecs_case">
+      <location EndPos="132" StartPos="132" width="1"/>
+      <labl xml-lang="en">IDENTIFIES CASES THAT ARE IN MECS SAMPLE?  (MOSTLY TRANSFERRED FROM MANUF)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var>
+    <var ID="ey1J5SOLXezfyLVG" dcml="0" files="csr_yyyy_misc" name="impute_type">
+      <location EndPos="131" StartPos="131" width="1"/>
+      <labl xml-lang="en">TYPE OF IMPUTATION USED?  E.G. MUWARM, AUPDATE, ECUPDATE</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var>
+    <var ID="xtC4mAQ5SgGjD88j" dcml="0" files="csr_yyyy_misc" name="naics_aux_old_xfr">
+      <location EndPos="130" StartPos="130" width="1"/>
+      <labl xml-lang="en">NAICS CODE FOR INDUSTRY SERVED (AUXIL ESTAB), PREV CENSUS MANUAL, TRANSFER CASE</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="hUEVdZxvSSChQw7P" dcml="0" files="csr_yyyy_misc" name="naics_aux_old_xfr_f">
+      <location EndPos="129" StartPos="129" width="1"/>
+      <labl xml-lang="en">NAICS CODE FOR INDUSTRY SERVED (AUXIL ESTAB), PREV CENSUS MANUAL, TRANSFER CASE,</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="gQ2g8QbNA5THXkA8" dcml="0" files="csr_yyyy_misc" name="sector_xfr">
+      <location EndPos="128" StartPos="128" width="1"/>
+      <labl xml-lang="en">TRADE AREA (SECTOR) TO WHICH TRANSFERRED (USU=2ND CHAR OF TRANSFER_SECTOR)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="Yx3oGmcrzyqhZTho" dcml="0" files="csr_yyyy_misc" name="naics_xfr">
+      <location EndPos="127" StartPos="127" width="1"/>
+      <labl xml-lang="en">NAICS CODE-TRANSFERRED CASE</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var>
+    <var ID="uBApjNehewAIV4dT" dcml="0" files="csr_yyyy_misc" name="naics_aux_a_f">
+      <location EndPos="126" StartPos="126" width="1"/>
+      <labl xml-lang="en">AUXIL SCOPE FLAG--INDUSTRY SERVED IN SCOPE FOR EC? ADMIN</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="QYsN4g6FfVUYlqiu" dcml="0" files="csr_yyyy_misc" name="naics_aux_a">
+      <location EndPos="125" StartPos="125" width="1"/>
+      <labl xml-lang="en">NAICS CODE FOR INDUSTRY SERVED (AUXIL ESTAB), ADMIN</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="iNPxICJ2jp8vFWGs" dcml="0" files="csr_yyyy_misc" name="naics_old_a_src">
+      <location EndPos="124" StartPos="124" width="1"/>
+      <labl xml-lang="en">SOURCE OF ADMIN NAICS CODE</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="HIDLdLHbkJVbDcUQ" dcml="0" files="csr_yyyy_misc" name="naics_old_a_rel">
+      <location EndPos="123" StartPos="123" width="1"/>
+      <labl xml-lang="en">RELIABILITY OF ADMIN NAICS CODE</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="vtGBOABxoVtmhmYe" dcml="0" files="csr_yyyy_misc" name="elec_remark_indic">
+      <location EndPos="122" StartPos="122" width="1"/>
+      <labl xml-lang="en">INDICATES THAT ELECTRONIC REMARKS EXIST</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="HVKzPrSwMFlqD8o4" dcml="0" files="csr_yyyy_misc" name="non_cvg_remark">
+      <location EndPos="121" StartPos="121" width="1"/>
+      <labl xml-lang="en">NONCOVERAGE REMARKS RETURNED ON FORM</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="arUf8JmDWIXktUNa" dcml="0" files="csr_yyyy_misc" name="stub_alter">
+      <location EndPos="120" StartPos="120" width="1"/>
+      <labl xml-lang="en">STUB ALTERATION FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="loTE0jvYQnEVLGw4" dcml="0" files="csr_yyyy_misc" name="bracketed_data">
+      <location EndPos="119" StartPos="119" width="1"/>
+      <labl xml-lang="en">FLAG FOR WHETHER DATA WAS BRACKETED</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="B2sUFMvU6vtaKGjl" dcml="0" files="csr_yyyy_misc" name="splitter">
+      <location EndPos="118" StartPos="118" width="1"/>
+      <labl xml-lang="en">SPLITTER FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="cpRzs4PWAwxYQtEU" dcml="0" files="csr_yyyy_misc" name="edit_multipl_trailer">
+      <location EndPos="117" StartPos="117" width="1"/>
+      <labl xml-lang="en">RECORD MULTIPLIER FOR TRAILER DATA BASED EDITS</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%2.0g</varFormat>
+    </var>
+    <var ID="PZQtXoN8xTEbbOnB" dcml="0" files="csr_yyyy_misc" name="ecom_sales_f">
+      <location EndPos="116" StartPos="116" width="1"/>
+      <labl xml-lang="en">ECOMMERCE SALES/RECEIPTS FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="XVlchV3sONCRmXeD" dcml="0" files="csr_yyyy_misc" name="ecom_any_f">
+      <location EndPos="115" StartPos="115" width="1"/>
+      <labl xml-lang="en">DID ESTAB HAVE ANY SALES/RECEIPTS FROM ECOMMERCE?  FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="UHLxBDn8GVIe2cmq" dcml="0" files="csr_yyyy_misc" name="revenue_f">
+      <location EndPos="114" StartPos="114" width="1"/>
+      <labl xml-lang="en">REVENUES OF TAX-EXEMPT ESTAB FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="OV2rKIo4jS2r7xAH" dcml="0" files="csr_yyyy_misc" name="pay_q1_le_f">
+      <location EndPos="113" StartPos="113" width="1"/>
+      <labl xml-lang="en">FIRST QUARTER PAYROLL FOR LEASED EMPLOYEES FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="sw41ogYdvZOvCv2A" dcml="0" files="csr_yyyy_misc" name="pay_ann_le_f">
+      <location EndPos="112" StartPos="112" width="1"/>
+      <labl xml-lang="en">ANNUAL PAYROLL FOR LEASED EMPLOYEES FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="TqoIgnJvbcjyseA7" dcml="0" files="csr_yyyy_misc" name="optype_r">
+      <location EndPos="111" StartPos="111" width="1"/>
+      <labl xml-lang="en">TYPE-OF-OPERATION CODE  C060, REPORTED</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="PRVMl2ttTxSHckiN" dcml="0" files="csr_yyyy_misc" name="naics_self_design">
+      <location EndPos="110" StartPos="110" width="1"/>
+      <labl xml-lang="en">SELF-DESIGNATED NAICS CODE</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var>
+    <var ID="HFrJJF3KfBTZ0E76" dcml="0" files="csr_yyyy_misc" name="eoy_stat_f">
+      <location EndPos="109" StartPos="109" width="1"/>
+      <labl xml-lang="en">END-OF-YEAR OPERATING STATUS (Y/N)--FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="ipVp17lJy2hkan5J" dcml="0" files="csr_yyyy_misc" name="eoy_stat">
+      <location EndPos="108" StartPos="108" width="1"/>
+      <labl xml-lang="en">END-OF-YEAR OPERATING STATUS (Y/N)--MEANING UNCLEAR</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="hyG1rXgQLBfCrsfy" dcml="0" files="csr_yyyy_misc" name="seasonal">
+      <location EndPos="107" StartPos="107" width="1"/>
+      <labl xml-lang="en">IDENTIFIES SEASONAL RECORDS</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="lPNmfBqj7AeEGAJv" dcml="0" files="csr_yyyy_misc" name="naics_wrtin">
+      <location EndPos="106" StartPos="106" width="1"/>
+      <labl xml-lang="en">NAICS WRITE-IN INDICATOR</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="PEE015J60ttlgEOo" dcml="0" files="csr_yyyy_misc" name="naics_old_sssd_src">
+      <location EndPos="105" StartPos="105" width="1"/>
+      <labl xml-lang="en">NAICS SOURCE CODE OLD--SSSD</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="zku6yUXpey2VTlmj" dcml="0" files="csr_yyyy_misc" name="naics_old_sssd_rel">
+      <location EndPos="104" StartPos="104" width="1"/>
+      <labl xml-lang="en">NAICS RELIABILITY CODE OLD--SSSD</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="HEpoJI8lIYu1Gl8q" dcml="0" files="csr_yyyy_misc" name="edit_multipl_indus">
+      <location EndPos="103" StartPos="103" width="1"/>
+      <labl xml-lang="en">RECORD MULTIPLIER FOR INDUSTRY BASED EDITS</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%2.0g</varFormat>
+    </var>
+    <var ID="IcVZEG6gLSCQK5pJ" dcml="0" files="csr_yyyy_misc" name="ldept_has">
+      <location EndPos="102" StartPos="102" width="1"/>
+      <labl xml-lang="en">ESTAB HAS LEASED DEPARTMENT</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="xI7GsKmN2uqCGkUj" dcml="0" files="csr_yyyy_misc" name="inveoy_rf">
+      <location EndPos="101" StartPos="101" width="1"/>
+      <labl xml-lang="en">EOY INVENTORY FLAG (REPORTED)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="ykdgfqY548ngEvC5" dcml="0" files="csr_yyyy_misc" name="inveoy_r">
+      <location EndPos="100" StartPos="100" width="1"/>
+      <labl xml-lang="en">END-OF-YEAR INVENTORY C046, REPORTED</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="jBXvlBQnuLa1Ugc1" dcml="0" files="csr_yyyy_misc" name="inveoy">
+      <location EndPos="99" StartPos="99" width="1"/>
+      <labl xml-lang="en">END-OF-YEAR INVENTORY C046</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="f2h5ZYRqWxtk4ysj" dcml="0" files="csr_yyyy_misc" name="invboy_rf">
+      <location EndPos="98" StartPos="98" width="1"/>
+      <labl xml-lang="en">BEG.-OF-YR. INVENTORY FLAG (REPORTED)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="aSpuhxdFUM5MU0zm" dcml="0" files="csr_yyyy_misc" name="invboy_r">
+      <location EndPos="97" StartPos="97" width="1"/>
+      <labl xml-lang="en">BEG.-OF-YEAR INVENTORY C047, REPORTED</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="uHB7PkH0i3lQuAjA" dcml="0" files="csr_yyyy_misc" name="invboy">
+      <location EndPos="96" StartPos="96" width="1"/>
+      <labl xml-lang="en">BEG.-OF-YEAR INVENTORY  C047</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="Elcvm3caEZB1Dsv1" dcml="0" files="csr_yyyy_misc" name="gross_profit">
+      <location EndPos="95" StartPos="95" width="1"/>
+      <labl xml-lang="en">GROSS PROFIT ($K)</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="GB1aoqImedIEQsG2" dcml="0" files="csr_yyyy_misc" name="gross_margin">
+      <location EndPos="94" StartPos="94" width="1"/>
+      <labl xml-lang="en">GROSS MARGIN ($K)</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="j0oikX3PYWMYnkNC" dcml="0" files="csr_yyyy_misc" name="empl_le_f">
+      <location EndPos="93" StartPos="93" width="1"/>
+      <labl xml-lang="en">LEASED EMPLOYMENT (MARCH 12 PAY PERIOD) FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="jzndklbgaRw8wa0v" dcml="0" files="csr_yyyy_misc" name="edit_route">
+      <location EndPos="92" StartPos="92" width="1"/>
+      <labl xml-lang="en">COMPLEX EDIT ROUTING CODE--INDICATES WHICH EDIT TO PERFORM</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="GXjZ6KIRFKd08Lqk" dcml="0" files="csr_yyyy_misc" name="consol_report">
+      <location EndPos="91" StartPos="91" width="1"/>
+      <labl xml-lang="en">CONSOLIDATED REPORT/ALTERNATIVE REPORTING UNIT</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="IfJpOrZRgzUTMbNq" dcml="0" files="csr_yyyy_misc" name="edit_count">
+      <location EndPos="90" StartPos="90" width="1"/>
+      <labl xml-lang="en">NUMBER OF TIMES EDIT HAS BEEN PERFORMED</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%4.0g</varFormat>
+    </var>
+    <var ID="ZZ4gOXTMYdSPn6fm" dcml="0" files="csr_yyyy_misc" name="invboy_py">
+      <location EndPos="89" StartPos="89" width="1"/>
+      <labl xml-lang="en">BEG.-OF-YEAR INVENTORY, PRIOR YEAR (ADMIN)</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="MDGfoa7VrtnkZ2gD" dcml="0" files="csr_yyyy_misc" name="invboy_a">
+      <location EndPos="88" StartPos="88" width="1"/>
+      <labl xml-lang="en">BEG.-OF-YEAR INVENTORY, ADMIN</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="DHTBuolE6atePuRo" dcml="0" files="csr_yyyy_misc" name="inveoy_py">
+      <location EndPos="87" StartPos="87" width="1"/>
+      <labl xml-lang="en">END-OF-YEAR INVENTORY, PRIOR YEAR (ADMIN)</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="jdJW6svpjiVfqwV7" dcml="0" files="csr_yyyy_misc" name="inveoy_a">
+      <location EndPos="86" StartPos="86" width="1"/>
+      <labl xml-lang="en">END-OF-YEAR INVENTORY, ADMIN</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="MQ2bQZHqWjv17fcM" dcml="0" files="csr_yyyy_misc" name="opexp_py">
+      <location EndPos="85" StartPos="85" width="1"/>
+      <labl xml-lang="en">OPERATING EXPENSES, ADMIN, PREV YR</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="NUWcuq74yYHWiJVz" dcml="0" files="csr_yyyy_misc" name="opexp_a">
+      <location EndPos="84" StartPos="84" width="1"/>
+      <labl xml-lang="en">OPERATING EXPENSES, ADMIN, CURRENT YR</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="Ejbs3vYxhDZiFojR" dcml="0" files="csr_yyyy_misc" name="cvg_remark">
+      <location EndPos="83" StartPos="83" width="1"/>
+      <labl xml-lang="en">COVERAGE REMARKS RETURNED ON FORM (Y/N)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="KK7oRRK2TmSdrlro" dcml="0" files="csr_yyyy_misc" name="merch_rf">
+      <location EndPos="82" StartPos="82" width="1"/>
+      <labl xml-lang="en">MERCHANDISE PURCHASES FOR RESALE FLAG (REPORTED)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="WLcI2bQSeyfHiJ1R" dcml="0" files="csr_yyyy_misc" name="merch_r">
+      <location EndPos="81" StartPos="81" width="1"/>
+      <labl xml-lang="en">MERCHANDISE PURCHASES FOR RESALE ($K) REPORTED</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="CN9QWxAmYjsKgIcx" dcml="0" files="csr_yyyy_misc" name="merch">
+      <location EndPos="80" StartPos="80" width="1"/>
+      <labl xml-lang="en">MERCHANDISE PURCHASES FOR RESALE ($K) C160</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="gq9ULcOoRFShE1Gc" dcml="0" files="csr_yyyy_misc" name="revenue_a_py">
+      <location EndPos="79" StartPos="79" width="1"/>
+      <labl xml-lang="en">REVENUE, TOTAL (IRS FORMS 990--TAX EMPT), PREV YR</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="qCVR1prc8FLMRY3g" dcml="0" files="csr_yyyy_misc" name="interest_inc_a_py">
+      <location EndPos="78" StartPos="78" width="1"/>
+      <labl xml-lang="en">INTEREST INCOME (IRS FORMS 1120, 1065), PREV YR</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="qac3eAHs3DIGKv0p" dcml="0" files="csr_yyyy_misc" name="rent_inc_a_py">
+      <location EndPos="77" StartPos="77" width="1"/>
+      <labl xml-lang="en">RENTAL INCOME, GROSS (IRS FORMS 1120, 1065), PREV YR</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="MuzJY6QjurFaSeL6" dcml="0" files="csr_yyyy_misc" name="tax_form_py">
+      <location EndPos="76" StartPos="76" width="1"/>
+      <labl xml-lang="en">IRS INCOME TAX FORM FILED, PREV YR</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="XCwIRj65fPq2DqWd" dcml="0" files="csr_yyyy_misc" name="expense_rent_a_py">
+      <location EndPos="75" StartPos="75" width="1"/>
+      <labl xml-lang="en">EXPENSES, RENTAL (IRS FORM 990--TAX EXMPT), PREV YR</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="ukC1rQnpJLFqKq9G" dcml="0" files="csr_yyyy_misc" name="expense_dir_a_py">
+      <location EndPos="74" StartPos="74" width="1"/>
+      <labl xml-lang="en">EXPENSES, DIRECT (IRS FORM 990--TAX EXMPT ), PREV YR</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="X8N4On6QzDyAW1lE" dcml="0" files="csr_yyyy_misc" name="cost_goodsold_a_py">
+      <location EndPos="73" StartPos="73" width="1"/>
+      <labl xml-lang="en">COST OF GOODS SOLD (IRS FORM 990--TAX EXMPT), PREV YR</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="HnCdJmbBAs9homh7" dcml="0" files="csr_yyyy_misc" name="revenue_a">
+      <location EndPos="72" StartPos="72" width="1"/>
+      <labl xml-lang="en">REVENUE, TOTAL (IRS FORMS 990--TAX EXMPT)</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="E4fABqjKK5xJn605" dcml="0" files="csr_yyyy_misc" name="interest_inc_a">
+      <location EndPos="71" StartPos="71" width="1"/>
+      <labl xml-lang="en">INTEREST INCOME (IRS FORMS 1120, 1065)</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="PJ7yRkcjiJhCKDEM" dcml="0" files="csr_yyyy_misc" name="rent_inc_a">
+      <location EndPos="70" StartPos="70" width="1"/>
+      <labl xml-lang="en">RENTAL INCOME, GROSS (IRS FORMS 1120, 1065)</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="GnP37TKw6QuDN8fu" dcml="0" files="csr_yyyy_misc" name="tax_form">
+      <location EndPos="69" StartPos="69" width="1"/>
+      <labl xml-lang="en">IRS INCOME TAX FORM FILED, CURRENT YR</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="b3cpqdzIbGN9HXeU" dcml="0" files="csr_yyyy_misc" name="expense_rent_a">
+      <location EndPos="68" StartPos="68" width="1"/>
+      <labl xml-lang="en">EXPENSES, RENTAL (IRS FORM 990--TAX EXMPT)</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="tybK6YZZVXIwGOdv" dcml="0" files="csr_yyyy_misc" name="expense_dir_a">
+      <location EndPos="67" StartPos="67" width="1"/>
+      <labl xml-lang="en">EXPENSES, DIRECT (IRS FORM 990--TAX EXMPT )</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="DggHOieeI01xtMai" dcml="0" files="csr_yyyy_misc" name="cost_goodsold_a">
+      <location EndPos="66" StartPos="66" width="1"/>
+      <labl xml-lang="en">COST OF GOODS SOLD (IRS FORM 990--TAX EXMPT)</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="mNsZ6KLnlySYeOHD" dcml="0" files="csr_yyyy_misc" name="optype_br">
+      <location EndPos="65" StartPos="65" width="1"/>
+      <labl xml-lang="en">TYPE-OF-OPERATION CODE, BUS REGISTER</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="EBPSL2r5H9RXMH1R" dcml="0" files="csr_yyyy_misc" name="naics_old_a">
+      <location EndPos="64" StartPos="64" width="1"/>
+      <labl xml-lang="en">NAICS CODE BASED ON NAICS MANUAL FROM PREV CENSUS, ADMIN</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var>
+    <var ID="Wm0cZFC2LBtH8GPB" dcml="0" files="csr_yyyy_misc" name="optype_writein">
+      <location EndPos="63" StartPos="63" width="1"/>
+      <labl xml-lang="en">TYPE-OF-OPERATION  CODE--WRITE-IN INDICATOR</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="ltspvHOjaBeRBXD9" dcml="0" files="csr_yyyy_misc" name="optype_old">
+      <location EndPos="62" StartPos="62" width="1"/>
+      <labl xml-lang="en">TYPE-OF-OPERATION CODE, PREV CENSUS NAICS MANUAL</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="zMUouxFogRdzChzV" dcml="0" files="csr_yyyy_misc" name="storenum">
+      <location EndPos="59" StartPos="59" width="1"/>
+      <labl xml-lang="en">STORE NUMBER</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var>
+    <var ID="kSYkehu2iVNtupOF" dcml="0" files="csr_yyyy_misc" name="response_batch">
+      <location EndPos="58" StartPos="58" width="1"/>
+      <labl xml-lang="en">SERIALIZED BATCH NUMBER ASSIGNED FOR DATA CAPTURED</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var>
+    <var ID="UuWKwBDDFhngii5u" dcml="0" files="csr_yyyy_misc" name="refer_f">
+      <location EndPos="57" StartPos="57" width="1"/>
+      <labl xml-lang="en">INDICATES WHETHER OR NOT REFERRAL EXISTS</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="kBxl3CBcjQJ6dotV" dcml="0" files="csr_yyyy_misc" name="div_proc">
+      <location EndPos="56" StartPos="56" width="1"/>
+      <labl xml-lang="en">PROCESSING DIVISION CODE (PDIV)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="saL8mQOGuTwUZVPr" dcml="0" files="csr_yyyy_misc" name="limadj">
+      <location EndPos="55" StartPos="55" width="1"/>
+      <labl xml-lang="en">EXPANSION FACTOR FOR I &amp; T EDIT/PLAIN VANILLA EDIT LIMIT ADJUSTMENT</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%2.0g</varFormat>
+    </var>
+    <var ID="mqS4mAG3GsfJuJdd" dcml="0" files="csr_yyyy_misc" name="notes_indic">
+      <location EndPos="54" StartPos="54" width="1"/>
+      <labl xml-lang="en">NOTES EXISTED IN NOTEPAD TABLE</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="gZxNS080lmQXQOnw" dcml="0" files="csr_yyyy_misc" name="lines_writein">
+      <location EndPos="53" StartPos="53" width="1"/>
+      <labl xml-lang="en">LINES WRITE-IN INDICATOR</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="XWEj8d7IDkhxnrkI" dcml="0" files="csr_yyyy_misc" name="priority">
+      <location EndPos="52" StartPos="52" width="1"/>
+      <labl xml-lang="en">PRIORITY--MEANING NOT CLEAR, VALUE B/1-6, 6 MOST COMMON</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="ASlvbbQvgZCG1sSn" dcml="0" files="csr_yyyy_misc" name="reason_not_tab">
+      <location EndPos="51" StartPos="51" width="1"/>
+      <labl xml-lang="en">FLAG FOR REASON NOT TABULATED</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="uhI9CKzlRiFu2JBK" dcml="0" files="csr_yyyy_misc" name="optype_mult">
+      <location EndPos="50" StartPos="50" width="1"/>
+      <labl xml-lang="en">MULTIPLE TYPES OF OPERATIONS CHECKED ON FORM</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="hJkyILNJtS3hJXQb" dcml="0" files="csr_yyyy_misc" name="div_mail">
+      <location EndPos="49" StartPos="49" width="1"/>
+      <labl xml-lang="en">MAILOUT DIVISION CODE (MDIV)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="zHkXc9MDtmQJCY25" dcml="0" files="csr_yyyy_misc" name="load_date">
+      <location EndPos="48" StartPos="48" width="1"/>
+      <labl xml-lang="en">DATE SURVEY UNIT WAS LOADED INTO DATABASE FROM RESPONSE BUCKET (SAS DATE/TIME VA</labl>
+      <txt/>
+      <varFormat category="date" formatname="Long" schema="other" type="character">%d</varFormat>
+    </var>
+    <var ID="gFCFW1MpRKnKZSci" dcml="0" files="csr_yyyy_misc" name="lrgstore_fac">
+      <location EndPos="47" StartPos="47" width="1"/>
+      <labl xml-lang="en">LARGE STORE FACTOR (IMPLIED DECIMAL LOOKS LIKE IT CHANGES, BUT NOT CLEAR)</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%7.0g</varFormat>
+    </var>
+    <var ID="RYkPqFoqaTh19nxa" dcml="0" files="csr_yyyy_misc" name="form_remail">
+      <location EndPos="46" StartPos="46" width="1"/>
+      <labl xml-lang="en">FORM RE-MAILED</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="ZTJ2kz9pqtMy0Wuq" dcml="0" files="csr_yyyy_misc" name="form_mailed">
+      <location EndPos="45" StartPos="45" width="1"/>
+      <labl xml-lang="en">FORM MAILED</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="vuFOCxN5yJ3MN4mJ" dcml="0" files="csr_yyyy_misc" name="edit_batch">
+      <location EndPos="44" StartPos="44" width="1"/>
+      <labl xml-lang="en">BATCH NUMBER ASSIGNED TO THE REPORT FORM FOR FORMAT/COMPLEX EDITING.</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var>
+    <var ID="kDEQzPPvRlVlUUTU" dcml="0" files="csr_yyyy_misc" name="cvg_chng_date">
+      <location EndPos="43" StartPos="43" width="1"/>
+      <labl xml-lang="en">COVERAGE CHANGE DATE (SAS DATE/TIME VALUE)</labl>
+      <txt/>
+      <varFormat category="date" formatname="Long" schema="other" type="character">%d</varFormat>
+    </var>
+    <var ID="rmw9eVW9yx46LykP" dcml="0" files="csr_yyyy_misc" name="cvg_chng_cd">
+      <location EndPos="42" StartPos="42" width="1"/>
+      <labl xml-lang="en">COVERAGE CONTROL SOURCE CODE (CCS)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="JuJwsBcTC5PiRIAV" dcml="0" files="csr_yyyy_misc" name="batchdate">
+      <location EndPos="41" StartPos="41" width="1"/>
+      <labl xml-lang="en">BATCH EDIT DATE</labl>
+      <txt/>
+      <varFormat category="date" formatname="Long" schema="other" type="character">%d</varFormat>
+    </var>
+    <var ID="nqEjHfF4hIixS8eG" dcml="0" files="csr_yyyy_misc" name="satisfied_date">
+      <location EndPos="40" StartPos="40" width="1"/>
+      <labl xml-lang="en">DATE THAT REPORTING REQUIREMENTS WERE SATISFIED (SAS DATE/TIME VALUE)</labl>
+      <txt/>
+      <varFormat category="date" formatname="Long" schema="other" type="character">%d</varFormat>
+    </var>
+    <var ID="ZPDZerpN958upNFP" dcml="0" files="csr_yyyy_misc" name="remail_flag">
+      <location EndPos="39" StartPos="39" width="1"/>
+      <labl xml-lang="en">FLAG INDICATING WHETHER OR NOT REMAILED FORM</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="ts4GJw6yHFaa0JlX" dcml="0" files="csr_yyyy_misc" name="exten_date">
+      <location EndPos="38" StartPos="38" width="1"/>
+      <labl xml-lang="en">EXTENSION DATE?  BUT DATES LOOK AWFULLY EARLY FOR THAT (SAS DATE/TIME VALUE)</labl>
+      <txt/>
+      <varFormat category="date" formatname="Long" schema="other" type="character">%d</varFormat>
+    </var>
+    <var ID="KuYGZSMBX3ACCtpU" dcml="0" files="csr_yyyy_misc" name="chkin_cd">
+      <location EndPos="37" StartPos="37" width="1"/>
+      <labl xml-lang="en">MOST RECENT CHECK-IN PROCESSING INFO</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="TDgQGQwFPDpwT2kG" dcml="0" files="csr_yyyy_misc" name="chkin_date">
+      <location EndPos="36" StartPos="36" width="1"/>
+      <labl xml-lang="en">DATE CKINCODE ASSIGNED (SAS DATE/TIME VALUE)</labl>
+      <txt/>
+      <varFormat category="date" formatname="Long" schema="other" type="character">%d</varFormat>
+    </var>
+    <var ID="ZvY3LAcT2RnyAxlQ" dcml="0" files="csr_yyyy_misc" name="zip_match">
+      <location EndPos="35" StartPos="35" width="1"/>
+      <labl xml-lang="en">MATCH ZIP--USUALLY MATCHES ZIP5, BUT NOT ALWAYS</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var>
+    <var ID="SZiLPZqakCciQGeP" dcml="0" files="csr_yyyy_misc" name="munityp">
+      <location EndPos="34" StartPos="34" width="1"/>
+      <labl xml-lang="en">MUNITYP--MEANING NOT CLEAR, VALUES 1-4</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="E8ZZHftqLWcV2VY3" dcml="0" files="csr_yyyy_misc" name="state_postal">
+      <location EndPos="33" StartPos="33" width="1"/>
+      <labl xml-lang="en">STATE, 2 CHARACTER POSTAL ABBREVIATION (DIFFERS SOME FROM TABULATED)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="PhJPPHlaRPNGdWkX" dcml="0" files="csr_yyyy_misc" name="tie_break">
+      <location EndPos="32" StartPos="32" width="1"/>
+      <labl xml-lang="en">TIEBRK=GEO TIE BREAK (GTB)? BUT CODING DOESN'T MATCH</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="C9p3fjzAqBZqylvz" dcml="0" files="csr_yyyy_misc" name="geo_conf_a">
+      <location EndPos="31" StartPos="31" width="1"/>
+      <labl xml-lang="en">LEVEL OF CONFIDENCE IN BR GEOCODES</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="N4N22USIMnp7XgYr" dcml="0" files="csr_yyyy_misc" name="place_cen_a">
+      <location EndPos="30" StartPos="30" width="1"/>
+      <labl xml-lang="en">PLACE CODES FROM BR (CENSUS, NOT FIPS)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="WX2JBM6rCRr8WKcp" dcml="0" files="csr_yyyy_misc" name="county_a">
+      <location EndPos="29" StartPos="29" width="1"/>
+      <labl xml-lang="en">COUNTY FIPS CODE, ADMIN</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="dCw2wv7G8jspGlvI" dcml="0" files="csr_yyyy_misc" name="state_fips_a">
+      <location EndPos="28" StartPos="28" width="1"/>
+      <labl xml-lang="en">STATE FIPS CODE, ADMIN</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="TNZ8iSHMjrNDxTjF" dcml="0" files="csr_yyyy_misc" name="md">
+      <location EndPos="27" StartPos="27" width="1"/>
+      <labl xml-lang="en">MD--ABOUT 30 5 DIGIT CODES THAT ALL END IN 4 (EXC 00000 AND 99999)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="aDGarjV222xaZBLE" dcml="0" files="csr_yyyy_misc" name="region">
+      <location EndPos="26" StartPos="26" width="1"/>
+      <labl xml-lang="en">GEOGRAPHIC REGION--4 REGIONS</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="hPQfv7k3ye9vRoog" dcml="0" files="csr_yyyy_misc" name="naics_bridge">
+      <location EndPos="25" StartPos="25" width="1"/>
+      <labl xml-lang="en">NAICS BRIDGE CODE (LOOK LIKE 1997 CODES)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var>
+    <var ID="vH5Av56Qfvl3OId1" dcml="0" files="csr_yyyy_misc" name="naics_old_mail">
+      <location EndPos="24" StartPos="24" width="1"/>
+      <labl xml-lang="en">NAICS MAILOUT CODE (1997 NAICS CODES)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var>
+    <var ID="TUhX3K06awnQbkqU" dcml="0" files="csr_yyyy_misc" name="naics_bridge_sector">
+      <location EndPos="23" StartPos="23" width="1"/>
+      <labl xml-lang="en">NAICS SECTOR BASED ON BRIDGE CODE</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="BbSgdKJhCrMvpHYv" dcml="0" files="csr_yyyy_misc" name="gcorr_date">
+      <location EndPos="21" StartPos="21" width="1"/>
+      <labl xml-lang="en">DATE GLOBAL CORRECTION WAS MADE</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var>
+    <var ID="BJI7qYj8DOa6IXpr" dcml="0" files="csr_yyyy_misc" name="corr_date">
+      <location EndPos="20" StartPos="20" width="1"/>
+      <labl xml-lang="en">COMPLEX EDIT CORRECTION BATCH</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var>
+    <var ID="MNcdnFnxkFaWwDSE" dcml="0" files="csr_yyyy_misc" name="chng_date">
+      <location EndPos="19" StartPos="19" width="1"/>
+      <labl xml-lang="en">DATE OF LAST UPDATE</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var>
+    <var ID="Jm7UNuwHKEbdnuNi" dcml="0" files="csr_yyyy_misc" name="userid">
+      <location EndPos="18" StartPos="18" width="1"/>
+      <labl xml-lang="en">USER ID</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="keFYVNW1ge4QKWUw" dcml="0" files="csr_yyyy_misc" name="taxexm_f">
+      <location EndPos="17" StartPos="17" width="1"/>
+      <labl xml-lang="en">TAX-EXEMPT INDICATOR FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="NwkYluw1cxRHwfyQ" dcml="0" files="csr_yyyy_misc" name="sales_f">
+      <location EndPos="16" StartPos="16" width="1"/>
+      <labl xml-lang="en">SALES/RECEIPTS/REVENUE FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="LFt23qA55UqJCmxa" dcml="0" files="csr_yyyy_misc" name="pay_q1_f">
+      <location EndPos="15" StartPos="15" width="1"/>
+      <labl xml-lang="en">FIRST QUARTER PAYROLL FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="SiBTh9V2zwTrRZJw" dcml="0" files="csr_yyyy_misc" name="pay_ann_f">
+      <location EndPos="14" StartPos="14" width="1"/>
+      <labl xml-lang="en">ANNUAL PAYROLL FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="qK6L3soTXqbUQUo9" dcml="0" files="csr_yyyy_misc" name="optype">
+      <location EndPos="13" StartPos="13" width="1"/>
+      <labl xml-lang="en">TYPE-OF-OPERATION CODE  C060 (CURRENT CENSUS CODES)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var>
+    <var ID="HeVcEVHmu6dXngQT" dcml="0" files="csr_yyyy_misc" name="opexp_f">
+      <location EndPos="12" StartPos="12" width="1"/>
+      <labl xml-lang="en">OPERATING EXPENSE FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="C2eK3srSQwZioOBh" dcml="0" files="csr_yyyy_misc" name="nonprof_f">
+      <location EndPos="11" StartPos="11" width="1"/>
+      <labl xml-lang="en">NON-PROFIT INDICATOR FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="CFmST1eMQ3Eh8uEH" dcml="0" files="csr_yyyy_misc" name="months_active_f">
+      <location EndPos="10" StartPos="10" width="1"/>
+      <labl xml-lang="en">MONTHS IN BUSINESS FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="SNWlVpNIayeOCsOI" dcml="0" files="csr_yyyy_misc" name="merch_f">
+      <location EndPos="9" StartPos="9" width="1"/>
+      <labl xml-lang="en">MERCHANDISE PURCHASES FOR RESALE FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="HEJgmNWTZ7LIGWmX" dcml="0" files="csr_yyyy_misc" name="inveoy_f">
+      <location EndPos="8" StartPos="8" width="1"/>
+      <labl xml-lang="en">EOY INVENTORY FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="gfcZLgIo7pcEEGd0" dcml="0" files="csr_yyyy_misc" name="invboy_f">
+      <location EndPos="7" StartPos="7" width="1"/>
+      <labl xml-lang="en">BEG.-OF-YR. INVENTORY FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="H4l7ENkS0yfhXIr2" dcml="0" files="csr_yyyy_misc" name="form_proc">
+      <location EndPos="6" StartPos="6" width="1"/>
+      <labl xml-lang="en">FORM RETURNED AND PROCESSED</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="l0QnsSJ5WPAfaaeP" dcml="0" files="csr_yyyy_misc" name="form_edit">
+      <location EndPos="5" StartPos="5" width="1"/>
+      <labl xml-lang="en">FORM NUMBER USED TO EDIT RECORD</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="HTmMbHnHG0Le4Ftj" dcml="0" files="csr_yyyy_misc" name="eoy_cd_f">
+      <location EndPos="4" StartPos="4" width="1"/>
+      <labl xml-lang="en">END-OF-YEAR CODE FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="tbAFqTh7ERXtOciZ" dcml="0" files="csr_yyyy_misc" name="empl_f">
+      <location EndPos="3" StartPos="3" width="1"/>
+      <labl xml-lang="en">EMPLOYMENT (MARCH 12) FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="gyvjT90zncXdk1cc" dcml="0" files="csr_yyyy_misc" name="bustype_f">
+      <location EndPos="2" StartPos="2" width="1"/>
+      <labl xml-lang="en">TYPE OF BUSINESS CODE, FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="QjAFEkStptqe2lIh" dcml="0" files="csr_yyyy_misc" name="batchseq">
+      <location EndPos="1" StartPos="1" width="1"/>
+      <labl xml-lang="en">SEQUENCE NUMBER WITHIN DATA ENTRY BATCH</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="yYflhoLZLeOTSssQ" dcml="0" files="csr_yyyy_line" name="num_line">
+      <location EndPos="6" StartPos="6" width="1"/>
+      <labl xml-lang="en">NUMBER OF LINE CODES WITH DATA</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var>
+    <var ID="j7hLAhtQk8lko4jk" dcml="0" files="csr_yyyy_line" name="ldollar">
+      <location EndPos="5" StartPos="5" width="1"/>
+      <labl xml-lang="en">DOLLAR VALUE OF SALES/RECEIPTS/REVENUES FROM THIS LINE CODE, IF REPORTED IN $, 2</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="O8aTgJzAJR1uxXS6" dcml="0" files="csr_yyyy_line" name="lpct_r">
+      <location EndPos="4" StartPos="4" width="1"/>
+      <labl xml-lang="en">PERCENT OF SALES/RECEIPTS/REVENUES FROM THIS LINE CODE, REPORTED</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="vyhOItsDQiedp4i0" dcml="0" files="csr_yyyy_line" name="lpct">
+      <location EndPos="3" StartPos="3" width="1"/>
+      <labl xml-lang="en">PERCENT OF SALES/RECEIPTS/REVENUES FROM THIS LINE CODE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="UUrb7MCjYHoRA7zI" dcml="0" files="csr_yyyy_line" name="usable">
+      <location EndPos="2" StartPos="2" width="1"/>
+      <labl xml-lang="en">FLAG FOR WHETHER LINES DATA FOR THIS ESTAB IS USABLE</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="KEl7GkzYiT7EwS4C" dcml="0" files="csr_yyyy_line" name="lcode">
+      <location EndPos="1" StartPos="1" width="1"/>
+      <labl xml-lang="en">LINE CODE</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="wjkOYblSJ57n5Ba7" dcml="0" files="csr_yyyy_base" name="lbd_status">
+      <location EndPos="128" StartPos="128" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var>
+    <var ID="pL2GBgRlRjfSY9aE" dcml="0" files="csr_yyyy_base" name="lbd_linktime">
+      <location EndPos="127" StartPos="127" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var>
+    <var ID="iOCW3dz8OidkaZkJ" dcml="0" files="csr_yyyy_base" name="lbdnum">
+      <location EndPos="126" StartPos="126" width="1"/>
+      <labl xml-lang="en">LBD Number</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var>
+    <var ID="MzDyZElihk1RriWB" dcml="0" files="csr_yyyy_base" name="ein">
+      <location EndPos="125" StartPos="125" width="1"/>
+      <labl xml-lang="en">EMPLOYER IDENTIFICATION NUMBER (TAX ID)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var>
+    <var ID="YqLSxgm5r8MQipre" dcml="0" files="csr_yyyy_base" name="parent_id">
+      <location EndPos="124" StartPos="124" width="1"/>
+      <labl xml-lang="en">PARENT IDENTIFIER FOR MULTI-UNITS  (BR)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var>
+    <var ID="XR3RTGlBdythA6et" dcml="0" files="csr_yyyy_tral" name="survu_id">
+      <location EndPos="8" StartPos="8" width="1"/>
+      <labl xml-lang="en">SURVEY UNIT IDENTIFIER (PRIMARY ESTAB IDENTIFIER FOR 2002)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var>
+    <var ID="OZgOazJcM55lkcuK" dcml="0" files="csr_yyyy_misc" name="firmid">
+      <location EndPos="149" StartPos="149" width="1"/>
+      <labl xml-lang="en">FIRM IDENTIFIER--ALPHA||0000 FOR MULTIS, 0||EIN FOR SINGLE UNITS</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var>
+    <var ID="NYBctjvMTucxlV77" dcml="0" files="csr_yyyy_base" name="taxexm_sf">
+      <location EndPos="121" StartPos="121" width="1"/>
+      <labl xml-lang="en">TAX-EXEMPT INDICATOR, SIMPLIFIED FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="uwpiLwZkwtbA27bM" dcml="0" files="csr_yyyy_base" name="sales_sf">
+      <location EndPos="120" StartPos="120" width="1"/>
+      <labl xml-lang="en">SALES/RECEIPTS/REVENUE, SIMPLIFIED FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="owItFXBtJs89Rz46" dcml="0" files="csr_yyyy_base" name="revenue_sf">
+      <location EndPos="119" StartPos="119" width="1"/>
+      <labl xml-lang="en">REVENUES OF TAX-EXEMPT ESTAB, SIMPLIFIED FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="KBglhZVOxHEsbYAB" dcml="0" files="csr_yyyy_base" name="pay_q1_le_sf">
+      <location EndPos="118" StartPos="118" width="1"/>
+      <labl xml-lang="en">FIRST QUARTER PAYROLL FOR LEASED EMPLOYEES, SIMPLIFIED FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="lbl9RGkK4M5b33ZJ" dcml="0" files="csr_yyyy_base" name="pay_q1_sf">
+      <location EndPos="117" StartPos="117" width="1"/>
+      <labl xml-lang="en">FIRST QUARTER PAYROLL, SIMPLIFIED FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="w3twMczAZEKFjyQi" dcml="0" files="csr_yyyy_base" name="pay_ann_le_sf">
+      <location EndPos="116" StartPos="116" width="1"/>
+      <labl xml-lang="en">ANNUAL PAYROLL FOR LEASED EMPLOYEES, SIMPLIFIED FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="SpUcWcM3mnbpN6Xw" dcml="0" files="csr_yyyy_base" name="pay_ann_sf">
+      <location EndPos="115" StartPos="115" width="1"/>
+      <labl xml-lang="en">ANNUAL PAYROLL FLAG, SIMPLIFIED FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="oZSipVM9hK0KfH8j" dcml="0" files="csr_yyyy_base" name="opexp_sf">
+      <location EndPos="114" StartPos="114" width="1"/>
+      <labl xml-lang="en">OPERATING EXPENSE, SIMPLIFIED FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="XxI1pofG5i5ksv8v" dcml="0" files="csr_yyyy_base" name="nonprof_sf">
+      <location EndPos="113" StartPos="113" width="1"/>
+      <labl xml-lang="en">NON-PROFIT INDICATOR, SIMPLIFIED FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="OUlupkFvk83lG6XS" dcml="0" files="csr_yyyy_base" name="months_active_sf">
+      <location EndPos="112" StartPos="112" width="1"/>
+      <labl xml-lang="en">MONTHS IN BUSINESS, SIMPLIFIED FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="UEaRv2ZGMfu5jGde" dcml="0" files="csr_yyyy_base" name="eoy_cd_sf">
+      <location EndPos="111" StartPos="111" width="1"/>
+      <labl xml-lang="en">END-OF-YEAR CODE, SIMPLIFIED FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="sI9DO46qovCOnQyv" dcml="0" files="csr_yyyy_base" name="empl_le_sf">
+      <location EndPos="110" StartPos="110" width="1"/>
+      <labl xml-lang="en">LEASED EMPLOYMENT (MARCH 12 PAY PERIOD), SIMPLIFIED FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="oTqCxIMwHQoeJqhg" dcml="0" files="csr_yyyy_base" name="empl_sf">
+      <location EndPos="109" StartPos="109" width="1"/>
+      <labl xml-lang="en">EMPLOYMENT (MARCH 12), SIMPLIFIED FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="JWFHYp1YQG3cU6ax" dcml="0" files="csr_yyyy_base" name="ecom_sales_sf">
+      <location EndPos="108" StartPos="108" width="1"/>
+      <labl xml-lang="en">ECOMMERCE SALES/RECEIPTS, SIMPLIFIED FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="KVFFafOHK26OAt3Y" dcml="0" files="csr_yyyy_base" name="ecom_any_sf">
+      <location EndPos="107" StartPos="107" width="1"/>
+      <labl xml-lang="en">DID ESTAB HAVE ANY SALES/RECEIPTS FROM ECOMMERCE? SIMPLIFIED FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="g7CgJp75uVA8CEwh" dcml="0" files="csr_yyyy_base" name="bustype_sf">
+      <location EndPos="106" StartPos="106" width="1"/>
+      <labl xml-lang="en">TYPE OF BUSINESS CODE, SIMPLIFIED FLAG</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="Jc3gsg5vXm35xAGr" dcml="0" files="csr_yyyy_base" name="csa">
+      <location EndPos="105" StartPos="105" width="1"/>
+      <labl xml-lang="en">CSA (CONSOLIDATED STAT AREA), TABULATED</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="kWaHPhFAt77sFJTD" dcml="0" files="csr_yyyy_base" name="response_type">
+      <location EndPos="104" StartPos="104" width="1"/>
+      <labl xml-lang="en">GIVES HANDLING OF CASE--NUMBERS CORRESPOND TO TYPE OF FORM, OTHER VALUES INDICAT</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var>
+    <var ID="CXjArjzgosbVrkqI" dcml="0" files="csr_yyyy_base" name="cfn_h">
+      <location EndPos="103" StartPos="103" width="1"/>
+      <labl xml-lang="en">CFN FROM PREV CENSUS</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var>
+    <var ID="HTAtcru54orUcQ3D" dcml="0" files="csr_yyyy_base" name="nonprof_rf">
+      <location EndPos="102" StartPos="102" width="1"/>
+      <labl xml-lang="en">NON-PROFIT INDICATOR FLAG (REPORTED)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="TsvWVa1MuN0gjOw3" dcml="0" files="csr_yyyy_base" name="nonprof_r">
+      <location EndPos="101" StartPos="101" width="1"/>
+      <labl xml-lang="en">NON-PROFIT INDICATOR C005, REPORTED</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="O8sr14StQn7fo4MZ" dcml="0" files="csr_yyyy_base" name="nonprof">
+      <location EndPos="100" StartPos="100" width="1"/>
+      <labl xml-lang="en">NON-PROFIT INDICATOR  C005</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="cqFldSw46LEUHOfX" dcml="0" files="csr_yyyy_base" name="taxexm_rf">
+      <location EndPos="99" StartPos="99" width="1"/>
+      <labl xml-lang="en">TAX-EXEMPT INDICATOR FLAG, REPORTED</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="upTe2eyKG1iaPL5s" dcml="0" files="csr_yyyy_base" name="taxexm_r">
+      <location EndPos="98" StartPos="98" width="1"/>
+      <labl xml-lang="en">TAX EXEMPT INDICATOR C004, REPORTED</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="JEET3RBlm9Yc5bbD" dcml="0" files="csr_yyyy_base" name="taxexm">
+      <location EndPos="97" StartPos="97" width="1"/>
+      <labl xml-lang="en">TAX-EXEMPT INDICATOR C004</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="pEWcutXeWlmpVTgU" dcml="0" files="csr_yyyy_base" name="bustype">
+      <location EndPos="96" StartPos="96" width="1"/>
+      <labl xml-lang="en">TYPE OF BUSINESS CODE C003</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="Hyp1uCyXaiLqGtGX" dcml="0" files="csr_yyyy_base" name="ecom_sales_rf">
+      <location EndPos="95" StartPos="95" width="1"/>
+      <labl xml-lang="en">ECOMMERCE SALES/RECEIPTS FLAG (REPORTED)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="Q9Us78FV6wnwUiP8" dcml="0" files="csr_yyyy_base" name="ecom_sales_r">
+      <location EndPos="94" StartPos="94" width="1"/>
+      <labl xml-lang="en">ECOMMERCE SALES/RECEIPTS, REPORTED</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="FtoEDeSeepN8qi3H" dcml="0" files="csr_yyyy_base" name="ecom_sales">
+      <location EndPos="93" StartPos="93" width="1"/>
+      <labl xml-lang="en">ECOMMERCE SALES/RECEIPTS</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="gJ2oqVHNx62mp1ux" dcml="0" files="csr_yyyy_base" name="ecom_any_rf">
+      <location EndPos="92" StartPos="92" width="1"/>
+      <labl xml-lang="en">DID ESTAB HAVE ANY SALES/RECEIPTS FROM ECOMMERCE? FLAG (REPORTED)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="CazBdgtzQuzeOZUQ" dcml="0" files="csr_yyyy_base" name="ecom_any_r">
+      <location EndPos="91" StartPos="91" width="1"/>
+      <labl xml-lang="en">DID ESTAB HAVE ANY SALES/RECEIPTS FROM ECOMMERCE? REPORTED</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="IKtBTxBJvsS9YtDW" dcml="0" files="csr_yyyy_base" name="ecom_any">
+      <location EndPos="90" StartPos="90" width="1"/>
+      <labl xml-lang="en">DID ESTAB HAVE ANY SALES/RECEIPTS FROM ECOMMERCE? Y/N</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="ERaHegzvvZcJxSl2" dcml="0" files="csr_yyyy_base" name="sales_rf">
+      <location EndPos="89" StartPos="89" width="1"/>
+      <labl xml-lang="en">SALES/RECEIPTS/REVENUE FLAG (REPORTED)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="wq3BLRtafol63DkV" dcml="0" files="csr_yyyy_base" name="sales_r">
+      <location EndPos="88" StartPos="88" width="1"/>
+      <labl xml-lang="en">SALES/RECEIPTS/REVENUE ($K) C010 REPORTED</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="d8Zqk3LRBWwaFOXf" dcml="0" files="csr_yyyy_base" name="sales">
+      <location EndPos="87" StartPos="87" width="1"/>
+      <labl xml-lang="en">SALES/RECEIPTS/REVENUE ($K)  C010</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="D4xi5mOnXairfvSX" dcml="0" files="csr_yyyy_base" name="revenue_rf">
+      <location EndPos="86" StartPos="86" width="1"/>
+      <labl xml-lang="en">REVENUES OF TAX-EXEMPT ESTAB FLAG (REPORTED)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="VDkl35x0FdaCdF5T" dcml="0" files="csr_yyyy_base" name="revenue_r">
+      <location EndPos="85" StartPos="85" width="1"/>
+      <labl xml-lang="en">REVENUES OF TAX-EXEMPT ESTAB, REPORTED</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="u6DCJLNYyrSMXQLr" dcml="0" files="csr_yyyy_base" name="revenue">
+      <location EndPos="84" StartPos="84" width="1"/>
+      <labl xml-lang="en">REVENUES OF TAX-EXEMPT ESTAB</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="BtgqvTlE12TKPMnP" dcml="0" files="csr_yyyy_base" name="pay_q1_le_rf">
+      <location EndPos="83" StartPos="83" width="1"/>
+      <labl xml-lang="en">FIRST QUARTER PAYROLL FOR LEASED EMPLOYEES FLAG (REPORTED)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="W2iBcJf0Mn4kyHT2" dcml="0" files="csr_yyyy_base" name="pay_q1_le_r">
+      <location EndPos="82" StartPos="82" width="1"/>
+      <labl xml-lang="en">FIRST QUARTER PAYROLL FOR LEASED EMPLOYEES, REPORTED</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="m6aJTNsEBdUCrvZC" dcml="0" files="csr_yyyy_base" name="pay_q1_le">
+      <location EndPos="81" StartPos="81" width="1"/>
+      <labl xml-lang="en">FIRST QUARTER PAYROLL FOR LEASED EMPLOYEES</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="DPWw2xqMFSEqWcJq" dcml="0" files="csr_yyyy_base" name="pay_q1_rf">
+      <location EndPos="80" StartPos="80" width="1"/>
+      <labl xml-lang="en">FIRST QUARTER PAYROLL FLAG (REPORTED)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="ktcJOwLI4CKtDipN" dcml="0" files="csr_yyyy_base" name="pay_q1_r">
+      <location EndPos="79" StartPos="79" width="1"/>
+      <labl xml-lang="en">FIRST QUARTER PAYROLL ($K) C031 REPORTED</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="CfCM86YgeYKg6PAe" dcml="0" files="csr_yyyy_base" name="pay_q1">
+      <location EndPos="78" StartPos="78" width="1"/>
+      <labl xml-lang="en">FIRST QUARTER PAYROLL ($K) C031</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="gcz7zN3EXXF173NZ" dcml="0" files="csr_yyyy_base" name="pay_ann_le_rf">
+      <location EndPos="77" StartPos="77" width="1"/>
+      <labl xml-lang="en">ANNUAL PAYROLL FOR LEASED EMPLOYEES FLAG (REPORTED)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="W1sqkVDVMgLcCVg7" dcml="0" files="csr_yyyy_base" name="pay_ann_le_r">
+      <location EndPos="76" StartPos="76" width="1"/>
+      <labl xml-lang="en">ANNUAL PAYROLL FOR LEASED EMPLOYEES, REPORTED</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="HStuUvSUAwe0WL01" dcml="0" files="csr_yyyy_base" name="pay_ann_le">
+      <location EndPos="75" StartPos="75" width="1"/>
+      <labl xml-lang="en">ANNUAL PAYROLL FOR LEASED EMPLOYEES</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="gwMdvxwhA7LTsiCm" dcml="0" files="csr_yyyy_base" name="pay_ann_rf">
+      <location EndPos="74" StartPos="74" width="1"/>
+      <labl xml-lang="en">ANNUAL PAYROLL FLAG (REPORTED)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="MMs8wa4h6TDsPvHd" dcml="0" files="csr_yyyy_base" name="pay_ann_r">
+      <location EndPos="73" StartPos="73" width="1"/>
+      <labl xml-lang="en">ANNUAL PAYROLL ($K) C030 REPORTED</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="RcldeJmYnbcA3wCC" dcml="0" files="csr_yyyy_base" name="pay_ann">
+      <location EndPos="72" StartPos="72" width="1"/>
+      <labl xml-lang="en">ANNUAL PAYROLL ($K)  C030</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="H5vEAtsIufyEELdk" dcml="0" files="csr_yyyy_base" name="eoy_cd">
+      <location EndPos="71" StartPos="71" width="1"/>
+      <labl xml-lang="en">END-OF-YEAR CODE (C001)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="EZ7XoN9ZsN4mHQwV" dcml="0" files="csr_yyyy_base" name="opexp_rf">
+      <location EndPos="70" StartPos="70" width="1"/>
+      <labl xml-lang="en">OPERATING EXPENSE FLAG (REPORTED)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="REkxDy03Kp7DZlOn" dcml="0" files="csr_yyyy_base" name="opexp_r">
+      <location EndPos="69" StartPos="69" width="1"/>
+      <labl xml-lang="en">OPERATING EXPENSE ($K) C040, REPORTED</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="Z91zFqqK6YwVNBqj" dcml="0" files="csr_yyyy_base" name="opexp">
+      <location EndPos="68" StartPos="68" width="1"/>
+      <labl xml-lang="en">OPERATING EXPENSES ($K) C040</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="kBjfH6gHoAsZf1ai" dcml="0" files="csr_yyyy_base" name="pctbline2">
+      <location EndPos="67" StartPos="67" width="1"/>
+      <labl xml-lang="en">PERCENT  OF SALES FROM SECOND LARGEST BROAD LINE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%4.0g</varFormat>
+    </var>
+    <var ID="pOwPUJ6E7Pne4T5i" dcml="0" files="csr_yyyy_base" name="pctbline1">
+      <location EndPos="66" StartPos="66" width="1"/>
+      <labl xml-lang="en">PERCENT  OF SALES FROM LARGEST BROAD LINE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%4.0g</varFormat>
+    </var>
+    <var ID="gFfRRAudHWW3zPXT" dcml="0" files="csr_yyyy_base" name="empl_le_rf">
+      <location EndPos="65" StartPos="65" width="1"/>
+      <labl xml-lang="en">LEASED EMPLOYMENT (MARCH 12 PAY PERIOD) FLAG (REPORTED)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="tZjFe86LZze2NFDU" dcml="0" files="csr_yyyy_base" name="empl_le_r">
+      <location EndPos="64" StartPos="64" width="1"/>
+      <labl xml-lang="en">LEASED EMPLOYMENT (MARCH 12 PAY PERIOD), REPORTED</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="JPcUsBe8xZx8tA8J" dcml="0" files="csr_yyyy_base" name="empl_le">
+      <location EndPos="63" StartPos="63" width="1"/>
+      <labl xml-lang="en">LEASED EMPLOYMENT (MARCH 12 PAY PERIOD)</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="teWdnjtYvcDLASaZ" dcml="0" files="csr_yyyy_base" name="empl_rf">
+      <location EndPos="62" StartPos="62" width="1"/>
+      <labl xml-lang="en">EMPLOYMENT (MARCH 12) FLAG, REPORTED</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="RJnbTjeQ0tSGHhNp" dcml="0" files="csr_yyyy_base" name="empl_r">
+      <location EndPos="61" StartPos="61" width="1"/>
+      <labl xml-lang="en">EMPLOYMENT (MARCH 12) C032, REPORTED</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="N8XXG5Lyvy3SdvAT" dcml="0" files="csr_yyyy_base" name="empl">
+      <location EndPos="60" StartPos="60" width="1"/>
+      <labl xml-lang="en">EMPLOYMENT (MARCH 12 PAY PERIOD) C032</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="wCj7I8WUW2PPG0w4" dcml="0" files="csr_yyyy_base" name="empl_a_py">
+      <location EndPos="59" StartPos="59" width="1"/>
+      <labl xml-lang="en">EMPLOYMENT (MARCH 12) PREV YEAR ADMIN REC</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="WorZoQEiJKvIfGE0" dcml="0" files="csr_yyyy_base" name="empl_a">
+      <location EndPos="58" StartPos="58" width="1"/>
+      <labl xml-lang="en">EMPLOYMENT (MARCH 12) ADMIN REC</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="sR1cu4uiEyefgsp8" dcml="0" files="csr_yyyy_base" name="pay_q1_a_py">
+      <location EndPos="57" StartPos="57" width="1"/>
+      <labl xml-lang="en">FIRST QUARTER PAYROLL ($K) PREV YEAR ADMIN REC</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="rUgQKpz5nzsY2ILz" dcml="0" files="csr_yyyy_base" name="pay_q1_a">
+      <location EndPos="56" StartPos="56" width="1"/>
+      <labl xml-lang="en">FIRST QUARTER PAYROLL ($K) ADMIN REC</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="KATZ274TEwn2SC0M" dcml="0" files="csr_yyyy_base" name="pay_ann_a_py">
+      <location EndPos="55" StartPos="55" width="1"/>
+      <labl xml-lang="en">ANNUAL PAYROLL ($K) PREV YEAR ADMIN REC</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="KWMcOQg9IHbHl8Kf" dcml="0" files="csr_yyyy_base" name="pay_ann_a">
+      <location EndPos="54" StartPos="54" width="1"/>
+      <labl xml-lang="en">ANNUAL PAYROLL ($K)  ADMIN RECS</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="v84GRxhVVYLpFqO4" dcml="0" files="csr_yyyy_base" name="sales_a_py">
+      <location EndPos="53" StartPos="53" width="1"/>
+      <labl xml-lang="en">SALES/RECEIPTS/REVENUE ($K) PREV YEAR ADMIN REC</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="lCd6Mybt21hFp5Cr" dcml="0" files="csr_yyyy_base" name="sales_a">
+      <location EndPos="52" StartPos="52" width="1"/>
+      <labl xml-lang="en">SALES/RECEIPTS/REVENUE ($K) ADMIN REC</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="mXM9Lfy065czS9u0" dcml="0" files="csr_yyyy_base" name="months_active_rf">
+      <location EndPos="51" StartPos="51" width="1"/>
+      <labl xml-lang="en">MONTHS IN BUSINESS FLAG (REPORTED)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="hjTgjhumFLEkmgP8" dcml="0" files="csr_yyyy_base" name="months_active_r">
+      <location EndPos="50" StartPos="50" width="1"/>
+      <labl xml-lang="en">MONTHS IN BUSINESS C002, REPORTED</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%3.0g</varFormat>
+    </var>
+    <var ID="rfLfHoLMjEoUTdKu" dcml="0" files="csr_yyyy_base" name="months_active">
+      <location EndPos="49" StartPos="49" width="1"/>
+      <labl xml-lang="en">MONTHS IN BUSINESS  C002</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%3.0g</varFormat>
+    </var>
+    <var ID="Clae6V5pCvS3kE6S" dcml="0" files="csr_yyyy_base" name="pay_q4_a_py">
+      <location EndPos="48" StartPos="48" width="1"/>
+      <labl xml-lang="en">FOURTH QUARTER PAYROLL ($K) PREV YEAR ADMIN REC</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="SUkn7YA0YRWIhNg5" dcml="0" files="csr_yyyy_base" name="pay_q3_a_py">
+      <location EndPos="47" StartPos="47" width="1"/>
+      <labl xml-lang="en">THIRD QUARTER PAYROLL ($K) PREV YEAR ADMIN REC</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="FbhzqpTY5OX9KGT6" dcml="0" files="csr_yyyy_base" name="pay_q2_a_py">
+      <location EndPos="46" StartPos="46" width="1"/>
+      <labl xml-lang="en">SECOND QUARTER PAYROLL ($K) PREV YEAR ADMIN REC</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="WeQL7laCiLncnQj9" dcml="0" files="csr_yyyy_base" name="income_a_py">
+      <location EndPos="45" StartPos="45" width="1"/>
+      <labl xml-lang="en">INCOME, TOTAL (IRS FORMS 1120, 1065, 990-C), PREV YR</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="mPw8iReC9uNQ0LJ5" dcml="0" files="csr_yyyy_base" name="sales_t_py">
+      <location EndPos="44" StartPos="44" width="1"/>
+      <labl xml-lang="en">SALES/RECEIPTS/REVENUE ($K) NET (IRS FORMS 1120, 1065, 990, 1040C), PREV YR</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="CX12eT0sX2LSQ8HG" dcml="0" files="csr_yyyy_base" name="pay_q4_a">
+      <location EndPos="43" StartPos="43" width="1"/>
+      <labl xml-lang="en">FOURTH QUARTER PAYROLL ($K) ADMIN REC</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="zCmwxRquUmiKKeCN" dcml="0" files="csr_yyyy_base" name="pay_q3_a">
+      <location EndPos="42" StartPos="42" width="1"/>
+      <labl xml-lang="en">THIRD QUARTER PAYROLL ($K) ADMIN REC</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="CaZkuxPVUX2aZ8Bv" dcml="0" files="csr_yyyy_base" name="pay_q2_a">
+      <location EndPos="41" StartPos="41" width="1"/>
+      <labl xml-lang="en">SECOND QUARTER PAYROLL ($K) ADMIN REC</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="uySTIXupMERiilnU" dcml="0" files="csr_yyyy_base" name="income_a">
+      <location EndPos="40" StartPos="40" width="1"/>
+      <labl xml-lang="en">INCOME, TOTAL (IRS FORMS 1120, 1065, 990-C)</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="wtDfmIBMVXzdUUH6" dcml="0" files="csr_yyyy_base" name="sales_t">
+      <location EndPos="39" StartPos="39" width="1"/>
+      <labl xml-lang="en">SALES/RECEIPTS/REVENUE ($K) NET (IRS FORMS 1120, 1065, 990, 1040C)</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="qbXnb8jQTkuQlxWd" dcml="0" files="csr_yyyy_base" name="trailer_data_indic">
+      <location EndPos="38" StartPos="38" width="1"/>
+      <labl xml-lang="en">TRAILER DATA EXISTS IN SURVUNIT_DATA TABLE</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="sme1SRlpmP5WGpuz" dcml="0" files="csr_yyyy_base" name="taxexm_a">
+      <location EndPos="37" StartPos="37" width="1"/>
+      <labl xml-lang="en">TAX-EXEMPT INDICATOR, SSEL LFO 2ND CHAR</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="uGxhD8lfrdlVVnX7" dcml="0" files="csr_yyyy_misc" name="tabbed">
+      <location EndPos="61" StartPos="61" width="1"/>
+      <labl xml-lang="en">INDICATES WHETHER CASE WAS INCLUDED IN TABULATIONS</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="slDJqpcOKQdqVSVn" dcml="0" files="csr_yyyy_misc" name="survu_type">
+      <location EndPos="60" StartPos="60" width="1"/>
+      <labl xml-lang="en">SURVEY UNIT TYPE (MU, SU, SBM)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="QBV1opaVsnOp6ugP" dcml="0" files="csr_yyyy_base" name="weight">
+      <location EndPos="34" StartPos="34" width="1"/>
+      <labl xml-lang="en">SAMPLE WEIGHT</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%8.0g</varFormat>
+    </var>
+    <var ID="VcOoJdmThgzxMO4E" dcml="0" files="csr_yyyy_base" name="lines_usable">
+      <location EndPos="33" StartPos="33" width="1"/>
+      <labl xml-lang="en">ESTAB PROVIDED USEABLE DATA ON LINES OF BUSINESS</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="cidjlIyo5mqZPsow" dcml="0" files="csr_yyyy_base" name="mult_indus">
+      <location EndPos="32" StartPos="32" width="1"/>
+      <labl xml-lang="en">MULTIPLE KINDS OF BUS CHECKED ON FORM</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="wAG3PK9wM9uIOlEe" dcml="0" files="csr_yyyy_base" name="mailcase">
+      <location EndPos="31" StartPos="31" width="1"/>
+      <labl xml-lang="en">MAIL/NON MAIL INDICATOR (INTERPRETATION DEPENDS ON SURVU_TYPE)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="CIVqvJUCCaTnwWWT" dcml="0" files="csr_yyyy_base" name="bustype_a">
+      <location EndPos="30" StartPos="30" width="1"/>
+      <labl xml-lang="en">TYPE OF BUSINESS CODE, SSEL LFO 1ST CHAR</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="lhn8ujTrgdwJXn3i" dcml="0" files="csr_yyyy_base" name="histdata">
+      <location EndPos="29" StartPos="29" width="1"/>
+      <labl xml-lang="en">INDICATES IF HISTORIC DATA EXISTS</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="XanGNPR7X3dUuVUC" dcml="0" files="csr_yyyy_base" name="govt_status">
+      <location EndPos="28" StartPos="28" width="1"/>
+      <labl xml-lang="en">GOVERNMENT STATUS</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="dKRooRFhwQUxU1B2" dcml="0" files="csr_yyyy_base" name="zip5">
+      <location EndPos="27" StartPos="27" width="1"/>
+      <labl xml-lang="en">ZIP CODE (5 DIGIT)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="RxJLCF9mDkykHNpQ" dcml="0" files="csr_yyyy_base" name="zip9">
+      <location EndPos="26" StartPos="26" width="1"/>
+      <labl xml-lang="en">ZIP CODE 9 DIGIT</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%14s</varFormat>
+    </var>
+    <var ID="ihjiyjk9EQoRv5kt" dcml="0" files="csr_yyyy_base" name="addr_type">
+      <location EndPos="25" StartPos="25" width="1"/>
+      <labl xml-lang="en">ADDRESS TYPE (MAIL, PHYSICAL, FOREIGN)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="HwbOImA3kjNV4L9c" dcml="0" files="csr_yyyy_base" name="city">
+      <location EndPos="24" StartPos="24" width="1"/>
+      <labl xml-lang="en">CITY OR PLACE NAME</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%20s</varFormat>
+    </var>
+    <var ID="wKfIGWd20KAwCv51" dcml="0" files="csr_yyyy_base" name="in_city">
+      <location EndPos="23" StartPos="23" width="1"/>
+      <labl xml-lang="en">IN CITY CORPORATE LIMITS (?)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="daN8v50MA5rSeCN2" dcml="0" files="csr_yyyy_base" name="place_fips">
+      <location EndPos="22" StartPos="22" width="1"/>
+      <labl xml-lang="en">PLACE, FIPS CODES</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="O1NjUVAdPw5epSOn" dcml="0" files="csr_yyyy_base" name="tract">
+      <location EndPos="21" StartPos="21" width="1"/>
+      <labl xml-lang="en">TRACT CODE (2002 FILES HAVE 1990 CODES)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="zGcDPFYn6X3MMIfZ" dcml="0" files="csr_yyyy_base" name="geo_conf">
+      <location EndPos="20" StartPos="20" width="1"/>
+      <labl xml-lang="en">SUMMARIZED INFO FROM OTHER GEO FLAGS TO EVALUATE CURRENT GEO CODES</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="MX49Wt7BonL2esGM" dcml="0" files="csr_yyyy_base" name="place_cen">
+      <location EndPos="19" StartPos="19" width="1"/>
+      <labl xml-lang="en">PLACE CODES (CENSUS, NOT FIPS)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="jcyc5x4qwnPO4zlm" dcml="0" files="csr_yyyy_base" name="consol_city_cd">
+      <location EndPos="18" StartPos="18" width="1"/>
+      <labl xml-lang="en">CONSOLIDATED CITY CODE</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="P94gtNOb7U6Car3W" dcml="0" files="csr_yyyy_base" name="msa">
+      <location EndPos="17" StartPos="17" width="1"/>
+      <labl xml-lang="en">MSA (METROPOLITAN STAT AREA) CODE, TABULATED</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="IJuZM0ZbZahBWrF4" dcml="0" files="csr_yyyy_base" name="minor_civil_div">
+      <location EndPos="16" StartPos="16" width="1"/>
+      <labl xml-lang="en">MINOR CIVIL DIVISION</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="jttFQ1f07fKsQeYj" dcml="0" files="csr_yyyy_base" name="county_fips">
+      <location EndPos="15" StartPos="15" width="1"/>
+      <labl xml-lang="en">COUNTY FIPS CODE, TABULATED</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="m6hEI9qs5SQKuyF0" dcml="0" files="csr_yyyy_base" name="state_fips">
+      <location EndPos="14" StartPos="14" width="1"/>
+      <labl xml-lang="en">STATE FIPS CODE, TABULATED</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="zf1wUvT1S0bkypv1" dcml="0" files="csr_yyyy_base" name="naics_aux_old_f">
+      <location EndPos="13" StartPos="13" width="1"/>
+      <labl xml-lang="en">AUXIL SCOPE FLAG--INDUSTRY SERVED IN SCOPE FOR EC, PREV CENSUS MANUAL</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="apq8Z0kN4r8p6K16" dcml="0" files="csr_yyyy_base" name="naics_aux_new_f">
+      <location EndPos="12" StartPos="12" width="1"/>
+      <labl xml-lang="en">NAICS AUXIL IN-SCOPE FLAG BASED ON MOST RECENT MANUAL</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="RV9yYkXB3HL5IYGr" dcml="0" files="csr_yyyy_base" name="naics_aux_old">
+      <location EndPos="11" StartPos="11" width="1"/>
+      <labl xml-lang="en">NAICS CODE FOR INDUSTRY SERVED (AUXIL ESTAB), PREV CENSUS MANUAL</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="pxND9pQlqqAs1BPt" dcml="0" files="csr_yyyy_base" name="naics_aux_new">
+      <location EndPos="10" StartPos="10" width="1"/>
+      <labl xml-lang="en">NAICS CODE FOR INDUSTRY SERVED (AUXIL ESTAB), MOST RECENT NAICS MANUAL</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="R9CxwWoObCoV0oOJ" dcml="0" files="csr_yyyy_base" name="naics_old">
+      <location EndPos="9" StartPos="9" width="1"/>
+      <labl xml-lang="en">NAICS CODE BASED ON NAICS MANUAL FROM PREV CENSUS</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var>
+    <var ID="E7l6R2JpR9XRnaXf" dcml="0" files="csr_yyyy_base" name="naics_new">
+      <location EndPos="8" StartPos="8" width="1"/>
+      <labl xml-lang="en">NAICS CODE BASED ON MOST RECENT MANUAL</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var>
+    <var ID="LDNIl5KHuupwLr0z" dcml="0" files="csr_yyyy_base" name="naics_old_sector">
+      <location EndPos="7" StartPos="7" width="1"/>
+      <labl xml-lang="en">NAICS SECTOR BASED ON NAICS MANUAL FROM PREV CENSUS</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="bk4Ukta9MRfVnIdN" dcml="0" files="csr_yyyy_base" name="naics_new_sector">
+      <location EndPos="6" StartPos="6" width="1"/>
+      <labl xml-lang="en">NAICS SECTOR BASED ON MOST RECENT MANUAL</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="CsYLeZ9ZtJWdaChV" dcml="0" files="csr_yyyy_misc" name="alpha">
+      <location EndPos="22" StartPos="22" width="1"/>
+      <labl xml-lang="en">ALPHA--MULTI-UNIT IDENTIFIER (=1ST 6 CHARACTERS OF CFN UP UNTIL 2002)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="yl7fAKyIcuQARUlW" dcml="0" files="csr_yyyy_base" name="active">
+      <location EndPos="4" StartPos="4" width="1"/>
+      <labl xml-lang="en">INDICATES WHETHER OR NOT THE SURV UNIT IS ACTIVE</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="mzd9XatPYaQVuXyK" dcml="0" files="csr_yyyy_base" name="transfer_sector">
+      <location EndPos="3" StartPos="3" width="1"/>
+      <labl xml-lang="en">CASE TRANSFERRED FROM ONE SECTOR TO ANOTHER (GUESSING AT MINING,CONSTR PRE 2002)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="zjEg1zLJBfqcWhWs" dcml="0" files="csr_yyyy_base" name="brdline2">
+      <location EndPos="2" StartPos="2" width="1"/>
+      <labl xml-lang="en">LINE OF BUSINESS CODE FOR SECOND LARGEST BROAD LINE</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="pTlTRGNhT6UL3w9j" dcml="0" files="csr_yyyy_base" name="brdline1">
+      <location EndPos="1" StartPos="1" width="1"/>
+      <labl xml-lang="en">LINE OF BUSINESS CODE FOR LARGEST BROAD LINE</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+  </dataDscr>
+</codeBook>

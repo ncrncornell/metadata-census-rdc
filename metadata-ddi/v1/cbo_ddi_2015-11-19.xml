@@ -1,0 +1,1929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codeBook xmlns:act="http://ced2ar.org/ns/activities#" xmlns:ced2ar="http://ced2ar.org/ns/core#" xmlns:RePEc="https://ideas.repec.org/#" xmlns:exn="http://ced2ar.org/ns/external#" xmlns:repeca="https://ideas.repec.org/e/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:tr="http://example.com/ns/tr#" xmlns:ex="http://example.com/ns/ex#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:saxon="http://xml.apache.org/xslt" xmlns:ns0="http://purl.org/dc/elements/1.1/" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dc="http://purl.org/dc/terms/" xmlns="ddi:codebook:2_5" xsi:schemaLocation="ddi:codebook:2_5 http://www.ncrn.cornell.edu/docs/ddi/2.5.NCRN.P/schemas/codebook.xsd">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>Characteristics of Business Owners</titl>
+      </titlStmt>
+      <verStmt>
+        <version date="2015-11-19 11:59:34 (auto-generated)"/>
+      </verStmt>
+    </citation>
+    <docSrc>
+      <titlStmt>
+        <titl>Census Bureau Survey - no sponsorship</titl>
+      </titlStmt>
+    </docSrc>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>Census Bureau Survey - no sponsorship</titl>
+        <IDNo>186</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Bureau of the Census</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer>Bureau of the Census</producer>
+      </prodStmt>
+      <distStmt>
+        <distrbtr>United States Department of Commerce. Bureau of the Census. Research Data Center</distrbtr>
+      </distStmt>
+    </citation>
+    <stdyInfo>
+      <sumDscr>
+        <nation abbr="U.S.">United States of America</nation>
+        <anlyUnit>Quinquenially (every five years)</anlyUnit>
+        <anlyUnit>Calendar Year</anlyUnit>
+        <anlyUnit>Other (any unit)</anlyUnit>
+        <universe>Business</universe>
+        <universe>Combination (industries)</universe>
+      </sumDscr>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <dataCollector/>
+        <sampProc>n</sampProc>
+      </dataColl>
+    </method>
+    <dataAccs>
+      <useStmt>
+        <confDec>To obtain this dataset, the user must complete the RDC application process, and be approved for use of this dataset.</confDec>
+        <restrctn>T13 USC</restrctn>
+        <restrctn>y</restrctn>
+        <conditions>Users must (i) successfully apply for RDC access (ii) pass review by agencies (iii) pass security clearance</conditions>
+        <disclaimer>All FTI data have been removed from the original cbo-owners and cbo-firms datasets.</disclaimer>
+      </useStmt>
+    </dataAccs>
+    <othrStdyMat>
+      <relMat>CBOE is a combination of cbo-firms and cbo-owners datasets with FTI removed from the datasets.</relMat>
+    </othrStdyMat>
+  </stdyDscr>
+  <fileDscr ID="cbo_yyyy_f">
+    <fileTxt>
+      <fileName>cbo_yyyy_f.sas7bdat</fileName>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>252</varQnty>
+      </dimensns>
+      <fileType>SAS</fileType>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="cbo_yyyy_o">
+    <fileTxt>
+      <fileName>cbo_yyyy_o.sas7bdat</fileName>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>302</varQnty>
+      </dimensns>
+      <fileType>SAS</fileType>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr>
+    <var ID="jqMPQSn56thtQ0VP" dcml="0" files="cbo_yyyy_o" name="i17_a1">
+      <location EndPos="136" StartPos="136" width="1"/>
+      <labl xml-lang="en">92 Total Sales</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="GJzKeO8D9BTqPNeD" dcml="0" files="cbo_yyyy_o" name="i16_s">
+      <location EndPos="135" StartPos="135" width="1"/>
+      <labl xml-lang="en">StartupAssistance-writein</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="B8tR06Ah6N1RKWE1" dcml="0" files="cbo_yyyy_o" name="i166">
+      <location EndPos="134" StartPos="134" width="1"/>
+      <labl xml-lang="en">Startup Assistance:Other</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="ClaVPQ4UJoK4h7Mh" dcml="0" files="cbo_yyyy_o" name="i165">
+      <location EndPos="133" StartPos="133" width="1"/>
+      <labl xml-lang="en">Startup Assistance:Other Business</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="is3AVSaBXSDDgiWv" dcml="0" files="cbo_yyyy_o" name="i164">
+      <location EndPos="132" StartPos="132" width="1"/>
+      <labl xml-lang="en">Startup Assistance:College</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="xJSnWy6P3Esd6gPD" dcml="0" files="cbo_yyyy_o" name="i163">
+      <location EndPos="131" StartPos="131" width="1"/>
+      <labl xml-lang="en">Startup Assistance:State/Local</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="x2x83utL4jabaUhc" dcml="0" files="cbo_yyyy_o" name="i162">
+      <location EndPos="130" StartPos="130" width="1"/>
+      <labl xml-lang="en">Startup Assistance:Fed</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="v6zAJYidrlMuIeuU" dcml="0" files="cbo_yyyy_o" name="i161">
+      <location EndPos="129" StartPos="129" width="1"/>
+      <labl xml-lang="en">Startup Assistance:None</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="CvncrxamMSpPXxuq" dcml="0" files="cbo_yyyy_o" name="i15b_2">
+      <location EndPos="128" StartPos="128" width="1"/>
+      <labl xml-lang="en">94 Ave. No. Hrs Managing/Working Busines</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="AYaeIcrmMgK7CsPV" dcml="0" files="cbo_yyyy_o" name="i15b_1">
+      <location EndPos="127" StartPos="127" width="1"/>
+      <labl xml-lang="en">92 Ave. No. Hrs Managing/Working Busines</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="bMOBx5pdPAsM0Yi6" dcml="0" files="cbo_yyyy_o" name="i15a_2">
+      <location EndPos="126" StartPos="126" width="1"/>
+      <labl xml-lang="en">94 Weeks Managing/Working in Business</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="WP0Tu8miX282B0B1" dcml="0" files="cbo_yyyy_o" name="i15a_1">
+      <location EndPos="125" StartPos="125" width="1"/>
+      <labl xml-lang="en">92 Weeks Managing/Working in Business</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="YdZAst7fJWlHGMhU" dcml="0" files="cbo_yyyy_o" name="i13c_s">
+      <location EndPos="97" StartPos="97" width="1"/>
+      <labl xml-lang="en">Writein-ReasonStart</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="uUCDxtgDTPS8cWpa" dcml="0" files="cbo_yyyy_o" name="i13c">
+      <location EndPos="96" StartPos="96" width="1"/>
+      <labl xml-lang="en">Reason for Starting BUsiness</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="qDaFGwARSeOCY0PC" dcml="0" files="cbo_yyyy_o" name="i13b_s">
+      <location EndPos="95" StartPos="95" width="1"/>
+      <labl xml-lang="en">Writein-AcquireOwnership</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="jhMFrn1L9Bo1z2UH" dcml="0" files="cbo_yyyy_o" name="i13b">
+      <location EndPos="94" StartPos="94" width="1"/>
+      <labl xml-lang="en">How Acquire Ownership</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="yJReE9HEYkAjVCAB" dcml="0" files="cbo_yyyy_o" name="i13a">
+      <location EndPos="93" StartPos="93" width="1"/>
+      <labl xml-lang="en">Year Acquire Ownership</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="eodxRw5h1NNCRpKm" dcml="0" files="cbo_yyyy_o" name="i11_2">
+      <location EndPos="91" StartPos="91" width="1"/>
+      <labl xml-lang="en">94 Total Personal Income</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="IPrYgAv9btgheASN" dcml="0" files="cbo_yyyy_o" name="i11_1">
+      <location EndPos="90" StartPos="90" width="1"/>
+      <labl xml-lang="en">92 Total Personal Income</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="Ii18O1hONn9xPZDn" dcml="0" files="cbo_yyyy_o" name="i10d">
+      <location EndPos="89" StartPos="89" width="1"/>
+      <labl xml-lang="en">Worked in Similar Business</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="yP4WsIjawaCCqvz0" dcml="0" files="cbo_yyyy_o" name="i10c">
+      <location EndPos="88" StartPos="88" width="1"/>
+      <labl xml-lang="en">Owner Experience</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="SrKCQNqRnz8zWlqL" dcml="0" files="cbo_yyyy_o" name="i10b">
+      <location EndPos="87" StartPos="87" width="1"/>
+      <labl xml-lang="en">Years Manegerial Experience</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="VtLeKcqfyuUD1BWx" dcml="0" files="cbo_yyyy_o" name="i10a">
+      <location EndPos="86" StartPos="86" width="1"/>
+      <labl xml-lang="en">Years Work Experience</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="RqNfNlUBjO5fMGiv" dcml="0" files="cbo_yyyy_o" name="i9b">
+      <location EndPos="85" StartPos="85" width="1"/>
+      <labl xml-lang="en">Work for Relative Owner</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="KgqU7R3BTpKmaJMq" dcml="0" files="cbo_yyyy_o" name="i9a">
+      <location EndPos="84" StartPos="84" width="1"/>
+      <labl xml-lang="en">Close Relative Business Owner</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="Gb7lw3oOwBSNivtv" dcml="0" files="cbo_yyyy_o" name="i8b">
+      <location EndPos="83" StartPos="83" width="1"/>
+      <labl xml-lang="en">Post High School</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="ekDlGzfzzI3wR43U" dcml="0" files="cbo_yyyy_o" name="i8a">
+      <location EndPos="82" StartPos="82" width="1"/>
+      <labl xml-lang="en">Schooling at Startup</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="Q2fjXoX0uCuO2UId" dcml="0" files="cbo_yyyy_o" name="i7_26">
+      <location EndPos="81" StartPos="81" width="1"/>
+      <labl xml-lang="en">94 Health Insurance:none</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="NokVtvknlSgkJWbI" dcml="0" files="cbo_yyyy_o" name="i7_25">
+      <location EndPos="80" StartPos="80" width="1"/>
+      <labl xml-lang="en">94 Health Insurance:other</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="rFLsTwQr5UJY6Bqp" dcml="0" files="cbo_yyyy_o" name="i7_24">
+      <location EndPos="79" StartPos="79" width="1"/>
+      <labl xml-lang="en">94 Health Insurance:trade ass</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="Gm1NiwZVXBbFDUUz" dcml="0" files="cbo_yyyy_o" name="i7_23">
+      <location EndPos="78" StartPos="78" width="1"/>
+      <labl xml-lang="en">94 Health Insurance:other business</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="E6nwkTjanG4ye352" dcml="0" files="cbo_yyyy_o" name="i7_22">
+      <location EndPos="77" StartPos="77" width="1"/>
+      <labl xml-lang="en">94 Health Insurance:this business</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="EQyQ01K7xH7z8PNj" dcml="0" files="cbo_yyyy_o" name="i7_21">
+      <location EndPos="76" StartPos="76" width="1"/>
+      <labl xml-lang="en">94 Health Insurance: spouse</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="TS9MIyc5JqSp6IJW" dcml="0" files="cbo_yyyy_o" name="i7_16">
+      <location EndPos="75" StartPos="75" width="1"/>
+      <labl xml-lang="en">92 Health Insurance:none</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="Fjr22NdxLi2SqfZw" dcml="0" files="cbo_yyyy_o" name="i7_15">
+      <location EndPos="74" StartPos="74" width="1"/>
+      <labl xml-lang="en">92 Health Insurance:other</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="IzAEQ8U0LGUQwFx2" dcml="0" files="cbo_yyyy_o" name="i7_14">
+      <location EndPos="73" StartPos="73" width="1"/>
+      <labl xml-lang="en">92 Health Insurance:trade ass</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="Ke7B1HJd69eQebYe" dcml="0" files="cbo_yyyy_o" name="i7_13">
+      <location EndPos="72" StartPos="72" width="1"/>
+      <labl xml-lang="en">92 Health Insurance:other business</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="lfOuOf2FlO85264g" dcml="0" files="cbo_yyyy_o" name="i7_12">
+      <location EndPos="71" StartPos="71" width="1"/>
+      <labl xml-lang="en">92 Health Insurance:this business</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="F0WNQQMKAhKelAJF" dcml="0" files="cbo_yyyy_o" name="i7_11">
+      <location EndPos="70" StartPos="70" width="1"/>
+      <labl xml-lang="en">92 Health Insurance: spouse</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="r83im0byZQb3ZJCl" dcml="0" files="cbo_yyyy_o" name="i6c">
+      <location EndPos="69" StartPos="69" width="1"/>
+      <labl xml-lang="en">DIsabled Veteran</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="Nejfcws6kQTjAiAn" dcml="0" files="cbo_yyyy_o" name="i6b">
+      <location EndPos="68" StartPos="68" width="1"/>
+      <labl xml-lang="en">Vietnam Veteran</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="tCKlUx573U1qGvbh" dcml="0" files="cbo_yyyy_o" name="i6a">
+      <location EndPos="67" StartPos="67" width="1"/>
+      <labl xml-lang="en">Veteran Status Dec. 31, 1992</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="w3JV9qk2b9leDUG4" dcml="0" files="cbo_yyyy_o" name="i5_2">
+      <location EndPos="66" StartPos="66" width="1"/>
+      <labl xml-lang="en">Marital Status Dec. 31, 1992</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="VZq3J9BKuKvMdk2z" dcml="0" files="cbo_yyyy_o" name="i5_1">
+      <location EndPos="65" StartPos="65" width="1"/>
+      <labl xml-lang="en">Marital Status at Startup/Acquire</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="sCaUU2FtUYAM8nOs" dcml="0" files="cbo_yyyy_o" name="i4b">
+      <location EndPos="64" StartPos="64" width="1"/>
+      <labl xml-lang="en">Foreign Born</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="POCM787ZPHvHTo2u" dcml="0" files="cbo_yyyy_o" name="i4a">
+      <location EndPos="63" StartPos="63" width="1"/>
+      <labl xml-lang="en">Age on Dec. 31, 1992</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="JCcX7g9gZaIzqzWR" dcml="0" files="cbo_yyyy_o" name="i3">
+      <location EndPos="62" StartPos="62" width="1"/>
+      <labl xml-lang="en">reported sex</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="nW4mRs4e3sUhwBoO" dcml="0" files="cbo_yyyy_o" name="i1c">
+      <location EndPos="53" StartPos="53" width="1"/>
+      <labl xml-lang="en">Why Change in Ownership</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="R0f9mIffSnzYnyVa" dcml="0" files="cbo_yyyy_o" name="i1b">
+      <location EndPos="52" StartPos="52" width="1"/>
+      <labl xml-lang="en">Yr Ownership End</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="T5ZgUzgBGZtVWor1" dcml="0" files="cbo_yyyy_o" name="i1a">
+      <location EndPos="51" StartPos="51" width="1"/>
+      <labl xml-lang="en">Own Same 92 Business</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="kJRalYtOxEizKe5P" dcml="0" files="cbo_yyyy_o" name="ssnflg_cfn">
+      <location EndPos="302" StartPos="302" width="1"/>
+      <labl xml-lang="en">ssnflg_cfn</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="II2y4mYkfhaibRmq" dcml="0" files="cbo_yyyy_o" name="lfo">
+      <location EndPos="301" StartPos="301" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="DuicHVlq71finaci" dcml="0" files="cbo_yyyy_o" name="sic2">
+      <location EndPos="300" StartPos="300" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="ZlMZ0Cw9EvCWShzf" dcml="0" files="cbo_yyyy_o" name="frmwgt">
+      <location EndPos="299" StartPos="299" width="1"/>
+      <labl xml-lang="en">nonresponse adjusted firm weight</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var>
+    <var ID="xrHiy8lBq7zSrpT4" dcml="0" files="cbo_yyyy_o" name="ownwgt">
+      <location EndPos="298" StartPos="298" width="1"/>
+      <labl xml-lang="en">nonresponse adjusted owner weight</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var>
+    <var ID="EhenKxb2YBOMRBWc" dcml="0" files="cbo_yyyy_o" name="i31_5">
+      <location EndPos="297" StartPos="297" width="1"/>
+      <labl xml-lang="en">FMLA affect Employees:handle family need</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="se2J8PdBWvPFzf8p" dcml="0" files="cbo_yyyy_o" name="i31_4">
+      <location EndPos="296" StartPos="296" width="1"/>
+      <labl xml-lang="en">FMLA affect Employees:morale</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="V603AdDo0C9AWMDB" dcml="0" files="cbo_yyyy_o" name="i31_3">
+      <location EndPos="295" StartPos="295" width="1"/>
+      <labl xml-lang="en">FMLA affect Employees:productivity</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="eGOI1Snqg9oKQIae" dcml="0" files="cbo_yyyy_o" name="i31_2">
+      <location EndPos="294" StartPos="294" width="1"/>
+      <labl xml-lang="en">FMLA affect Employees:turnover</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="kLtqp8HAViNFDy6K" dcml="0" files="cbo_yyyy_o" name="i31_1">
+      <location EndPos="293" StartPos="293" width="1"/>
+      <labl xml-lang="en">FMLA affect Employees:absence</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="ppcTPJxus4TeONfZ" dcml="0" files="cbo_yyyy_o" name="i30b">
+      <location EndPos="292" StartPos="292" width="1"/>
+      <labl xml-lang="en">FMLA cost as % 94 wages</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="FTgrksNWt7pRDI4B" dcml="0" files="cbo_yyyy_o" name="i30a_4">
+      <location EndPos="291" StartPos="291" width="1"/>
+      <labl xml-lang="en">FMLA cost:other</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="kV6hdWTgWf9Jygea" dcml="0" files="cbo_yyyy_o" name="i30a_3">
+      <location EndPos="290" StartPos="290" width="1"/>
+      <labl xml-lang="en">FMLA cost:hiring/training replacement</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="BuM1bYo4ud4BONMe" dcml="0" files="cbo_yyyy_o" name="i30a_2">
+      <location EndPos="289" StartPos="289" width="1"/>
+      <labl xml-lang="en">FMLA cost:benefits for leave</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="IpDlZHECfuSjg5PX" dcml="0" files="cbo_yyyy_o" name="i30a_1">
+      <location EndPos="288" StartPos="288" width="1"/>
+      <labl xml-lang="en">FMLA cost:administrative</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="A9QQxTjsg4iVq6vq" dcml="0" files="cbo_yyyy_o" name="i29_5">
+      <location EndPos="287" StartPos="287" width="1"/>
+      <labl xml-lang="en">leave change:idll relative</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="f3kuFYGMu37jbPcG" dcml="0" files="cbo_yyyy_o" name="i29_4">
+      <location EndPos="286" StartPos="286" width="1"/>
+      <labl xml-lang="en">leave change:own health(&amp;childbirth)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="JUGmkHSlPCJ50YjX" dcml="0" files="cbo_yyyy_o" name="i29_3">
+      <location EndPos="285" StartPos="285" width="1"/>
+      <labl xml-lang="en">leave change:adoption/foster care</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="ezpeth2y1y3cbVEc" dcml="0" files="cbo_yyyy_o" name="i29_2">
+      <location EndPos="284" StartPos="284" width="1"/>
+      <labl xml-lang="en">leave change:father child care</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="XxBt4i3Q93FYo8L7" dcml="0" files="cbo_yyyy_o" name="i29_1">
+      <location EndPos="283" StartPos="283" width="1"/>
+      <labl xml-lang="en">leave change:mother child care</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="ys9nakbrFDlLcCvH" dcml="0" files="cbo_yyyy_o" name="i28_d2">
+      <location EndPos="282" StartPos="282" width="1"/>
+      <labl xml-lang="en">94 Typical F/M Leave Duration</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="sEz06YBiFNuEzFm5" dcml="0" files="cbo_yyyy_o" name="i28_d1">
+      <location EndPos="281" StartPos="281" width="1"/>
+      <labl xml-lang="en">92 Typical F/M Leave Duration</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="wXdQedlcsERL35LZ" dcml="0" files="cbo_yyyy_o" name="i28_c2">
+      <location EndPos="280" StartPos="280" width="1"/>
+      <labl xml-lang="en">94 % Employees w F/M Male</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="nTh2DAe3LMKZKeod" dcml="0" files="cbo_yyyy_o" name="i28_c1">
+      <location EndPos="279" StartPos="279" width="1"/>
+      <labl xml-lang="en">92 % Employees w F/M Male</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="SpHi0AVdHkC9M1ia" dcml="0" files="cbo_yyyy_o" name="i28_b2">
+      <location EndPos="278" StartPos="278" width="1"/>
+      <labl xml-lang="en">94 No. Employees w F/M Leave</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="m9kBTDj0d1pWli9F" dcml="0" files="cbo_yyyy_o" name="i28_b1">
+      <location EndPos="277" StartPos="277" width="1"/>
+      <labl xml-lang="en">92 No. Employees w F/M Leave</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="ZF2i8e4T29quQRxz" dcml="0" files="cbo_yyyy_o" name="i28_a2">
+      <location EndPos="276" StartPos="276" width="1"/>
+      <labl xml-lang="en">94 Family/Medical Leave</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="GADAyjagyR8l6oqa" dcml="0" files="cbo_yyyy_o" name="i28_a1">
+      <location EndPos="275" StartPos="275" width="1"/>
+      <labl xml-lang="en">92 Family/Medical Leave</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="l3SSoJvqoUAFSNhL" dcml="0" files="cbo_yyyy_o" name="i27_b">
+      <location EndPos="274" StartPos="274" width="1"/>
+      <labl xml-lang="en">94 Employees at 1250 hrs</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="H96cq0bF4UXzDx4u" dcml="0" files="cbo_yyyy_o" name="i27_a">
+      <location EndPos="273" StartPos="273" width="1"/>
+      <labl xml-lang="en">92 Employees at 1250 hrs</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="MCgLafEiqFQUkFLF" dcml="0" files="cbo_yyyy_o" name="i26_b">
+      <location EndPos="272" StartPos="272" width="1"/>
+      <labl xml-lang="en">94 50+ Employees</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="RWCbl4mYd48ht9MU" dcml="0" files="cbo_yyyy_o" name="i26_a">
+      <location EndPos="271" StartPos="271" width="1"/>
+      <labl xml-lang="en">92 50+ Employees</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="tHlKtHyjShCg8n6l" dcml="0" files="cbo_yyyy_o" name="i25">
+      <location EndPos="270" StartPos="270" width="1"/>
+      <labl xml-lang="en">Covered by FMLA</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="LfvG1YioLWUf0H5y" dcml="0" files="cbo_yyyy_o" name="i24d2">
+      <location EndPos="269" StartPos="269" width="1"/>
+      <labl xml-lang="en">NAFTA Relocate to Mexico</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="SMDvzvvIh9XKKgPB" dcml="0" files="cbo_yyyy_o" name="i24d1">
+      <location EndPos="268" StartPos="268" width="1"/>
+      <labl xml-lang="en">NAFTA Relocate to Canada</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="c5WjY11nFdyFooS7" dcml="0" files="cbo_yyyy_o" name="i24c2">
+      <location EndPos="267" StartPos="267" width="1"/>
+      <labl xml-lang="en">NAFTA Effect on Mexico Export</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="cMh6EZmNjhMn7CHb" dcml="0" files="cbo_yyyy_o" name="i24c1">
+      <location EndPos="266" StartPos="266" width="1"/>
+      <labl xml-lang="en">NAFTA Effect on Canada Export</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="zl2X3KDoRvIT2Fbo" dcml="0" files="cbo_yyyy_o" name="i24b_9_s">
+      <location EndPos="265" StartPos="265" width="1"/>
+      <labl xml-lang="en">Why can Export:writein</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="YpalCVTbjBmadVuc" dcml="0" files="cbo_yyyy_o" name="i24b_9">
+      <location EndPos="264" StartPos="264" width="1"/>
+      <labl xml-lang="en">Why can Export:other</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="kBRzFM1K0qmG1arZ" dcml="0" files="cbo_yyyy_o" name="i24b_8">
+      <location EndPos="263" StartPos="263" width="1"/>
+      <labl xml-lang="en">Why can Export:environmental reg</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="Gng8QmcCVtTuc6Ux" dcml="0" files="cbo_yyyy_o" name="i24b_7">
+      <location EndPos="262" StartPos="262" width="1"/>
+      <labl xml-lang="en">Why can Export:dollar</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="jTBo8jDwyc1cXXc2" dcml="0" files="cbo_yyyy_o" name="i24b_6">
+      <location EndPos="261" StartPos="261" width="1"/>
+      <labl xml-lang="en">Why can Export:price</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="HqpNxKvMZRdZ5mwd" dcml="0" files="cbo_yyyy_o" name="i24b_5">
+      <location EndPos="260" StartPos="260" width="1"/>
+      <labl xml-lang="en">Why can Export:foreign market competitio</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="RWuzulHNhF6F75G2" dcml="0" files="cbo_yyyy_o" name="i24b_4">
+      <location EndPos="259" StartPos="259" width="1"/>
+      <labl xml-lang="en">Why can Export:US trade restrictions</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="f1wWoVAdfF5MRSrZ" dcml="0" files="cbo_yyyy_o" name="i24b_3">
+      <location EndPos="258" StartPos="258" width="1"/>
+      <labl xml-lang="en">Why can Export:foreign trade restriction</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="WivaYFLCoYaKOSSc" dcml="0" files="cbo_yyyy_o" name="i24b_2">
+      <location EndPos="257" StartPos="257" width="1"/>
+      <labl xml-lang="en">Why can Export:information opportunies</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="kfrCrTXfG2CfTShd" dcml="0" files="cbo_yyyy_o" name="i24b_1">
+      <location EndPos="256" StartPos="256" width="1"/>
+      <labl xml-lang="en">Why can Export:financing</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="YIICdvnuUgFmwwVm" dcml="0" files="cbo_yyyy_o" name="i24a">
+      <location EndPos="255" StartPos="255" width="1"/>
+      <labl xml-lang="en">Exports Planned?</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="vAijTJrfpS5NkvC7" dcml="0" files="cbo_yyyy_o" name="i23e">
+      <location EndPos="254" StartPos="254" width="1"/>
+      <labl xml-lang="en">Years Exporter</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="czqlcbmaozt2jd1b" dcml="0" files="cbo_yyyy_o" name="i23_d_8_">
+      <location EndPos="253" StartPos="253" width="1"/>
+      <labl xml-lang="en">92 Export Assistance:writein</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="kJ8Bu4oWF1DmsWRz" dcml="0" files="cbo_yyyy_o" name="i23_d_8">
+      <location EndPos="252" StartPos="252" width="1"/>
+      <labl xml-lang="en">92 Export Assistance:other</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="Ur3LyQVsWQICmDeU" dcml="0" files="cbo_yyyy_o" name="i23_d_7">
+      <location EndPos="251" StartPos="251" width="1"/>
+      <labl xml-lang="en">92 Export Assistance:consultants</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="I4e6tyB0JEudfOiV" dcml="0" files="cbo_yyyy_o" name="i23_d_6">
+      <location EndPos="250" StartPos="250" width="1"/>
+      <labl xml-lang="en">92 Export Assistance:Bank</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="UQMzGSvqAyYCg8Lu" dcml="0" files="cbo_yyyy_o" name="i23_d_5">
+      <location EndPos="249" StartPos="249" width="1"/>
+      <labl xml-lang="en">92 Export Assistance:State</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="BEyoLTrn0cYkM4jw" dcml="0" files="cbo_yyyy_o" name="i23_d_4">
+      <location EndPos="248" StartPos="248" width="1"/>
+      <labl xml-lang="en">92 Export Assistance:EX-IM Bank</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="B5Wq1GGy42jcs7T8" dcml="0" files="cbo_yyyy_o" name="i23_d_3">
+      <location EndPos="247" StartPos="247" width="1"/>
+      <labl xml-lang="en">92 Export Assistance:MBDA</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="B1PzHE5ESP2yMryZ" dcml="0" files="cbo_yyyy_o" name="i23_d_2">
+      <location EndPos="246" StartPos="246" width="1"/>
+      <labl xml-lang="en">92 Export Assistance:SBA</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="OG1eIWGGSOgqiZWr" dcml="0" files="cbo_yyyy_o" name="i23_d_1">
+      <location EndPos="245" StartPos="245" width="1"/>
+      <labl xml-lang="en">92 Export Assistance:ITA</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="hQBKsYX2i2cSY01r" dcml="0" files="cbo_yyyy_o" name="i23_c210">
+      <location EndPos="244" StartPos="244" width="1"/>
+      <labl xml-lang="en">94 Export Destination:South America</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="gDvzwqKlhQGwKvHC" dcml="0" files="cbo_yyyy_o" name="i23_c29">
+      <location EndPos="243" StartPos="243" width="1"/>
+      <labl xml-lang="en">94 Export Destination:Middle East</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="itXclDgKVN1O8vxY" dcml="0" files="cbo_yyyy_o" name="i23_c28">
+      <location EndPos="242" StartPos="242" width="1"/>
+      <labl xml-lang="en">94 Export Destination:Mexico</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="QzOn0UIZQrm3zLRt" dcml="0" files="cbo_yyyy_o" name="i23_c27">
+      <location EndPos="241" StartPos="241" width="1"/>
+      <labl xml-lang="en">94 Export Destination:Japan</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="pqcRWIrM3lScIwN5" dcml="0" files="cbo_yyyy_o" name="i23_c26">
+      <location EndPos="240" StartPos="240" width="1"/>
+      <labl xml-lang="en">94 Export Destination:Europe</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="On5QchdQ7qS2EjFA" dcml="0" files="cbo_yyyy_o" name="i23_c25">
+      <location EndPos="239" StartPos="239" width="1"/>
+      <labl xml-lang="en">94 Export Destination:CA/Caribbean</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="nmXr8SDUpTXfCCAX" dcml="0" files="cbo_yyyy_o" name="i23_c24">
+      <location EndPos="238" StartPos="238" width="1"/>
+      <labl xml-lang="en">94 Export Destination:Canada</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="giDOqMznSafnEkLK" dcml="0" files="cbo_yyyy_o" name="i23_c23">
+      <location EndPos="237" StartPos="237" width="1"/>
+      <labl xml-lang="en">94 Export Destination:Oceania</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="t9MSgbMmEARo3pmF" dcml="0" files="cbo_yyyy_o" name="i23_c22">
+      <location EndPos="236" StartPos="236" width="1"/>
+      <labl xml-lang="en">94 Export Destination:Asia</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="bKYR997QlIJiypwU" dcml="0" files="cbo_yyyy_o" name="i23_c21">
+      <location EndPos="235" StartPos="235" width="1"/>
+      <labl xml-lang="en">94 Export Destination:Africa</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="apPEoBoS5aetlMsd" dcml="0" files="cbo_yyyy_o" name="i23_c110">
+      <location EndPos="234" StartPos="234" width="1"/>
+      <labl xml-lang="en">92 Export Destination:South America</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="N4sMbe6ANzwGt61P" dcml="0" files="cbo_yyyy_o" name="i23_c19">
+      <location EndPos="233" StartPos="233" width="1"/>
+      <labl xml-lang="en">92 Export Destination:Middle East</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="mpF9mKOFdWiyXp7Y" dcml="0" files="cbo_yyyy_o" name="i23_c18">
+      <location EndPos="232" StartPos="232" width="1"/>
+      <labl xml-lang="en">92 Export Destination:Mexico</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="Ae5QhH1mSIhHRxJH" dcml="0" files="cbo_yyyy_o" name="i23_c17">
+      <location EndPos="231" StartPos="231" width="1"/>
+      <labl xml-lang="en">92 Export Destination:Japan</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="XTAR1UOJ1xLwLKgj" dcml="0" files="cbo_yyyy_o" name="i23_c16">
+      <location EndPos="230" StartPos="230" width="1"/>
+      <labl xml-lang="en">92 Export Destination:Europe</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="p7qATEDJqxlfNShR" dcml="0" files="cbo_yyyy_o" name="i23_c15">
+      <location EndPos="229" StartPos="229" width="1"/>
+      <labl xml-lang="en">92 Export Destination:CA/Caribbean</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="EsuQLOLJyd4HdBkL" dcml="0" files="cbo_yyyy_o" name="i23_c14">
+      <location EndPos="228" StartPos="228" width="1"/>
+      <labl xml-lang="en">92 Export Destination:Canada</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="kJRFVyPQGNlInmeF" dcml="0" files="cbo_yyyy_o" name="i23_c13">
+      <location EndPos="227" StartPos="227" width="1"/>
+      <labl xml-lang="en">92 Export Destination:Oceania</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="UweBz03R0rc1zjtc" dcml="0" files="cbo_yyyy_o" name="i23_c12">
+      <location EndPos="226" StartPos="226" width="1"/>
+      <labl xml-lang="en">92 Export Destination:Asia</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="FAtdGsPfoWFfkF5s" dcml="0" files="cbo_yyyy_o" name="i23_c11">
+      <location EndPos="225" StartPos="225" width="1"/>
+      <labl xml-lang="en">92 Export Destination:Africa</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="eRF6phLrAIag7OVt" dcml="0" files="cbo_yyyy_o" name="i23_b2">
+      <location EndPos="224" StartPos="224" width="1"/>
+      <labl xml-lang="en">94% Sales Exported ex US</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="ocMIeANvDMAze8tQ" dcml="0" files="cbo_yyyy_o" name="i23_b1">
+      <location EndPos="223" StartPos="223" width="1"/>
+      <labl xml-lang="en">92 % Sales Exported ex US</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="w8gONI76M04Xz0lc" dcml="0" files="cbo_yyyy_o" name="i23a">
+      <location EndPos="222" StartPos="222" width="1"/>
+      <labl xml-lang="en">%Sales Exports</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="v15DnydhN7xlzhZ7" dcml="0" files="cbo_yyyy_o" name="i22_s">
+      <location EndPos="221" StartPos="221" width="1"/>
+      <labl xml-lang="en">Available Language-writein</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="sp2R5IgR0ZwOIFUE" dcml="0" files="cbo_yyyy_o" name="i2217">
+      <location EndPos="220" StartPos="220" width="1"/>
+      <labl xml-lang="en">Language Spoken:Other</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="yoVibkyfB8bRgnfe" dcml="0" files="cbo_yyyy_o" name="i2216">
+      <location EndPos="219" StartPos="219" width="1"/>
+      <labl xml-lang="en">Language Spoken:Vietnamese</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="ckhZkyTETgZf6qs3" dcml="0" files="cbo_yyyy_o" name="i2215">
+      <location EndPos="218" StartPos="218" width="1"/>
+      <labl xml-lang="en">Language Spoken:Tagalog</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="V6fiIdmJnhTvkJsw" dcml="0" files="cbo_yyyy_o" name="i2214">
+      <location EndPos="217" StartPos="217" width="1"/>
+      <labl xml-lang="en">Language Spoken:Spanish</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="msRU6R1qCkasKeSM" dcml="0" files="cbo_yyyy_o" name="i2213">
+      <location EndPos="216" StartPos="216" width="1"/>
+      <labl xml-lang="en">Language Spoken:Russian</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="R4S8HXJIolQnch6M" dcml="0" files="cbo_yyyy_o" name="i2212">
+      <location EndPos="215" StartPos="215" width="1"/>
+      <labl xml-lang="en">Language Spoken:Portugese</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="Y7RQhlXcoHqGAWwi" dcml="0" files="cbo_yyyy_o" name="i2211">
+      <location EndPos="214" StartPos="214" width="1"/>
+      <labl xml-lang="en">Language Spoken:Polish</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="UtvFljZH0LpNxika" dcml="0" files="cbo_yyyy_o" name="i2210">
+      <location EndPos="213" StartPos="213" width="1"/>
+      <labl xml-lang="en">Language Spoken:Korean</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="GQJrPgoEepFVjCyT" dcml="0" files="cbo_yyyy_o" name="i229">
+      <location EndPos="212" StartPos="212" width="1"/>
+      <labl xml-lang="en">Language Spoken:Japanese</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="qKjdm3XQ8um5dupB" dcml="0" files="cbo_yyyy_o" name="i228">
+      <location EndPos="211" StartPos="211" width="1"/>
+      <labl xml-lang="en">Language Spoken:Italian</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="pyZUxACLtUuCfPw0" dcml="0" files="cbo_yyyy_o" name="i227">
+      <location EndPos="210" StartPos="210" width="1"/>
+      <labl xml-lang="en">Language Spoken:Hindu</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="n4FADX7i6biSC0fx" dcml="0" files="cbo_yyyy_o" name="i226">
+      <location EndPos="209" StartPos="209" width="1"/>
+      <labl xml-lang="en">Language Spoken:Greek</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="COwlnhBNkD73cwPb" dcml="0" files="cbo_yyyy_o" name="i225">
+      <location EndPos="208" StartPos="208" width="1"/>
+      <labl xml-lang="en">Language Spoken:German</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="MLhdan9dff8gMegB" dcml="0" files="cbo_yyyy_o" name="i224">
+      <location EndPos="207" StartPos="207" width="1"/>
+      <labl xml-lang="en">Language Spoken:French</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="HgFVaIrJDKIMVQfo" dcml="0" files="cbo_yyyy_o" name="i223">
+      <location EndPos="206" StartPos="206" width="1"/>
+      <labl xml-lang="en">Language Spoken:English</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="RgfrTk3GKuNV7TKh" dcml="0" files="cbo_yyyy_o" name="i222">
+      <location EndPos="205" StartPos="205" width="1"/>
+      <labl xml-lang="en">Language Spoken:Chinese</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="jwrovtTmBz7iGNfZ" dcml="0" files="cbo_yyyy_o" name="i221">
+      <location EndPos="204" StartPos="204" width="1"/>
+      <labl xml-lang="en">Language Spoken:Arabic</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="KDw7Te1yQHWlUAMm" dcml="0" files="cbo_yyyy_o" name="i21c_z">
+      <location EndPos="203" StartPos="203" width="1"/>
+      <labl xml-lang="en">ZIP</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="cDL2MFLvLCOu4SPU" dcml="0" files="cbo_yyyy_o" name="i21c">
+      <location EndPos="202" StartPos="202" width="1"/>
+      <labl xml-lang="en">ZIP Different from Mailed</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="wn6SH5AuCLOUDnPs" dcml="0" files="cbo_yyyy_o" name="i21b">
+      <location EndPos="201" StartPos="201" width="1"/>
+      <labl xml-lang="en">Primary Home Business</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="asCUYGOz7tnswlz0" dcml="0" files="cbo_yyyy_o" name="i21_a3">
+      <location EndPos="200" StartPos="200" width="1"/>
+      <labl xml-lang="en">94 Home Business</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="K7JWQKgS3WTvXFyU" dcml="0" files="cbo_yyyy_o" name="i21_a2">
+      <location EndPos="199" StartPos="199" width="1"/>
+      <labl xml-lang="en">92 Home Business</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="cXulY5GFJ6GzA2rH" dcml="0" files="cbo_yyyy_o" name="i21_a1">
+      <location EndPos="198" StartPos="198" width="1"/>
+      <labl xml-lang="en">Home Business at Startup</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="MBXT9xQ3zeOtr60l" dcml="0" files="cbo_yyyy_o" name="i20_2">
+      <location EndPos="197" StartPos="197" width="1"/>
+      <labl xml-lang="en">94 Franchise</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="ocjnIyMPibRqeNIk" dcml="0" files="cbo_yyyy_o" name="i20_1">
+      <location EndPos="196" StartPos="196" width="1"/>
+      <labl xml-lang="en">92 Franchise</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="g5vPZy58mEHoSHy8" dcml="0" files="cbo_yyyy_o" name="i19_g2_s">
+      <location EndPos="195" StartPos="195" width="1"/>
+      <labl xml-lang="en">94 Why no Health Plan:writein</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="IrdiTBfj5i7CO4Qf" dcml="0" files="cbo_yyyy_o" name="i19_g2">
+      <location EndPos="194" StartPos="194" width="1"/>
+      <labl xml-lang="en">94 Why no Health Plan</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="Av4h5q3JuC3w3VlP" dcml="0" files="cbo_yyyy_o" name="i19_g1_s">
+      <location EndPos="193" StartPos="193" width="1"/>
+      <labl xml-lang="en">92 Why no Health Plan:writein</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="Riz0MQxlO07WG5VM" dcml="0" files="cbo_yyyy_o" name="i19_g1">
+      <location EndPos="192" StartPos="192" width="1"/>
+      <labl xml-lang="en">92 Why no Health Plan</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="qn7K4aizu4usq4Q3" dcml="0" files="cbo_yyyy_o" name="i19f">
+      <location EndPos="191" StartPos="191" width="1"/>
+      <labl xml-lang="en">Employee Health Plan 92 or 94</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="uP5bmMmkeBxFMW70" dcml="0" files="cbo_yyyy_o" name="i19_e2">
+      <location EndPos="190" StartPos="190" width="1"/>
+      <labl xml-lang="en">94 Retirement Plan</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="rqe5bjmuXEVxcW4y" dcml="0" files="cbo_yyyy_o" name="i19_e1">
+      <location EndPos="189" StartPos="189" width="1"/>
+      <labl xml-lang="en">92 Retirement Plan</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="WNg7890lbNiqJmqe" dcml="0" files="cbo_yyyy_o" name="i19_d2">
+      <location EndPos="188" StartPos="188" width="1"/>
+      <labl xml-lang="en">94 % Employees Minority</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="lLOFTKawKPDDNlAN" dcml="0" files="cbo_yyyy_o" name="i19_d1">
+      <location EndPos="187" StartPos="187" width="1"/>
+      <labl xml-lang="en">92 % Employees Minority</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="GoykV3fxCK0ZcQvo" dcml="0" files="cbo_yyyy_o" name="i19_c2">
+      <location EndPos="186" StartPos="186" width="1"/>
+      <labl xml-lang="en">94 %Employees Female</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="S7SxRq0ECYAb50TM" dcml="0" files="cbo_yyyy_o" name="i19_c1">
+      <location EndPos="185" StartPos="185" width="1"/>
+      <labl xml-lang="en">92 %Employees Female</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="hX7pZUCoVVAPFk4u" dcml="0" files="cbo_yyyy_o" name="i19_b2">
+      <location EndPos="184" StartPos="184" width="1"/>
+      <labl xml-lang="en">94 Employees (mar 12th)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="U04nr0CDxpq9HGVk" dcml="0" files="cbo_yyyy_o" name="i19_b1">
+      <location EndPos="183" StartPos="183" width="1"/>
+      <labl xml-lang="en">92 Employees (mar 12th)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="hWOekhv2Sh5rPZuV" dcml="0" files="cbo_yyyy_o" name="i19a">
+      <location EndPos="182" StartPos="182" width="1"/>
+      <labl xml-lang="en">Any paid employees 92 or 94</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="xQz3VegqIHMmZ7uk" dcml="0" files="cbo_yyyy_o" name="i18_c2_8">
+      <location EndPos="181" StartPos="181" width="1"/>
+      <labl xml-lang="en">94 Affect Profit:crime</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="fjgAzlNSRYDuMRxZ" dcml="0" files="cbo_yyyy_o" name="i18_c2_7">
+      <location EndPos="180" StartPos="180" width="1"/>
+      <labl xml-lang="en">94 Affect Profit:financial capital</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="n0NtkHPTH0aB1vSU" dcml="0" files="cbo_yyyy_o" name="i18_c2_6">
+      <location EndPos="179" StartPos="179" width="1"/>
+      <labl xml-lang="en">94 Affect Profit:osha</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="MCf2fgCVh04muOYA" dcml="0" files="cbo_yyyy_o" name="i18_c2_5">
+      <location EndPos="178" StartPos="178" width="1"/>
+      <labl xml-lang="en">94 Affect Profit:ada</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="qWO1Lv8tShG5mLP2" dcml="0" files="cbo_yyyy_o" name="i18_c2_4">
+      <location EndPos="177" StartPos="177" width="1"/>
+      <labl xml-lang="en">94 Affect Profit:environmental</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="xC4JeQPM7wGGkUMG" dcml="0" files="cbo_yyyy_o" name="i18_c2_3">
+      <location EndPos="176" StartPos="176" width="1"/>
+      <labl xml-lang="en">94 Affect Profit:irs</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="B0qsJa7NlHXpjRon" dcml="0" files="cbo_yyyy_o" name="i18_c2_2">
+      <location EndPos="175" StartPos="175" width="1"/>
+      <labl xml-lang="en">94 Affect Profit:credit market</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="eaRJydxe22xsMau9" dcml="0" files="cbo_yyyy_o" name="i18_c2_1">
+      <location EndPos="174" StartPos="174" width="1"/>
+      <labl xml-lang="en">94 Affect Profit:Health Insurance</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="KxBnCSctal3I6hLo" dcml="0" files="cbo_yyyy_o" name="i18_c1_8">
+      <location EndPos="173" StartPos="173" width="1"/>
+      <labl xml-lang="en">92 Affect Profit:crime</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="Pe0o3khmqYH9dzb7" dcml="0" files="cbo_yyyy_o" name="i18_c1_7">
+      <location EndPos="172" StartPos="172" width="1"/>
+      <labl xml-lang="en">92 Affect Profit:financial capital</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="YkdxmU2SDrvwmfRe" dcml="0" files="cbo_yyyy_o" name="i18_c1_6">
+      <location EndPos="171" StartPos="171" width="1"/>
+      <labl xml-lang="en">92 Affect Profit:osha</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="hYeFY3JvSSbqSzzW" dcml="0" files="cbo_yyyy_o" name="i18_c1_5">
+      <location EndPos="170" StartPos="170" width="1"/>
+      <labl xml-lang="en">92 Affect Profit:ada</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="yN5HCnLS3qXzk7CG" dcml="0" files="cbo_yyyy_o" name="i18_c1_4">
+      <location EndPos="169" StartPos="169" width="1"/>
+      <labl xml-lang="en">92 Affect Profit:environmental</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="ACth8NouNYd5D2ea" dcml="0" files="cbo_yyyy_o" name="i18_c1_3">
+      <location EndPos="168" StartPos="168" width="1"/>
+      <labl xml-lang="en">92 Affect Profit:irs</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="rDmCYYDjqnyrAgQH" dcml="0" files="cbo_yyyy_o" name="i18_c1_2">
+      <location EndPos="167" StartPos="167" width="1"/>
+      <labl xml-lang="en">92 Affect Profit:credit market</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="WJXwBAMW6KT67eEo" dcml="0" files="cbo_yyyy_o" name="i18_c1_1">
+      <location EndPos="166" StartPos="166" width="1"/>
+      <labl xml-lang="en">92 Affect Profit:Health Insurance</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="TLkkdKGP2YEg5AbE" dcml="0" files="cbo_yyyy_o" name="i18_b2">
+      <location EndPos="165" StartPos="165" width="1"/>
+      <labl xml-lang="en">94 %Total Personal Income</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="iQus6JBhPCYadqAG" dcml="0" files="cbo_yyyy_o" name="i18_b1">
+      <location EndPos="164" StartPos="164" width="1"/>
+      <labl xml-lang="en">92 %Total Personal Income</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="COzhqk5yjDArp599" dcml="0" files="cbo_yyyy_o" name="i18_a2">
+      <location EndPos="163" StartPos="163" width="1"/>
+      <labl xml-lang="en">94 Net Profit/loss</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="reicE04Y4aZZTOOD" dcml="0" files="cbo_yyyy_o" name="i18_a1">
+      <location EndPos="162" StartPos="162" width="1"/>
+      <labl xml-lang="en">92 Net Profit/loss</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="urdUUM22LusbhLqo" dcml="0" files="cbo_yyyy_o" name="i17_d2">
+      <location EndPos="161" StartPos="161" width="1"/>
+      <labl xml-lang="en">94 %Minority Customer</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="lVjr2DxUb55VZtbd" dcml="0" files="cbo_yyyy_o" name="i17_d1">
+      <location EndPos="160" StartPos="160" width="1"/>
+      <labl xml-lang="en">92 %Minority Customer</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="ak0dwdEFr3VXLfU8" dcml="0" files="cbo_yyyy_o" name="i17_c25">
+      <location EndPos="159" StartPos="159" width="1"/>
+      <labl xml-lang="en">94 Market Areas:international</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="jsNP4kghqhFh3laZ" dcml="0" files="cbo_yyyy_o" name="i17_c24">
+      <location EndPos="158" StartPos="158" width="1"/>
+      <labl xml-lang="en">94 Market Areas:national</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="lq7Iit4pktQsOIKh" dcml="0" files="cbo_yyyy_o" name="i17_c23">
+      <location EndPos="157" StartPos="157" width="1"/>
+      <labl xml-lang="en">94 Market Areas:regional</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="QJ1QgtQzhIqPpge8" dcml="0" files="cbo_yyyy_o" name="i17_c22">
+      <location EndPos="156" StartPos="156" width="1"/>
+      <labl xml-lang="en">94 Market Areas:city/county</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="v4spF69ToH5Ba8C7" dcml="0" files="cbo_yyyy_o" name="i17_c21">
+      <location EndPos="155" StartPos="155" width="1"/>
+      <labl xml-lang="en">94 Market Areas:Neighborhood</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="GZfIGhyyrArTSyK8" dcml="0" files="cbo_yyyy_o" name="i17_c15">
+      <location EndPos="154" StartPos="154" width="1"/>
+      <labl xml-lang="en">92 Market Areas:international</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="fAyYG4gKpewOe0sk" dcml="0" files="cbo_yyyy_o" name="i17_c14">
+      <location EndPos="153" StartPos="153" width="1"/>
+      <labl xml-lang="en">92 Market Areas:national</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="S68OkstsPHA5Nkg7" dcml="0" files="cbo_yyyy_o" name="i17_c13">
+      <location EndPos="152" StartPos="152" width="1"/>
+      <labl xml-lang="en">92 Market Areas:regional</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="HKJ7kjhGrPYmJpAE" dcml="0" files="cbo_yyyy_o" name="i17_c12">
+      <location EndPos="151" StartPos="151" width="1"/>
+      <labl xml-lang="en">92 Market Areas:city/county</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="Mo3ZS9iPWROs00tK" dcml="0" files="cbo_yyyy_o" name="i17_c11">
+      <location EndPos="150" StartPos="150" width="1"/>
+      <labl xml-lang="en">92 Market Areas:Neighborhood</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="mxftAr88AxJeuft3" dcml="0" files="cbo_yyyy_o" name="i17_b26">
+      <location EndPos="149" StartPos="149" width="1"/>
+      <labl xml-lang="en">94 Customer(10%):other</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="YuaST2ahSuXKiiU7" dcml="0" files="cbo_yyyy_o" name="i17_b25">
+      <location EndPos="148" StartPos="148" width="1"/>
+      <labl xml-lang="en">94 Customer(10%):individuals</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="ZpWY2tkdyFVSd0CT" dcml="0" files="cbo_yyyy_o" name="i17_b24">
+      <location EndPos="147" StartPos="147" width="1"/>
+      <labl xml-lang="en">94 Customer(10%):business</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="TGe5nwVTSU8qA4f8" dcml="0" files="cbo_yyyy_o" name="i17_b23">
+      <location EndPos="146" StartPos="146" width="1"/>
+      <labl xml-lang="en">94 Customer(10%):local govt</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="seOBDLHBU9NRbKnW" dcml="0" files="cbo_yyyy_o" name="i17_b22">
+      <location EndPos="145" StartPos="145" width="1"/>
+      <labl xml-lang="en">94 Customer(10%):state govt</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="jtxvLvaYFz6oqMap" dcml="0" files="cbo_yyyy_o" name="i17_b21">
+      <location EndPos="144" StartPos="144" width="1"/>
+      <labl xml-lang="en">94 Customer(10%):fed govt</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="GP9LoXNZVHOaVEJE" dcml="0" files="cbo_yyyy_o" name="i17_b16">
+      <location EndPos="143" StartPos="143" width="1"/>
+      <labl xml-lang="en">92 Customer(10%):other</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="zn8kchcuKK73a6mW" dcml="0" files="cbo_yyyy_o" name="i17_b15">
+      <location EndPos="142" StartPos="142" width="1"/>
+      <labl xml-lang="en">92 Customer(10%):individuals</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="jOZkyw4RQXViuaYX" dcml="0" files="cbo_yyyy_o" name="i17_b14">
+      <location EndPos="141" StartPos="141" width="1"/>
+      <labl xml-lang="en">92 Customer(10%):business</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="af3Bo8jdfbpjbgUw" dcml="0" files="cbo_yyyy_o" name="i17_b13">
+      <location EndPos="140" StartPos="140" width="1"/>
+      <labl xml-lang="en">92 Customer(10%):local govt</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="dhFsXmVAu22OFP6m" dcml="0" files="cbo_yyyy_o" name="i17_b12">
+      <location EndPos="139" StartPos="139" width="1"/>
+      <labl xml-lang="en">92 Customer(10%):state govt</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="ISSuFsn1BDVMyDG8" dcml="0" files="cbo_yyyy_o" name="i17_b11">
+      <location EndPos="138" StartPos="138" width="1"/>
+      <labl xml-lang="en">92 Customer(10%):fed govt</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="bVlY8bwAMy4at6gN" dcml="0" files="cbo_yyyy_o" name="i17_a2">
+      <location EndPos="137" StartPos="137" width="1"/>
+      <labl xml-lang="en">94 Total Sales</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="rtcAE7AxNumYbq0G" dcml="0" files="cbo_yyyy_o" name="i14e_s">
+      <location EndPos="124" StartPos="124" width="1"/>
+      <labl xml-lang="en">Low Cash Measures:writein</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="pIQz8rhbqXYOY3L5" dcml="0" files="cbo_yyyy_o" name="i14e6">
+      <location EndPos="123" StartPos="123" width="1"/>
+      <labl xml-lang="en">Low Cash Measures:other</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="vmn39G2AJbZa21WX" dcml="0" files="cbo_yyyy_o" name="i14e5">
+      <location EndPos="122" StartPos="122" width="1"/>
+      <labl xml-lang="en">Low Cash Measures:family help</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="QuMVy5nUWDvv2hae" dcml="0" files="cbo_yyyy_o" name="i14e4">
+      <location EndPos="121" StartPos="121" width="1"/>
+      <labl xml-lang="en">Low Cash Measures:delay supplier payment</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="b5usvieoVq4k3XjD" dcml="0" files="cbo_yyyy_o" name="i14e3">
+      <location EndPos="120" StartPos="120" width="1"/>
+      <labl xml-lang="en">Low Cash Measures:Invest more capital</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="WowzvFzMEMEmBWC6" dcml="0" files="cbo_yyyy_o" name="i14e2">
+      <location EndPos="119" StartPos="119" width="1"/>
+      <labl xml-lang="en">Low Cash Measures:rely oth business</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="wjOzWZDH8bSGEUig" dcml="0" files="cbo_yyyy_o" name="i14e1">
+      <location EndPos="118" StartPos="118" width="1"/>
+      <labl xml-lang="en">Low Cash Measures:no occurrence</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="S12bhwxxPESI2L1p" dcml="0" files="cbo_yyyy_o" name="i14d_s">
+      <location EndPos="117" StartPos="117" width="1"/>
+      <labl xml-lang="en">Source NonBorrowed:writein</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="jzzirbMTekVY3QdD" dcml="0" files="cbo_yyyy_o" name="i14d5">
+      <location EndPos="116" StartPos="116" width="1"/>
+      <labl xml-lang="en">Source NonBorrowed:other</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="x70lq0CUwNz298zV" dcml="0" files="cbo_yyyy_o" name="i14d4">
+      <location EndPos="115" StartPos="115" width="1"/>
+      <labl xml-lang="en">Source NonBorrowed:personal/family savin</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="SYLlD0mCzgdJ53Yk" dcml="0" files="cbo_yyyy_o" name="i14d3">
+      <location EndPos="114" StartPos="114" width="1"/>
+      <labl xml-lang="en">Source NonBorrowed:sale personal assets</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="NbNNnd4P9RYn30Xk" dcml="0" files="cbo_yyyy_o" name="i14d2">
+      <location EndPos="113" StartPos="113" width="1"/>
+      <labl xml-lang="en">Source NonBorrowed:personal/family</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="r519aFJrivIUYqgM" dcml="0" files="cbo_yyyy_o" name="i14d1">
+      <location EndPos="112" StartPos="112" width="1"/>
+      <labl xml-lang="en">Source NonBorrowed:None</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="ySg99yYyV1DeLC4h" dcml="0" files="cbo_yyyy_o" name="i14c12">
+      <location EndPos="111" StartPos="111" width="1"/>
+      <labl xml-lang="en">Source Borrowed Capital:other personal</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="rNb6TOdBIvK3WqJk" dcml="0" files="cbo_yyyy_o" name="i14c11">
+      <location EndPos="110" StartPos="110" width="1"/>
+      <labl xml-lang="en">Source Borrowed Capital:family</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="yLKszbqvVTw5tQ9l" dcml="0" files="cbo_yyyy_o" name="i14c10">
+      <location EndPos="109" StartPos="109" width="1"/>
+      <labl xml-lang="en">Source Borrowed Capital:spouse</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="qfjpZbQX55YLeAo6" dcml="0" files="cbo_yyyy_o" name="i14c9">
+      <location EndPos="108" StartPos="108" width="1"/>
+      <labl xml-lang="en">Source Borrowed Capital:own credit card</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="OxMnWRRbXk2TDhbX" dcml="0" files="cbo_yyyy_o" name="i14c8">
+      <location EndPos="107" StartPos="107" width="1"/>
+      <labl xml-lang="en">Source Borrowed Capital:home mortgage</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="tYNAY1GhHfpQMGk4" dcml="0" files="cbo_yyyy_o" name="i14c7">
+      <location EndPos="106" StartPos="106" width="1"/>
+      <labl xml-lang="en">Source Borrowed Capital:oth. business</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="s795L750YpJ0Obc4" dcml="0" files="cbo_yyyy_o" name="i14c6">
+      <location EndPos="105" StartPos="105" width="1"/>
+      <labl xml-lang="en">Source Borrowed Capital:Supplier Credit</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="Qnz8mYjOZ1IO11bY" dcml="0" files="cbo_yyyy_o" name="i14c5">
+      <location EndPos="104" StartPos="104" width="1"/>
+      <labl xml-lang="en">Source Borrowed Capital:Previous Owner</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="eMHLi50Ky4ddWG8n" dcml="0" files="cbo_yyyy_o" name="i14c4">
+      <location EndPos="103" StartPos="103" width="1"/>
+      <labl xml-lang="en">Source Borrowed Capital:Investment Co</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="Ck8RM0xQ7uouuSIB" dcml="0" files="cbo_yyyy_o" name="i14c3">
+      <location EndPos="102" StartPos="102" width="1"/>
+      <labl xml-lang="en">Source Borrowed Capital:Any Government</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="mjGLD5MXAeDhobYy" dcml="0" files="cbo_yyyy_o" name="i14c2">
+      <location EndPos="101" StartPos="101" width="1"/>
+      <labl xml-lang="en">Source Borrowed Capital:Gvt Bank</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="u6n8rHlGWzg1FL2N" dcml="0" files="cbo_yyyy_o" name="i14c1">
+      <location EndPos="100" StartPos="100" width="1"/>
+      <labl xml-lang="en">Source Borrowed Capital:Bank</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="iZBmv3KHqCnWzoiK" dcml="0" files="cbo_yyyy_o" name="i14b">
+      <location EndPos="99" StartPos="99" width="1"/>
+      <labl xml-lang="en">% Capital Borrowed</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="pkDf2GlY901cr06E" dcml="0" files="cbo_yyyy_o" name="i14a">
+      <location EndPos="98" StartPos="98" width="1"/>
+      <labl xml-lang="en">Capital at Startup</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="y31dsZMnrKrj5O88" dcml="0" files="cbo_yyyy_o" name="i12">
+      <location EndPos="92" StartPos="92" width="1"/>
+      <labl xml-lang="en">Year Business Established</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="uJqGFRPHA7xzsZEW" dcml="0" files="cbo_yyyy_o" name="i2d_s">
+      <location EndPos="61" StartPos="61" width="1"/>
+      <labl xml-lang="en">Business Close:writein</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="KnMrqbjYshI7g5N1" dcml="0" files="cbo_yyyy_o" name="i2d4">
+      <location EndPos="60" StartPos="60" width="1"/>
+      <labl xml-lang="en">business close:other</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="sI6RsN5E2ODmTFvW" dcml="0" files="cbo_yyyy_o" name="i2d3">
+      <location EndPos="59" StartPos="59" width="1"/>
+      <labl xml-lang="en">business close:personal loans/credit</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="RzLvVvmeHYe3FWyv" dcml="0" files="cbo_yyyy_o" name="i2d2">
+      <location EndPos="58" StartPos="58" width="1"/>
+      <labl xml-lang="en">business close:business loans/credit</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="WIIj0wjq6Seb9Neb" dcml="0" files="cbo_yyyy_o" name="i2d1">
+      <location EndPos="57" StartPos="57" width="1"/>
+      <labl xml-lang="en">business close:cash flow</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="aGOVAcw35jbYqxzl" dcml="0" files="cbo_yyyy_o" name="i2c">
+      <location EndPos="56" StartPos="56" width="1"/>
+      <labl xml-lang="en">Status at Business Closure</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="O6ZsO4Y5jZk3XShB" dcml="0" files="cbo_yyyy_o" name="i2b">
+      <location EndPos="55" StartPos="55" width="1"/>
+      <labl xml-lang="en">Yr 92 Business Discontinued</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="zMpsH6PtQzaYCjGZ" dcml="0" files="cbo_yyyy_o" name="i2a">
+      <location EndPos="54" StartPos="54" width="1"/>
+      <labl xml-lang="en">92 Business Still Operating</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="rJAXRG2NhbcUeWxk" dcml="0" files="cbo_yyyy_o" name="acemp92">
+      <location EndPos="50" StartPos="50" width="1"/>
+      <labl xml-lang="en">92 employment</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var>
+    <var ID="pIBuc1ogSmEtHZBh" dcml="0" files="cbo_yyyy_o" name="acsr192">
+      <location EndPos="49" StartPos="49" width="1"/>
+      <labl xml-lang="en">92 sales</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var>
+    <var ID="bjUfMvgYpAwTW3Ze" dcml="0" files="cbo_yyyy_o" name="acemp94">
+      <location EndPos="48" StartPos="48" width="1"/>
+      <labl/>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var>
+    <var ID="bHsgAbyONyqMftcE" dcml="0" files="cbo_yyyy_o" name="acsr194">
+      <location EndPos="47" StartPos="47" width="1"/>
+      <labl/>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var>
+    <var ID="DztuKAu1bPD1OHYa" dcml="0" files="cbo_yyyy_o" name="fdup">
+      <location EndPos="46" StartPos="46" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="W3sy2LWG1b7Kcu91" dcml="0" files="cbo_yyyy_o" name="fedit">
+      <location EndPos="45" StartPos="45" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="gf0O0UNqSX7185cf" dcml="0" files="cbo_yyyy_o" name="resp">
+      <location EndPos="44" StartPos="44" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="qvaWWEFRaH1ZxsDB" dcml="0" files="cbo_yyyy_o" name="cfn">
+      <location EndPos="43" StartPos="43" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var>
+    <var ID="U4xYbUbjj0pWHCqD" dcml="0" files="cbo_yyyy_o" name="indiv10">
+      <location EndPos="42" StartPos="42" width="1"/>
+      <labl xml-lang="en">modified economic sector</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="FnhLDtMDofEJKxPl" dcml="0" files="cbo_yyyy_o" name="cbowgt2">
+      <location EndPos="41" StartPos="41" width="1"/>
+      <labl/>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var>
+    <var ID="QMaPEahlgvji7FHS" dcml="0" files="cbo_yyyy_o" name="rangrp">
+      <location EndPos="40" StartPos="40" width="1"/>
+      <labl xml-lang="en">random group</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var>
+    <var ID="TI4OYuDZ8yNYFaLC" dcml="0" files="cbo_yyyy_o" name="frmtype">
+      <location EndPos="39" StartPos="39" width="1"/>
+      <labl xml-lang="en">92 cvbo form type (1 2 3)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var>
+    <var ID="JrYYF4RJc36MSD7a" dcml="0" files="cbo_yyyy_o" name="frmfield">
+      <location EndPos="38" StartPos="38" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="uLTAIo8uoDItCjId" dcml="0" files="cbo_yyyy_o" name="cborecsz">
+      <location EndPos="37" StartPos="37" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="uTWsgMNaS6j2yeUj" dcml="0" files="cbo_yyyy_o" name="lforcpts">
+      <location EndPos="36" StartPos="36" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="MRJ0nfi7U96beIDN" dcml="0" files="cbo_yyyy_o" name="apsr1">
+      <location EndPos="35" StartPos="35" width="1"/>
+      <labl/>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var>
+    <var ID="CwNhdDsfgKZ1TpDX" dcml="0" files="cbo_yyyy_o" name="apemp">
+      <location EndPos="34" StartPos="34" width="1"/>
+      <labl/>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var>
+    <var ID="EGMIJ9e9Z1yrvtqH" dcml="0" files="cbo_yyyy_o" name="recsz">
+      <location EndPos="33" StartPos="33" width="1"/>
+      <labl xml-lang="en">receipts size class</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="GJtTMGUPqx9nrYFq" dcml="0" files="cbo_yyyy_o" name="wgt">
+      <location EndPos="32" StartPos="32" width="1"/>
+      <labl/>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var>
+    <var ID="JEHwV9ByytIfaWm6" dcml="0" files="cbo_yyyy_o" name="samcbo">
+      <location EndPos="31" StartPos="31" width="1"/>
+      <labl/>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var>
+    <var ID="TLxHZmM3IEgTgRDC" dcml="0" files="cbo_yyyy_o" name="samflag">
+      <location EndPos="30" StartPos="30" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="wExBrC9ZPYJcH885" dcml="0" files="cbo_yyyy_o" name="secode">
+      <location EndPos="29" StartPos="29" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="XeDZzb4S3lItCm4p" dcml="0" files="cbo_yyyy_o" name="nmshldrs">
+      <location EndPos="28" StartPos="28" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="RAZxVXrpx9j8YlB0" dcml="0" files="cbo_yyyy_o" name="nmgnptrs">
+      <location EndPos="27" StartPos="27" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="KxQGeYdTFEHyTCMB" dcml="0" files="cbo_yyyy_o" name="numptrs">
+      <location EndPos="26" StartPos="26" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="ubd3VU7tF9q9cooe" dcml="0" files="cbo_yyyy_o" name="ltdpart">
+      <location EndPos="25" StartPos="25" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="uS1yYs3v8tBuPP57" dcml="0" files="cbo_yyyy_o" name="frecsz">
+      <location EndPos="24" StartPos="24" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="hDrtMDhvYBDoUOxl" dcml="0" files="cbo_yyyy_o" name="cbosex">
+      <location EndPos="23" StartPos="23" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="opyi9yh0opF589CH" dcml="0" files="cbo_yyyy_o" name="api">
+      <location EndPos="22" StartPos="22" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="mZrnObdh4T4IW19X" dcml="0" files="cbo_yyyy_o" name="na">
+      <location EndPos="21" StartPos="21" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="xwEbnnfVl2QVJBGx" dcml="0" files="cbo_yyyy_o" name="hisp">
+      <location EndPos="20" StartPos="20" width="1"/>
+      <labl xml-lang="en">hispanic</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="ufTZ3v3mdRAH7qWn" dcml="0" files="cbo_yyyy_o" name="black">
+      <location EndPos="19" StartPos="19" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="gO5U6YaAtKcPe5xC" dcml="0" files="cbo_yyyy_o" name="smowgt10">
+      <location EndPos="18" StartPos="18" width="1"/>
+      <labl/>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var>
+    <var ID="qe8jnS0QuPfhkkaN" dcml="0" files="cbo_yyyy_o" name="emplyr">
+      <location EndPos="17" StartPos="17" width="1"/>
+      <labl xml-lang="en">employer(1)-nonemployer(2)?</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="tVtfVETi7KGCP99n" dcml="0" files="cbo_yyyy_o" name="hasource">
+      <location EndPos="16" StartPos="16" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="lE8Uv6JfiREFaQO0" dcml="0" files="cbo_yyyy_o" name="empsz">
+      <location EndPos="15" StartPos="15" width="1"/>
+      <labl xml-lang="en">92 employment size class</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="sn1BwYjamknYtZSv" dcml="0" files="cbo_yyyy_o" name="acsr192a">
+      <location EndPos="14" StartPos="14" width="1"/>
+      <labl xml-lang="en">92 sales ?</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var>
+    <var ID="d9QTcOU0nzOlgNMF" dcml="0" files="cbo_yyyy_o" name="acap92">
+      <location EndPos="13" StartPos="13" width="1"/>
+      <labl xml-lang="en">92 wages ?</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var>
+    <var ID="lcN11X6rUKEvY0xa" dcml="0" files="cbo_yyyy_o" name="acemp92a">
+      <location EndPos="12" StartPos="12" width="1"/>
+      <labl xml-lang="en">92 employment ?</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var>
+    <var ID="sD2OuxFu2ZFv1vgi" dcml="0" files="cbo_yyyy_o" name="csa">
+      <location EndPos="11" StartPos="11" width="1"/>
+      <labl xml-lang="en">consolidated statistical area</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="I0Ms6NbnSL52wAdD" dcml="0" files="cbo_yyyy_o" name="msa">
+      <location EndPos="10" StartPos="10" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="KZfPsdLsEKfAGSK2" dcml="0" files="cbo_yyyy_o" name="plgeo">
+      <location EndPos="9" StartPos="9" width="1"/>
+      <labl xml-lang="en">incorporated place (census)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="bzkax9fiZ9siaBMR" dcml="0" files="cbo_yyyy_o" name="ctygeo">
+      <location EndPos="8" StartPos="8" width="1"/>
+      <labl xml-lang="en">county (fips)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="mNlqD2Xx6lhkJALL" dcml="0" files="cbo_yyyy_o" name="utype">
+      <location EndPos="7" StartPos="7" width="1"/>
+      <labl xml-lang="en">source lfo</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="ekatgADvTRB16lMJ" dcml="0" files="cbo_yyyy_o" name="sic">
+      <location EndPos="6" StartPos="6" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="L9YcWdBQbtnOEzW9" dcml="0" files="cbo_yyyy_o" name="busno">
+      <location EndPos="5" StartPos="5" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="sc0Op4qXFq6u4j90" dcml="0" files="cbo_yyyy_o" name="eissn">
+      <location EndPos="4" StartPos="4" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var>
+    <var ID="dOlS5h94ysN2260o" dcml="0" files="cbo_yyyy_o" name="cboid">
+      <location EndPos="3" StartPos="3" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var>
+    <var ID="fSXPqjdGbvyW7kXu" dcml="0" files="cbo_yyyy_o" name="stgeo">
+      <location EndPos="2" StartPos="2" width="1"/>
+      <labl xml-lang="en">state (fips)</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+    <var ID="y4qak7sbk062ePpM" dcml="0" files="cbo_yyyy_o" name="cbo_fram">
+      <location EndPos="1" StartPos="1" width="1"/>
+      <labl/>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var>
+  </dataDscr>
+</codeBook>

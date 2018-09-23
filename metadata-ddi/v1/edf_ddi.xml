@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><codeBook xmlns="ddi:codebook:2_5" xmlns:dc="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:ns0="http://purl.org/dc/elements/1.1/" xmlns:saxon="http://xml.apache.org/xslt" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ncrn.cornell.edu/docs/ddi/2.5.NCRN/schemas/codebook.xsd">
+  <docDscr>
+    <docSrc>
+      <titlStmt>
+        <titl>Census Bureau constructed data</titl>
+        <altTitl>Entity Demography File (EDF) � 2011</altTitl>
+      </titlStmt>
+    </docSrc>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>Census Bureau constructed data</titl>
+        <IDNo/>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Bureau of the Census</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer>Bureau of the Census</producer>
+      </prodStmt>
+      <distStmt>
+        <distrbtr>United States Department of Commerce. Bureau of the Census. Research Data Center</distrbtr>
+      </distStmt>
+    </citation>
+    <stdyInfo>
+      <abstract>The Entity Demography File (EDF) is an internal derivative of the Successor-Predecessor File (SPF). It is only used by internal projects.</abstract>
+      <sumDscr>
+        <nation abbr="U.S.">United States of America</nation>
+        <anlyUnit>Quarterly</anlyUnit>
+        <anlyUnit>Three (3) Months</anlyUnit>
+        <anlyUnit>Combination of Establishments, Companies and/or Enterprises</anlyUnit>
+        <universe>Multiple</universe>
+        <universe>Combination (industries)</universe>
+        <universe>All except for agricultural workers</universe>
+      </sumDscr>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <dataCollector>$organization_name</dataCollector>
+        <sampProc>y</sampProc>
+      </dataColl>
+    </method>
+    <dataAccs>
+      <useStmt>
+        <confDec>To obtain this dataset, the user must complete the RDC application process, and be approved for use of this dataset.</confDec>
+        <restrctn>MOU between Census Bureau and individual state agencies.  Protected under Title 13</restrctn>
+        <restrctn>n</restrctn>
+        <conditions>Users must (I) successfully apply for RDC access (ii) pass review by agencies (iii) pass security clearance</conditions>
+        <disclaimer>Only available to internal researchers. LEHD approval required.</disclaimer>
+      </useStmt>
+    </dataAccs>
+    <othrStdyMat>
+      <relMat>The Entity Demography File (EDF) is an internal derivative of the Successor-Predecessor File (SPF). It is only used by internal projects.</relMat>
+      <relPubl/>
+    </othrStdyMat>
+  </stdyDscr>
+  <fileDscr>
+    <fileTxt>
+      <dimensns>
+        <recNumTot>280 million records in 2 files per state. Record counts vary by state. Not available for MN.</recNumTot>
+      </dimensns>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr><var ID="_e0e5be70-f840-44c5-87a6-2af881b5ee56" dcml="0" files="_2bd794d5-8f51-4d84-8a9f-c2496fed3783" name="feasible_start_quarter">
+      <location EndPos="66" StartPos="55" width="12"/>
+      <labl xml-lang="en">Feasible Start Quarter</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_85762450-d2d1-4b1f-8a7f-2ce525ba68af" dcml="0" files="_2bd794d5-8f51-4d84-8a9f-c2496fed3783" name="feasible_start_year">
+      <location EndPos="54" StartPos="43" width="12"/>
+      <labl xml-lang="en">Feasible Start Year</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_1a882d1c-27f4-4542-ab42-90c59c8b966b" dcml="0" files="_2bd794d5-8f51-4d84-8a9f-c2496fed3783" name="quarter">
+      <location EndPos="42" StartPos="31" width="12"/>
+      <labl xml-lang="en">Quarter (Q)</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d05626e1-9544-4cff-9e41-302b69e11a5e" dcml="0" files="_2bd794d5-8f51-4d84-8a9f-c2496fed3783" name="year">
+      <location EndPos="30" StartPos="19" width="12"/>
+      <labl xml-lang="en">Year (YYYY)</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_b2d48175-6d03-46ef-974f-eb4e3186a677" dcml="0" files="_fd26acbb-5fc1-4b01-aec4-c3d614229744" name="ever_has_succ">
+      <location EndPos="192" StartPos="181" width="12"/>
+      <labl xml-lang="en">Entity ever has successor</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d2ee2184-f9bd-4e7c-bb53-b5f9f8294f2c" dcml="0" files="_fd26acbb-5fc1-4b01-aec4-c3d614229744" name="ever_has_pred">
+      <location EndPos="180" StartPos="169" width="12"/>
+      <labl xml-lang="en">Entity ever has predecessor</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d3a9360d-79dc-49e6-8e62-2f78db9cc211" dcml="0" files="_fd26acbb-5fc1-4b01-aec4-c3d614229744" name="record_count_seinunit">
+      <location EndPos="168" StartPos="157" width="12"/>
+      <labl xml-lang="en">Number of event records for SEINUNIT</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_89f36ca4-ba36-4f46-a485-5e9063ee3e44" dcml="0" files="_fd26acbb-5fc1-4b01-aec4-c3d614229744" name="record_count_sein">
+      <location EndPos="156" StartPos="145" width="12"/>
+      <labl xml-lang="en">Number of event records for SEIN</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_2d7b888e-1253-42f8-aa99-e03fe436feec" dcml="0" files="_fd26acbb-5fc1-4b01-aec4-c3d614229744" name="record_event2">
+      <location EndPos="144" StartPos="133" width="12"/>
+      <labl xml-lang="en">Sequence number in event for linking entity</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ea924ee9-a8b1-4c5f-a423-a32dbe9c96b1" dcml="0" files="_fd26acbb-5fc1-4b01-aec4-c3d614229744" name="record_count_event2">
+      <location EndPos="132" StartPos="121" width="12"/>
+      <labl xml-lang="en">Number of event records for linking entity for event</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ca69abbb-53ca-45ae-860d-5def1041a1bd" dcml="0" files="_fd26acbb-5fc1-4b01-aec4-c3d614229744" name="state">
+      <location EndPos="120" StartPos="119" width="2"/>
+      <labl xml-lang="en">STATE</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_408ddbd3-98b9-4958-aed7-3ee13b3260eb" dcml="0" files="_fd26acbb-5fc1-4b01-aec4-c3d614229744" name="record_seinunit">
+      <location EndPos="118" StartPos="107" width="12"/>
+      <labl xml-lang="en">Sequence number in SEINUNIT</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_463ddd19-8afa-41a2-8e32-1889269fb365" dcml="0" files="_fd26acbb-5fc1-4b01-aec4-c3d614229744" name="record_sein">
+      <location EndPos="106" StartPos="95" width="12"/>
+      <labl xml-lang="en">Sequence number in SEIN</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_298760be-1efd-4005-a4db-38486860d4de" dcml="0" files="_fd26acbb-5fc1-4b01-aec4-c3d614229744" name="record_event">
+      <location EndPos="94" StartPos="83" width="12"/>
+      <labl xml-lang="en">Sequence number in event</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_74894d81-b4b1-49ac-9698-79ed75f6e909" dcml="0" files="_fd26acbb-5fc1-4b01-aec4-c3d614229744" name="record_count_event">
+      <location EndPos="82" StartPos="71" width="12"/>
+      <labl xml-lang="en">Number of event records for event</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_31e5a268-edd1-4850-9b82-499929d27fc4" dcml="0" files="_fd26acbb-5fc1-4b01-aec4-c3d614229744" name="record_type">
+      <location EndPos="70" StartPos="59" width="12"/>
+      <labl xml-lang="en">Type of event</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_8a170e7c-73bb-4ea6-9bdc-9e55382ed7f7" dcml="0" files="_fd26acbb-5fc1-4b01-aec4-c3d614229744" name="activity_event_type">
+      <location EndPos="58" StartPos="57" width="2"/>
+      <labl xml-lang="en">Entity activity events</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_2bdbd8ce-2615-488c-83a1-0c801e86fbec" dcml="0" files="_fd26acbb-5fc1-4b01-aec4-c3d614229744" name="id_event_type">
+      <location EndPos="56" StartPos="55" width="2"/>
+      <labl xml-lang="en">Identifier change events</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_0dccf70e-8dcc-478f-8211-a200bdb6d56c" dcml="0" files="_fd26acbb-5fc1-4b01-aec4-c3d614229744" name="succpred_event_type">
+      <location EndPos="54" StartPos="53" width="2"/>
+      <labl xml-lang="en">Entity succ/pred events</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_0b9349d0-207d-4254-8f6a-c9bf256d1131" dcml="0" files="_fd26acbb-5fc1-4b01-aec4-c3d614229744" name="entity_level">
+      <location EndPos="52" StartPos="41" width="12"/>
+      <labl xml-lang="en">Level of entity for this event</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_cfe55194-9a5a-4385-b583-45ad6576105e" dcml="0" files="_fd26acbb-5fc1-4b01-aec4-c3d614229744" name="event_type">
+      <location EndPos="40" StartPos="37" width="4"/>
+      <labl xml-lang="en">Combined demographic-identifier events</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_a4746496-5b44-4996-a01b-4ad5a2dd6691" dcml="0" files="_fd26acbb-5fc1-4b01-aec4-c3d614229744" name="seinunit2">
+      <location EndPos="36" StartPos="31" width="6"/>
+      <labl xml-lang="en">Linking SEINUNIT</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_cf2ae278-50b8-4a74-a950-cc85fae0e42a" dcml="0" files="_fd26acbb-5fc1-4b01-aec4-c3d614229744" name="sein2">
+      <location EndPos="30" StartPos="19" width="12"/>
+      <labl xml-lang="en">Linking SEIN</labl>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var><var ID="_9247be9e-5819-4413-8525-733addce406e" dcml="0" files="_fd26acbb-5fc1-4b01-aec4-c3d614229744" name="event_end_date">
+      <location EndPos="18" StartPos="19" width="0"/>
+      <labl xml-lang="en">Best end date for succ/pred event</labl>
+      <varFormat category="date" formatname="Long" schema="other" type="character">%d</varFormat>
+    </var><var ID="_ce58e5ce-4ea1-41e0-9c19-7b0f5d6e67a4" dcml="0" files="_fd26acbb-5fc1-4b01-aec4-c3d614229744" name="event_start_date">
+      <location EndPos="18" StartPos="19" width="0"/>
+      <labl xml-lang="en">Best start date for succ/pred event</labl>
+      <varFormat category="date" formatname="Long" schema="other" type="character">%d</varFormat>
+    </var><var ID="_c21c90a7-7f3c-4a14-b3ed-faec20900d6a" dcml="0" files="_fd26acbb-5fc1-4b01-aec4-c3d614229744" name="date">
+      <location EndPos="18" StartPos="19" width="0"/>
+      <labl xml-lang="en">Event date</labl>
+      <varFormat category="date" formatname="Long" schema="other" type="character">%d</varFormat>
+    </var><var ID="_3f00a59a-4aa0-46d9-9c75-7995f2612f82" dcml="0" files="_2bd794d5-8f51-4d84-8a9f-c2496fed3783" name="seinunit">
+      <location EndPos="18" StartPos="13" width="6"/>
+      <labl xml-lang="en">UI-based establishment</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_ae198d23-6f5c-487b-906f-634bd8c638b7" dcml="0" files="_2bd794d5-8f51-4d84-8a9f-c2496fed3783" name="sein">
+      <location EndPos="12" StartPos="1" width="12"/>
+      <labl xml-lang="en">State Employer Identification Number</labl>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var></dataDscr>
+</codeBook>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><codeBook xmlns="ddi:codebook:2_5" xmlns:dc="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:ns0="http://purl.org/dc/elements/1.1/" xmlns:saxon="http://xml.apache.org/xslt" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ncrn.cornell.edu/docs/ddi/2.5.NCRN/schemas/codebook.xsd">
+  <docDscr>
+    <docSrc>
+      <titlStmt>
+        <titl>Federal Government Agency</titl>
+        <altTitl>Public-use QCEW</altTitl>
+      </titlStmt>
+    </docSrc>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>Federal Government Agency</titl>
+        <IDNo/>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Burea of Labor Statistics</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer>Bureau of Labor Statistics</producer>
+      </prodStmt>
+      <distStmt>
+        <distrbtr>United States Department of Commerce. Bureau of the Census. Research Data Center</distrbtr>
+      </distStmt>
+    </citation>
+    <stdyInfo>
+      <abstract>The Quarterly Census of Employment and Wages (QCEW) program publishes a quarterly count of employment and wages reported by employers covering 98 percent of U.S. jobs, available at the county, MSA, state and national levels by industry. The files in this group have been extracted from the BLS website, and formatted to support LEHD processing of QWI and the Snapshot. </abstract>
+      <sumDscr>
+        <nation abbr="U.S.">United States of America</nation>
+        <anlyUnit>Quarterly</anlyUnit>
+        <anlyUnit>Three (3) Months</anlyUnit>
+        <anlyUnit>Establishment (aggregated)</anlyUnit>
+        <universe>Business</universe>
+        <universe>Combination (industries)</universe>
+        <universe>All except for agricultural workers</universe>
+      </sumDscr>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <dataCollector/>
+        <sampProc>n</sampProc>
+      </dataColl>
+    </method>
+    <dataAccs>
+      <useStmt>
+        <confDec>To obtain this dataset, the user must complete the RDC application process, and be approved for use of this dataset.</confDec>
+        <restrctn>Public use data, sourced from http://www.bls.gov/cew/datatoc.htm</restrctn>
+        <restrctn>n</restrctn>
+        <conditions>Users must (I) successfully apply for RDC access (ii) pass review by agencies (iii) pass security clearance</conditions>
+        <disclaimer>Although the files are public-use data, they are formatted to specific LEHD standards, and may be of limited use for researchers. They are not documented as part of the Snapshot.</disclaimer>
+      </useStmt>
+    </dataAccs>
+    <othrStdyMat>
+      <relMat>The Quarterly Census of Employment and Wages (QCEW) program publishes a quarterly count of employment and wages reported by employers covering 98 percent of U.S. jobs, available at the county, MSA, state and national levels by industry. The files in this group have been extracted from the BLS website, and formatted to support LEHD processing of QWI and the Snapshot. </relMat>
+      <relPubl>http://www.bls.gov/cew/dataguide.htm</relPubl>
+    </othrStdyMat>
+  </stdyDscr>
+  <fileDscr>
+    <fileTxt>
+      <dimensns>
+        <recNumTot>Various</recNumTot>
+      </dimensns>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr><var ID="_e87a62ff-69ed-42fe-91df-74d42b9243a6" dcml="0" files="_58123709-1a1d-40f5-8f78-ec13857faa03" name="yr_qtr">
+      <location EndPos="72" StartPos="67" width="6"/>
+      <labl xml-lang="en">Year : Quarter (YYYY:Q)</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_f7493839-4dfd-4235-b606-ea38d796b26e" dcml="0" files="_58123709-1a1d-40f5-8f78-ec13857faa03" name="state_name">
+      <location EndPos="66" StartPos="65" width="2"/>
+      <labl xml-lang="en">State FIPS alpha /Postal abbrev</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_d272f585-7dc5-4e2e-b708-0415bbb3d4ba" dcml="0" files="_58123709-1a1d-40f5-8f78-ec13857faa03" name="bls_emp_month3">
+      <location EndPos="64" StartPos="53" width="12"/>
+      <labl xml-lang="en">Employment, Month 3</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_96ab464e-0f46-4972-89db-7ec0570a3cf5" dcml="0" files="_58123709-1a1d-40f5-8f78-ec13857faa03" name="bls_emp_month1">
+      <location EndPos="52" StartPos="41" width="12"/>
+      <labl xml-lang="en">Employment, Month 1</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d6691445-a14a-4dd9-b977-3e1684b0228b" dcml="0" files="_58123709-1a1d-40f5-8f78-ec13857faa03" name="bls_total_wage">
+      <location EndPos="40" StartPos="29" width="12"/>
+      <labl xml-lang="en">Total Quarterly Wages</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_decbf61b-8ce9-42cc-a184-4fc0f446512e" dcml="0" files="_58123709-1a1d-40f5-8f78-ec13857faa03" name="leg_state">
+      <location EndPos="26" StartPos="25" width="2"/>
+      <labl xml-lang="en">State FIPS numeric code</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_2d5b1317-7900-4ed4-9b5d-fb3a37e2713d" dcml="0" files="_011d94f6-418f-4d8e-bd2f-5392f1476431" name="emp_month3">
+      <location EndPos="88" StartPos="77" width="12"/>
+      <labl xml-lang="en">Employment, Month 3</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e5ee0254-dde9-4b97-b3c9-57f8318de766" dcml="0" files="_011d94f6-418f-4d8e-bd2f-5392f1476431" name="emp_month1">
+      <location EndPos="76" StartPos="65" width="12"/>
+      <labl xml-lang="en">Employment, Month 1</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_b7baf68a-f763-4a1b-b093-aaac530cf15e" dcml="0" files="_011d94f6-418f-4d8e-bd2f-5392f1476431" name="naics_sector">
+      <location EndPos="64" StartPos="63" width="2"/>
+      <labl xml-lang="en">NAICS Sector</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_782d346a-477e-40f6-96bd-01004eff2b68" dcml="0" files="_011d94f6-418f-4d8e-bd2f-5392f1476431" name="naics4">
+      <location EndPos="62" StartPos="59" width="4"/>
+      <labl xml-lang="en">Industry Group</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_a8cc1dea-7b43-417c-bdc1-20a824930e51" dcml="0" files="_011d94f6-418f-4d8e-bd2f-5392f1476431" name="naics3">
+      <location EndPos="58" StartPos="55" width="4"/>
+      <labl xml-lang="en">Industry Sub-Sector</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_1d390aaf-10e0-444d-a209-9563948b203e" dcml="0" files="_011d94f6-418f-4d8e-bd2f-5392f1476431" name="all_naics">
+      <location EndPos="54" StartPos="49" width="6"/>
+      <labl xml-lang="en">NAICS Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_82530160-75a2-4ffa-b66c-09ac0ff75138" dcml="0" files="_011d94f6-418f-4d8e-bd2f-5392f1476431" name="sic_division">
+      <location EndPos="48" StartPos="47" width="2"/>
+      <labl xml-lang="en">SIC Major division  Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_2b7d4dfd-4e19-4fba-8afd-737c8aec0b9c" dcml="0" files="_011d94f6-418f-4d8e-bd2f-5392f1476431" name="total_wage">
+      <location EndPos="46" StartPos="35" width="12"/>
+      <labl xml-lang="en">Total Quarterly Wages</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ead1f213-b79d-40ef-a820-1c74ea7c2595" dcml="0" files="_011d94f6-418f-4d8e-bd2f-5392f1476431" name="aggregation_level">
+      <location EndPos="34" StartPos="33" width="2"/>
+      <labl xml-lang="en">Level of aggregation</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_74fb49b5-61d6-4f1b-882a-7392e3d9e61b" dcml="0" files="_58123709-1a1d-40f5-8f78-ec13857faa03" name="ownership_code">
+      <location EndPos="28" StartPos="27" width="2"/>
+      <labl xml-lang="en">Ownership Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_96852017-02d3-41d9-a579-619d85b5bc93" dcml="0" files="_011d94f6-418f-4d8e-bd2f-5392f1476431" name="county">
+      <location EndPos="30" StartPos="27" width="4"/>
+      <labl xml-lang="en">County FIPS Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_2d667c1a-80ed-4d58-8c4d-b860a303090e" dcml="0" files="_011d94f6-418f-4d8e-bd2f-5392f1476431" name="state">
+      <location EndPos="26" StartPos="25" width="2"/>
+      <labl xml-lang="en">State FIPS Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_20883182-76b5-4dab-bb42-c01b40454365" dcml="0" files="_58123709-1a1d-40f5-8f78-ec13857faa03" name="quarter">
+      <location EndPos="24" StartPos="13" width="12"/>
+      <labl xml-lang="en">Quarter</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e01fe1fd-f984-4938-9978-06abfb26e317" dcml="0" files="_58123709-1a1d-40f5-8f78-ec13857faa03" name="year">
+      <location EndPos="12" StartPos="1" width="12"/>
+      <labl xml-lang="en">Year</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var></dataDscr>
+</codeBook>

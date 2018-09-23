@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><codeBook xmlns="ddi:codebook:2_5" xmlns:dc="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:ns0="http://purl.org/dc/elements/1.1/" xmlns:saxon="http://xml.apache.org/xslt" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ncrn.cornell.edu/docs/ddi/2.5.NCRN/schemas/codebook.xsd">
+  <docDscr>
+    <docSrc>
+      <titlStmt>
+        <titl>Census Bureau constructed data</titl>
+        <altTitl>Geocoded Address List � 2011 T26</altTitl>
+      </titlStmt>
+    </docSrc>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>Census Bureau constructed data</titl>
+        <IDNo/>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Bureau of the Census</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer>Bureau of the Census</producer>
+      </prodStmt>
+      <distStmt>
+        <distrbtr>United States Department of Commerce. Bureau of the Census. Research Data Center</distrbtr>
+      </distStmt>
+    </citation>
+    <stdyInfo>
+      <abstract>See GAL for main file. This file contains all Business Register-related flags, for all GAL
+records. The variables are not sourced themselves from T26-protected files, but are suppressed because they reveal fact-of-filing.</abstract>
+      <sumDscr>
+        <nation abbr="U.S.">United States of America</nation>
+        <anlyUnit>Irregular</anlyUnit>
+        <anlyUnit>Other</anlyUnit>
+        <anlyUnit>Combination of Establishments, Companies and/or Enterprises</anlyUnit>
+        <universe>Multiple</universe>
+        <universe>Combination (industries)</universe>
+        <universe>All except for agricultural workers</universe>
+      </sumDscr>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <dataCollector/>
+        <sampProc>n</sampProc>
+      </dataColl>
+    </method>
+    <dataAccs>
+      <useStmt>
+        <confDec>To obtain this dataset, the user must complete the RDC application process, and be approved for use of this dataset.</confDec>
+        <restrctn>Title 13, U.S.C., Title 26 U.S.C.</restrctn>
+        <restrctn>y</restrctn>
+        <conditions>Users must (I) successfully apply for RDC access (ii) pass review by agencies (iii) pass security clearance</conditions>
+        <disclaimer>The GAL T26 is of no use to researchers without the main GAL files, and only if they also use BR-derived identifiers.</disclaimer>
+      </useStmt>
+    </dataAccs>
+    <othrStdyMat>
+      <relMat>See GAL for main file. This file contains all Business Register-related flags, for all GAL
+records. The variables are not sourced themselves from T26-protected files, but are suppressed because they reveal fact-of-filing.</relMat>
+      <relPubl/>
+    </othrStdyMat>
+  </stdyDscr>
+  <fileDscr>
+    <fileTxt>
+      <dimensns>
+        <recNumTot>198,816,000 records, 2 files per state</recNumTot>
+      </dimensns>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr><var ID="_e134f1a7-4949-44db-a825-dc098799ba2b" dcml="0" files="_c4e391e2-a5f3-4785-89e9-ea3f33203549" name="e_flag">
+      <location EndPos="74" StartPos="73" width="2"/>
+      <labl xml-lang="en">P=physical,M=mailing</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_bbd7fc7f-ba31-46f5-9343-f5a256147ad5" dcml="0" files="_c4e391e2-a5f3-4785-89e9-ea3f33203549" name="quarter">
+      <location EndPos="72" StartPos="61" width="12"/>
+      <labl xml-lang="en">Quarter (numeric)</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_fed2e0b8-0f6b-4a74-8b86-7021f249235c" dcml="0" files="_c4e391e2-a5f3-4785-89e9-ea3f33203549" name="seinunit">
+      <location EndPos="60" StartPos="55" width="6"/>
+      <labl xml-lang="en">State UI Reporting Unit Number</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_b631f14c-046f-4834-b152-6da6c5823fea" dcml="0" files="_c4e391e2-a5f3-4785-89e9-ea3f33203549" name="sein">
+      <location EndPos="54" StartPos="43" width="12"/>
+      <labl xml-lang="en">State Employer ID Number</labl>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var><var ID="_62b976e4-27d1-4084-84b8-3f1c4e8feae7" dcml="0" files="_c4e391e2-a5f3-4785-89e9-ea3f33203549" name="year">
+      <location EndPos="42" StartPos="31" width="12"/>
+      <labl xml-lang="en">Year YYYY</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_447913fa-4078-4bea-aa83-fc091f93ebba" dcml="0" files="_eed6206f-4f0f-40ab-be94-a4098dd9effd" name="b2001">
+      <location EndPos="86" StartPos="85" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from the Standard Statistical Establishment</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_fc76d3f4-6594-40ce-bdcd-06eec4b36c32" dcml="0" files="_eed6206f-4f0f-40ab-be94-a4098dd9effd" name="b2000">
+      <location EndPos="84" StartPos="83" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from the Standard Statistical Establishment</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_470431f3-7516-46a9-a1f0-ac3d70eb232f" dcml="0" files="_eed6206f-4f0f-40ab-be94-a4098dd9effd" name="b1999">
+      <location EndPos="82" StartPos="81" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from the Standard Statistical Establishment</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_494c5215-418d-433b-91d7-b7f998099a47" dcml="0" files="_eed6206f-4f0f-40ab-be94-a4098dd9effd" name="b1998">
+      <location EndPos="80" StartPos="79" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from the Standard Statistical Establishment</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_7f286f20-43c7-4128-bb7a-aad12fa9f112" dcml="0" files="_eed6206f-4f0f-40ab-be94-a4098dd9effd" name="b1997">
+      <location EndPos="78" StartPos="77" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from the Standard Statistical Establishment</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_6596e0d3-7144-42a5-b8b4-336c0fb067d8" dcml="0" files="_eed6206f-4f0f-40ab-be94-a4098dd9effd" name="b1996">
+      <location EndPos="76" StartPos="75" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from the Standard Statistical Establishment</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_5ae30d48-8e18-40e0-b13f-9471cc7b8c52" dcml="0" files="_eed6206f-4f0f-40ab-be94-a4098dd9effd" name="b1995">
+      <location EndPos="74" StartPos="73" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from the Standard Statistical Establishment</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_cc82b074-b17c-4d08-8afc-03576d80716a" dcml="0" files="_eed6206f-4f0f-40ab-be94-a4098dd9effd" name="b1994">
+      <location EndPos="72" StartPos="71" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from the Standard Statistical Establishment</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_ac2c153f-4f0c-413f-8c6c-fe8551217734" dcml="0" files="_eed6206f-4f0f-40ab-be94-a4098dd9effd" name="b1993">
+      <location EndPos="70" StartPos="69" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from the Standard Statistical Establishment</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_80507a42-9741-44cc-927e-9fa1d192e99a" dcml="0" files="_eed6206f-4f0f-40ab-be94-a4098dd9effd" name="b1992">
+      <location EndPos="68" StartPos="67" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from the Standard Statistical Establishment</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_f4e446b2-8ba3-4c58-9693-feb2e50fba78" dcml="0" files="_eed6206f-4f0f-40ab-be94-a4098dd9effd" name="b1991">
+      <location EndPos="66" StartPos="65" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from the Standard Statistical Establishment</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_2e8c84d9-f4f3-412c-ad70-6dfb08e9bf5a" dcml="0" files="_eed6206f-4f0f-40ab-be94-a4098dd9effd" name="b1990">
+      <location EndPos="64" StartPos="63" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from the Standard Statistical Establishment</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_951963f8-30fe-4389-984a-3778d7b44314" dcml="0" files="_eed6206f-4f0f-40ab-be94-a4098dd9effd" name="bigsrcid">
+      <location EndPos="32" StartPos="7" width="26"/>
+      <labl xml-lang="en">Tracking ID</labl>
+      <varFormat formatname="String" schema="other" type="character">%26s</varFormat>
+    </var><var ID="_d88f9dad-a03d-4428-ab53-55a39131b6a5" dcml="0" files="_eed6206f-4f0f-40ab-be94-a4098dd9effd" name="srcmast">
+      <location EndPos="6" StartPos="1" width="6"/>
+      <labl xml-lang="en">Source file of this address</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_f2dba419-1ed6-4873-b18b-733e85467654" dcml="0" files="_f3021362-4c1a-4dc9-9275-3b898183dcc7" name="a_mcd">
+      <location EndPos="116" StartPos="113" width="4"/>
+      <labl xml-lang="en">Metropolitan Civil Division</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_46fba8d7-77ed-4a18-af9e-1569709659dd" dcml="0" files="_f3021362-4c1a-4dc9-9275-3b898183dcc7" name="a_msapmsa">
+      <location EndPos="86" StartPos="85" width="2"/>
+      <labl xml-lang="en">MSA-PMSA</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_273766c1-14d4-443c-ad07-9a37372fc363" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="flag_es202">
+      <location EndPos="732" StartPos="721" width="12"/>
+      <labl xml-lang="en">Contains only ES202-sourced information</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_a66187fa-0a8f-42be-8657-38a2b9c897f3" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="flag_t26">
+      <location EndPos="720" StartPos="709" width="12"/>
+      <labl xml-lang="en">Contains only T26-sourced information</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d643c27f-0dca-4050-b042-bcecaea8b8be" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="a_ssccc">
+      <location EndPos="708" StartPos="703" width="6"/>
+      <labl xml-lang="en">FIPS state||FIPS county</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_19cca770-e751-4ecc-8699-25e2e1c67e28" dcml="0" files="_f3021362-4c1a-4dc9-9275-3b898183dcc7" name="a_wib">
+      <location EndPos="100" StartPos="95" width="6"/>
+      <labl xml-lang="en">Workforce Investment Board area</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_381d8b14-e637-4334-8771-81d45761d007" dcml="0" files="_f3021362-4c1a-4dc9-9275-3b898183dcc7" name="a_cbsa_memi">
+      <location EndPos="94" StartPos="93" width="2"/>
+      <labl xml-lang="en">CBSA Type 1=Metro, 2=Micro, Else=9</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_a863799e-c3a1-48ae-b08a-0906c0afded5" dcml="0" files="_f3021362-4c1a-4dc9-9275-3b898183dcc7" name="a_place">
+      <location EndPos="120" StartPos="117" width="4"/>
+      <labl xml-lang="en">4-digit Census Place</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_7739d139-d32b-4bd9-b71d-22e85dfb1752" dcml="0" files="_f3021362-4c1a-4dc9-9275-3b898183dcc7" name="a_fipspl">
+      <location EndPos="112" StartPos="107" width="6"/>
+      <labl xml-lang="en">5-digit FIPS Place</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_f5545f07-3f55-4039-992b-bdc332a4a699" dcml="0" files="_f3021362-4c1a-4dc9-9275-3b898183dcc7" name="a_fipsmcd">
+      <location EndPos="106" StartPos="101" width="6"/>
+      <labl xml-lang="en">5-digit FIPS MCD</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_46b24707-17de-46eb-83e3-bc8554ab8331" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="a_cty">
+      <location EndPos="670" StartPos="667" width="4"/>
+      <labl xml-lang="en">FIPS county within state</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_d8467f36-2b2b-4012-871f-a93661624a14" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="a_st">
+      <location EndPos="666" StartPos="665" width="2"/>
+      <labl xml-lang="en">FIPS state</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_e72aec15-4398-4cbd-bcf3-2b9b17f1e254" dcml="0" files="_f3021362-4c1a-4dc9-9275-3b898183dcc7" name="a_cbsa">
+      <location EndPos="92" StartPos="87" width="6"/>
+      <labl xml-lang="en">5-digit Core-Based Statistical Area</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_996cfd7a-9511-4b28-b9c9-4a92cf03605c" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="a_taz">
+      <location EndPos="658" StartPos="651" width="8"/>
+      <labl xml-lang="en">6-character Traffic Analysis Zone (leading blanks)</labl>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var><var ID="_7b18fa43-c2b8-4c76-80fe-8a0011ff0ede" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="a_tract">
+      <location EndPos="650" StartPos="645" width="6"/>
+      <labl xml-lang="en">Census tract within county</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_e3915332-0dd1-427b-8afc-19051190a396" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="a_block_suf_src">
+      <location EndPos="644" StartPos="643" width="2"/>
+      <labl xml-lang="en">Maf; Assigned by distance</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_7de42fca-3123-46fa-b59b-03c224b412d8" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="a_latlong_drv">
+      <location EndPos="642" StartPos="641" width="2"/>
+      <labl xml-lang="en">only addr on blockFace; extraPolation</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_7a6f8475-d192-41f9-a9ae-4f15d2338170" dcml="0" files="_f3021362-4c1a-4dc9-9275-3b898183dcc7" name="a_block_src">
+      <location EndPos="84" StartPos="83" width="2"/>
+      <labl xml-lang="en">A=Arcview</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_708c9b51-05df-4b87-a803-dc1cccc82cbc" dcml="0" files="_f3021362-4c1a-4dc9-9275-3b898183dcc7" name="a_block_suf2">
+      <location EndPos="124" StartPos="123" width="2"/>
+      <labl xml-lang="en">Census block suffix 2</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_21ede05d-8517-4a1d-b439-833ab14b2d9e" dcml="0" files="_f3021362-4c1a-4dc9-9275-3b898183dcc7" name="a_block_suf1">
+      <location EndPos="122" StartPos="121" width="2"/>
+      <labl xml-lang="en">Census block suffix 1</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_d6caef8b-287a-4f81-924b-d81a75d9a8be" dcml="0" files="_f3021362-4c1a-4dc9-9275-3b898183dcc7" name="a_block">
+      <location EndPos="82" StartPos="79" width="4"/>
+      <labl xml-lang="en">Census block within tract</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_4a176968-1d34-4446-be8a-ccdbde267703" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="a_latlong_src">
+      <location EndPos="630" StartPos="629" width="2"/>
+      <labl xml-lang="en">Maf, Code1, Derived, Block (or part) internal point</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_335ddda1-e755-4cff-a27c-03446c1ecb78" dcml="0" files="_f3021362-4c1a-4dc9-9275-3b898183dcc7" name="a_geocode">
+      <location EndPos="78" StartPos="67" width="12"/>
+      <labl xml-lang="en">FIPS state||FIPS county||Census tract</labl>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var><var ID="_14f4db61-6679-41bc-b898-ebde4a5ad896" dcml="0" files="_f3021362-4c1a-4dc9-9275-3b898183dcc7" name="a_geoqual">
+      <location EndPos="66" StartPos="55" width="12"/>
+      <labl xml-lang="en">Quality of lat/long</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_0f9a75c9-ae0f-4778-b309-2a75aed02e2a" dcml="0" files="_f3021362-4c1a-4dc9-9275-3b898183dcc7" name="a_longitude">
+      <location EndPos="54" StartPos="43" width="12"/>
+      <labl xml-lang="en">Longitude, 6 implied decimal places</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_8e644d88-45ac-4d64-bebb-3c5dfa842f0c" dcml="0" files="_f3021362-4c1a-4dc9-9275-3b898183dcc7" name="a_latitude">
+      <location EndPos="42" StartPos="31" width="12"/>
+      <labl xml-lang="en">Latitude, 6 implied decimal places</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_88c48265-0cbf-4c6e-be55-f9b141b8eda1" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="occupant_type">
+      <location EndPos="580" StartPos="579" width="2"/>
+      <labl xml-lang="en">Commercial, Mixed, or Residential</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_fc367c72-e674-42b6-a0ef-b45ef06204d6" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="p2007">
+      <location EndPos="578" StartPos="577" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from ACS Place of Work in 2007</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_c9c9d9ab-2644-42b9-bd25-5a17b71c0aad" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="p2006">
+      <location EndPos="576" StartPos="575" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from ACS Place of Work in 2006</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_90a0d0f0-11e6-47fe-8f9f-b8b20541904a" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="p2005">
+      <location EndPos="574" StartPos="573" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from ACS Place of Work in 2005</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_e675a57e-d3da-4eb6-ac81-5ffb11e6b9a4" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="p2004">
+      <location EndPos="572" StartPos="571" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from ACS Place of Work in 2004</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_bd3658cd-821c-41ef-9805-6f328142eb7a" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="p2003">
+      <location EndPos="570" StartPos="569" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from ACS Place of Work in 2003</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_ceb270b0-0432-4de4-8ff2-e810096e7776" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="p2002">
+      <location EndPos="568" StartPos="567" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from ACS Place of Work in 2002</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_0750cc07-030e-4253-ad8a-988fb5ee8bbe" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="p2001">
+      <location EndPos="566" StartPos="565" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from ACS Place of Work in 2001</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_424e2ca1-5db8-4fae-937c-418b8dbc1292" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="m2010">
+      <location EndPos="564" StartPos="563" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from MAF</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_e0f8ff35-1a6c-446b-88e2-829aecf0edc7" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="h2002">
+      <location EndPos="562" StartPos="561" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from the AHS</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_63512582-fb86-43b3-8172-ad3acba011da" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="e2012">
+      <location EndPos="560" StartPos="559" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from ES202 in 2012</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_a0d293b3-bf8f-4aa4-8081-ff95b8e4ff1a" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="e2011">
+      <location EndPos="558" StartPos="557" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from ES202 in 2011</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_bc8f5b5f-6adc-462a-83af-689def199550" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="e2010">
+      <location EndPos="556" StartPos="555" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from ES202 in 2010</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_dd2400ae-099c-495a-a844-59b26fccb538" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="e2009">
+      <location EndPos="554" StartPos="553" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from ES202 in 2009</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_bc2583db-09e2-4cd2-9d0f-129f2ee7a413" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="e2008">
+      <location EndPos="552" StartPos="551" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from ES202 in 2008</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_feb9f205-ddad-4f25-9115-98eda99530b6" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="e2007">
+      <location EndPos="550" StartPos="549" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from ES202 in 2007</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_096b44dd-5538-4724-a9ea-6faebd8b7f3b" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="e2006">
+      <location EndPos="548" StartPos="547" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from ES202 in 2006</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_3bcf8e71-1e5b-4408-b5ab-8550273825bb" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="e2005">
+      <location EndPos="546" StartPos="545" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from ES202 in 2005</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_f521ed48-2ea3-4d44-83b0-425d49804865" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="e2004">
+      <location EndPos="544" StartPos="543" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from ES202 in 2004</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_1d36bb9a-2ce8-4f10-9cfd-dd6c8611b3ab" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="e2003">
+      <location EndPos="542" StartPos="541" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from ES202 in 2003</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_5af55240-ef72-4f17-8977-4ce68abc084d" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="e2002">
+      <location EndPos="540" StartPos="539" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from ES202 in 2002</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_c8211d88-aad4-4f2e-a36e-0eb7d207f9f4" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="e2001">
+      <location EndPos="538" StartPos="537" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from ES202 in 2001</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_12e4f46c-6d1e-4c87-9d49-b4ce40f623db" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="e2000">
+      <location EndPos="536" StartPos="535" width="2"/>
+      <labl xml-lang="en">Flag for output contribution status from ES202 in 2000</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_d2ee1821-03b3-4d1f-a6aa-bcfa71f950e8" dcml="0" files="_c4e391e2-a5f3-4785-89e9-ea3f33203549" name="galid">
+      <location EndPos="30" StartPos="1" width="30"/>
+      <labl xml-lang="en">Address ID</labl>
+      <varFormat formatname="String" schema="other" type="character">%30s</varFormat>
+    </var><var ID="_fbd41250-6d24-4919-973e-36398b37f866" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="dq_stextn">
+      <location EndPos="504" StartPos="489" width="16"/>
+      <labl xml-lang="en">street extension number</labl>
+      <varFormat formatname="String" schema="other" type="character">%16s</varFormat>
+    </var><var ID="_52389686-1d6d-479f-a8db-b527d8702338" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="dq_stext">
+      <location EndPos="488" StartPos="473" width="16"/>
+      <labl xml-lang="en">street extension</labl>
+      <varFormat formatname="String" schema="other" type="character">%16s</varFormat>
+    </var><var ID="_3250cd26-2f08-45e6-ad83-d25f1b46ced2" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="dq_stpost">
+      <location EndPos="472" StartPos="457" width="16"/>
+      <labl xml-lang="en">street post direction</labl>
+      <varFormat formatname="String" schema="other" type="character">%16s</varFormat>
+    </var><var ID="_d8e095f6-c5d2-4733-a05c-4c86746e672a" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="dq_sttype">
+      <location EndPos="456" StartPos="437" width="20"/>
+      <labl xml-lang="en">street type</labl>
+      <varFormat formatname="String" schema="other" type="character">%20s</varFormat>
+    </var><var ID="_fe23b9ae-d2dc-439d-896a-2a71671d38d9" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="dq_stname">
+      <location EndPos="436" StartPos="237" width="200"/>
+      <labl xml-lang="en">street name</labl>
+      <varFormat formatname="String" schema="other" type="character">%200s</varFormat>
+    </var><var ID="_e058db95-a9e8-4a1b-92ca-29dd487fe1d0" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="dq_stpre">
+      <location EndPos="236" StartPos="221" width="16"/>
+      <labl xml-lang="en">street prefix</labl>
+      <varFormat formatname="String" schema="other" type="character">%16s</varFormat>
+    </var><var ID="_2a40494c-19b3-4c41-b582-c56b0baaddbb" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="dq_stno">
+      <location EndPos="220" StartPos="205" width="16"/>
+      <labl xml-lang="en">Street Number</labl>
+      <varFormat formatname="String" schema="other" type="character">%16s</varFormat>
+    </var><var ID="_aacdab32-7d01-4878-a963-b6785f017a15" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_latlong_rc">
+      <location EndPos="204" StartPos="203" width="2"/>
+      <labl xml-lang="en">Code1 lat/long level</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_7d5ed4f8-9fcf-4e91-856c-7f21397c939a" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_latlong">
+      <location EndPos="202" StartPos="183" width="20"/>
+      <labl xml-lang="en">Code1 lat/long coordinate</labl>
+      <varFormat formatname="String" schema="other" type="character">%20s</varFormat>
+    </var><var ID="_c2113918-d047-4168-b291-ac8fc5327121" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_block">
+      <location EndPos="182" StartPos="179" width="4"/>
+      <labl xml-lang="en">Code1 Census block id 3 digit</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_ef619e4e-38c0-49a3-9035-dc00e7693e69" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_geocode">
+      <location EndPos="178" StartPos="167" width="12"/>
+      <labl xml-lang="en">Code1 Census geocode (tract)</labl>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var><var ID="_15f9cff2-2eeb-4b25-ac03-a7cc29e24344" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_geo_rc">
+      <location EndPos="166" StartPos="165" width="2"/>
+      <labl xml-lang="en">Code1 geocode return code</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_d46e98b3-ce7f-413a-aebc-65892adc71d1" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_vintdate">
+      <location EndPos="164" StartPos="161" width="4"/>
+      <labl xml-lang="en">Code1 master file vintage</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_0929b08f-92de-4839-b991-28f5d1dc4ca8" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_zip_status">
+      <location EndPos="160" StartPos="159" width="2"/>
+      <labl xml-lang="en">Code1 ZIP code status</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_66b25e43-41a5-45a0-bc0d-ac01c88fe7b3" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_streetname_cs">
+      <location EndPos="158" StartPos="157" width="2"/>
+      <labl xml-lang="en">Code1 street name correctness score</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_db4c7718-37eb-452b-bd60-183d128cfdf6" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_address_cs">
+      <location EndPos="156" StartPos="155" width="2"/>
+      <labl xml-lang="en">Code1 address correctness score</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_04c32025-db34-4b3d-97c5-7dfb1a0474b4" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_overall_rc">
+      <location EndPos="154" StartPos="153" width="2"/>
+      <labl xml-lang="en">Code1 overall correctness</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_80cb1524-d73c-485d-90fd-83673fda2374" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_uspsrectype">
+      <location EndPos="152" StartPos="151" width="2"/>
+      <labl xml-lang="en">Code1 USPS record type</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_9252457b-da31-4928-aae5-5b19eb647a2a" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_zip_src">
+      <location EndPos="150" StartPos="149" width="2"/>
+      <labl xml-lang="en">Code1 ZIP source</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_943e1b89-578d-4af5-8922-62929a4ad51f" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_zip4">
+      <location EndPos="148" StartPos="145" width="4"/>
+      <labl xml-lang="en">Code1 ZIP+4 code</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_6511bd35-ea3b-47eb-b8dc-58c2627e0728" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_zip">
+      <location EndPos="144" StartPos="139" width="6"/>
+      <labl xml-lang="en">Code1 ZIP</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_58106265-5146-403e-a6f2-f4533b2c114c" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_state">
+      <location EndPos="138" StartPos="137" width="2"/>
+      <labl xml-lang="en">Code1 state abbrev</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_bf26cb6b-e9a5-48da-9ee8-412618e10ece" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_city">
+      <location EndPos="136" StartPos="109" width="28"/>
+      <labl xml-lang="en">Code1 city name</labl>
+      <varFormat formatname="String" schema="other" type="character">%28s</varFormat>
+    </var><var ID="_bc86a9a5-b7eb-449c-bd7c-fe977ac8736f" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_address">
+      <location EndPos="108" StartPos="39" width="70"/>
+      <labl xml-lang="en">Code1 address w/apt</labl>
+      <varFormat formatname="String" schema="other" type="character">%70s</varFormat>
+    </var><var ID="_1f20f3ee-9068-49db-86bd-d2bc9875438a" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_block4">
+      <location EndPos="38" StartPos="35" width="4"/>
+      <labl xml-lang="en">Code1 Census block id 4 digit</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_64cc97fb-3d41-4a09-804e-d057b464b07c" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="a_vintage">
+      <location EndPos="34" StartPos="23" width="12"/>
+      <labl xml-lang="en">Vintage of Census geography (GRF)</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_56862498-f60f-4b07-a26d-8ad2e928e3f2" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_apt_rc">
+      <location EndPos="22" StartPos="21" width="2"/>
+      <labl xml-lang="en">Code1 apartment return code</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_71e4fa7a-d425-4d38-8bc2-25edb9cc8a27" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_suffix_rc">
+      <location EndPos="20" StartPos="19" width="2"/>
+      <labl xml-lang="en">Code1 suffix return code</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_509d7712-c2d7-4d71-9be0-9c02700aeada" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_directional_rc">
+      <location EndPos="18" StartPos="17" width="2"/>
+      <labl xml-lang="en">Code1 directional return code</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_7bba9810-1c72-4662-b963-3837d3e4c3a8" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_carrte_rc">
+      <location EndPos="16" StartPos="15" width="2"/>
+      <labl xml-lang="en">Code1 carrier route return code</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_41348490-10b4-486e-9e6b-9eaee07972fa" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_zip4_rc">
+      <location EndPos="14" StartPos="13" width="2"/>
+      <labl xml-lang="en">Code1 ZIP4 return code</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_29a7fa5c-c91e-4547-9196-cae2f0b85e9b" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_zip_rc">
+      <location EndPos="12" StartPos="11" width="2"/>
+      <labl xml-lang="en">Code1 ZIP return code</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_b222d878-fbfb-41e0-80ef-3e6a066e952a" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_citystate_rc">
+      <location EndPos="10" StartPos="9" width="2"/>
+      <labl xml-lang="en">Code1 city/state return code</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_5e87bdef-5241-4f02-a947-a7c92237189d" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_droppedinfo_rc">
+      <location EndPos="8" StartPos="7" width="2"/>
+      <labl xml-lang="en">Code1 dropped information code</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_f4973756-8c27-4812-8805-3939b118ff9c" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_alias_rc">
+      <location EndPos="6" StartPos="5" width="2"/>
+      <labl xml-lang="en">Code1 alias/base return code</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_fe3228d0-3229-4967-ad05-5891c22912d2" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_address_rc">
+      <location EndPos="4" StartPos="3" width="2"/>
+      <labl xml-lang="en">Code1 address return code</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_36d53449-d9b9-432e-8b8c-df3d27475052" dcml="0" files="_269cc412-9eb5-4777-b841-bc5ebbc346a5" name="c1_general_rc">
+      <location EndPos="2" StartPos="1" width="2"/>
+      <labl xml-lang="en">Code1 general return code</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var></dataDscr>
+</codeBook>

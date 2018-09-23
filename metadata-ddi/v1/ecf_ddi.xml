@@ -1,0 +1,1263 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><codeBook xmlns="ddi:codebook:2_5" xmlns:dc="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:ns0="http://purl.org/dc/elements/1.1/" xmlns:saxon="http://xml.apache.org/xslt" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ncrn.cornell.edu/docs/ddi/2.5.NCRN/schemas/codebook.xsd">
+  <docDscr>
+    <docSrc>
+      <titlStmt>
+        <titl>State or Local Government Agency</titl>
+        <altTitl>Employer Characteristics File � 2011</altTitl>
+      </titlStmt>
+    </docSrc>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>State or Local Government Agency</titl>
+        <IDNo/>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Bureau of the Census</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer>Bureau of the Census</producer>
+      </prodStmt>
+      <distStmt>
+        <distrbtr>United States Department of Commerce. Bureau of the Census. Research Data Center</distrbtr>
+      </distStmt>
+    </citation>
+    <stdyInfo>
+      <abstract>The Employer Characteristics File (ECF) consolidates most firm level information (size, location, industry, etc.) into two easily accessible files. The firm or SEIN level file contains one record for every YEAR QUARTER a firm is present on either the ES-202 or the UI, with more detailed information
+available for the establishments of multi-unit firms in the SEIN SEINUNIT file. The SEIN file is built up from the SEINUNIT file and contains no additional information, but should be viewed merely as an easier and/or more efficient way to access firm level data.</abstract>
+      <sumDscr>
+        <nation abbr="U.S.">United States of America</nation>
+        <anlyUnit>Quarterly</anlyUnit>
+        <anlyUnit>Three (3) Months</anlyUnit>
+        <anlyUnit>Establishment</anlyUnit>
+        <universe>Business</universe>
+        <universe>Combination (industries)</universe>
+        <universe>All except for agricultural workers</universe>
+      </sumDscr>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <dataCollector>$organization_name</dataCollector>
+        <sampProc>y</sampProc>
+      </dataColl>
+    </method>
+    <dataAccs>
+      <useStmt>
+        <confDec>To obtain this dataset, the user must complete the RDC application process, and be approved for use of this dataset.</confDec>
+        <restrctn>Title 13, U.S.C.</restrctn>
+        <restrctn>n</restrctn>
+        <conditions>Users must (I) successfully apply for RDC access (ii) pass review by agencies (iii) pass security clearance</conditions>
+        <disclaimer>The quality of the ECF depends primarily on the quality of the incoming UI and ES-202 data as received from the state. The quality of the data is generally high for 2000 and beyond, but earlier years� historical data files may be incomplete. Although the data undergoes various quality control checks and imputations of missing values once received at LEHD, in some cases this is only a partial solution. States, also vary in the quality of the establishment level data reported for multi-unit firms. The lack of consistent reporting of establishment level information can greatly affect the geographic dispersion of employment and payroll. In both 1992 and 1997 efforts were made to expand the collection of establishment level data. Expansions in the number of establishments in those years are likely not related to new economic activity, but reflect improved collection activities. Many states have only partial coverage of sectors such as agriculture, state government, and local municipalities. Federal government workers are also not typically covered. Due to limitations in the historical data, some years and quarters may not have complete coverage on both the EHF and ES-202 and this will be reflected in the ECF as well.</disclaimer>
+      </useStmt>
+    </dataAccs>
+    <othrStdyMat>
+      <relMat/>
+      <relPubl/>
+    </othrStdyMat>
+  </stdyDscr>
+  <fileDscr>
+    <fileTxt>
+      <dimensns>
+        <recNumTot>1.3 billion records in 200 files across all states. Counts per state vary. </recNumTot>
+      </dimensns>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr><var ID="_ca1fdd0f-d269-4c6a-ad6a-cb7353f37002" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="ui_ein_flag">
+      <location EndPos="972" StartPos="961" width="12"/>
+      <labl xml-lang="en">Quarters Away UI_EIN data found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_a62caec2-914e-4a00-8d56-8b902d4320ab" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="county_impute_source">
+      <location EndPos="960" StartPos="949" width="12"/>
+      <labl xml-lang="en">1=county 2=es_county (long edit) 3=mode_leg_county_emp 4=mode_leg_county 5=leg_c</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_9032bfd0-8de8-40de-a4fe-4f73f1332ed8" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_imp2007_miss">
+      <location EndPos="948" StartPos="937" width="12"/>
+      <labl xml-lang="en">0=ok,1=not found,2+found off qtr</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_bfcc3748-df93-4bc8-bf90-19f06ccf6e6f" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_imp2002_miss">
+      <location EndPos="936" StartPos="925" width="12"/>
+      <labl xml-lang="en">0=ok,1=not found,2+found off qtr</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_1c8ffad9-8d2b-4efc-b60a-b788ba05b419" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_imp1997_miss">
+      <location EndPos="924" StartPos="913" width="12"/>
+      <labl xml-lang="en">0=ok,1=not found,2+found off qtr</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_13b9f526-7e41-47f9-b5d3-309fdcf27084" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_eso2007_miss">
+      <location EndPos="912" StartPos="901" width="12"/>
+      <labl xml-lang="en">0=ok,1=not found,2+found off qtr</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_1c32fa2e-03b5-428e-9d2b-638e0834457e" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_eso2002_miss">
+      <location EndPos="900" StartPos="889" width="12"/>
+      <labl xml-lang="en">0=ok,1=not found,2+found off qtr</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_a76d739a-9c88-4627-a4d6-981df7a9d432" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_eso1997_miss">
+      <location EndPos="888" StartPos="877" width="12"/>
+      <labl xml-lang="en">0=ok,1=not found,2+found off qtr</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_9bf6a649-e2b8-4b33-a7a5-aa7acec7da49" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_eso2007_src">
+      <location EndPos="876" StartPos="873" width="4"/>
+      <labl xml-lang="en">Source of Ind Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_6ca48b76-d48e-45e9-a47f-6de699f40189" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_eso2002_src">
+      <location EndPos="872" StartPos="869" width="4"/>
+      <labl xml-lang="en">Source of Ind Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_e2b7572a-b024-40bb-a9a0-0ae25d149331" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_eso1997_src">
+      <location EndPos="868" StartPos="865" width="4"/>
+      <labl xml-lang="en">Source of Ind Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_cf7a5024-1192-484b-976b-72b2c4a03b74" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_imp2007_src">
+      <location EndPos="864" StartPos="861" width="4"/>
+      <labl xml-lang="en">Source of Ind Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_51822899-1b75-4aee-964c-eeb70b434452" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_imp2002_src">
+      <location EndPos="860" StartPos="857" width="4"/>
+      <labl xml-lang="en">Source of Ind Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_47d17ca7-aaf9-4e1b-ab84-2dad94b4f02e" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_imp1997_src">
+      <location EndPos="856" StartPos="853" width="4"/>
+      <labl xml-lang="en">Source of Ind Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_893f1475-2131-4d2b-a4ca-2712c07c8103" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_ldb2007_src">
+      <location EndPos="852" StartPos="849" width="4"/>
+      <labl xml-lang="en">Source of Ind Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_31ec9b39-db9d-4817-8785-d04d88e81ed2" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_ldb2002_src">
+      <location EndPos="848" StartPos="845" width="4"/>
+      <labl xml-lang="en">Source of Ind Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_7605543a-ac62-4483-95e1-1163a3e1c9a5" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_ldb1997_src">
+      <location EndPos="844" StartPos="841" width="4"/>
+      <labl xml-lang="en">Source of Ind Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_b7775259-0e5a-4acc-9cb0-1a37a72e9684" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_aux2007_src">
+      <location EndPos="840" StartPos="837" width="4"/>
+      <labl xml-lang="en">Source of Ind Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_021bed23-82a5-4b1b-8e1e-08280ccf337e" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_aux2002_src">
+      <location EndPos="836" StartPos="833" width="4"/>
+      <labl xml-lang="en">Source of Ind Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_b11ce854-f89d-4ee6-93ee-a28f9f45ef22" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_aux1997_src">
+      <location EndPos="832" StartPos="829" width="4"/>
+      <labl xml-lang="en">Source of Ind Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_b4c04a74-3c21-4dbe-896a-8ad9bb7cd8bc" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics2007_src">
+      <location EndPos="828" StartPos="825" width="4"/>
+      <labl xml-lang="en">Source of Ind Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_a40da095-fe01-41f9-b361-45ef21f92b5e" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics2002_src">
+      <location EndPos="824" StartPos="821" width="4"/>
+      <labl xml-lang="en">Source of Ind Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_6ebcd5ea-3b7f-4f7a-a145-99d641a4a556" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics1997_src">
+      <location EndPos="820" StartPos="817" width="4"/>
+      <labl xml-lang="en">Source of Ind Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_1ce7c3a4-d0df-4e09-9bbd-30c300a80734" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_imp2007">
+      <location EndPos="816" StartPos="811" width="6"/>
+      <labl xml-lang="en">SIC IMP 2007 NAICS Code NNNNNN</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_40e677ff-0dd1-48c8-b83c-5e382e707d5e" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_imp2002">
+      <location EndPos="810" StartPos="805" width="6"/>
+      <labl xml-lang="en">SIC IMP 2002 NAICS Code NNNNNN</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_d8aa1715-0256-4bc0-bd9a-bd3bcafdeae8" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_imp1997">
+      <location EndPos="804" StartPos="799" width="6"/>
+      <labl xml-lang="en">SIC IMP 1997 NAICS Code NNNNNN</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_ec95852d-0c27-4be4-8342-27df82daf2f3" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_eso2007">
+      <location EndPos="798" StartPos="793" width="6"/>
+      <labl xml-lang="en">ES202 ONLY 2007 NAICS Code NNNNNN</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_f2c2d306-d72a-48c1-aa27-6153ead5ecd3" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_eso2002">
+      <location EndPos="792" StartPos="787" width="6"/>
+      <labl xml-lang="en">ES202 ONLY 2002 NAICS Code NNNNNN</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_0da59186-8cf9-4250-88ca-eece41f7d2d6" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_eso1997">
+      <location EndPos="786" StartPos="781" width="6"/>
+      <labl xml-lang="en">ES202 ONLY 1997 NAICS Code NNNNNN</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_60ca008b-b9ee-41a1-bc9c-617bf813a2c1" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_ldb2007_valid">
+      <location EndPos="780" StartPos="769" width="12"/>
+      <labl xml-lang="en">Seinunit has some NAICS info</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_3ff0d171-cb79-4a3d-8280-9160442e2c19" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_ldb2002_valid">
+      <location EndPos="768" StartPos="757" width="12"/>
+      <labl xml-lang="en">Seinunit has some NAICS info</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_9267a58e-1492-435a-85e0-4c564a31ba8a" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_ldb1997_valid">
+      <location EndPos="756" StartPos="745" width="12"/>
+      <labl xml-lang="en">Seinunit has some NAICS info</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_a145a490-dda1-4bcd-b6de-aea461b37f42" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_aux2007_valid">
+      <location EndPos="744" StartPos="733" width="12"/>
+      <labl xml-lang="en">Seinunit has some NAICS info</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_a8976c3c-1a2d-494b-b5c2-275fa72a5c76" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_aux2002_valid">
+      <location EndPos="732" StartPos="721" width="12"/>
+      <labl xml-lang="en">Seinunit has some NAICS info</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_fc908baf-e966-4c50-b45f-b1f787ba740c" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_aux1997_valid">
+      <location EndPos="720" StartPos="709" width="12"/>
+      <labl xml-lang="en">Seinunit has some NAICS info</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_79973318-5a6a-4d2f-8c12-b4bcb7239803" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics2007_valid">
+      <location EndPos="708" StartPos="697" width="12"/>
+      <labl xml-lang="en">Seinunit has some NAICS info</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_a20e1bf2-796c-4567-a35f-83302b1bb4c5" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics2002_valid">
+      <location EndPos="696" StartPos="685" width="12"/>
+      <labl xml-lang="en">Seinunit has some NAICS info</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_aa9c4242-1354-4e71-8d29-23e095ed2e96" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics1997_valid">
+      <location EndPos="684" StartPos="673" width="12"/>
+      <labl xml-lang="en">Seinunit has some NAICS info</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_572eb4df-c6da-4cf0-b736-8c7e5aef09fc" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_sic_valid">
+      <location EndPos="672" StartPos="661" width="12"/>
+      <labl xml-lang="en">Seinunit has some SIC info</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_3ea7e151-7b26-4cc5-9dad-fde7893b2690" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="geo_vars_flag">
+      <location EndPos="660" StartPos="649" width="12"/>
+      <labl xml-lang="en">Quarters Away LEG variables found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_a59563f8-b783-4963-a56b-8d130573b17b" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_ein_flag">
+      <location EndPos="648" StartPos="637" width="12"/>
+      <labl xml-lang="en">Quarters Away EIN data found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_192a38d1-118e-4492-8db9-d742932d7412" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_owner_code_flag">
+      <location EndPos="636" StartPos="625" width="12"/>
+      <labl xml-lang="en">Quarters Away OWNER_CODE data found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_71579e5a-a873-4307-bbaf-49a79f0087f9" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_county_flag">
+      <location EndPos="624" StartPos="613" width="12"/>
+      <labl xml-lang="en">Quarters Away County data found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_30d26454-cf6e-4843-96fa-3feb773c875f" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_ldb2007_flag">
+      <location EndPos="612" StartPos="601" width="12"/>
+      <labl xml-lang="en">Quarters Away NAICS data found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e84ad45b-4772-4880-b878-123718b5030e" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_ldb2002_flag">
+      <location EndPos="600" StartPos="589" width="12"/>
+      <labl xml-lang="en">Quarters Away NAICS data found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_a3296c59-068d-4d94-96dd-877646287a0c" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_ldb1997_flag">
+      <location EndPos="588" StartPos="577" width="12"/>
+      <labl xml-lang="en">Quarters Away NAICS data found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_928eb17e-c428-4219-8f71-938bfc05cbda" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_aux2007_flag">
+      <location EndPos="576" StartPos="565" width="12"/>
+      <labl xml-lang="en">Quarters Away NAICS data found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_526473fa-327c-49bf-b618-898ca0317902" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_aux2002_flag">
+      <location EndPos="564" StartPos="553" width="12"/>
+      <labl xml-lang="en">Quarters Away NAICS data found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_5080139f-5aad-4f6e-80b3-da48283590fd" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_aux1997_flag">
+      <location EndPos="552" StartPos="541" width="12"/>
+      <labl xml-lang="en">Quarters Away NAICS data found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_193a9706-c68a-48fe-ac43-2380dfa9fb71" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics2007_flag">
+      <location EndPos="540" StartPos="529" width="12"/>
+      <labl xml-lang="en">Quarters Away NAICS data found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e0104e66-1977-42fa-8847-2980ec2d6fe4" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics2002_flag">
+      <location EndPos="528" StartPos="517" width="12"/>
+      <labl xml-lang="en">Quarters Away NAICS data found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_5f7ce884-d954-4cbf-aac7-e1ea3c2ddff2" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics1997_flag">
+      <location EndPos="516" StartPos="505" width="12"/>
+      <labl xml-lang="en">Quarters Away NAICS data found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_f029ac6f-2a2e-4f1f-97d8-5a9dea8fb9a5" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_sic_flag">
+      <location EndPos="504" StartPos="493" width="12"/>
+      <labl xml-lang="en">Quarters Away SIC data found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_a94e49bc-4e04-48be-b770-3046f4c40304" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="geo_vars_miss">
+      <location EndPos="492" StartPos="481" width="12"/>
+      <labl xml-lang="en">0=ok,1=not found,2+found off qtr    label</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_98171914-9a41-4a74-8a06-7b5dec3fb096" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_ldb2007_miss">
+      <location EndPos="480" StartPos="469" width="12"/>
+      <labl xml-lang="en">0=ok,1=not found,2+found off qtr</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_3ebf62ae-adab-4697-837f-89089ffadb4e" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_ldb2002_miss">
+      <location EndPos="468" StartPos="457" width="12"/>
+      <labl xml-lang="en">0=ok,1=not found,2+found off qtr</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e686976f-157d-432c-b4b4-cfdbb162c71e" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_ldb1997_miss">
+      <location EndPos="456" StartPos="445" width="12"/>
+      <labl xml-lang="en">0=ok,1=not found,2+found off qtr</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_17412fbc-ccdb-4e08-acc0-d861e7670616" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_aux2007_miss">
+      <location EndPos="444" StartPos="433" width="12"/>
+      <labl xml-lang="en">0=ok,1=not found,2+found off qtr</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_bd3ec9ec-9817-4232-87d5-6147794b8382" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_aux2002_miss">
+      <location EndPos="432" StartPos="421" width="12"/>
+      <labl xml-lang="en">0=ok,1=not found,2+found off qtr</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_3d5de255-ae40-4861-94da-973f77c0c214" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_aux1997_miss">
+      <location EndPos="420" StartPos="409" width="12"/>
+      <labl xml-lang="en">0=ok,1=not found,2+found off qtr</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_a6774adc-3785-4139-8a62-be51e146f8a8" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics2007_miss">
+      <location EndPos="408" StartPos="397" width="12"/>
+      <labl xml-lang="en">0=ok,1=not found,2+found off qtr</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_26c91b6c-d5f6-4c63-9993-2aba76b3e7ce" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics2002_miss">
+      <location EndPos="396" StartPos="385" width="12"/>
+      <labl xml-lang="en">0=ok,1=not found,2+found off qtr</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_0480b11c-770d-4076-ac86-4e02398424db" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics1997_miss">
+      <location EndPos="384" StartPos="373" width="12"/>
+      <labl xml-lang="en">0=ok,1=not found,2+found off qtr</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e28b1a4f-fc14-41db-8c33-b6d42f887591" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_ldb2007">
+      <location EndPos="372" StartPos="367" width="6"/>
+      <labl xml-lang="en">Cleaned 2007 NAICS Code NNNNNN</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_bac5d0cc-5da0-4899-a1f4-b31a71ce462c" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_ldb2002">
+      <location EndPos="366" StartPos="361" width="6"/>
+      <labl xml-lang="en">Cleaned 2002 NAICS Code NNNNNN</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_6149cfba-b3d0-4098-822d-bd3343d191c4" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_ldb1997">
+      <location EndPos="360" StartPos="355" width="6"/>
+      <labl xml-lang="en">Cleaned 1997 NAICS Code NNNNNN</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_7f7edecf-031e-444d-9d9e-1df08d7414f3" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_aux2007">
+      <location EndPos="354" StartPos="349" width="6"/>
+      <labl xml-lang="en">Cleaned 2007 NAICS Code NNNNNN</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_5554f999-c513-47f5-95fc-0827c3564929" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_aux2002">
+      <location EndPos="348" StartPos="343" width="6"/>
+      <labl xml-lang="en">Cleaned 2002 NAICS Code NNNNNN</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_428fb152-a5dc-4b0b-a29d-b9267eea01f9" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics_aux1997">
+      <location EndPos="342" StartPos="337" width="6"/>
+      <labl xml-lang="en">Cleaned 1997 NAICS Code NNNNNN</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_6b958fa2-a7bc-4165-a9b1-095688277137" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics2007">
+      <location EndPos="336" StartPos="331" width="6"/>
+      <labl xml-lang="en">Cleaned 2007 NAICS Code NNNNNN</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_debe540f-152e-436d-9b2f-fc30bf515b9a" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics2002">
+      <location EndPos="330" StartPos="325" width="6"/>
+      <labl xml-lang="en">Cleaned 2002 NAICS Code NNNNNN</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_a04528ca-1c7b-4d57-b9ba-ff5f16e91e3a" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_naics1997">
+      <location EndPos="324" StartPos="319" width="6"/>
+      <labl xml-lang="en">Cleaned 1997 NAICS Code NNNNNN</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_6b914c2c-e2f1-4fb4-a62a-a3184d33280c" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="leg_flag_geo">
+      <location EndPos="318" StartPos="307" width="12"/>
+      <labl xml-lang="en">Flag, number of quarters to find geocodes</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_222078ad-93b3-4a89-8cf7-8a6550c3d05b" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="es_galid">
+      <location EndPos="306" StartPos="277" width="30"/>
+      <labl xml-lang="en">GALID of address on es202</labl>
+      <varFormat formatname="String" schema="other" type="character">%30s</varFormat>
+    </var><var ID="_c5d2c2e5-c884-43a6-bcfd-62cc6ef64798" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="qcew_naics_ldb2007">
+      <location EndPos="276" StartPos="271" width="6"/>
+      <labl xml-lang="en">Original NAICS LDB 2007 Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_3c763a52-4d58-448e-b865-936f2ce616b8" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="qcew_naics_ldb2002">
+      <location EndPos="270" StartPos="265" width="6"/>
+      <labl xml-lang="en">Original NAICS LDB 2002 Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_f8a44748-03b1-4956-b4b6-bcf140be3ad2" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="qcew_naics_ldb1997">
+      <location EndPos="264" StartPos="259" width="6"/>
+      <labl xml-lang="en">Original NAICS LDB 1997 Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_4119231e-b004-4b89-8fef-b3ae02edbd12" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="naics_ldb_2007_invalid">
+      <location EndPos="258" StartPos="257" width="2"/>
+      <labl xml-lang="en">NAICS Code not Valid</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_294d8ff7-36b5-49d3-b86b-4f65cdc959ac" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="naics_ldb_2002_invalid">
+      <location EndPos="256" StartPos="255" width="2"/>
+      <labl xml-lang="en">NAICS Code not Valid</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_9bb26f5c-7bb0-4f04-9d1b-c33fdb409273" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="naics_ldb_1997_invalid">
+      <location EndPos="254" StartPos="253" width="2"/>
+      <labl xml-lang="en">NAICS Code not Valid</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_b009e096-ebd8-4424-bb15-02f0d60371cf" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="qcew_valid_ein">
+      <location EndPos="252" StartPos="241" width="12"/>
+      <labl xml-lang="en">EIN in known IRD</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e4e954e3-7f42-41b7-9868-904feb15f930" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="qcew_ein_defect">
+      <location EndPos="240" StartPos="229" width="12"/>
+      <labl xml-lang="en">Problem with EIN</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_b7be646e-e1fb-47b7-be13-51ce0296bd1d" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="qcew_ein_bad">
+      <location EndPos="228" StartPos="217" width="12"/>
+      <labl xml-lang="en">Letters a-z,A-Z in EIN</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_1b705dc9-cf34-4dc3-b264-43a16f68438b" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="structure_fix">
+      <location EndPos="216" StartPos="205" width="12"/>
+      <labl xml-lang="en">Multiunit Imputed Record Structure</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_127c9f9f-b1d2-4e20-a630-43bf637e8ebf" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="qcew_county">
+      <location EndPos="204" StartPos="201" width="4"/>
+      <labl xml-lang="en">Original ES202 County</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_43abcb93-2906-4218-9097-8d5278dda316" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="qcew_ein">
+      <location EndPos="200" StartPos="191" width="10"/>
+      <labl xml-lang="en">Original ES202 EIN</labl>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var><var ID="_26a2c1a0-419d-40f3-a2d9-9eebf905afaa" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="qcew_sic">
+      <location EndPos="190" StartPos="187" width="4"/>
+      <labl xml-lang="en">Original ES202 SIC</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_cd37499a-a68a-45f9-9fe5-e36d3e3e242b" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="qcew_sic_invalid">
+      <location EndPos="186" StartPos="185" width="2"/>
+      <labl xml-lang="en">SIC Code not Valid</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_e3fe4f04-f9ac-4870-979b-608b13e64aa8" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="naics_aux_2007_invalid">
+      <location EndPos="184" StartPos="183" width="2"/>
+      <labl xml-lang="en">NAICS Code not Valid</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_b7e9f848-639f-4e27-8d5f-7799105de5ab" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="naics_aux_2002_invalid">
+      <location EndPos="182" StartPos="181" width="2"/>
+      <labl xml-lang="en">NAICS Code not Valid</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_bb12a08a-e0ae-4edf-b73d-11a17934aec0" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="naics_aux_1997_invalid">
+      <location EndPos="180" StartPos="179" width="2"/>
+      <labl xml-lang="en">NAICS Code not Valid</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_8e452009-3a84-4f53-a0e0-1f0ae3e4a47b" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="naics_2007_invalid">
+      <location EndPos="178" StartPos="177" width="2"/>
+      <labl xml-lang="en">NAICS Code not Valid</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_92b2d446-4164-4b31-9cd3-305118187eaa" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="naics_2002_invalid">
+      <location EndPos="176" StartPos="175" width="2"/>
+      <labl xml-lang="en">NAICS Code not Valid</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_2202333c-c1ba-4641-97ef-6f1b577470a8" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="naics_1997_invalid">
+      <location EndPos="174" StartPos="173" width="2"/>
+      <labl xml-lang="en">NAICS Code not Valid</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_54e065a9-6d4e-42fd-8fea-7fec9f4d18fd" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="qcew_owner_code">
+      <location EndPos="172" StartPos="171" width="2"/>
+      <labl xml-lang="en">Original Owner Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_39df0b05-52bc-42bb-b477-0a625b431a9d" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="qcew_naics_aux2007">
+      <location EndPos="170" StartPos="165" width="6"/>
+      <labl xml-lang="en">Original NAICS AUX 2007 Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_392a115e-0380-4ef6-896a-bffdda90df55" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="qcew_naics_aux2002">
+      <location EndPos="164" StartPos="159" width="6"/>
+      <labl xml-lang="en">Original NAICS AUX 2002 Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_11dfea3d-37aa-43ed-b000-83c7f7f75fac" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="qcew_naics_aux1997">
+      <location EndPos="158" StartPos="153" width="6"/>
+      <labl xml-lang="en">Original NAICS AUX 1997 Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_32b78901-8ce9-4987-b955-fdac2b00e06e" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="qcew_naics2007">
+      <location EndPos="152" StartPos="147" width="6"/>
+      <labl xml-lang="en">Original NAICS 2007 Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_d558e83f-0425-4b60-ac8b-df8d9508946b" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="qcew_naics2002">
+      <location EndPos="146" StartPos="141" width="6"/>
+      <labl xml-lang="en">Original NAICS 2002 Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_52fa513d-5603-480a-a853-98783fccda4d" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="qcew_naics1997">
+      <location EndPos="140" StartPos="135" width="6"/>
+      <labl xml-lang="en">Original NAICS 1997 Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_da2ca371-c8ab-4d24-b51a-940e7a15dc71" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="special_handle">
+      <location EndPos="134" StartPos="123" width="12"/>
+      <labl xml-lang="en">candidate for structure fix</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d625a41f-c8fa-401d-98ac-3bde79954661" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="qcew_empl_month1">
+      <location EndPos="122" StartPos="111" width="12"/>
+      <labl xml-lang="en">Original ES202 Employment Month 1</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_f7c8f293-cad0-4132-a72a-183f566db732" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="qcew_total_wages">
+      <location EndPos="110" StartPos="99" width="12"/>
+      <labl xml-lang="en">Original ES202 wages</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_2a6ed289-9f9b-4a0c-b8eb-293918221c7f" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="qcew_empl_month3">
+      <location EndPos="98" StartPos="87" width="12"/>
+      <labl xml-lang="en">Original ES202 Employment Month 3</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_330a8411-5c72-47fa-ab75-a97a9d80325d" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="qcew_empl_month2">
+      <location EndPos="86" StartPos="75" width="12"/>
+      <labl xml-lang="en">Original ES202 Employment Month 2</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_7c55399c-e263-41c8-b229-2cafd517ae05" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="seinunit_type">
+      <location EndPos="50" StartPos="39" width="12"/>
+      <labl xml-lang="en">0 if seinunit=00000</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_eb0282db-5c9a-4090-ba58-bff29760c8ff" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="seinunit_bad">
+      <location EndPos="38" StartPos="27" width="12"/>
+      <labl xml-lang="en">SEINUNIT data non-numeric</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_97c31827-8658-449f-bdb5-f6bde3245390" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="qcew_total_wages_flg">
+      <location EndPos="20" StartPos="19" width="2"/>
+      <labl xml-lang="en">Reported or imputed Total Wages</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_09b09af3-03c4-4e91-984b-b37c5d6a6bc5" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="qcew_empl_month3_flg">
+      <location EndPos="18" StartPos="17" width="2"/>
+      <labl xml-lang="en">Reported or imputed Month 3 Employment</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_92916693-9272-47fe-971e-122dda2e8e26" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="qcew_empl_month2_flg">
+      <location EndPos="16" StartPos="15" width="2"/>
+      <labl xml-lang="en">Reported or imputed Month 2 Employment</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_a3e823e1-72d9-4c60-a482-73cd57a07f64" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="qcew_empl_month1_flg">
+      <location EndPos="14" StartPos="13" width="2"/>
+      <labl xml-lang="en">Reported or imputed Month 1 Employment</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_ad716e6a-236f-4af9-a01d-acb3e18ed978" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="sample_seinunit">
+      <location EndPos="496" StartPos="485" width="12"/>
+      <labl xml-lang="en">Random sample selector for SEINUNIT</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_75bfecdf-ca22-4653-9fa6-f4b9362f0081" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="ui_ein_miss">
+      <location EndPos="472" StartPos="461" width="12"/>
+      <labl xml-lang="en">0=ok,1=not found,2=found off qtr</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_c3c12bd1-5fa1-4928-80a4-983008b088e4" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="es_sic_div">
+      <location EndPos="460" StartPos="459" width="2"/>
+      <labl xml-lang="en">Cleaned SIC Division I</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_e77b3eda-e737-48bb-aaed-fc24cd5bb6ae" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="es_naics_fnl2007_miss">
+      <location EndPos="458" StartPos="447" width="12"/>
+      <labl xml-lang="en">0=ok,1=not found,2+found off qtr</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_fd199ced-1fb9-4b8c-811e-fd9940d682a8" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="es_naics_fnl2002_miss">
+      <location EndPos="446" StartPos="435" width="12"/>
+      <labl xml-lang="en">0=ok,1=not found,2+found off qtr</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_3973609e-6b05-4865-b207-913268d24444" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="es_naics_fnl1997_miss">
+      <location EndPos="434" StartPos="423" width="12"/>
+      <labl xml-lang="en">0=ok,1=not found,2+found off qtr</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_857b0b5f-059a-465c-9f29-937634d24d83" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="es_naics_fnl2007_src">
+      <location EndPos="422" StartPos="419" width="4"/>
+      <labl xml-lang="en">Source of Ind Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_191f4a58-9d03-4a5a-a5ba-4c9f2dced814" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="es_naics_fnl2002_src">
+      <location EndPos="418" StartPos="415" width="4"/>
+      <labl xml-lang="en">Source of Ind Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_3bc0a9b1-7300-4807-bde7-c88cbe7c79e3" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="es_naics_fnl1997_src">
+      <location EndPos="414" StartPos="411" width="4"/>
+      <labl xml-lang="en">Source of Ind Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_15f24a57-5663-4606-98b6-3b20bf3a6c58" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="es_sic_src">
+      <location EndPos="410" StartPos="407" width="4"/>
+      <labl xml-lang="en">Source of Ind Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_f4185546-c616-4712-a151-cf6b245760bc" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="es_naics_fnl2007">
+      <location EndPos="406" StartPos="401" width="6"/>
+      <labl xml-lang="en">Final 2007 NAICS Code NNNNNN</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_bcbf3c51-1ae0-4f47-bf37-ab17d1021ff7" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="es_naics_fnl2002">
+      <location EndPos="400" StartPos="395" width="6"/>
+      <labl xml-lang="en">Final 2002 NAICS Code NNNNNN</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_edf6ba7a-4774-42d3-aa57-63d88a83da78" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="es_naics_fnl1997">
+      <location EndPos="394" StartPos="389" width="6"/>
+      <labl xml-lang="en">Final 1997 NAICS Code NNNNNN</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_6a5b0ce1-dd02-479b-8622-ec9c57df5f50" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="es_ein_miss">
+      <location EndPos="388" StartPos="377" width="12"/>
+      <labl xml-lang="en">0=ok,1=not found,2+found off qtr</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_3d65174e-0bbb-4a3e-b850-d8453ec3b2ee" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="es_owner_code_miss">
+      <location EndPos="376" StartPos="365" width="12"/>
+      <labl xml-lang="en">0=ok,1=not found,2+found off qtr</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_650e2010-13d8-4df5-a133-171c7019ab6d" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="es_county_miss">
+      <location EndPos="364" StartPos="353" width="12"/>
+      <labl xml-lang="en">0=ok,1=not found,2+found off qtr</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_686aa93f-0f3d-4697-a59a-db1962f7fbbd" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="es_sic_miss">
+      <location EndPos="352" StartPos="341" width="12"/>
+      <labl xml-lang="en">0=ok,1=not found,2+found off qtr</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_2251b94e-afdc-462d-8b86-9152ac782152" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="es_owner_code">
+      <location EndPos="340" StartPos="339" width="2"/>
+      <labl xml-lang="en">Cleaned OWNER_CODE O</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_531dbcdd-d3a4-4b4d-a8ad-2e592dfc68ef" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="es_ein">
+      <location EndPos="338" StartPos="329" width="10"/>
+      <labl xml-lang="en">Cleaned EIN</labl>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var><var ID="_3f33563f-b017-496e-9d3d-7bba4077eb85" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="es_county">
+      <location EndPos="328" StartPos="325" width="4"/>
+      <labl xml-lang="en">Cleaned ES202 FIPS County CCC</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_421caabb-b9a8-469b-8c5b-c7333e3027a4" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="es_sic">
+      <location EndPos="324" StartPos="321" width="4"/>
+      <labl xml-lang="en">Cleaned SIC Code IIII</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_a240a176-99b2-475d-8af9-1b268d4170a6" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="leg_county_orig">
+      <location EndPos="320" StartPos="317" width="4"/>
+      <labl xml-lang="en">Cleaned GEO FIPS County CCC, pre-longitudinal impute</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_0bd49caf-c253-489b-a5bb-4607ed17cef2" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="leg_galid_orig">
+      <location EndPos="316" StartPos="287" width="30"/>
+      <labl xml-lang="en">GALID, pre-longitudinal impute</labl>
+      <varFormat formatname="String" schema="other" type="character">%30s</varFormat>
+    </var><var ID="_b2c49e45-7aeb-4e2b-9df9-d02e3f7ccd1c" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="leg_geo_qual_orig">
+      <location EndPos="286" StartPos="275" width="12"/>
+      <labl xml-lang="en">Quality of geography, pre-longitudinal impute</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_bf1d4956-0f68-43c0-a521-1ae1511461ba" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="leg_county">
+      <location EndPos="274" StartPos="271" width="4"/>
+      <labl xml-lang="en">Cleaned GEO FIPS County CCC</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_b0689e41-65c1-437f-981c-0bfe699e60c6" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="es_state">
+      <location EndPos="270" StartPos="269" width="2"/>
+      <labl xml-lang="en">ES202 FIPS State SS</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_3ff7da7c-8e79-4ac0-adf4-ed157e4f9343" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="leg_state">
+      <location EndPos="268" StartPos="267" width="2"/>
+      <labl xml-lang="en">Cleaned GEO State SS</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_cab1ed5a-ea90-4012-abf5-dc3ee208f9e7" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="leg_galid">
+      <location EndPos="266" StartPos="237" width="30"/>
+      <labl xml-lang="en">Final GALID</labl>
+      <varFormat formatname="String" schema="other" type="character">%30s</varFormat>
+    </var><var ID="_e265bf62-4ff9-476c-91c9-847b1c1227c1" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="leg_subctygeo">
+      <location EndPos="236" StartPos="227" width="10"/>
+      <labl xml-lang="en">Sub-county Geography from the LEG</labl>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var><var ID="_a9379612-5ed6-4cf7-89e1-79c8e7540212" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="leg_wib">
+      <location EndPos="226" StartPos="221" width="6"/>
+      <labl xml-lang="en">Workforce Investment Board area</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_cf077a9f-a26d-4f9d-a279-548e1238c9ba" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="leg_cbsa_memi">
+      <location EndPos="220" StartPos="219" width="2"/>
+      <labl xml-lang="en">CBSA Type 1=Metro, 2=Micro, Else=9</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_0aef9703-e22d-443a-a36f-3802fe1ac854" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="leg_cbsa">
+      <location EndPos="218" StartPos="213" width="6"/>
+      <labl xml-lang="en">5-digit Core-Based Statistical Area</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_f3139e42-21a6-4c01-9064-5f94fded8ddb" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="leg_block_suf2">
+      <location EndPos="212" StartPos="211" width="2"/>
+      <labl xml-lang="en">Census Block suffix 2</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_23f81aed-6fc1-4ebc-9d7e-1f28e31fcc5a" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="leg_block_suf1">
+      <location EndPos="210" StartPos="209" width="2"/>
+      <labl xml-lang="en">Census Block suffix 1</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_504ac1a9-7a61-4efb-b9e8-65e93f3c7106" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="leg_block">
+      <location EndPos="208" StartPos="205" width="4"/>
+      <labl xml-lang="en">Census block within tract</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_3bebdae2-46e8-403d-bc29-e0dd5cba612d" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="leg_geocode">
+      <location EndPos="204" StartPos="193" width="12"/>
+      <labl xml-lang="en">FIPS state||FIPS county||Census tract</labl>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var><var ID="_02d2f3cd-59d0-4854-9e2d-69d317d8dded" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="leg_longitude">
+      <location EndPos="192" StartPos="181" width="12"/>
+      <labl xml-lang="en">Longitude, 6 implied decimal places</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_2838bd21-7523-41dd-81df-de36fe8267ff" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="leg_latitude">
+      <location EndPos="180" StartPos="169" width="12"/>
+      <labl xml-lang="en">Latitude, 6 implied decimal places</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_13714685-73c7-411e-83a0-98875f73dd61" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="leg_geo_qual">
+      <location EndPos="168" StartPos="157" width="12"/>
+      <labl xml-lang="en">Quality of final geography</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_1ec0d450-95cc-47b4-a108-be6f89e8af95" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="ui_ein">
+      <location EndPos="156" StartPos="147" width="10"/>
+      <labl xml-lang="en">Modal EIN from UIPIK data</labl>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var><var ID="_a78eef75-a420-4bde-9ad1-30f8cb2803c1" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="best_flag">
+      <location EndPos="146" StartPos="135" width="12"/>
+      <labl xml-lang="en">Source of best_ data</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e39584a7-4618-485d-8650-1ac358140573" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="qcew_auxiliary_code">
+      <location EndPos="134" StartPos="133" width="2"/>
+      <labl xml-lang="en">Firm engaged (not) engaged in production</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_774ee275-64b5-48f4-92a0-6db454608bc5" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="best_emp3">
+      <location EndPos="132" StartPos="121" width="12"/>
+      <labl xml-lang="en">Best UI/202 Employment Month 3</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d7a9335c-8e51-4752-9baf-df962303d5ce" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="best_emp2">
+      <location EndPos="120" StartPos="109" width="12"/>
+      <labl xml-lang="en">Best UI/202 Employment Month 2</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d0a7dbcb-12d5-4cb1-b9c0-af7cbfb70c0c" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="best_emp1">
+      <location EndPos="108" StartPos="97" width="12"/>
+      <labl xml-lang="en">Best UI/202 Employment Month 1</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ea650cb3-e5fe-424a-8695-d397c008da90" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="best_wages">
+      <location EndPos="96" StartPos="85" width="12"/>
+      <labl xml-lang="en">Best UI/202 Wages</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_536194e9-8f58-444a-9fe6-71ebad534199" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="seinunit">
+      <location EndPos="26" StartPos="21" width="6"/>
+      <labl xml-lang="en">State UI reporting unit, xwalk value</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_2c684d26-7209-4e17-ac17-7d731d851653" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="yr_qtr">
+      <location EndPos="18" StartPos="13" width="6"/>
+      <labl xml-lang="en">Continuous Time YEAR QUARTER</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_e3c38b31-a479-4cd6-a297-9877566a0cfb" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_leg_subctygeo_emp_flag">
+      <location EndPos="790" StartPos="779" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_4a1b4079-919a-41ac-a431-00fd7c002ace" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_leg_county_orig_emp_flag">
+      <location EndPos="778" StartPos="767" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_b5b9461c-bcd0-4a6d-82af-40312c61dd90" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_leg_county_emp_flag">
+      <location EndPos="766" StartPos="755" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_2a737393-fdc0-4fb8-a9f3-f592c2ea6c99" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_leg_state_emp_flag">
+      <location EndPos="754" StartPos="743" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_b600ed31-ae25-47df-89f8-965f5cbe3a0f" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_leg_cbsa_emp_flag">
+      <location EndPos="742" StartPos="731" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_1b923794-a35b-46c8-a701-f5ee76e39264" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_leg_wib_emp_flag">
+      <location EndPos="730" StartPos="719" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ca977b4c-bd54-4ef8-a533-72d50062bc04" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_ein_emp_flag">
+      <location EndPos="718" StartPos="707" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_70178ee2-e764-4427-b62a-a7c3d68f2a7a" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_owner_code_emp_flag">
+      <location EndPos="706" StartPos="695" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_90e71f60-7c49-448b-a76e-bc938ad3eb8b" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_county_emp_flag">
+      <location EndPos="694" StartPos="683" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d26c3069-032f-4cdc-b516-f81d223cd51c" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_naics_fnl2007_emp_flag">
+      <location EndPos="682" StartPos="671" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_18b762e8-e821-43e7-aca9-9d4877b9bb81" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_naics_fnl2002_emp_flag">
+      <location EndPos="670" StartPos="659" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_2a8b37d0-080c-4574-b433-4e6439dd6af7" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_naics_fnl1997_emp_flag">
+      <location EndPos="658" StartPos="647" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_57fa77b0-3715-44a9-8883-f1a1a0f24672" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_naics_eso2007_emp_flag">
+      <location EndPos="646" StartPos="635" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_19ca0838-7682-4c93-a05b-fa38051c7a79" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_naics_eso2002_emp_flag">
+      <location EndPos="634" StartPos="623" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_c097ff23-20f9-497f-ba94-ad532816cf29" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_naics_eso1997_emp_flag">
+      <location EndPos="622" StartPos="611" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_aac67aef-a003-48c6-96fb-948fdb195401" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_sic_emp_flag">
+      <location EndPos="610" StartPos="599" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_4339cf11-0ef6-4628-a28f-4e326bafacd7" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_naics_eso2007_emp_miss">
+      <location EndPos="598" StartPos="587" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_055e4746-61f0-4e71-b962-b2e37b31bbbe" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_naics_eso2002_emp_miss">
+      <location EndPos="586" StartPos="575" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_90d4acde-5b70-4865-af34-fd92e032f485" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_naics_eso1997_emp_miss">
+      <location EndPos="574" StartPos="563" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_92d0486c-0d9d-4a24-82fd-ded76e1a3d4c" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_leg_county_orig_flag">
+      <location EndPos="562" StartPos="551" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_80cba7cb-0e69-49f3-978b-bafaefce28a5" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_leg_subctygeo_flag">
+      <location EndPos="550" StartPos="539" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_a5c89727-6bf6-4321-91bb-e6a3c6d59144" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_leg_county_flag">
+      <location EndPos="538" StartPos="527" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_c91a6c92-be66-4260-b553-5bce9c146e1d" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_leg_state_flag">
+      <location EndPos="526" StartPos="515" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_3eaa25dd-ac6f-418e-8eac-a5a4be2171d7" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_leg_cbsa_flag">
+      <location EndPos="514" StartPos="503" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_4658abef-ecb3-4de7-9d83-3675b2f7ccf6" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_leg_wib_flag">
+      <location EndPos="502" StartPos="491" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_1c15d64a-41c9-4bd5-b9f1-bb2eeca8354a" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_ein_flag">
+      <location EndPos="490" StartPos="479" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_fcae41ef-a00a-4d48-b87f-8784fe6794f2" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_owner_code_flag">
+      <location EndPos="478" StartPos="467" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_fd76bdba-7f3e-465c-8de4-f692a70dd7ad" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_county_flag">
+      <location EndPos="466" StartPos="455" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_5635c026-ec29-4429-8102-ebb0b0829638" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_naics_fnl2007_flag">
+      <location EndPos="454" StartPos="443" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_908a6851-018f-4b9d-b526-b498a31439de" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_naics_fnl2002_flag">
+      <location EndPos="442" StartPos="431" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_f51aaa40-e489-4eca-b22d-bb494cfa5044" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_naics_fnl1997_flag">
+      <location EndPos="430" StartPos="419" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_03d687b8-a04a-4be7-ba30-698cbc8518e8" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_naics_eso2007_flag">
+      <location EndPos="418" StartPos="407" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_98ccfb49-2134-4f18-8b56-f783e373aab0" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_naics_eso2002_flag">
+      <location EndPos="406" StartPos="395" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_598e7911-661c-4560-90d0-c593cda7c89a" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_naics_eso1997_flag">
+      <location EndPos="394" StartPos="383" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ec750f94-e4e7-4cf2-a815-19441b333c8e" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_sic_flag">
+      <location EndPos="382" StartPos="371" width="12"/>
+      <labl xml-lang="en">Quarters Away Data Found</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ce9c5e5f-9497-4ad0-b0b8-df0dba8e8a7f" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_naics_eso2007_miss">
+      <location EndPos="370" StartPos="359" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ca1c4925-159d-4fb6-9983-f81ebbc022a4" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_naics_eso2002_miss">
+      <location EndPos="358" StartPos="347" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_2748bb38-589b-4376-9278-a8db31262e09" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_naics_eso1997_miss">
+      <location EndPos="346" StartPos="335" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_31eae863-fd1d-4ffc-831b-345f9753d16a" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_naics_eso2007_emp">
+      <location EndPos="334" StartPos="329" width="6"/>
+      <labl xml-lang="en">Emp Mode Cleaned NAICS 2007</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_b562b7c3-51ec-48c9-bb8a-a0451fb05330" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_naics_eso2002_emp">
+      <location EndPos="328" StartPos="323" width="6"/>
+      <labl xml-lang="en">Emp Mode Cleaned NAICS 2002</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_3623cbc9-4752-44eb-88db-4714d0458c1b" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_naics_eso1997_emp">
+      <location EndPos="322" StartPos="317" width="6"/>
+      <labl xml-lang="en">Emp Mode Cleaned NAICS 1997</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_6e0ca0af-c62f-4cdb-9e44-e76d5921a7fa" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_naics_eso2007">
+      <location EndPos="316" StartPos="311" width="6"/>
+      <labl xml-lang="en">Unit Mode Cleaned NAICS 2007</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_5142e768-e4a4-44cd-a761-a445dba2adee" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_naics_eso2002">
+      <location EndPos="310" StartPos="305" width="6"/>
+      <labl xml-lang="en">Unit Mode Cleaned NAICS 2002</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_a353fc9c-d530-4b99-8d2e-99363d86f1f3" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="mode_es_naics_eso1997">
+      <location EndPos="304" StartPos="299" width="6"/>
+      <labl xml-lang="en">Unit Mode Cleaned NAICS 1997</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_d5f6fe05-a05f-4ecf-9c4e-13e4fd68b47a" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="ui_wages">
+      <location EndPos="298" StartPos="287" width="12"/>
+      <labl xml-lang="en">SEIN UI Wages</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_4d8b088f-1573-4ecc-a9e3-1dd88efc9bed" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="emp3_ui">
+      <location EndPos="286" StartPos="275" width="12"/>
+      <labl xml-lang="en">Best SEIN UI Employment</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_7d2cc09f-cead-4375-9236-2c10f7b955ad" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="emp2_ui">
+      <location EndPos="274" StartPos="263" width="12"/>
+      <labl xml-lang="en">Best SEIN UI Employment</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_29c82637-16a0-4808-843f-67e2a6e5cc81" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="emp1_ui">
+      <location EndPos="262" StartPos="251" width="12"/>
+      <labl xml-lang="en">Best SEIN UI Employment</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d798d00f-1f88-4572-9973-128faa18a8d6" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="in_202">
+      <location EndPos="250" StartPos="239" width="12"/>
+      <labl xml-lang="en">SEIN in ES202</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e1d1cf93-fdba-4898-aa10-80e616fbd0fc" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="in_ui">
+      <location EndPos="238" StartPos="227" width="12"/>
+      <labl xml-lang="en">SEIN in UI</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_43d41953-dd81-4155-8201-e66975c3c548" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="ever_ui">
+      <location EndPos="226" StartPos="215" width="12"/>
+      <labl xml-lang="en">SEIN ever on UI</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_7aeb54ba-53a9-496e-b435-b2ad71a30198" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="ever_202">
+      <location EndPos="214" StartPos="203" width="12"/>
+      <labl xml-lang="en">SEIN ever on 202</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_f9f3130e-6796-4a13-9842-b0df9c88e08b" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="ever_emp3">
+      <location EndPos="202" StartPos="191" width="12"/>
+      <labl xml-lang="en">MULTI ever has ES202 month 3 employment</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_43b8830a-0b2a-44a2-b83a-7fd01b724820" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="ever_emp2">
+      <location EndPos="190" StartPos="179" width="12"/>
+      <labl xml-lang="en">MULTI ever has ES202 month 2 employment</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_435c9939-b21f-400a-85cf-bfdae609b54d" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="ever_emp1">
+      <location EndPos="178" StartPos="167" width="12"/>
+      <labl xml-lang="en">MULTI ever has ES202 month 1 employment</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_5f67312b-437e-4b3c-8d55-7627299a5271" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="ever_wages">
+      <location EndPos="166" StartPos="155" width="12"/>
+      <labl xml-lang="en">MULTI ever ES202 wages</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_0df9d4f3-da0a-4090-a128-1c22a58198b0" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="ever_multi">
+      <location EndPos="154" StartPos="143" width="12"/>
+      <labl xml-lang="en">SEIN ever multi unit</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_63ab3bb0-b020-4dc3-ba06-84d414bb5b79" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="qcew_sein_wages">
+      <location EndPos="142" StartPos="131" width="12"/>
+      <labl xml-lang="en">SEIN 202 Wages</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_13497bae-6674-4b16-857a-5b99ce4025e0" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="qcew_sein_emp3">
+      <location EndPos="130" StartPos="119" width="12"/>
+      <labl xml-lang="en">SEIN 202 Employment Month 3</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e898a1e7-c8ae-492e-8e0b-bcb268ad327c" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="qcew_sein_emp2">
+      <location EndPos="118" StartPos="107" width="12"/>
+      <labl xml-lang="en">SEIN 202 Employment Month 2</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_4bc9771d-4ed8-4166-8fe1-9e9f2c265425" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="qcew_sein_emp1">
+      <location EndPos="106" StartPos="95" width="12"/>
+      <labl xml-lang="en">SEIN 202 Employment Month 1</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_30c26746-0ef8-4f8a-abe8-387327d7a18a" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="ui_payroll">
+      <location EndPos="94" StartPos="83" width="12"/>
+      <labl xml-lang="en">Original UI Payroll Info W1</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_b4a86458-6225-43e6-9fb7-15c673275628" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="ui_seinsize_b">
+      <location EndPos="82" StartPos="71" width="12"/>
+      <labl xml-lang="en">UI Employment B</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_1ffccc48-1f08-4099-bd7a-5e9ecdc75ba1" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="ui_seinsize_e">
+      <location EndPos="70" StartPos="59" width="12"/>
+      <labl xml-lang="en">UI Employment E</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_fb4959bf-c084-4b2c-a927-5309d9901442" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="ui_seinsize_m">
+      <location EndPos="58" StartPos="47" width="12"/>
+      <labl xml-lang="en">UI Employment M</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_68773d02-5052-4d30-ab84-cdee91830bf6" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="master_multi_unit_code">
+      <location EndPos="22" StartPos="21" width="2"/>
+      <labl xml-lang="en">Stored Master Multi Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_ca6fcdf4-42bc-4267-9299-66efeae544b9" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="master_total_wages_flg">
+      <location EndPos="20" StartPos="19" width="2"/>
+      <labl xml-lang="en">Stored Master Record Flag</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_940cf6ea-ba8c-43f0-a613-43b6b39942ac" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="master_empl_month3_flg">
+      <location EndPos="18" StartPos="17" width="2"/>
+      <labl xml-lang="en">Stored Master Record Flag</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_6a039e85-3e67-4efa-b49b-6773b5c00a5a" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="master_empl_month2_flg">
+      <location EndPos="16" StartPos="15" width="2"/>
+      <labl xml-lang="en">Stored Master Record Flag</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_e726c310-3ea5-42c9-863b-7f20d66ccb95" dcml="0" files="_e003002d-7c49-473c-a06c-426cb1ccffe7" name="master_empl_month1_flg">
+      <location EndPos="14" StartPos="13" width="2"/>
+      <labl xml-lang="en">Stored Master Record Flag</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_75b652f2-0f42-495c-9435-2a46d1858643" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="sample_sein">
+      <location EndPos="484" StartPos="473" width="12"/>
+      <labl xml-lang="en">Random sample selector for SEIN</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_bd336467-60c2-4b9d-9bb3-c6b7981d64a0" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="qwi_unit_weight">
+      <location EndPos="614" StartPos="603" width="12"/>
+      <labl xml-lang="en">Weight sum(B_UI)=sum(month1_BLS)</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_72ce897f-8c03-4a35-b9e9-c61543ec801b" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_leg_cbsa_memi">
+      <location EndPos="602" StartPos="601" width="2"/>
+      <labl xml-lang="en">Unit Mode Cleaned GEO CBSA type</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_a39fd74c-55d1-4f83-90cb-bf10f556203a" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_leg_cbsa">
+      <location EndPos="600" StartPos="595" width="6"/>
+      <labl xml-lang="en">Unit Mode Cleaned GEO CBSA</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_5abb85e1-825e-4b6c-82da-b74015b67e83" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_leg_cbsa_emp">
+      <location EndPos="594" StartPos="589" width="6"/>
+      <labl xml-lang="en">Emp Mode Cleaned GEO CBSA</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_765f5463-adb2-4e59-806d-c54ca268c8c0" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_leg_cbsa_memi_emp">
+      <location EndPos="588" StartPos="587" width="2"/>
+      <labl xml-lang="en">Emp Mode Cleaned GEO CBSA type</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_4893afe4-12ce-4bfc-a7bd-f4cc18f2a265" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_leg_county_orig_emp_miss">
+      <location EndPos="586" StartPos="575" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_21e936ea-c044-4936-9063-bfabc481def5" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_leg_subctygeo_emp_miss">
+      <location EndPos="574" StartPos="563" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ece73b48-787a-4f46-bda5-fc8e76d16c8f" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_leg_county_emp_miss">
+      <location EndPos="562" StartPos="551" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_1c8d0a64-f5fd-4195-8347-fef3b60dc24b" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_leg_state_emp_miss">
+      <location EndPos="550" StartPos="539" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_dce909cf-fe85-4ebe-ba0b-4dcf994d6957" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_leg_cbsa_emp_miss">
+      <location EndPos="538" StartPos="527" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_7abf0616-d7be-4ab1-b5b9-2f4e2a7b9d67" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_leg_wib_emp_miss">
+      <location EndPos="526" StartPos="515" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_45a568df-f98c-4bd6-a8d2-13d8c625fd03" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_ein_emp_miss">
+      <location EndPos="514" StartPos="503" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ac419081-2a46-40c1-875d-0565a9eebdb2" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_owner_code_emp_miss">
+      <location EndPos="502" StartPos="491" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_941bedf1-18b3-47e3-8451-938d126e4b90" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_county_emp_miss">
+      <location EndPos="490" StartPos="479" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_bf4b6a7d-4bd1-4c10-b897-4e6e03bc61ad" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_naics_fnl2007_emp_miss">
+      <location EndPos="478" StartPos="467" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_94c7f6d3-ebf1-4f86-847a-7c0f5eb39ee2" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_naics_fnl2002_emp_miss">
+      <location EndPos="466" StartPos="455" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_4710ef2e-73b1-48dc-942d-b6b6359b8e9c" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_naics_fnl1997_emp_miss">
+      <location EndPos="454" StartPos="443" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e8ea58ac-d259-4668-9035-989dbd9d9f3a" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_sic_emp_miss">
+      <location EndPos="442" StartPos="431" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_eb8c9fe9-59f2-4b30-810b-4ff503126c3d" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_leg_county_orig_miss">
+      <location EndPos="430" StartPos="419" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_2affcfa6-f148-4e8b-a976-93b5e0ab858d" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_leg_subctygeo_miss">
+      <location EndPos="418" StartPos="407" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_34dc53d4-7cad-4abd-8e53-4c399a758fe9" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_leg_county_miss">
+      <location EndPos="406" StartPos="395" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_98a82036-f7a7-4e1b-abae-b0425f40bf81" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_leg_state_miss">
+      <location EndPos="394" StartPos="383" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ad239054-cb92-4700-9258-8be5fead8541" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_leg_cbsa_miss">
+      <location EndPos="382" StartPos="371" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_59f9ed5a-3405-4b50-bdf0-49b60d194475" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_leg_wib_miss">
+      <location EndPos="370" StartPos="359" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_732fc068-f378-4813-aab0-3c70083510e6" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_ein_miss">
+      <location EndPos="358" StartPos="347" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_cc8ba002-a977-4191-bae4-9085f7abfa71" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_owner_code_miss">
+      <location EndPos="346" StartPos="335" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_45176de9-1043-480c-82f4-56d5973e172e" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_county_miss">
+      <location EndPos="334" StartPos="323" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_4597fdb5-be15-42ca-b6dc-0a5b976c0b87" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_naics_fnl2007_miss">
+      <location EndPos="322" StartPos="311" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_c39604fb-207e-4100-b284-dc46d53541a9" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_naics_fnl2002_miss">
+      <location EndPos="310" StartPos="299" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_62687022-8b77-440d-a341-609e9924ae1b" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_naics_fnl1997_miss">
+      <location EndPos="298" StartPos="287" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_fd356fcf-f163-433d-b34c-1f67163b6dc9" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_sic_miss">
+      <location EndPos="286" StartPos="275" width="12"/>
+      <labl xml-lang="en">Missing Value</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_44115bab-15cc-4a02-b418-bc10be9bcd5f" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_leg_county_orig_emp">
+      <location EndPos="274" StartPos="271" width="4"/>
+      <labl xml-lang="en">Emp Mode Cleaned GEO COUNTY, pre-longitudinal impute</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_88ae18c8-9933-43cc-aeea-42c7f7f5d19a" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_leg_county_orig">
+      <location EndPos="270" StartPos="267" width="4"/>
+      <labl xml-lang="en">Unit Mode Cleaned GEO COUNTY, pre-longitudinal impute</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_06bd913b-c845-4852-9e00-35bf248196b9" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_leg_subctygeo_emp">
+      <location EndPos="266" StartPos="257" width="10"/>
+      <labl xml-lang="en">Emp Mode Cleaned GEO COUNTY</labl>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var><var ID="_70d1c8ef-8114-4037-b9cf-fbfdd1007935" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_leg_subctygeo">
+      <location EndPos="256" StartPos="247" width="10"/>
+      <labl xml-lang="en">Unit Mode Cleaned GEO COUNTY</labl>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var><var ID="_3262c764-d698-404c-94fb-549e607dd33a" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_leg_county_emp">
+      <location EndPos="246" StartPos="243" width="4"/>
+      <labl xml-lang="en">Emp Mode Cleaned GEO COUNTY</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_e0995fe0-c0fc-475f-ad6e-0e11ca952788" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_leg_county">
+      <location EndPos="242" StartPos="239" width="4"/>
+      <labl xml-lang="en">Unit Mode Cleaned GEO COUNTY</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_45bb0341-a54b-44a2-866b-677b754b4d7c" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_leg_state_emp">
+      <location EndPos="238" StartPos="237" width="2"/>
+      <labl xml-lang="en">Emp Mode Cleaned GEO STATE</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_19b84c31-0086-4dcf-9405-0a84cf8e1f3a" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_leg_state">
+      <location EndPos="236" StartPos="235" width="2"/>
+      <labl xml-lang="en">Unit Mode Cleaned GEO STATE</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_513ca0c6-6cd1-42c5-a0e7-694e8df199c9" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_leg_wib_emp">
+      <location EndPos="234" StartPos="229" width="6"/>
+      <labl xml-lang="en">Emp Mode Cleaned GEO WIB</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_c4ee8c11-0bd7-434a-b45d-c8bd62ea7094" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_leg_wib">
+      <location EndPos="228" StartPos="223" width="6"/>
+      <labl xml-lang="en">Unit Mode Cleaned GEO WIB</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_80246356-40ba-4123-a41e-d3386352663b" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_owner_code_emp">
+      <location EndPos="222" StartPos="221" width="2"/>
+      <labl xml-lang="en">Emp Mode Cleaned OWNER_CODE</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_28c02801-d306-4387-afe7-2fd4069e0443" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_naics_fnl2007_emp">
+      <location EndPos="220" StartPos="215" width="6"/>
+      <labl xml-lang="en">Emp Mode Cleaned NAICS 2007</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_58837b62-a766-4802-849a-efc6c3f7b8fc" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_naics_fnl2002_emp">
+      <location EndPos="214" StartPos="209" width="6"/>
+      <labl xml-lang="en">Emp Mode Cleaned NAICS 2002</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_d8523040-0e02-4cb2-875f-38cbcd3c9b85" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_naics_fnl1997_emp">
+      <location EndPos="208" StartPos="203" width="6"/>
+      <labl xml-lang="en">Emp Mode Cleaned NAICS 1997</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_842b4d07-510f-4735-963c-3a6682ef1d87" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_ein_emp">
+      <location EndPos="202" StartPos="193" width="10"/>
+      <labl xml-lang="en">Emp Mode Cleaned EIN</labl>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var><var ID="_838a0251-3335-430e-b151-58e7585f25f9" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_county_emp">
+      <location EndPos="192" StartPos="189" width="4"/>
+      <labl xml-lang="en">Emp Mode Cleaned County</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_ac1abca3-bda5-4965-81a7-dba1be33a92d" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_sic_emp">
+      <location EndPos="188" StartPos="185" width="4"/>
+      <labl xml-lang="en">Emp Mode Cleaned SIC</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_0d64542c-8efa-41f9-850e-ca13f1fbf785" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_owner_code">
+      <location EndPos="184" StartPos="183" width="2"/>
+      <labl xml-lang="en">Unit Mode Cleaned OWNER_CODE</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_ca44f90a-4442-435e-a9ae-c1cfa74feab4" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_naics_fnl2007">
+      <location EndPos="182" StartPos="177" width="6"/>
+      <labl xml-lang="en">Unit Mode Cleaned NAICS 2007</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_ab9ae870-c29c-45b5-a40f-664270fb1eef" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_naics_fnl2002">
+      <location EndPos="176" StartPos="171" width="6"/>
+      <labl xml-lang="en">Unit Mode Cleaned NAICS 2002</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_ce548352-d7ac-47da-b52b-d8ddd3f081d8" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_naics_fnl1997">
+      <location EndPos="170" StartPos="165" width="6"/>
+      <labl xml-lang="en">Unit Mode Cleaned NAICS 1997</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_2fd41b2d-f191-4214-b02a-887d5548780e" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_ein">
+      <location EndPos="164" StartPos="155" width="10"/>
+      <labl xml-lang="en">Unit Mode Cleaned EIN</labl>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var><var ID="_bd08a9bd-feed-4195-8243-a14b1d759d1a" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_county">
+      <location EndPos="154" StartPos="151" width="4"/>
+      <labl xml-lang="en">Unit Mode Cleaned County</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_a84cb6e8-49aa-432f-9a7f-fe6f27691904" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="mode_es_sic">
+      <location EndPos="150" StartPos="147" width="4"/>
+      <labl xml-lang="en">Unit Mode Cleaned SIC</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_7f7d3cfd-043e-47e3-a7ca-a5762607f229" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="sein_best_emp3">
+      <location EndPos="146" StartPos="135" width="12"/>
+      <labl xml-lang="en">SEIN Best UI/202 Month 3, Employment</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_828d4cb6-8455-4c9d-81f5-10dc22333546" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="sein_best_emp2">
+      <location EndPos="134" StartPos="123" width="12"/>
+      <labl xml-lang="en">SEIN Best UI/202 Month 2, Employment</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_6e8ef816-feb3-47da-92d4-ceadb694c543" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="sein_best_emp1">
+      <location EndPos="122" StartPos="111" width="12"/>
+      <labl xml-lang="en">SEIN Best UI/202 Month 1, Employment</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_df1f6ff6-5bff-4a5f-8ae6-597e2b4ba4b1" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="sein_best_wages">
+      <location EndPos="110" StartPos="99" width="12"/>
+      <labl xml-lang="en">SEIN Best UI/202 Payroll</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_7957b497-eb85-4f65-badf-dcc7bfd97dc1" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="source">
+      <location EndPos="84" StartPos="73" width="12"/>
+      <labl xml-lang="en">1=UI only,2=202 only,3=both</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_56755e4a-7e36-403f-bb50-ed2827d47b1b" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="multi_first_quarter">
+      <location EndPos="86" StartPos="75" width="12"/>
+      <labl xml-lang="en">First Quarter SEIN on 202</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_1b542f80-01d9-401d-acac-a405de3e7146" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="multi_first_year">
+      <location EndPos="74" StartPos="63" width="12"/>
+      <labl xml-lang="en">First Year SEIN on 202</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_5c5132e2-0834-4b9c-aee9-3394f0b21e77" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="quarter">
+      <location EndPos="74" StartPos="63" width="12"/>
+      <labl xml-lang="en">Quarter Q</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_54e1305b-3863-404b-9044-a81c94dea803" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="year">
+      <location EndPos="62" StartPos="51" width="12"/>
+      <labl xml-lang="en">Year YYYY</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_c51e6c02-5d2b-47d2-8f95-ab06a76613f3" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="multi_unit">
+      <location EndPos="48" StartPos="37" width="12"/>
+      <labl xml-lang="en">SEIN w/2+ records on 202</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_7980eb6d-4947-44c5-8335-df2287b80ea4" dcml="0" files="_60c0752a-018a-43a9-a58e-c4a28189d810" name="num_estabs">
+      <location EndPos="36" StartPos="25" width="12"/>
+      <labl xml-lang="en">Number of Establishments</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_89853b49-3dff-4407-a0f6-0da492da09d9" dcml="0" files="_d88b49d1-162d-4187-8e64-15b4afa33584" name="multi_unit_code">
+      <location EndPos="14" StartPos="13" width="2"/>
+      <labl xml-lang="en">ES202 multi-unit (non) reporter</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_2021fabe-6516-4704-936d-bb6fa7975ec4" dcml="0" files="_d3e575d3-7ee4-4260-bf86-ce67f97b3b38" name="sein">
+      <location EndPos="12" StartPos="1" width="12"/>
+      <labl xml-lang="en">State Employer Identification Number</labl>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var></dataDscr>
+</codeBook>

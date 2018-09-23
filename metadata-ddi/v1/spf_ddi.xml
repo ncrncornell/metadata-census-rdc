@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><codeBook xmlns="ddi:codebook:2_5" xmlns:dc="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:ns0="http://purl.org/dc/elements/1.1/" xmlns:saxon="http://xml.apache.org/xslt" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ncrn.cornell.edu/docs/ddi/2.5.NCRN/schemas/codebook.xsd">
+  <docDscr>
+    <docSrc>
+      <titlStmt>
+        <titl>Census Bureau constructed data</titl>
+        <altTitl>Successor-Predecessor File � 2011</altTitl>
+      </titlStmt>
+    </docSrc>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>Census Bureau constructed data</titl>
+        <IDNo/>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Bureau of the Census</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer>Bureau of the Census</producer>
+      </prodStmt>
+      <distStmt>
+        <distrbtr>United States Department of Commerce. Bureau of the Census. Research Data Center</distrbtr>
+      </distStmt>
+    </citation>
+    <stdyInfo>
+      <abstract>The Successor-Predecessor File (SPF) is a suite of files providing intertemporal flow-based links based on wage records and administrative links. The file is not fully documented, researchers are advised to use the file with caution.</abstract>
+      <sumDscr>
+        <nation abbr="U.S.">United States of America</nation>
+        <anlyUnit>Quarterly</anlyUnit>
+        <anlyUnit>Three (3) Months</anlyUnit>
+        <anlyUnit>Combination of Establishments, Companies and/or Enterprises</anlyUnit>
+        <universe>Multiple</universe>
+        <universe>Combination (industries)</universe>
+        <universe>All except for agricultural workers</universe>
+      </sumDscr>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <dataCollector>$organization_name</dataCollector>
+        <sampProc>y</sampProc>
+      </dataColl>
+    </method>
+    <dataAccs>
+      <useStmt>
+        <confDec>To obtain this dataset, the user must complete the RDC application process, and be approved for use of this dataset.</confDec>
+        <restrctn>MOU between Census Bureau and individual state agencies.  Protected under Title 13</restrctn>
+        <restrctn>n</restrctn>
+        <conditions>Users must (I) successfully apply for RDC access (ii) pass review by agencies (iii) pass security clearance</conditions>
+        <disclaimer>Not all data is available nationally.</disclaimer>
+      </useStmt>
+    </dataAccs>
+    <othrStdyMat>
+      <relMat/>
+      <relPubl/>
+    </othrStdyMat>
+  </stdyDscr>
+  <fileDscr>
+    <fileTxt>
+      <dimensns>
+        <recNumTot>15 million records in 2 files per state. Record counts vary by state.</recNumTot>
+      </dimensns>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr><var ID="_ab8cc5a2-7149-4289-9414-02d36a80e7f0" dcml="0" files="_a43a6a33-6bee-46b8-bd78-b14c98a67540" name="seinunit">
+      <location EndPos="78" StartPos="73" width="6"/>
+      <labl xml-lang="en">State UI Reporting Unit Number</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_8e9bafd5-4653-46db-9d53-bd70902a45e9" dcml="0" files="_a43a6a33-6bee-46b8-bd78-b14c98a67540" name="year">
+      <location EndPos="60" StartPos="49" width="12"/>
+      <labl xml-lang="en">Year YYYY</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_5f2e4455-b86b-4786-9d70-bbdfc3b08335" dcml="0" files="_a43a6a33-6bee-46b8-bd78-b14c98a67540" name="succ_seinunit">
+      <location EndPos="48" StartPos="43" width="6"/>
+      <labl xml-lang="en">Successor SEINUNIT</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_4faafcb6-c8dc-42c7-af2f-217d70af36db" dcml="0" files="_a43a6a33-6bee-46b8-bd78-b14c98a67540" name="succ_sein">
+      <location EndPos="42" StartPos="31" width="12"/>
+      <labl xml-lang="en">Successor SEIN</labl>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var><var ID="_8bda3ac6-5a14-4455-af18-2f476614709b" dcml="0" files="_a43a6a33-6bee-46b8-bd78-b14c98a67540" name="quarter">
+      <location EndPos="30" StartPos="19" width="12"/>
+      <labl xml-lang="en">Quarter QQ</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_f13dd300-8364-4668-a436-e272aecd16ef" dcml="0" files="_a43a6a33-6bee-46b8-bd78-b14c98a67540" name="pred_seinunit">
+      <location EndPos="18" StartPos="13" width="6"/>
+      <labl xml-lang="en">Predecessor SEINUNIT</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_09126ff1-d4b1-433a-903b-710c5486215a" dcml="0" files="_a43a6a33-6bee-46b8-bd78-b14c98a67540" name="pred_sein">
+      <location EndPos="12" StartPos="1" width="12"/>
+      <labl xml-lang="en">Predecessor SEIN</labl>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var><var ID="_c7f47592-789a-49eb-bd9f-528bff97fb75" dcml="0" files="_7b375cd8-9b21-46af-817f-ae984a4c43d4" name="source">
+      <location EndPos="196" StartPos="193" width="4"/>
+      <labl xml-lang="en">Data source of link between firms</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_4b561933-5e9a-45a6-8ec8-465378fab46d" dcml="0" files="_7b375cd8-9b21-46af-817f-ae984a4c43d4" name="link_es">
+      <location EndPos="192" StartPos="181" width="12"/>
+      <labl xml-lang="en">Type of ES202 based link</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_10ed3070-302d-4449-8748-56f6cb6e1ac6" dcml="0" files="_7b375cd8-9b21-46af-817f-ae984a4c43d4" name="emp_es">
+      <location EndPos="180" StartPos="169" width="12"/>
+      <labl xml-lang="en">Pred ES202 Month 1 Employment, max of last three quarters</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ed0d8360-d2db-437d-a244-83cb33826e68" dcml="0" files="_7b375cd8-9b21-46af-817f-ae984a4c43d4" name="succ_link_ui">
+      <location EndPos="168" StartPos="157" width="12"/>
+      <labl xml-lang="en">Type of link for successor firm</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_42c52847-b39f-4940-b7b2-4eb15a077281" dcml="0" files="_7b375cd8-9b21-46af-817f-ae984a4c43d4" name="succ_ratio">
+      <location EndPos="156" StartPos="145" width="12"/>
+      <labl xml-lang="en">Percent of jobs at successor transitioning from predecessor (estimated)</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_8bcb0909-3c68-477f-afb5-d2e8875e404a" dcml="0" files="_7b375cd8-9b21-46af-817f-ae984a4c43d4" name="ratio">
+      <location EndPos="144" StartPos="133" width="12"/>
+      <labl xml-lang="en">Percent of jobs at predecessor transitioning to successor (estimated)</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_5c33b450-f22a-4cea-a362-05b537f8fea5" dcml="0" files="_7b375cd8-9b21-46af-817f-ae984a4c43d4" name="bpemp_master">
+      <location EndPos="132" StartPos="121" width="12"/>
+      <labl xml-lang="en">Pred UI B Employment, max of last 3 quarters</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_1059b7f1-8818-4ea0-aabe-2cdc908dde9c" dcml="0" files="_7b375cd8-9b21-46af-817f-ae984a4c43d4" name="link_ui">
+      <location EndPos="120" StartPos="109" width="12"/>
+      <labl xml-lang="en">Type of link for predecessor firm</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_bb88a5c9-6114-43fc-8ecb-4cedf0a993aa" dcml="0" files="_7b375cd8-9b21-46af-817f-ae984a4c43d4" name="active_end_qtr_b">
+      <location EndPos="108" StartPos="97" width="12"/>
+      <labl xml-lang="en">Last quarter successor is active on UI</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_5a2424e0-c435-44ef-97e5-dd97b847e038" dcml="0" files="_7b375cd8-9b21-46af-817f-ae984a4c43d4" name="active_beg_qtr_b">
+      <location EndPos="96" StartPos="85" width="12"/>
+      <labl xml-lang="en">First quarter successor is active on UI</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_5b24a189-7698-4e72-a700-f2ee3926c419" dcml="0" files="_7b375cd8-9b21-46af-817f-ae984a4c43d4" name="active_end_qtr_a">
+      <location EndPos="84" StartPos="73" width="12"/>
+      <labl xml-lang="en">Last quarter predecessor is active on UI</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_610159f8-8f6f-42b7-8145-ac73ded6ecc4" dcml="0" files="_7b375cd8-9b21-46af-817f-ae984a4c43d4" name="active_beg_qtr_a">
+      <location EndPos="72" StartPos="61" width="12"/>
+      <labl xml-lang="en">First quarter predecessor is active on UI</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_c6aa0f3d-d589-4639-8bf3-93ba13336914" dcml="0" files="_7b375cd8-9b21-46af-817f-ae984a4c43d4" name="num_left">
+      <location EndPos="60" StartPos="49" width="12"/>
+      <labl xml-lang="en">Number of jobs transitioning between firms</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_7e717c93-0164-400c-a466-8472cdfaee3e" dcml="0" files="_7b375cd8-9b21-46af-817f-ae984a4c43d4" name="match_period">
+      <location EndPos="48" StartPos="37" width="12"/>
+      <labl xml-lang="en">Percent of transitions where separation precedes quarter of accession</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_4a372c4c-7282-427b-853b-032faae27abb" dcml="0" files="_7b375cd8-9b21-46af-817f-ae984a4c43d4" name="sein_succ">
+      <location EndPos="36" StartPos="25" width="12"/>
+      <labl xml-lang="en">SEIN - successor</labl>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var><var ID="_31b15897-d6b7-4c1d-861f-cb383370ec3e" dcml="0" files="_7b375cd8-9b21-46af-817f-ae984a4c43d4" name="qtime">
+      <location EndPos="24" StartPos="13" width="12"/>
+      <labl xml-lang="en">Quarter of separation, 1985Q1=1</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_816f6d69-efe7-4645-b4e0-db55f3c04fe2" dcml="0" files="_a43a6a33-6bee-46b8-bd78-b14c98a67540" name="sein">
+      <location EndPos="72" StartPos="61" width="12"/>
+      <labl xml-lang="en">State Employer ID Number</labl>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var></dataDscr>
+</codeBook>

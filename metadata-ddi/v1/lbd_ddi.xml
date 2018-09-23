@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><codeBook xmlns="ddi:codebook:2_5" xmlns:dc="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:ns0="http://purl.org/dc/elements/1.1/" xmlns:saxon="http://xml.apache.org/xslt" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ncrn.cornell.edu/docs/ddi/2.5.NCRN/schemas/codebook.xsd">
+  <docDscr>
+    <docSrc>
+      <titlStmt>
+        <titl>Center for Economic Studies constructed data</titl>
+      </titlStmt>
+    </docSrc>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>Center for Economic Studies constructed data</titl>
+        <IDNo>10</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Bureau of the Census</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer>Bureau of the Census</producer>
+      </prodStmt>
+      <distStmt>
+        <distrbtr>United States Department of Commerce. Bureau of the Census. Research Data Center</distrbtr>
+      </distStmt>
+    </citation>
+    <stdyInfo>
+      <abstract>The Longitudinal Business Database (LBD) is a research dataset constructed at the Center for Economic Studies.  Currently the LBD contains the universe of all U.S. business establishments with paid employees from 1976 to present.  The LBD is invaluable to researchers examining entry and exit gross job flowsand changes in the structure of the U.S. economy.  The LBD can be used alone or in conjunction with other Census Bureau surveys at the establishment and firm level of microdata. </abstract>
+      <sumDscr>
+        <nation abbr="U.S.">United States of America</nation>
+        <anlyUnit>Annually</anlyUnit>
+        <anlyUnit>Calendar Year</anlyUnit>
+        <anlyUnit>Establishment</anlyUnit>
+        <universe>Business</universe>
+        <universe>Combination (industries)</universe>
+        <universe>The LBD covers nearly all the non-farm private economy as well as some public sector activities.</universe>
+      </sumDscr>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <dataCollector>$organization_name</dataCollector>
+        <sampProc>y</sampProc>
+      </dataColl>
+    </method>
+    <dataAccs>
+      <useStmt>
+        <confDec>To obtain this dataset, the user must complete the RDC application process, and be approved for use of this dataset.</confDec>
+        <restrctn>Title 13 U.S.C.</restrctn>
+        <restrctn>y</restrctn>
+        <conditions>Users must (I) successfully apply for RDC access (ii) pass review by agencies (iii) pass security clearance</conditions>
+      </useStmt>
+    </dataAccs>
+    <othrStdyMat>
+      <relMat>The Longitudinal Business Database (LBD) is a research dataset constructed at the Center for Economic Studies (CES).  Currently the LBD contains the universe of all U.S. business establishments with paid employees from 1976 to 1999.  The LBD is updated annually - the next update scheduled for late 2006 will add data through 2004 .  
+
+The LBD offers researchers at CES and its affiliated Research Data Centers (RDCs)  a number of features not available in other longitudinal datasets.  These include:
+
+Long Time Series  - The LBD contains complete establishment histories from 1975 to 2005.  Precise birth and death year information are available for most establishments.
+
+Industrial Scope - The LBD contains all employer establishments that are in scope for the Economic Census (i.e. all manufacturing mining construction retail wholesale service TCU and FIRE establishments) as well as a large number of public administration and other out of scope entities.
+
+Improved Longitudinal linkages - In contructing the LBD great care was taken to provide researchers with the most complete and accurate set of longitudinal establishment linkages possible.  This substantially reduces the number spurious establishment births and deaths observed in the data.  In addition the LBD provides researchers with detailed flags that describe for each establishment the nature of the linkages over each year an establishment is observed in the data.
+
+Basic establishment demographic data - The LBD contains basic information on establishment size industry location and ownership that permit researchers to analyze establishment demographics.
+
+Linkages to other micro data - The research capabilities of the LBD can be greatly and easily enhanced by linking it to other establishment and firm information contained in Economic Census and survey files available at CES and the RDCs.
+
+More detailed information about the LBD is available in Jarmin and Miranda (CES-WP-2002-17).
+
+
+</relMat>
+      <relPubl>http:www.ces.census.govindex.phpcescespapers?detail_key=101647</relPubl>
+    </othrStdyMat>
+  </stdyDscr>
+  <fileDscr>
+    <fileTxt>
+      <dimensns>
+        <recNumTot>The LBD covers almost 24 million unique establishments from 1975 to present.</recNumTot>
+      </dimensns>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr><var ID="RC5fkJqq50LdrUhJ" dcml="0" files="eMehWMirupJ14czk" name="cbp">
+      <location EndPos="37" StartPos="37" width="1"/>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="fgbMQ11sSwWQSkTH" dcml="0" files="eMehWMirupJ14czk" name="cbp_bestnaics">
+      <location EndPos="36" StartPos="36" width="1"/>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="l0Dem2FDV1XPCZLd" dcml="0" files="eMehWMirupJ14czk" name="cbp_naics">
+      <location EndPos="35" StartPos="35" width="1"/>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="QyIFXL8Lc4nE4M44" dcml="0" files="eMehWMirupJ14czk" name="cbp_bestsic">
+      <location EndPos="34" StartPos="34" width="1"/>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="ymMDn99pauPGmbjE" dcml="0" files="eMehWMirupJ14czk" name="cbp_sic">
+      <location EndPos="33" StartPos="33" width="1"/>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="aEqR9Y1jiYWhBH5P" dcml="0" files="eMehWMirupJ14czk" name="flag_i">
+      <location EndPos="32" StartPos="32" width="1"/>
+      <varFormat formatname="String" schema="other" type="character">%18s</varFormat>
+    </var><var ID="FoxyFCTD98oNkmWI" dcml="0" files="eMehWMirupJ14czk" name="lastyear">
+      <location EndPos="31" StartPos="31" width="1"/>
+      <labl xml-lang="en">Last Year Establishment is Observed</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="I51bVceXtu2y3iMp" dcml="0" files="eMehWMirupJ14czk" name="lastflag">
+      <location EndPos="30" StartPos="30" width="1"/>
+      <labl xml-lang="en">Last Link Flag</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="A6zxU3iNP3jSuwue" dcml="0" files="eMehWMirupJ14czk" name="firstyear">
+      <location EndPos="29" StartPos="29" width="1"/>
+      <labl xml-lang="en">First Year Establishment is Observed</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="sxhwDDzjIW4N8Xuw" dcml="0" files="eMehWMirupJ14czk" name="firstflag">
+      <location EndPos="28" StartPos="28" width="1"/>
+      <labl xml-lang="en">First Link Flag</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="N18HNn2Q9fU4H91U" dcml="0" files="eMehWMirupJ14czk" name="lbdnum">
+      <location EndPos="27" StartPos="27" width="1"/>
+      <labl xml-lang="en">LBD Number</labl>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var><var ID="GMH4CfnEf1xoXikd" dcml="0" files="eMehWMirupJ14czk" name="naics">
+      <location EndPos="26" StartPos="26" width="1"/>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var><var ID="M31DNStPiQV4hhcQ" dcml="0" files="eMehWMirupJ14czk" name="firmid">
+      <location EndPos="25" StartPos="25" width="1"/>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var><var ID="WhZn4d2afCo3mCOI" dcml="0" files="eMehWMirupJ14czk" name="cenflag">
+      <location EndPos="24" StartPos="24" width="1"/>
+      <labl xml-lang="en">Census in-scope flag</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="bl1b5uhgoEaDtsEj" dcml="0" files="eMehWMirupJ14czk" name="bestnaics">
+      <location EndPos="23" StartPos="23" width="1"/>
+      <labl xml-lang="en">Best NAICS</labl>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var><var ID="HR6OvVoBXRRUKCeK" dcml="0" files="eMehWMirupJ14czk" name="mnaics4">
+      <location EndPos="22" StartPos="22" width="1"/>
+      <labl xml-lang="en">Modal 4-digit NAICS</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="gWqUbYqJ0seqsJ70" dcml="0" files="eMehWMirupJ14czk" name="mnaics2">
+      <location EndPos="21" StartPos="21" width="1"/>
+      <labl xml-lang="en">Modal 2-digit NAICS</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="W5RXtmPawPGc0Xma" dcml="0" files="eMehWMirupJ14czk" name="bestsic">
+      <location EndPos="20" StartPos="20" width="1"/>
+      <labl xml-lang="en">Best SIC</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="QKgLebpPaHuKIi8q" dcml="0" files="eMehWMirupJ14czk" name="mfsic4">
+      <location EndPos="19" StartPos="19" width="1"/>
+      <labl xml-lang="en">Modal 4-digit SIC</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="WbB5IYtD5qFAnbOC" dcml="0" files="eMehWMirupJ14czk" name="mfsic1">
+      <location EndPos="18" StartPos="18" width="1"/>
+      <labl xml-lang="en">Modal 1-digit SIC</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="VCqjsoj8ZdrTtWms" dcml="0" files="eMehWMirupJ14czk" name="zip">
+      <location EndPos="17" StartPos="17" width="1"/>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var><var ID="WmtwFl2fX0kuAvSu" dcml="0" files="eMehWMirupJ14czk" name="county">
+      <location EndPos="16" StartPos="16" width="1"/>
+      <labl xml-lang="en">County FIPS codes</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="XqzIXPsAK70ojY1c" dcml="0" files="eMehWMirupJ14czk" name="state">
+      <location EndPos="15" StartPos="15" width="1"/>
+      <labl xml-lang="en">State FIPS codes</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="Gmz108Q7RRKzt074" dcml="0" files="eMehWMirupJ14czk" name="rapf">
+      <location EndPos="14" StartPos="14" width="1"/>
+      <labl xml-lang="en">Reported Annual Payroll Flag</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="uN7OoJPglE3QHrDn" dcml="0" files="eMehWMirupJ14czk" name="act">
+      <location EndPos="13" StartPos="13" width="1"/>
+      <labl xml-lang="en">Activity Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="AvZ3NJfMNzTyMfbq" dcml="0" files="eMehWMirupJ14czk" name="lfo">
+      <location EndPos="12" StartPos="12" width="1"/>
+      <labl xml-lang="en">Legal Form of Organization</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="UERsLyBhuNsb8ily" dcml="0" files="eMehWMirupJ14czk" name="toc">
+      <location EndPos="11" StartPos="11" width="1"/>
+      <labl xml-lang="en">Type of Operation Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="H9Wd3AgqMNMSwRBT" dcml="0" files="eMehWMirupJ14czk" name="pdiv">
+      <location EndPos="10" StartPos="10" width="1"/>
+      <labl xml-lang="en">Processing (Economic) Division Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="TOuqHyoX5L0SbmIA" dcml="0" files="eMehWMirupJ14czk" name="sic">
+      <location EndPos="9" StartPos="9" width="1"/>
+      <labl xml-lang="en">Standard Industrial Classification Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="ayn7EoW0u15lLgjm" dcml="0" files="eMehWMirupJ14czk" name="flagb">
+      <location EndPos="8" StartPos="8" width="1"/>
+      <labl xml-lang="en">Birth-Death-Continuer Link Flag</labl>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var><var ID="eaH5LhfwAHvO1cjl" dcml="0" files="eMehWMirupJ14czk" name="mu">
+      <location EndPos="7" StartPos="7" width="1"/>
+      <labl xml-lang="en">Single-Multi Identifier</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="NmpxfDLzzw0wGHEc" dcml="0" files="eMehWMirupJ14czk" name="flaga">
+      <location EndPos="6" StartPos="6" width="1"/>
+      <labl xml-lang="en">Type of Link Flag</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="ZSbDHZT81XvOHnu3" dcml="0" files="eMehWMirupJ14czk" name="cfn">
+      <location EndPos="5" StartPos="5" width="1"/>
+      <labl xml-lang="en">CFN if yr&lt;2002, SURVUID if yr&gt;=2002</labl>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var><var ID="dsgtrd8J8UNbRC4s" dcml="0" files="eMehWMirupJ14czk" name="recnum">
+      <location EndPos="4" StartPos="4" width="1"/>
+      <labl xml-lang="en">SSEL Record Number</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="vQOQBy1LvWLpwLuz" dcml="0" files="eMehWMirupJ14czk" name="pay">
+      <location EndPos="3" StartPos="3" width="1"/>
+      <labl xml-lang="en">Reported Annual Payroll (in $1,000)</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="sxLA3RxzxO3CCyMs" dcml="0" files="eMehWMirupJ14czk" name="emp">
+      <location EndPos="2" StartPos="2" width="1"/>
+      <labl xml-lang="en">March 12 Employment</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="gFfoJt89iVotiX1I" dcml="0" files="eMehWMirupJ14czk" name="yr">
+      <location EndPos="1" StartPos="1" width="1"/>
+      <labl xml-lang="en">Year</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var></dataDscr>
+</codeBook>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><codeBook xmlns="ddi:codebook:2_5" xmlns:dc="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:ns0="http://purl.org/dc/elements/1.1/" xmlns:saxon="http://xml.apache.org/xslt" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ncrn.cornell.edu/docs/ddi/2.5.NCRN/schemas/codebook.xsd">
+  <docDscr>
+    <docSrc>
+      <titlStmt>
+        <titl>Census Bureau Survey - sponsorship</titl>
+      </titlStmt>
+    </docSrc>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>Census Bureau Survey - sponsorship</titl>
+        <IDNo>22</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Bureau of the Census</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer>Other</producer>
+      </prodStmt>
+      <distStmt>
+        <distrbtr>United States Department of Commerce. Bureau of the Census. Research Data Center</distrbtr>
+      </distStmt>
+    </citation>
+    <stdyInfo>
+      <abstract> The Survey of Industrial Research and Development is the primary source of information on R&amp;D performed by industry within the United States. The results of the survey are used to assess trends in R&amp;D expenditures. Government agencies corporations and research organizations use the data to investigate productivity determinants formulate tax policy and compare individual company performance with industry averages. </abstract>
+      <sumDscr>
+        <nation abbr="U.S.">United States of America</nation>
+        <anlyUnit>Annually</anlyUnit>
+        <anlyUnit>Calendar Year</anlyUnit>
+        <anlyUnit>Enterprise (firm)</anlyUnit>
+        <universe>Business</universe>
+        <universe>Combination (industries)</universe>
+      </sumDscr>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <dataCollector/>
+        <sampProc>n</sampProc>
+      </dataColl>
+    </method>
+    <dataAccs>
+      <useStmt>
+        <confDec>To obtain this dataset, the user must complete the RDC application process, and be approved for use of this dataset.</confDec>
+        <restrctn>Title 13 U.S.C</restrctn>
+        <restrctn>y</restrctn>
+        <conditions>Users must (I) successfully apply for RDC access (ii) pass review by agencies (iii) pass security clearance</conditions>
+      </useStmt>
+    </dataAccs>
+    <othrStdyMat>
+      <relMat>The Survey of Industry Research and Development is the primary source of information on R&amp;D performed by industry within the United States. The results of the survey are used to assess trends in R&amp;D expenditures. Government agencies corporations and research organizations use the data to investigate productivity determinants formulate tax policy and compare individual company performance with industry averages. Individual researchers in industry and academia use the data to investigate a variety of topics and while preparing professional papers dissertations and books. The usefulness of the information collected in this survey is enhanced by the linkage of the data file to the Census Bureau's Longitudinal Establishment Data file which contains information on the outputs and inputs of companies' manufacturing plants. Further total R&amp;D expenditure statistics are used by the Bureau of Economic Analysis for inclusion in their System of National Accounts. Completion of four items on the questionnaire are mandated by law.
+
+b. Respondents
+
+The Survey of Industrial Research and Development is an annual sample survey that intends to include or represent all for-profit R&amp;D-performing companies either publicly or privately held. The survey is completed by representatives at manufacturing and nonmanufacturing companies known to conduct R&amp;D and by representatives from samples of companies in both sectors that may conduct R&amp;D. A company is defined as one or more establishments under common ownership or control. In some cases representatives at the establishment level return forms so that more than one form per company is returned. In these cases company data are aggregated during processing.
+
+c. Key variables
+
+    * Categories of research and development (basic applied and development)
+    * Company size
+    * Employment of scientists and engineers (full-time equivalent)
+    * Equipment
+    * Expenditures for research and development
+    * Federal funds for R&amp;D
+    * Geographic location (within U.S.)
+    * North American Industrial Classification System (NAICS)
+    * Research and development scientists and engineers
+    * Sales
+    * Source of financing (company or Federal)
+    * Standard Industrial Classification system
+
+2. Survey Design 
+
+a. Target population and sample frame
+
+The target population consists of all industrial companies that perform R&amp;D in the United States. The Standard Statistical Establishment List (SSEL) a Bureau of the Census compilation that contains information on more than 3 million establishments with paid employees is the target population from which the frame used to select the survey sample is created. For companies with more than one establishment data were summed to the company level. The frame from which the survey sample is drawn includes all for-profit companies classified in nonfarm industries. For surveys prior to 1992 the frame was limited to companies above certain size criteria based on number of employees. These criteria varied by industry. Some industries were excluded from the frame because it was believed that they contributed little or no R&amp;D activity to the final survey estimates. For the 1992 sample new industries were added to the frame and the size criteria were lowered considerably and applied uniformly to firms in all industries. As a result nearly 2 million enterprises with 5 or more employees were given a chance of selection for subsequent samples including the 1998 sample. For comparison the frame for the 1987 sample included 154000 companies of specified sizes and industries.
+
+b. Sample design
+
+For the 1998 survey each firm was assigned a single Standard Industrial Classification (SIC) code based on the activity of the establishment having the highest dollar value of payroll. This assignment was done on a hierarchical basis. The enterprise was first assigned to the economic division (manufacturing or nonmanufacturing) based on the aggregated payroll of its establishments then to the 2-digit SIC code with the highest payroll within the assigned division then to the 3-digit SIC code with the highest payroll within the assigned 2-digit industry.
+
+Sampling Strata. A fundamental change initiated in 1995 and repeated for subsequent samples was the redefinition of the sampling strata. For the survey years 1992-94 165 sampling strata were established each stratum corresponding to one or more 3-digit-level SIC codes. The objective was to select sufficient representation of industries to determine whether alternative or expanded publication levels were warranted. Starting with the 1995 survey the sampling strata corresponded to publication level industry aggregations; 40 publication levels were defined. These correspond to the original 25 groupings of manufacturing industries used as sampling strata before 1992 and an additional 15 groupings of nonmanufacturing industries. Companies were assigned to strata based on their 3-digit SIC codes.
+
+Certainty Companies. The criteria for identifying companies selected for the survey with certainty which were most recently modified in 1996 have remained the same for subsequent surveys. To limit the growth occurring each year in the number of certainty cases within the total sample the certainty criterion was raised for the 1996 survey from $1 million to $5 million in total R&amp;D expenditures. With a fixed total sample size there was concern that the representation of the very large noncertainty universe by a smaller sample each year would be inadequate. Before 1994 companies with 1000 or more employees had been selected with certainty but it was observed that the level of spending varied considerably and that many of these companies reported no R&amp;D expenditures each year. For these reasons it was determined that these companies should be given chances of selection based upon the size of their R&amp;D spending if they were in the previous survey or upon an estimated R&amp;D value if they were not. Consequently the size criteria were dropped for surveys after 1994.
+
+Frame Partitioning. Partitioning of the frame into large and small companies was first introduced in 1994 because of concern arising from a study of 1992 survey results which showed that a disproportionate number of small companies was being selected for the sample and often assigned very large weights. These small companies seldom reported R&amp;D activity. This disproportion was a result of the minimum probability rule used as part of the independent probability proportionate to size (pps) sampling procedure employed exclusively prior to 1994. This rule increased the probabilities of selection for several hundred thousand smaller companies. For 1994 and subsequent surveys simple random sampling (srs) was applied to the smaller company partition causing the smaller companies to be sampled more efficiently than with independent pps sampling since there was little variability in their size. The large partition continued to be sampled using independent pps sampling. In 1994 and 1995 total company payroll was the basis for partitioning the frame. For each industry grouping the largest companies representing the top 90 percent of the total payroll for the industry grouping were included in the pps frame. The balance the smaller companies comprising the remaining 10 percent of payroll for the industry grouping were included in the srs frame. Beginning in 1996 total company employment became the basis for partitioning the frame. The total company employment levels defining the partitions were based on the relative contribution to total R&amp;D expenditures of companies in different employment size groups in both the manufacturing and nonmanufacturing sectors. In the manufacturing sector all companies with total employment of 50 or more were included in the large company partition. In the nonmanufacturing sector all companies with total employment of 15 or more were included in the large company partition. Companies in the respective sectors with employment below these values were included in the small company partition. In the 1998 survey the large company partition contained almost 550000 companies and the small company partition contained approximately 1.3 million companies. These counts were comparable to those in the 1997 survey (540000 and 1.3 million respectively).
+
+"Zero" industries. One final modification in the frame development for 1996 which was repeated for subsequent surveys was the designation of "zero industries" in the large company partition. Zero industries were those three-digit SIC industries having no R&amp;D expenditures reported in survey years 1992-1994-the years when estimates by three-digit SIC industry were formed. These industries remained within the scope of the survey but only a limited sample was drawn from them because it was unlikely that these industries conducted R&amp;D. Simple random sampling was used to control the number of companies selected from these industries.
+
+Sample Selection. In 1996 a significant revision in the procedure for selecting samples from the partitions led to a change in the development and presentation of estimates. The revised procedure was repeated for subsequent surveys. In 1995 the sample of companies from the large company partition was selected using probability proportionate to size sampling in each of the 40 strata. Likewise the simple random sampling of the small company partition was done for each of the 40 strata. However beginning in 1996 the number of strata established for the small company partition was reduced to two. One stratum consisted of small companies classified in manufacturing industries and the second stratum consisted of small companies classified in nonmanufacturing industries. Simple random sampling continued as the selection method for these two strata. The purpose of selecting the small company panel from these two strata was to reduce the variability in industry estimates largely attributed to the random year-to-year selection of small companies by industry and the high sampling weights that sometimes occurred. As a consequence of this change estimates for industry groups within manufacturing and nonmanufacturing were not possible from these two strata as noted on affected tables. The statistics for the detailed industry groups were based only on the sample from the large company partition. Estimates from the small company partition were included in statistics for total manufacturing total nonmanufacturing and all industries. For completeness in the affected tables the estimates also were added to the categories "other manufacturing" and "other nonmanufacturing".
+
+c. Data collection techniques
+
+The survey is conducted by the Census Bureau in accord with an interagency agreement with SRS. Survey instruments are mailed to company representatives in March each year with a request that they be completed by May 15. Five mail follow-ups are conducted. Phone follow-up is used with the 300 largest nonrespondent R&amp;D performers (as determined by expenditures reported in previous surveys) that have not filed a request for extension. Two questionnaires are used each year to collect data for the survey. Known large R&amp;D performers are sent a detailed questionnaire Form RD-1. The Form RD-1 requests data on sales or receipts total employment employment of scientists and engineers expenditures for R&amp;D performed within the company with Federal funds and with company and other funds character of work (basic research applied research and development) company-sponsored R&amp;D expenditures in foreign countries R&amp;D performed under contract by others Federally funded R&amp;D by contracting agency R&amp;D costs by type of expense domestic R&amp;D expenditures by State energy-related R&amp;D and foreign R&amp;D by country. Because companies receiving the Form RD-1 have participated in previous surveys computer-imprinted data reported by the company for the previous year are supplied for reference. Companies are encouraged to revise or update this imprinted data if they have more current information however prior-year statistics that had been previously published are revised only if large disparities were reported. Small R&amp;D performers and firms included in the sample for the first time were sent Form RD-1A. This form collects the same information as Form RD-1 except for five items: Federal R&amp;D support to the firm by contracting agency R&amp;D costs by type of expense domestic R&amp;D expenditures by State energy-related R&amp;D and foreign R&amp;D by country. It also includes a screening item that allows respondents to indicate that they do not perform R&amp;D. No prior-year information is made available since the majority of the companies that receive the Form RD-1A have not been surveyed previously.
+
+d. Estimation techniques
+
+For various reasons many firms chose to return the survey questionnaires with one or more blank items. For some firms internal accounting systems and procedures may not have allowed quantification of specific expenditures. Others may have refused to answer any voluntary questions as a matter of company policy. When respondents did not provide the requested information estimates for the missing data were made using imputation algorithms. In general the imputation algorithms computed values for missing items by applying the average percentage change for the target item in the nonresponding firm's industry to the item's prior-year value for that firm reported or imputed. This approach with minor variation was used for most items.
+
+3. Survey Quality Measures top
+
+a. Sampling variability
+
+The sample is designed to produce coefficients of variation of 2 percent for industries designated as "high priority" industries and 5 percent for other industries. The designation of "high priority" is assigned when prior surveys have identified an industry as one in which there is a large amount of R&amp;D expenditures.
+
+b. Coverage
+
+Coverage error constitutes a possible source of error for the survey because the SSEL is undoubtedly missing some in-scope companies especially relatively new ones. It should be noted that coverage errors for surveys prior to 1992 were more likely because not all companies on the SSEL were subject to selection. The Census Bureau continually strengthens and updates the SSEL so that coverage error is minimized..
+
+c. Nonresponse
+
+(1) Unit nonresponse - Of the companies surveyed for 1998 13.2 percent did not respond. Nonresponse studies of companies that do not respond to the survey are conducted periodically to improve response rates in future surveys. Overall the magnitude of unit nonresponse bias is negligible because even if no response can be elicited from a company other sources of information about the company are used to estimate its R&amp;D data.
+
+(2) Item nonresponse - Companies are encouraged to estimate information when actual data are unavailable. Even so item nonresponse rates for key data elements in the survey for 1998 ranged from 1.6 percent to 68.3 percent. When estimates are not reported and cannot be elicited by following up with the respondent complex comprehensive imputation techniques developed over the survey's long history are used to minimize the effects of item nonresponse.
+
+d. Measurement
+
+Variations in respondent interpretations of the definitions of R&amp;D activities and variations in accounting procedures are of particular concern. Specifically some companies have difficulty separating basic research from applied research delineating the costs of fringe benefits attributable to R&amp;D personnel locating geographically where R&amp;D is performed and reporting the cost of energy R&amp;D. The sophistication and comprehensiveness of a company's accounting system often depends on its size and activities and its willingness to accommodate Government-sponsored surveys. Work was conducted recently using cognitive lab approaches to evaluate ways in which the form could be modified to ease reporting difficulties and reduce measurement error. Recommendations resulting from that work continue to be incorporated into the survey questionnaires. Other ongoing efforts to minimize measurement error include questionnaire pre-testing improvement of questionnaire wording and format inclusion of more cues and examples in the questionnaire instructions consultations with respondents post-survey evaluations record check studies and computer editing.
+
+4. Trend Data top
+
+The statistics resulting from this survey are better indicators of changes in rather than absolute levels of R&amp;D spending and personnel. Nevertheless the statistics are often taken to be a continuous time series prepared using the same collection processing and tabulation methods. Such uniformity has not been the case. Since the survey was first fielded improvements have been made to increase the reliability of the statistics and to make the survey results more useful. To that end past practices have been changed and new procedures instituted. Preservation of the comparability of the statistics has however been an important consideration in making these improvements. Nonetheless changes to survey definitions the industry classification system and the procedure used to assign industry codes to multi-establishment companies have had some though not substantial effects on the comparability of statistics. The aspect of the survey that had the greatest effect on comparability was the selection of samples at irregular intervals (i.e. 1967 1971 1976 1981 1987 and 1992) and the use of a subset or panel of the last sample drawn to develop statistics for intervening years. This practice introduced cyclical deterioration of the statistics. As compensation for this deterioration periodic revisions were made to the statistics produced from the panels surveyed between sample years. Early in the survey's history various methods were used to make these revisions. After 1976 and until the 1992 advent of annual sampling a linking procedure called wedging was used. In wedging the 2 sample years on each end of a series of estimates served as benchmarks in the algorithms used to adjust the estimates for the intervening years. To that end the wedging algorithm does not change estimates from sample years and adjusts estimates from panel years recognizing that deterioration of the panel is progressive over time. One of the primary reasons for deciding to select a new sample annually rather than at irregular intervals was to avoid applying global revision processes such as wedging. Consequently the 1992 survey was intended to be the last one affected by the wedging procedure.
+
+5. Availability of Data top
+
+a. Publications
+
+The data from this survey are published annually in SRS Data Briefs and in the series Research and Development in Industry all available on the SRS web site. Data for major data elements are available starting in 1953. Information from this survey is also included in Science and Engineering Indicators and in National Patterns of R&amp;D Resources
+
+b. Electronic access
+
+Data from this survey are available on the SRS Web site.
+
+c. Contact for more information
+
+Additional information about this survey can be obtained by contacting:
+Raymond Wolfe
+Economist
+Research and Development Statistics Program
+Division of Science Resources Statistics
+National Science Foundation
+4201 Wilson Boulevard Suite 965
+Arlington VA 22230
+(703) 292-7789
+via e-mail at rwolfe@nsf.gov </relMat>
+      <relPubl>http:www.census.govmcdresdev.html</relPubl>
+    </othrStdyMat>
+  </stdyDscr>
+  <fileDscr>
+    <fileTxt>
+      <dimensns>
+        <recNumTot>Approximately 4000 to 13000 depending on reference year.</recNumTot>
+      </dimensns>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr><var ID="oWll3qea2Y1Lj5yK" dcml="0" files="RE5XkxzqUx3Qyooa" name="text">
+      <location EndPos="3" StartPos="3" width="1"/>
+      <labl xml-lang="en">Write-in text</labl>
+      <varFormat formatname="String" schema="other" type="character">%160s</varFormat>
+    </var><var ID="a5T1jgPr9Bo5dA46" dcml="0" files="RE5XkxzqUx3Qyooa" name="item">
+      <location EndPos="2" StartPos="2" width="1"/>
+      <labl xml-lang="en">Describes the location of the write-in item</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="cw6KX4tJ2kcS65AO" dcml="0" files="RE5XkxzqUx3Qyooa" name="id">
+      <location EndPos="1" StartPos="1" width="1"/>
+      <labl xml-lang="en">Firm Identifier</labl>
+      <varFormat formatname="String" schema="other" type="character">%16s</varFormat>
+    </var></dataDscr>
+</codeBook>

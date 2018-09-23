@@ -1,0 +1,5712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codeBook xmlns:act="http://ced2ar.org/ns/activities#" xmlns:ced2ar="http://ced2ar.org/ns/core#" xmlns:RePEc="https://ideas.repec.org/#" xmlns:exn="http://ced2ar.org/ns/external#" xmlns:repeca="https://ideas.repec.org/e/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:tr="http://example.com/ns/tr#" xmlns:ex="http://example.com/ns/ex#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:saxon="http://xml.apache.org/xslt" xmlns:ns0="http://purl.org/dc/elements/1.1/" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dc="http://purl.org/dc/terms/" xmlns="ddi:codebook:2_5" xsi:schemaLocation="ddi:codebook:2_5 http://www.ncrn.cornell.edu/docs/ddi/2.5.NCRN.P/schemas/codebook.xsd">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>cmfv2002</titl>
+      </titlStmt>
+      <verStmt>
+        <version date="2017-09-01 14:28:21 (upload date)"/>
+      </verStmt>
+    </citation>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl/>
+      </titlStmt>
+    </citation>
+  </stdyDscr>
+  <dataDscr>
+    <var ID="V1" name="survu_id">
+      <labl>survey unit (estab) identifier</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V2" name="ref_period">
+      <labl>reference period for survey</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V3" name="active">
+      <labl>indicates whether or not the surv unit is active</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V4" name="alpha">
+      <labl>alpha--multi-unit identifier (=1st 6 characters of cfn until 2002)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V5" name="ein">
+      <labl>employer identification number (tax id)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V6" name="trade_code">
+      <labl>trade area code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V7" name="naics_new_sector">
+      <labl>naics sector based on most recent manual</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V8" name="naics_old_sector">
+      <labl>naics sector based on manual from prev census</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V9" name="naics_bridge_sector">
+      <labl>naics sector based on bridge code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V10" name="naics_old_mail">
+      <labl>naics mailout code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V11" name="naics_new">
+      <labl>naics industry code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V12" name="naics_old">
+      <labl>&amp;quot;naics industry code, based on manual from prev census&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V13" name="naics_bridge">
+      <labl>naics bridge code (prev census)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V14" name="naics_aux_new">
+      <labl>&amp;quot;naics code for industry served (auxil estab), most recent naics manual&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V15" name="naics_aux_old">
+      <labl>&amp;quot;naics code for industry served (auxil estab), prev census manual&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V16" name="naics_aux_new_f">
+      <labl>auxil scope flag--industry served in scope for ec based on most recent manual</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V17" name="naics_aux_flg_mail">
+      <labl>auxil scope flag--industry served in scope for ec based on mailout</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V18" name="naics_aux_old_f">
+      <labl>&amp;quot;auxil scope flag--industry served in scope for ec, prev census manual&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V19" name="naics_rel_new">
+      <labl>reliability of naics_new</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V20" name="naics_rel_old">
+      <labl>reliability of naics_old</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V21" name="naics_src_old">
+      <labl>source of naics_old</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V22" name="naics_src_new">
+      <labl>source of naics_new</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V23" name="naics_new_date">
+      <labl>&amp;quot;naics code based on most recent naics manual, date updated&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V24" name="naics_old_date">
+      <labl>&amp;quot;naics code based on naics manual from prev census, date updated&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V25" name="fipsst">
+      <labl>fips state code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V26" name="cou">
+      <labl>fips county code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V27" name="mcdfips">
+      <labl>fips minor civil division</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V28" name="msa">
+      <labl>metropolitan statistical area code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V29" name="geomd">
+      <labl>metropolitan division</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V30" name="ccc">
+      <labl>consolidated city code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V31" name="place_cen">
+      <labl>census place code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V32" name="geo_conf">
+      <labl>summarized info from other geo flags to evaluate current geo codes</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V33" name="tie_break">
+      <labl>br tie-breaker</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V34" name="tract">
+      <labl>tract code (2002 files have 1990 codes)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V35" name="place_fips">
+      <labl>fips place code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V36" name="in_city">
+      <labl>&amp;quot;in city corporate limits flag (values blank, 1-4???)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V37" name="munityp">
+      <labl>type of municipality (1-4)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V38" name="chkin_date">
+      <labl>date ckin_cd assigned (sas date/time value)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V39" name="batchdate">
+      <labl>batch edit date</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V40" name="batchseq">
+      <labl>sequence number within data entry batch</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V41" name="bracketed_data">
+      <labl>flag for whether data was bracketed</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V42" name="chkin_cd">
+      <labl>most recent check-in processing info</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V43" name="chng_date">
+      <labl>date of last update</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V44" name="cvg_chng_cd">
+      <labl>coverage control source code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V45" name="cvg_chng_date">
+      <labl>coverage change date (sas date/time value)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V46" name="cvg_remark">
+      <labl>coverage remarks returned on form (y/n)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V47" name="edit_batch">
+      <labl>batch number assigned to the report form for format/complex editing</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V48" name="elec_remark_indic">
+      <labl>indicates that electronic remarks exist</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V49" name="emp_size_code">
+      <labl>employment size code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V50" name="exten_date">
+      <labl>extension date granted to respondent (sas date/time values)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V51" name="form_edit">
+      <labl>form number used to edit record</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V52" name="form_mailed">
+      <labl>form mailed</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V53" name="form_remail">
+      <labl>form re-mailed</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V54" name="form_proc">
+      <labl>form returned and processed</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V55" name="gcorr_date">
+      <labl>date global correction was made (sas date/time value)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V56" name="govt_status">
+      <labl>government status</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V57" name="histdata">
+      <labl>indicates if historic data exists</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V58" name="legatn">
+      <labl>tab number from prev census</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V59" name="legcfn">
+      <labl>cfn from prev census</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V60" name="legppn">
+      <labl>ppn from prev census</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V61" name="impstat">
+      <labl>imputation status--was estab data all imputed?</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V62" name="keybatch">
+      <labl>key batch number</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V63" name="lfo">
+      <labl>legal form of organization</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V64" name="loaddate">
+      <labl>date survey unit was loaded into database from response bucket (sas date/time va</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V65" name="mdiv">
+      <labl>mailout division code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V66" name="mailflg">
+      <labl>mail/non-mail indicator (interpretation depends on survu_type)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V67" name="matcnt">
+      <labl>materials count</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V68" name="non_cvg_remark">
+      <labl>non-coverage remarks returned on form</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V69" name="reason_not_tab">
+      <labl>flag for reason not tabulated</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V70" name="notes_indic">
+      <labl>notes existed in notepad table</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V71" name="opstat">
+      <labl>end-of-year operational status</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V72" name="opstat_f">
+      <labl>edit flag - end-of-year operational status</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V73" name="parent_id">
+      <labl>parent identifier for multi-units (br)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V74" name="prod_count">
+      <labl>product count</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V75" name="priority">
+      <labl>edit flag priority</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V76" name="pdiv">
+      <labl>processing division code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V77" name="lines_usable">
+      <labl>estab provided usable data on lines of business</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V78" name="limadj">
+      <labl>expansion factor for i &amp;amp; t edit/plain vanilla edit limit adjustment</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V79" name="refer_f">
+      <labl>indicated whether or not referral exists</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V80" name="remail_flag">
+      <labl>flag indicating whether or not remailed form</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V81" name="satisfied_date">
+      <labl>date that reporting requirements were satisfied (sas date/time value)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V82" name="wt">
+      <labl>sample weight</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V83" name="splitter">
+      <labl>splitter flag</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V84" name="stub_alter">
+      <labl>stub alteration exists on form? (y/n)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V85" name="corr_date">
+      <labl>complex edit correction batch date (sas date/time value)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V86" name="survu_type">
+      <labl>&amp;quot;survey unit type (mu, su, sbm)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V87" name="bustype">
+      <labl>type of business code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V88" name="bustype_f">
+      <labl>edit flag - type of business code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V89" name="tabbed">
+      <labl>indicates whether observation was included in tabulations</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V90" name="taxexm_a">
+      <labl>tax-exempt indicator</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V91" name="trailer_data_indic">
+      <labl>indicates whether trailer data exists</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V92" name="transfer_sector">
+      <labl>indicator - estab transferred from one sector to another</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V93" name="warehouse_date">
+      <labl>date and time warehouse indicator was updated</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V94" name="state_fips_a">
+      <labl>&amp;quot;fips state code, admin&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V95" name="county_a">
+      <labl>&amp;quot;county fips code, admin&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V96" name="place_cen_a">
+      <labl>census place code from br</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V97" name="geo_conf_a">
+      <labl>level of confidence in br geocodes</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V98" name="naics_old_a">
+      <labl>&amp;quot;naics code based on naics manual from prev census, admin&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V99" name="optype_br">
+      <labl>type-of-operation code (br)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V100" name="cost_goodsold_a">
+      <labl>cost of goods sold (irs form 990--tax exempt)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V101" name="expense_dir_a">
+      <labl>&amp;quot;expenses, direct (irs form 990--tax exempt)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V102" name="expense_rent_a">
+      <labl>&amp;quot;expenses, rental (irs form 990--tax exempt)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V103" name="tax_form">
+      <labl>&amp;quot;irs income tax form filed, current year&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V104" name="income_gross_a">
+      <labl>&amp;quot;income, gross (irs form 1120-pc, property/casualty insur)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V105" name="rent_inc_a">
+      <labl>&amp;quot;rental income, gross (irs forms 1120, 1065)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V106" name="interest_inc_a">
+      <labl>&amp;quot;interest income (irs forms 1120, 1065)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V107" name="sales_t">
+      <labl>&amp;quot;sales/receipts/revenue ($k) net (irs forms 1120, 1065, 990, 1040c)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V108" name="income_a">
+      <labl>&amp;quot;income, total (irs forms 1120, 1065, 990-c)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V109" name="revenue_a">
+      <labl>&amp;quot;revenue, total (irs forms 990--tax exempt)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V110" name="pay_q2_a">
+      <labl>&amp;quot;second quarter payroll ($k), admin&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V111" name="pay_q3_a">
+      <labl>&amp;quot;third quarter payroll ($k), admin&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V112" name="pay_q4_a">
+      <labl>&amp;quot;fourth quarter payroll ($k), admin&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V113" name="cost_goodsold_a_py">
+      <labl>&amp;quot;cost of goods sold (irs form 990--tax exempt), prev yr&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V114" name="expense_dir_a_py">
+      <labl>&amp;quot;expenses, direct (irs form 990--tax exempt), prev yr&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V115" name="expense_rent_a_py">
+      <labl>&amp;quot;expenses, rental (irs form 990--tax exempt), prev yr&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V116" name="tax_form_py">
+      <labl>&amp;quot;irs income tax form filed, prev yr&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V117" name="income_gross_a_py">
+      <labl>&amp;quot;income, gross (irs form 1120-pc, property/casualty insur), prev yr&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V118" name="rent_inc_a_py">
+      <labl>&amp;quot;rental income, gross (irs forms 1120, 1065), prev yr&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V119" name="interest_inc_a_py">
+      <labl>&amp;quot;interest income (irs forms 1120, 1065), prev yr&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V120" name="sales_t_py">
+      <labl>&amp;quot;sales/receipts/revenue ($k) net (irs forms 1120, 1065, 990, 1040c), prev yr&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V121" name="income_a_py">
+      <labl>&amp;quot;income, total (irs forms 1120, 1065, 990-c), prev yr&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V122" name="revenue_a_py">
+      <labl>&amp;quot;revenue, total (irs forms 990--tax exempt), prev yr&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V123" name="pay_q2_a_py">
+      <labl>&amp;quot;second quarter payroll ($k), prev yr admin&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V124" name="pay_q3_a_py">
+      <labl>&amp;quot;third quarter payroll ($k), prev yr admin&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V125" name="pay_q4_a_py">
+      <labl>&amp;quot;fourth quarter payroll ($k), prev yr admin&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V126" name="opexp_a">
+      <labl>&amp;quot;operating expenses, admin, current yr&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V127" name="opexp_py">
+      <labl>&amp;quot;operating expenses, admin, prev yr&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V128" name="sales_a">
+      <labl>&amp;quot;sales/receipts/revenue ($k), admin&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V129" name="sales_a_py">
+      <labl>&amp;quot;sales/receipts/revenue ($k), prev yr admin&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V130" name="pay_ann_a">
+      <labl>&amp;quot;annual payroll ($k), admin&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V131" name="pay_ann_a_py">
+      <labl>&amp;quot;annual payroll ($k), prev yr admin&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V132" name="pay_q1_a">
+      <labl>&amp;quot;first quarter payroll ($k), admin&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V133" name="pay_q1_a_py">
+      <labl>&amp;quot;first quarter payroll ($k), prev yr admin&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V134" name="empl_a">
+      <labl>&amp;quot;employment (march 12), admin rec&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V135" name="empl_a_py">
+      <labl>&amp;quot;employment (march 12), prev yr admin rec&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V136" name="inveoy_a">
+      <labl>&amp;quot;end-of-year inventory, admin&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V137" name="inveoy_py">
+      <labl>&amp;quot;end-of-year inventory, prev yr admin&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V138" name="invboy_a">
+      <labl>&amp;quot;beg.-of-year inventory, admin&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V139" name="invboy_py">
+      <labl>&amp;quot;beg.-of-year inventory, prev yr admin&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V140" name="months_active">
+      <labl>months in business</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V141" name="months_active_f">
+      <labl>edit flag - months in business</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V142" name="trt">
+      <labl>total retirements ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V143" name="trt_ei">
+      <labl>edit in value - total retirements ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V144" name="trt_f">
+      <labl>edit flag - total retirements</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V145" name="tab">
+      <labl>total assets beginning ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V146" name="tab_ei">
+      <labl>edit in value - total assets beginning ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V147" name="tab_f">
+      <labl>edit flag - total assets beginning</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V148" name="tae">
+      <labl>total assets ending ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V149" name="tae_ei">
+      <labl>edit in value - total assets ending ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V150" name="tae_f">
+      <labl>edit flag - total assets ending</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V151" name="benefit_nl">
+      <labl>benefits paid to non-leased employees ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V152" name="benefit_nl_ei">
+      <labl>edit in value - benefits paid to non-leased employees ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V153" name="benefit_nl_f">
+      <labl>edit flag - benefits paid to non-leased employees</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V154" name="benefit_l">
+      <labl>benefits paid to leased employees ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V155" name="benefit_l_ei">
+      <labl>edit in value - benefits paid to leased employees ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V156" name="benefit_l_f">
+      <labl>edit flag - benefits paid to leased employees</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V157" name="benefit">
+      <labl>total benefits paid to employees ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V158" name="benefit_ei">
+      <labl>edit in value - total benefits paid to employees ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V159" name="benefit_f">
+      <labl>edit flag - total benefits paid to employees</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V160" name="cbe">
+      <labl>capital expenditures for new and used buildings ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V161" name="cbe_ei">
+      <labl>edit in value - capital expenditures for new and used buildings ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V162" name="cbe_f">
+      <labl>edit flag - capital expenditures for new and used buildings</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V163" name="cme">
+      <labl>capital expenditures for new and used machinery ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V164" name="cme_ei">
+      <labl>edit in value - capital expenditures for new and used machinery and equipment ($</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V165" name="cme_f">
+      <labl>edit flag - capital expenditures for new and used machinery and equipment</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V166" name="cmea">
+      <labl>capital expenditures for automobiles ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V167" name="cmea_ei">
+      <labl>edit in value - capital expenditures for automobiles ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V168" name="cmea_f">
+      <labl>edit flag - capital expenditures for automobiles</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V169" name="cmeb">
+      <labl>capital expenditures - balance ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V170" name="cmeb_ei">
+      <labl>edit in value - capital expenditures - balance ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V171" name="cmeb_f">
+      <labl>edit flag - capital expenditures - balance</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V172" name="cmec">
+      <labl>capital expenditures for computers ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V173" name="cmec_ei">
+      <labl>edit in value - capital expenditures for computers ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V174" name="cmec_f">
+      <labl>edit flag - capital expenditures for computers</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V175" name="cmeo">
+      <labl>capital expenditures for other machinery and equipment ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V176" name="cmeo_ei">
+      <labl>edit in value - capital expenditures for other machinery and equipment ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V177" name="cmeo_f">
+      <labl>edit flag - capital expenditures for other machinery and equipment</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V178" name="tme">
+      <labl>total capital expenditures for new and used machinery and equipment ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V179" name="tme_ei">
+      <labl>edit in value - total capital expenditures for new and used machinery and equipm</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V180" name="tme_f">
+      <labl>edit flag - total capital expenditures for new and used machinery and equipment</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V181" name="tce">
+      <labl>total capital expenditures ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V182" name="tce_ei">
+      <labl>edit in value - total capital expenditures ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V183" name="tce_f">
+      <labl>edit flag - total capital expenditures</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V184" name="cw">
+      <labl>cost of contract work ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V185" name="cw_ei">
+      <labl>edit in value - cost of contract work ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V186" name="cw_f">
+      <labl>edit flag - cost of contract work</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V187" name="ee">
+      <labl>cost of purchased electricity ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V188" name="ee_ei">
+      <labl>edit in value - cost of purchased electricity ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V189" name="ee_f">
+      <labl>edit flag - cost of purchased electricity</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V190" name="cf">
+      <labl>cost of fuels ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V191" name="cf_ei">
+      <labl>edit in value - cost of fuels ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V192" name="cf_f">
+      <labl>edit flag - cost of fuels</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V193" name="cp">
+      <labl>cost of materials and parts ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V194" name="cp_ei">
+      <labl>edit in value - cost of materials and parts ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V195" name="cp_f">
+      <labl>edit flag - cost of materials and parts</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V196" name="cpdet">
+      <labl>cost of materials and parts - detail code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V197" name="cpdet_ei">
+      <labl>edit in value cost of materials and parts - detail code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V198" name="cpdet_f">
+      <labl>edit flag - cost of materials and parts - detail code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V199" name="cpbal">
+      <labl>cost of materials and parts balance code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V200" name="cpbal_ei">
+      <labl>edit in value - cost of materials and parts balance code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V201" name="cpbal_f">
+      <labl>edit flag - cost of materials and parts balance code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V202" name="cm">
+      <labl>total cost of materials ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V203" name="cm_ei">
+      <labl>edit in value - total cost of materials ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V204" name="cm_f">
+      <labl>edit flag - total cost of materials</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V205" name="cr">
+      <labl>cost of resales ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V206" name="cr_ei">
+      <labl>edit in value - cost of resales ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V207" name="cr_f">
+      <labl>edit flag - cost of resales</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V208" name="td">
+      <labl>total depreciation ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V209" name="td_ei">
+      <labl>edit in value - total depreciation ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V210" name="td_f">
+      <labl>edit flag - total depreciation</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V211" name="variabl0">
+      <labl>generated electricity (1000 kwh)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V212" name="ge_ei">
+      <labl>edit in value - generated electricity (1000 kwh)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V213" name="ge_f">
+      <labl>edit flag - generated electricity</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V214" name="pe">
+      <labl>purchased electricity (1000 kwh)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V215" name="pe_ei">
+      <labl>edit in value - purchased electricity (1000 kwh)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V216" name="pe_f">
+      <labl>edit flag - purchased electricity</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V217" name="se">
+      <labl>quantity of electricity sold (1000 kwh)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V218" name="se_ei">
+      <labl>edit in value - quantity of electricity sold (1000 kwh)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V219" name="se_f">
+      <labl>edit flag - quantity of electricity sold</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V220" name="pw3_l">
+      <labl>number of leased production workers: 3rd quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V221" name="pw3_l_ei">
+      <labl>edit in value - number of leased production workers: 3rd quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V222" name="pw3_l_f">
+      <labl>edit flag - number of leased production workers: 3rd quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V223" name="pw3_nl">
+      <labl>number of non-leased production workers: 3rd quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V224" name="pw3_nl_ei">
+      <labl>edit in value - number of non-leased production workers: 3rd quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V225" name="pw3_nl_f">
+      <labl>edit flag - number of non-leased production workers: 3rd quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V226" name="pw3">
+      <labl>number of production workers: 3rd quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V227" name="pw3_ei">
+      <labl>edit in value - number of production workers: 3rd quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V228" name="pw3_f">
+      <labl>edit flag - number of production workers: 3rd quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V229" name="pw_l">
+      <labl>average number of leased production workers</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V230" name="pw_l_ei">
+      <labl>edit in value - average number of leased production workers</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V231" name="pw_l_f">
+      <labl>edit flag - average number of leased production workers</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V232" name="pw_nl">
+      <labl>average number of non-leased production workers</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V233" name="pw_nl_ei">
+      <labl>edit in value - average number of non-leased production workers</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V234" name="pw_nl_f">
+      <labl>edit flag - average number of non-leased production workers</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V235" name="pw">
+      <labl>average number of production workers</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V236" name="pw_ei">
+      <labl>edit in value - average number of production workers</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V237" name="pw_f">
+      <labl>edit flag - average number of production workers</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V238" name="oe_l">
+      <labl>number of other leased employees</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V239" name="oe_l_ei">
+      <labl>edit in value - number of other leased employees</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V240" name="oe_l_f">
+      <labl>edit flag - number of other leased employees</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V241" name="pw1_l">
+      <labl>number of leased production workers: 1st quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V242" name="pw1_l_ei">
+      <labl>edit in value - number of leased production workers: 1st quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V243" name="pw1_l_f">
+      <labl>edit flag - number of leased production workers: 1st quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V244" name="oe_nl">
+      <labl>number of other non-leased employees</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V245" name="oe_nl_ei">
+      <labl>edit in value - number of other non-leased employees</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V246" name="oe_nl_f">
+      <labl>edit flag - number of other non-leased employees</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V247" name="pw1_nl">
+      <labl>number of non-leased production workers: 1st quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V248" name="pw1_nl_ei">
+      <labl>edit in value - number of non-leased production workers: 1st quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V249" name="pw1_nl_f">
+      <labl>edit flag - number of non-leased production workers: 1st quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V250" name="oe">
+      <labl>number of other employees</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V251" name="oe_ei">
+      <labl>edit in value - number of other employees</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V252" name="oe_f">
+      <labl>edit flag - number of other employees</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V253" name="pw1">
+      <labl>number of production workers: 1st quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V254" name="pw1_ei">
+      <labl>edit in value - number of production workers: 1st quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V255" name="pw1_f">
+      <labl>edit flag - number of production workers: 1st quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V256" name="pw2_l">
+      <labl>number of leased production workers: 2nd quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V257" name="pw2_l_ei">
+      <labl>edit in value - number of leased production workers: 2nd quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V258" name="pw2_l_f">
+      <labl>edit flag - number of leased production workers: 2nd quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V259" name="pw2_nl">
+      <labl>number of non-leased production workers: 2nd quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V260" name="pw2_nl_ei">
+      <labl>edit in value - number of non-leased production workers: 2nd quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V261" name="pw2_nl_f">
+      <labl>edit flag - number of non-leased production workers: 2nd quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V262" name="pw2">
+      <labl>number of production workers: 2nd quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V263" name="pw2_ei">
+      <labl>edit in value - number of production workers: 2nd quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V264" name="pw2_f">
+      <labl>edit flag - number of production workers: 2nd quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V265" name="pw4_l">
+      <labl>number of leased production workers: 4th quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V266" name="pw4_l_ei">
+      <labl>edit in value - number of leased production workers: 4th quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V267" name="pw4_l_f">
+      <labl>edit flag - number of leased production workers: 4th quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V268" name="pw4_nl">
+      <labl>number of non-leased production workers: 4th quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V269" name="pw4_nl_ei">
+      <labl>edit in value - number of non-leased production workers: 4th quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V270" name="pw4_nl_f">
+      <labl>edit flag - number of non-leased production workers: 4th quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V271" name="pw4">
+      <labl>number of production workers: 4th quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V272" name="pw4_ei">
+      <labl>edit in value - number of production workers: 4th quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V273" name="pw4_f">
+      <labl>edit flag - number of production workers: 4th quarter</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V274" name="te_nl">
+      <labl>total employment of non-leased employees</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V275" name="te_nl_ei">
+      <labl>edit in value - total employment of non-leased employees</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V276" name="te_nl_f">
+      <labl>edit flag - total employment of non-leased employees</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V277" name="te_l">
+      <labl>total employment of leased employees</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V278" name="te_l_ei">
+      <labl>edit in value - total employment of leased employees</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V279" name="te_l_f">
+      <labl>edit flag - total employment of leased employees</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V280" name="tpw_l">
+      <labl>total production workers - leased</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V281" name="tpw_l_ei">
+      <labl>edit in value - total production workers - leased</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V282" name="tpw_l_f">
+      <labl>edit flag - total production workers - leased</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V283" name="tpw_nl">
+      <labl>total production workers - non-leased</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V284" name="tpw_nl_ei">
+      <labl>edit in value - total production workers - non-leased</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V285" name="tpw_nl_f">
+      <labl>edit flag - total production workers - non-leased</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V286" name="te">
+      <labl>total employment (leased + non-leased)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V287" name="te_ei">
+      <labl>edit in value - total employment (leased + non-leased)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V288" name="te_f">
+      <labl>edit flag - total employment (leased + non-leased)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V289" name="tpw">
+      <labl>total production workers</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V290" name="tpw_ei">
+      <labl>edit in value - total production workers</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V291" name="tpw_f">
+      <labl>edit flag - total production workers</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V292" name="ph">
+      <labl>production worker hours (1000 hours)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V293" name="ph_ei">
+      <labl>edit in value - production worker hours (1000 hours)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V294" name="ph_f">
+      <labl>edit flag - production worker hours</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V295" name="ph_l">
+      <labl>leased production worker hours (1000 hours)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V296" name="ph_l_ei">
+      <labl>edit in value - leased production worker hours (1000 hours)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V297" name="ph_l_f">
+      <labl>edit flag - leased production worker hours</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V298" name="ph_nl">
+      <labl>non-leased production worker hours (1000 hours)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V299" name="ph_nl_ei">
+      <labl>edit in value - non-leased production worker hours (1000 hours)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V300" name="ph_nl_f">
+      <labl>edit flag - non-leased production worker hours</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V301" name="fib">
+      <labl>finished goods inventory beginning ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V302" name="fib_ei">
+      <labl>edit in value - finished goods inventory beginning ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V303" name="fib_f">
+      <labl>edit flag - finished goods inventory beginning</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V304" name="fie">
+      <labl>finished goods inventory ending ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V305" name="fie_ei">
+      <labl>edit in value - finished goods inventory ending ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V306" name="fie_f">
+      <labl>edit flag - finished goods inventory ending</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V307" name="slb">
+      <labl>lifo inventory beginning ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V308" name="slb_ei">
+      <labl>edit in value - lifo inventory beginning ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V309" name="slb_f">
+      <labl>edit flag - lifo inventory beginning</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V310" name="sle">
+      <labl>lifo inventory ending ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V311" name="sle_ei">
+      <labl>edit in value - lifo inventory ending ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V312" name="sle_f">
+      <labl>edit flag - lifo inventory ending</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V313" name="nlb">
+      <labl>non-lifo inventory beginning ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V314" name="nlb_ei">
+      <labl>edit in value - non-lifo inventory beginning ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V315" name="nlb_f">
+      <labl>edit flag - non-lifo inventory beginning</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V316" name="nle">
+      <labl>non-lifo inventory ending ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V317" name="nle_ei">
+      <labl>edit in value - non-lifo inventory ending ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V318" name="nle_f">
+      <labl>edit flag - non-lifo inventory ending</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V319" name="lrb">
+      <labl>lifo reserve beginning ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V320" name="lrb_ei">
+      <labl>edit in value - lifo reserve beginning ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V321" name="lrb_f">
+      <labl>edit flag - lifo reserve beginning</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V322" name="lre">
+      <labl>lifo reserve ending ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V323" name="lre_ei">
+      <labl>edit in value - lifo reserve ending ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V324" name="lre_f">
+      <labl>edit flag - lifo reserve ending</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V325" name="lnsb">
+      <labl>beginning inventories nsk amount subject to lifo ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V326" name="lnsb_ei">
+      <labl>edit in value - beginning inventories nsk amount subject to lifo ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V327" name="lnsb_f">
+      <labl>edit flag - beginning inventories nsk amount subject to lifo</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V328" name="lnse">
+      <labl>ending inventories nsk amount subject to lifo ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V329" name="lnse_ei">
+      <labl>edit in value - ending inventories nsk amount subject to lifo ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V330" name="lnse_f">
+      <labl>edit flag - ending inventories nsk amount subject to lifo</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V331" name="lvb">
+      <labl>lifo value total beginning ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V332" name="lvb_ei">
+      <labl>edit in value - lifo value total beginning ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V333" name="lvb_f">
+      <labl>edit flag - lifo value total beginning</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V334" name="lve">
+      <labl>lifo value total ending ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V335" name="lve_ei">
+      <labl>edit in value - lifo value total ending ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V336" name="lve_f">
+      <labl>edit flag - lifo value total ending</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V337" name="mib">
+      <labl>materials inventory beginning ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V338" name="mib_ei">
+      <labl>edit in value - materials inventory beginning ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V339" name="mib_f">
+      <labl>edit flag - materials inventory beginning</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V340" name="mie">
+      <labl>materials inventory ending ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V341" name="mie_ei">
+      <labl>edit in value - materials inventory ending ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V342" name="mie_f">
+      <labl>edit flag - materials inventory ending</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V343" name="tib">
+      <labl>total inventory beginning ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V344" name="tib_ei">
+      <labl>edit in value - total inventory beginning ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V345" name="tib_f">
+      <labl>edit flag - total inventory beginning</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V346" name="tie">
+      <labl>total inventory ending ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V347" name="tie_ei">
+      <labl>edit in value - total inventory ending ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V348" name="tie_f">
+      <labl>edit flag - total inventory ending</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V349" name="avc">
+      <labl>&amp;quot;inventory valuation, average cost method ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V350" name="avc_ei">
+      <labl>&amp;quot;orginal reported value - inventory valuation, average cost method ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V351" name="avc_f">
+      <labl>&amp;quot;edit flag - inventory valuation, average cost method&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V352" name="insk">
+      <labl>non-lifo inventory valuation not specified ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V353" name="insk_ei">
+      <labl>edit in value - non-lifo inventory valuation not specified ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V354" name="insk_f">
+      <labl>edit flag - non-lifo inventory valuation not specified</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V355" name="ffo">
+      <labl>&amp;quot;inventory valuation, fifo method ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V356" name="ffo_ei">
+      <labl>&amp;quot;edit in value - inventory valuation, fifo method ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V357" name="ffo_f">
+      <labl>&amp;quot;edit flag - inventory valuation, fifo method&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V358" name="oth">
+      <labl>&amp;quot;inventory valuation, other methods including cost basis ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V359" name="oth_ei">
+      <labl>&amp;quot;edit in value - inventory valuation, other methods including cost basis ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V360" name="oth_f">
+      <labl>&amp;quot;edit flag - inventory valuation, other methods including cost basis&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V361" name="stc">
+      <labl>&amp;quot;inventory valuation, standard costs method ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V362" name="stc_ei">
+      <labl>&amp;quot;edit in value - inventory valuation, standard costs method ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V363" name="stc_f">
+      <labl>&amp;quot;edit flag - inventory valuation, standard costs method&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V364" name="iva">
+      <labl>&amp;quot;inventory valuation, total all methods ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V365" name="iva_ei">
+      <labl>&amp;quot;edit in value - inventory valuation, total all methods ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V366" name="iva_f">
+      <labl>&amp;quot;edit flag - inventory valuation, total all methods&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V367" name="wib">
+      <labl>work-in-process inventory beginning ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V368" name="wib_ei">
+      <labl>edit in value - work-in-process inventory beginning ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V369" name="wib_f">
+      <labl>edit flag - work-in-process inventory beginning</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V370" name="wie">
+      <labl>work-in-process inventory ending ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V371" name="wie_ei">
+      <labl>edit in value - work-in-process inventory ending ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V372" name="wie_f">
+      <labl>edit flag - work-in-process inventory ending</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V373" name="rcw">
+      <labl>receipts for contract work ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V374" name="rcw_ei">
+      <labl>edit in value - receipts for contract work ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V375" name="rcw_f">
+      <labl>edit flag - receipts for contract work</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V376" name="msc">
+      <labl>miscellaneous receipts ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V377" name="msc_ei">
+      <labl>edit in value - miscellaneous receipts ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V378" name="msc_f">
+      <labl>edit flag -miscellaneous receipts</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V379" name="vr">
+      <labl>value of resales ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V380" name="vr_ei">
+      <labl>edit in value - value of resales ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V381" name="vr_f">
+      <labl>edit flag - value of resales</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V382" name="naics_asm_old">
+      <labl>&amp;quot;asm naics code, prev census&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V383" name="eind">
+      <labl>edited industry code (naics starting in 2002)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V384" name="hind">
+      <labl>historic industry code (naics starting in ????)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V385" name="nder">
+      <labl>derived industry code (naics starting in 2002)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V386" name="nder_old">
+      <labl>derived industry code - old basis (naics starting in 2002)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V387" name="pind">
+      <labl>processing industry code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V388" name="sp">
+      <labl>specialization ratio</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V389" name="sw_nl">
+      <labl>&amp;quot;total salaries and wages, non-leased ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V390" name="sw_nl_ei">
+      <labl>&amp;quot;edit in value - total salaries and wages, non-leased ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V391" name="sw_nl_f">
+      <labl>&amp;quot;edit flag - total salaries and wages, non-leased&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V392" name="sw_l">
+      <labl>&amp;quot;total salaries and wages, leased ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V393" name="sw_l_ei">
+      <labl>&amp;quot;edit in value - total salaries and wages, leased ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V394" name="sw_l_f">
+      <labl>&amp;quot;edit flag - total salaries and wages, leased&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V395" name="ow_l">
+      <labl>&amp;quot;other workers wages, leased ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V396" name="ow_l_ei">
+      <labl>&amp;quot;edit in value - other workers wages, leased ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V397" name="ow_l_f">
+      <labl>&amp;quot;edit flag - other workers wages, leased&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V398" name="ww_l">
+      <labl>&amp;quot;production workers wages, leased ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V399" name="ww_l_ei">
+      <labl>&amp;quot;edit in value - production workers wages, leased ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V400" name="ww_l_f">
+      <labl>&amp;quot;edit flag - production workers wages, leased&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V401" name="ow_nl">
+      <labl>&amp;quot;other workers wages, non-leased ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V402" name="ow_nl_ei">
+      <labl>&amp;quot;edit in value - other workers wages, non-leased ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V403" name="ow_nl_f">
+      <labl>&amp;quot;edit flag - other workers wages, non-leased&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V404" name="ww_nl">
+      <labl>&amp;quot;production workers wages, non-leased ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V405" name="ww_nl_ei">
+      <labl>&amp;quot;edit in value - production workers wages, non-leased ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V406" name="ww_nl_f">
+      <labl>&amp;quot;edit flag - production workers wages, non-leased&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V407" name="sw">
+      <labl>total salaries and wages ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V408" name="sw_ei">
+      <labl>edit in value - total salaries and wages ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V409" name="sw_f">
+      <labl>edit flag - total salaries and wages</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V410" name="ow">
+      <labl>other workers wages ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V411" name="ow_ei">
+      <labl>edit in value - other workers wages ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V412" name="ow_f">
+      <labl>edit flag - other workers wages</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V413" name="ww">
+      <labl>&amp;quot;production workers wages, ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V414" name="ww_ei">
+      <labl>&amp;quot;edit in value - production workers wages, ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V415" name="ww_f">
+      <labl>edit flag - production workers wages</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V416" name="qp1_nl">
+      <labl>&amp;quot;first quarter payroll, non-leased ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V417" name="qp1_nl_ei">
+      <labl>&amp;quot;edit in value - first quarter payroll, non-leased ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V418" name="qp1_nl_f">
+      <labl>&amp;quot;edit flag - first quarter payroll, non-leased&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V419" name="qp1_l">
+      <labl>&amp;quot;first quarter payroll, leased ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V420" name="qp1_l_ei">
+      <labl>&amp;quot;edit in value - first quarter payroll, leased ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V421" name="qp1_l_f">
+      <labl>&amp;quot;edit flag - first quarter payroll, leased&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V422" name="qp1">
+      <labl>first quarter payroll ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V423" name="qp1_ei">
+      <labl>edit in value - first quarter payroll ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V424" name="qp1_f">
+      <labl>edit flag - first quarter payroll</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V425" name="cba">
+      <labl>&amp;quot;cost of purchased services, accounting ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V426" name="cba_ei">
+      <labl>&amp;quot;edit in value - cost of purchased services, accounting ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V427" name="cba_f">
+      <labl>&amp;quot;edit flag - cost of purchased services, accounting&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V428" name="ca">
+      <labl>&amp;quot;cost of purchased services, advertising ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V429" name="ca_ei">
+      <labl>&amp;quot;edit in value - cost of purchased services, advertising ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V430" name="ca_f">
+      <labl>&amp;quot;edit flag - cost of purchased services, advertising&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V431" name="cpc">
+      <labl>&amp;quot;cost of purchased services, communication ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V432" name="cpc_ei">
+      <labl>&amp;quot;edit in value - cost of purchased services, communication ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V433" name="cpc_f">
+      <labl>&amp;quot;edit flag - cost of purchased services, communication&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V434" name="ccomp">
+      <labl>&amp;quot;cost of purchased services, computer ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V435" name="ccomp_ei">
+      <labl>&amp;quot;edit in value - cost of purchased services, computer ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V436" name="ccomp_f">
+      <labl>&amp;quot;edit flag - cost of purchased services, computer&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V437" name="cls">
+      <labl>&amp;quot;cost of purchased services, legal ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V438" name="cls_ei">
+      <labl>&amp;quot;edit in value - cost of purchased services, legal ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V439" name="cls_f">
+      <labl>&amp;quot;edit flag - cost of purchased services, legal&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V440" name="cman">
+      <labl>&amp;quot;cost of purchased services, management ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V441" name="cman_ei">
+      <labl>&amp;quot;edit in value - cost of purchased services, management ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V442" name="cman_f">
+      <labl>&amp;quot;edit flag - cost of purchased services, management&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V443" name="coth">
+      <labl>&amp;quot;cost of purchased services, other ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V444" name="coth_ei">
+      <labl>&amp;quot;edit in value - cost of purchased services, other ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V445" name="coth_f">
+      <labl>&amp;quot;edit flag - cost of purchased services, other&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V446" name="crm">
+      <labl>&amp;quot;cost of purchased services, refuse removal ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V447" name="crm_ei">
+      <labl>&amp;quot;edit in value - cost of purchased services, refuse removal ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V448" name="crm_f">
+      <labl>&amp;quot;edit flag - cost of purchased services, refuse removal&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V449" name="crep">
+      <labl>&amp;quot;cost of purchased services, repair and maintenance for buildings and/or machiner&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V450" name="crep_ei">
+      <labl>&amp;quot;edit in value - cost of purchased services, repair and maintenance for buildings&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V451" name="crep_f">
+      <labl>&amp;quot;edit flag - cost of purchased services, repair and maintenance for buildings and&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V452" name="ctax">
+      <labl>&amp;quot;cost of purchased services, tax ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V453" name="ctax_ei">
+      <labl>&amp;quot;edit in value - cost of purchased services, tax ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V454" name="ctax_f">
+      <labl>&amp;quot;edit flag - cost of purchased services, tax&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V455" name="tps">
+      <labl>&amp;quot;cost of purchased services, total ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V456" name="tps_ei">
+      <labl>&amp;quot;edit in value - cost of purchased services, total ($k)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V457" name="tps_f">
+      <labl>&amp;quot;edit flag - cost of purchased services, total&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V458" name="prod_bal">
+      <labl>product balance code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V459" name="prod_bal_ei">
+      <labl>edit in value - product balance code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V460" name="prod_bal_f">
+      <labl>edit flag - product balance code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V461" name="ecom_pct">
+      <labl>receipts from e - commerce (percentage)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V462" name="ecom_pct_ei">
+      <labl>edit in value - receipts from e - commerce (percentage)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V463" name="ecom_pct_f">
+      <labl>edit flag - receipts from e - commerce (percentage)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V464" name="exp">
+      <labl>value of export shipments ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V465" name="exp_ei">
+      <labl>edit in value - value of export shipments ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V466" name="exp_f">
+      <labl>edit flag - value of export shipments</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V467" name="sps">
+      <labl>value of secondary product shipments ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V468" name="sps_ei">
+      <labl>edit in value - value of secondary product shipments ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V469" name="sps_f">
+      <labl>edit flag - value of secondary product shipments</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V470" name="pps">
+      <labl>value of primary product shipments ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V471" name="pps_ei">
+      <labl>edit in value - value of primary product shipments ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V472" name="pps_f">
+      <labl>edit flag - value of primary product shipments</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V473" name="tvs">
+      <labl>total value of shipments ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V474" name="tvs_ei">
+      <labl>edit in value - total value of shipments ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V475" name="tvs_f">
+      <labl>edit flag - total value of shipments</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V476" name="tvps">
+      <labl>total value of product detailed shipments ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V477" name="tvps_ei">
+      <labl>edit in value - total value of product detailed shipments ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V478" name="tvps_f">
+      <labl>edit flag - total value of product detailed shipments</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V479" name="ipt">
+      <labl>total value of interplant transfers ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V480" name="ipt_ei">
+      <labl>edit in value - total value of interplant transfers ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V481" name="ipt_f">
+      <labl>edit flag - total value of interplant transfers</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V482" name="br">
+      <labl>buildings and other structures rental payments ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V483" name="br_ei">
+      <labl>edit in value - buildings and other structures rental payments ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V484" name="br_f">
+      <labl>edit flag - buildings and other structures rental payments</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V485" name="mr">
+      <labl>machinery and equipment rental payments ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V486" name="mr_ei">
+      <labl>edit in value - machinery and equipment rental payments ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V487" name="mr_f">
+      <labl>edit flag - machinery and equipment rental payments</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V488" name="tr">
+      <labl>total rental payments ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V489" name="tr_ei">
+      <labl>edit in value - total rental payments ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V490" name="tr_f">
+      <labl>edit flag - total rental payments</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V491" name="va">
+      <labl>value added ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V492" name="va_ei">
+      <labl>edit in value - value added ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V493" name="va_f">
+      <labl>edit flag - value added</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V494" name="naics_old_a_rel">
+      <labl>reliability of admin naics code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V495" name="naics_old_a_src">
+      <labl>source of admin naics code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V496" name="naics_aux_a">
+      <labl>&amp;quot;naics code for industry served (auxil estab), admin&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V497" name="naics_aux_a_f">
+      <labl>auxil scope flag--industry served in scope for ec? admin</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V498" name="edit_corr">
+      <labl>indicator for whether manufacturing edit changed data or not</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V499" name="naics_tran">
+      <labl>naics industry code - transferred case</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V500" name="sector_xfr">
+      <labl>trade area (sector) to which estab transferred</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V501" name="naics_aux_old_xfr_f">
+      <labl>&amp;quot;naics code for industry served (auxil estab), prev census manual, transfer case&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V502" name="naics_aux_old_xfr">
+      <labl>&amp;quot;naics code for industry server (auxil estab), prev census manual, transfer case&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V503" name="prod_wrtin">
+      <labl>products write-in indicator</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V504" name="ecom_any">
+      <labl>did estab have any sales/receipts from e-commerce? (y/n)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V505" name="ecom_any_f">
+      <labl>edit flag - did estab have any sales/receipts from e-commerce? (y/n)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V506" name="lsd">
+      <labl>checkbox for whether the estab has any leased employees (y/n)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V507" name="lsd_f">
+      <labl>edit flag - checkbox for whether the estab has any leased employees (y/n)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V508" name="inv_lifo">
+      <labl>checkbox for whether inventories are subject to the lifo method of valuation (y/</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V509" name="inv_lifo_f">
+      <labl>edit flag - checkbox for whether inventories are subject to the lifo method of v</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V510" name="userid">
+      <labl>user id</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V511" name="only_estab">
+      <labl>only estab of firm checkbox</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V512" name="ecom_sales">
+      <labl>e-commerce sales/receipts ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V513" name="ecom_sales_f">
+      <labl>edit flag - e-commerce sales/receipts</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V514" name="ecom_sales_ei">
+      <labl>edit in value - e-commerce sales/receipts ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V515" name="prod_class">
+      <labl>primary product class code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V516" name="mat_wrtin">
+      <labl>materials write-in indicator</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V517" name="storenum">
+      <labl>store number</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V518" name="response_batch">
+      <labl>serialized batch number assigned for data captured</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V519" name="only_estab_f">
+      <labl>edit flag - only estab of firm checkbox</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V520" name="asm_maint">
+      <labl>asm maintenance flag</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V521" name="smpldate">
+      <labl>asm sample date (sas date/time value)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V522" name="response_type">
+      <labl>used as subdivision of census frame - largely reflects type of form received</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V523" name="corr_mass_dcurr2">
+      <labl>name associated with most recent mass correction</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V524" name="naics_asm_dcurr3">
+      <labl>&amp;quot;abbreviated naics code, used in publishing asm after 2002&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V525" name="mecs_case">
+      <labl>indicator that establishment is part of the mecs panel</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V526" name="sbm_id">
+      <labl>field only applicable to sssd splitters - survu_id of sbm</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V527" name="combined_id">
+      <labl>field only applicable to sssd combined reporters - survu_id of combined report</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V528" name="rcpt_dcurr9">
+      <labl>br value for total receipts as of a certain date ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V529" name="payann_dcurr10">
+      <labl>br value for payroll as of a certain date ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V530" name="payqtr1_dcurr11">
+      <labl>br value for quarter 1 payroll as of a certain date ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V531" name="empq1_dcurr12">
+      <labl>br value for march 12 employment as of a certain date</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V532" name="rcpt_dcurr9_f">
+      <labl>edit flag - br value for total receipts as of a certain date</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V533" name="payann_dcurr10_f">
+      <labl>edit flag - br value for payroll as of a certain date ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V534" name="payqtr1_dcurr11_f">
+      <labl>edit flag - br value for quarter 1 payroll as of a certain date ($k)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V535" name="empq1_dcurr12_f">
+      <labl>edit flag - br value for march 12 employment as of a certain date</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V536" name="naics_core">
+      <labl>naics code as used in the preliminary core reports</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V537" name="preedind">
+      <labl>value used for initial edit routing for assignment of naics code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V538" name="edit_ccs">
+      <labl>br code to indicate different coverage change situations</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V539" name="runcomp">
+      <labl>flag used for interactive editing to indicate whether year-to-year comparative t</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V540" name="runind">
+      <labl>flag used for interactive editing to indicate whether the industry coding module</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V541" name="runelec">
+      <labl>flag used for interactive editing to indicate whether the fuels/electric tests s</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V542" name="runratio">
+      <labl>flag used for interactive editing to indicate whether the pv ratios module shoul</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V543" name="treatdlq">
+      <labl>flag used for interactive editing to indicate whether the establishment should b</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V544" name="treatmat">
+      <labl>flag used for interactive editing to indicate whether the establishment should b</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V545" name="sumfail">
+      <labl>count of test failures from the pre-edit module</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V546" name="sumwarn">
+      <labl>count of test warnings from the pre-edit module</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V547" name="data_update">
+      <labl>&amp;quot;date of last br update - defaults to jan 1, 1950 (sas date/time value)&amp;quot;</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V548" name="optype_xfr">
+      <labl>type of operation code for transferred observations</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V549" name="cmsa">
+      <labl>consolidated statistical area</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V550" name="et">
+      <labl>establishment type</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V551" name="ar">
+      <labl>administrative record flag ar=1</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V552" name="firmid">
+      <labl>firm identifier</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V553" name="lbdnum">
+      <labl>lbd number</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V554" name="legcfn01">
+      <labl>cfn from 2001 br</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V555" name="seqnmst">
+      <labl>master record sequence number (within year)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V556" name="numprods">
+      <labl>number of products shipped</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V557" name="startprd">
+      <labl>starting obs number for first product</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V558" name="tvpsd">
+      <labl>total value of product shipments derived</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V559" name="seqnprod">
+      <labl>product record sequence number</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V560" name="nummats">
+      <labl>number of materials consumed</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V561" name="startmat">
+      <labl>starting obs number for first material</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V562" name="tvmc">
+      <labl>total value of materials consumed derived</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V563" name="seqnmats">
+      <labl>materials record sequence number</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V564" name="year">
+      <labl>survey year</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V565" name="censt">
+      <labl>census state code</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V566" name="state">
+      <labl>state name</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V567" name="postalst">
+      <labl>postal state acronym</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V568" name="reg">
+      <labl>census region code (1-4)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+    <var ID="V569" name="div">
+      <labl>census geographical division code (1-9)</labl>
+      <sumStat type="vald">0</sumStat>
+      <sumStat type="invd">0</sumStat>
+      <sumStat type="min"/>
+      <sumStat type="max"/>
+      <sumStat type="mean"/>
+      <sumStat type="stdev"/>
+      <txt/>
+    </var>
+  </dataDscr>
+</codeBook>

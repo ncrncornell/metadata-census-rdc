@@ -1,0 +1,2022 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><codeBook xmlns="ddi:codebook:2_5" xmlns:dc="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:ns0="http://purl.org/dc/elements/1.1/" xmlns:saxon="http://xml.apache.org/xslt" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ncrn.cornell.edu/docs/ddi/2.5.NCRN/schemas/codebook.xsd">
+  <docDscr>
+    <docSrc>
+      <titlStmt>
+        <titl>State or Local Government Agency</titl>
+        <altTitl>Employment History Files � 2011</altTitl>
+      </titlStmt>
+    </docSrc>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>State or Local Government Agency</titl>
+        <IDNo/>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Bureau of the Census</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer>Bureau of the Census</producer>
+      </prodStmt>
+      <distStmt>
+        <distrbtr>United States Department of Commerce. Bureau of the Census. Research Data Center</distrbtr>
+      </distStmt>
+    </citation>
+    <stdyInfo>
+      <abstract>The Employment History File (EHF) provides a full time-series of earnings at all
+within-state jobs for all quarters covered by the LEHD system and provided by the state. It also provides activity calendars at a job, firm, and sub-firm reporting unit level.  The EHF contains no Federal Tax Information (FTI).</abstract>
+      <sumDscr>
+        <nation abbr="U.S.">United States of America</nation>
+        <anlyUnit>Quarterly</anlyUnit>
+        <anlyUnit>Three (3) Months</anlyUnit>
+        <anlyUnit>Job</anlyUnit>
+        <universe>Multiple</universe>
+        <universe>Combination (industries)</universe>
+        <universe>All except for agricultural workers</universe>
+      </sumDscr>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <dataCollector>$organization_name</dataCollector>
+        <sampProc>y</sampProc>
+      </dataColl>
+    </method>
+    <dataAccs>
+      <useStmt>
+        <confDec>To obtain this dataset, the user must complete the RDC application process, and be approved for use of this dataset.</confDec>
+        <restrctn>MOU between Census Bureau and individual state agencies.  Protected under Title 13</restrctn>
+        <restrctn>n</restrctn>
+        <conditions>Users must (I) successfully apply for RDC access (ii) pass review by agencies (iii) pass security clearance</conditions>
+        <disclaimer>No edits have been applied to these data. Under-reporting, data loss, etc. may affect diverse states and quarters. The data documentation has an up-to-date list of such data issues. The LEHD Program suggests users use Bayesian multiple imputation models to address such issues. </disclaimer>
+      </useStmt>
+    </dataAccs>
+    <othrStdyMat>
+      <relMat/>
+      <relPubl/>
+    </othrStdyMat>
+  </stdyDscr>
+  <fileDscr>
+    <fileTxt>
+      <dimensns>
+        <recNumTot>8 billion records in 8 files per state. Record counts per state vary.</recNumTot>
+      </dimensns>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr><var ID="_278ce72d-2364-458e-aa2a-70482aeb9013" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="random_pik_group">
+      <location EndPos="850" StartPos="841" width="10"/>
+      <labl xml-lang="en">Selector based on random PIK</labl>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var><var ID="_da74af89-c166-4f3e-a1aa-ebf41e3237af" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="succ_acc_first6">
+      <location EndPos="840" StartPos="835" width="6"/>
+      <labl xml-lang="en">Employment indicators for first six quarters at successor job spell</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_8b5c605f-b7cf-481f-87e4-4ae31a113f5d" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="pred_sep_last6">
+      <location EndPos="834" StartPos="829" width="6"/>
+      <labl xml-lang="en">Employment indicators for last six quarters at predecessor job spell</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_78f64b79-52ac-482e-a674-45e0b7481b6c" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="succ_qa">
+      <location EndPos="828" StartPos="817" width="12"/>
+      <labl xml-lang="en">Quarter of accession at successor</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_36c35713-b994-40c4-911a-81ada0977c74" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="pred_qs">
+      <location EndPos="816" StartPos="805" width="12"/>
+      <labl xml-lang="en">Quarter of separation from predecessor</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_a73b0d1c-9867-47c0-b7e3-39cf0b03788e" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="suppress_separation">
+      <location EndPos="804" StartPos="793" width="12"/>
+      <labl xml-lang="en">Last quarter of employment at this job spell; spell has successor</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_0a9cd54c-90f8-4837-bde3-a5f592dc6a84" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="suppress_accession">
+      <location EndPos="792" StartPos="781" width="12"/>
+      <labl xml-lang="en">First quarter of employment at this job spell; spell has predecessor</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_2f0fae4a-19ea-4753-92d0-65a1c5afd93f" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="sein_succ">
+      <location EndPos="780" StartPos="769" width="12"/>
+      <labl xml-lang="en">SEIN of successor</labl>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var><var ID="_3fb7d17c-2dec-42d0-b51c-74af50f7ce77" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="sein_pred">
+      <location EndPos="768" StartPos="757" width="12"/>
+      <labl xml-lang="en">SEIN of predecessor</labl>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var><var ID="_7776c940-4c86-4c7b-a9d8-4048676066ca" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="spell_u2w">
+      <location EndPos="756" StartPos="745" width="12"/>
+      <labl xml-lang="en">Spell count as per U2W</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_423c1527-4d88-4023-bba9-0e14995be594" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="state">
+      <location EndPos="98" StartPos="97" width="2"/>
+      <labl xml-lang="en">State (FIPS)</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_e47a5772-2135-4e55-9317-0bd0aeadf7eb" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="succ_pred_last_update">
+      <location EndPos="84" StartPos="73" width="12"/>
+      <labl xml-lang="en">Date of Record Creation</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_24a4fa3b-683f-43aa-b97b-261c9a963a36" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="last_update">
+      <location EndPos="72" StartPos="61" width="12"/>
+      <labl xml-lang="en">Date of Record Creation</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_1818bd70-5287-4b19-9ef5-0c13c4d94429" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="seinunit10">
+      <location EndPos="60" StartPos="55" width="6"/>
+      <labl xml-lang="en">State UI Reporting Unit Number (Impute 10)</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_c830a853-08e5-4d6d-823c-573d0fa68877" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="seinunit9">
+      <location EndPos="54" StartPos="49" width="6"/>
+      <labl xml-lang="en">State UI Reporting Unit Number (Impute 9)</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_2489252d-618b-4f09-a2fc-7a9846a3f423" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="seinunit8">
+      <location EndPos="48" StartPos="43" width="6"/>
+      <labl xml-lang="en">State UI Reporting Unit Number (Impute 8)</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_6e93ff49-313f-4f57-bc4e-fdf65d59fb01" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="seinunit7">
+      <location EndPos="42" StartPos="37" width="6"/>
+      <labl xml-lang="en">State UI Reporting Unit Number (Impute 7)</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_eb1e77cd-15d5-4c90-a8c5-f176f6b2b5ad" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="seinunit6">
+      <location EndPos="36" StartPos="31" width="6"/>
+      <labl xml-lang="en">State UI Reporting Unit Number (Impute 6)</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_256aa710-9350-4bbd-b3fb-0d51f6728512" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="seinunit5">
+      <location EndPos="30" StartPos="25" width="6"/>
+      <labl xml-lang="en">State UI Reporting Unit Number (Impute 5)</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_dfd373d2-09e2-4e12-b1bd-5c245f611c5b" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="seinunit4">
+      <location EndPos="24" StartPos="19" width="6"/>
+      <labl xml-lang="en">State UI Reporting Unit Number (Impute 4)</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_01113f9f-0c5f-491c-a25f-48b3be3bc28a" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="seinunit3">
+      <location EndPos="18" StartPos="13" width="6"/>
+      <labl xml-lang="en">State UI Reporting Unit Number (Impute 3)</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_6bb14311-ed71-4b5d-a258-15a88e868844" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="seinunit2">
+      <location EndPos="12" StartPos="7" width="6"/>
+      <labl xml-lang="en">State UI Reporting Unit Number (Impute 2)</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_c512bb2d-dd9d-4aa7-8901-48ec9dd99780" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="seinunit1">
+      <location EndPos="6" StartPos="1" width="6"/>
+      <labl xml-lang="en">State UI Reporting Unit Number (Impute 1)</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_97d5a46f-f250-4b63-9498-58e10cc06140" dcml="0" files="_3eabf790-19ef-4b43-b629-7dfebf9bd027" name="cut">
+      <location EndPos="22" StartPos="13" width="10"/>
+      <labl xml-lang="en">cut=substr(pik,1,2)</labl>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var><var ID="_b1d9d45f-71ca-478c-b76b-a607185ab3ff" dcml="0" files="_3eabf790-19ef-4b43-b629-7dfebf9bd027" name="ssnflag">
+      <location EndPos="2" StartPos="1" width="2"/>
+      <labl xml-lang="en">Illegal SSN Range Flag</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_1de22a5d-1283-4411-b928-82200e6bd6ac" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="active_ever_es">
+      <location EndPos="4322" StartPos="4311" width="12"/>
+      <labl xml-lang="en">Ever had positive employment</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_c50811c6-21db-4bd9-851d-373108e20c34" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns112">
+      <location EndPos="4310" StartPos="4299" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=112</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_72368f83-8ca4-4f22-8c08-b1f7794ddca1" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns111">
+      <location EndPos="4298" StartPos="4287" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=111</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_f8ef703b-9a5f-4a07-9c4f-cc75964887e9" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns110">
+      <location EndPos="4286" StartPos="4275" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=110</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_215624b9-e090-4dd7-a481-5240b5bb118b" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns109">
+      <location EndPos="4274" StartPos="4263" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=109</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ad3e8679-b829-48a7-8a23-5b018fed04c3" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns108">
+      <location EndPos="4262" StartPos="4251" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=108</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_3093462e-2d24-421b-b264-e24a6323f139" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns107">
+      <location EndPos="4250" StartPos="4239" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=107</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_78d49604-c91f-4b5b-9a39-7d597250f585" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns106">
+      <location EndPos="4238" StartPos="4227" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=106</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_b4aedb45-999d-46d2-94bb-6c1d278551bf" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns105">
+      <location EndPos="4226" StartPos="4215" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=105</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d97f39c5-8498-49a6-834b-f28c748080d3" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns104">
+      <location EndPos="4214" StartPos="4203" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=104</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_dfc03fa8-0192-419f-8805-99a6516ced88" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns103">
+      <location EndPos="4202" StartPos="4191" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=103</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_1f93f3bd-6892-4bcf-a123-8fb0f50785a7" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns102">
+      <location EndPos="4190" StartPos="4179" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=102</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_b84783a9-bbd3-4e59-93e1-046458bdc088" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns101">
+      <location EndPos="4178" StartPos="4167" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=101</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_3a681c41-9daf-48a5-97a1-b0480bf0f54f" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns100">
+      <location EndPos="4166" StartPos="4155" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=100</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_66282b2c-c186-40f5-abfb-c20445a6d90e" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns99">
+      <location EndPos="4154" StartPos="4143" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=99</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_f3e03384-29ef-4e1d-b7c0-eae0b6c64b05" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns98">
+      <location EndPos="4142" StartPos="4131" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=98</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_1c932a19-e1bf-4b31-955a-205c0ee63020" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns97">
+      <location EndPos="4130" StartPos="4119" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=97</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_63a19214-11f1-4ced-a41a-73721e85ddd5" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns96">
+      <location EndPos="4118" StartPos="4107" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=96</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_0ce65bc1-4ccd-4e1b-9a27-0f299dab340d" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns95">
+      <location EndPos="4106" StartPos="4095" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=95</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_dc3b975d-0e04-4568-a0ca-fb88dcb43ad2" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns94">
+      <location EndPos="4094" StartPos="4083" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=94</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ace6d354-c4b2-4451-9c83-350e782c3743" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns93">
+      <location EndPos="4082" StartPos="4071" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=93</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_8a833323-0854-4777-98fd-3e632619c15e" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns92">
+      <location EndPos="4070" StartPos="4059" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=92</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_724088b5-2ee3-47b6-b43f-30bbbcec2b9b" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns91">
+      <location EndPos="4058" StartPos="4047" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=91</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_9960def0-c3cb-4370-b4f7-224d284b9202" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns90">
+      <location EndPos="4046" StartPos="4035" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=90</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_dc8e0aa9-1059-4eb0-85ae-1cc2c6e198f9" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns89">
+      <location EndPos="4034" StartPos="4023" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=89</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_7d94c97b-de96-4d04-9e4a-c46c674d2f45" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns88">
+      <location EndPos="4022" StartPos="4011" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=88</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_041b0168-5b86-48ce-8b22-d15c95ea9602" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns87">
+      <location EndPos="4010" StartPos="3999" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=87</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_63bedd53-44eb-491b-97b5-cd57ef92c8df" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns86">
+      <location EndPos="3998" StartPos="3987" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=86</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_80a8521d-6711-4495-9245-11cd1c5af52a" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns85">
+      <location EndPos="3986" StartPos="3975" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=85</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_8bd31289-13b6-4000-b2d7-28ef0fbff929" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns84">
+      <location EndPos="3974" StartPos="3963" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=84</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ccdc1ed5-aef3-4e3c-bafd-7438c3d6aae0" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns83">
+      <location EndPos="3962" StartPos="3951" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=83</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_af5a1bbf-d4be-4e68-a879-1d2727752107" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns82">
+      <location EndPos="3950" StartPos="3939" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=82</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_68a964e8-5049-4cc4-8f4e-2c6e7037e479" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns81">
+      <location EndPos="3938" StartPos="3927" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=81</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_9d910548-ea8a-42a1-bd32-c4f15b8f0cf9" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns80">
+      <location EndPos="3926" StartPos="3915" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=80</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ba865631-505a-49b2-be45-583bae358dc5" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns79">
+      <location EndPos="3914" StartPos="3903" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=79</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_3844aa9a-8a6d-445b-940e-42888fede8e9" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns78">
+      <location EndPos="3902" StartPos="3891" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=78</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_5903081c-5519-42d9-9221-582478fe9997" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns77">
+      <location EndPos="3890" StartPos="3879" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=77</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_9db44b7b-b376-40ce-a117-a4c767a0f2c2" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns76">
+      <location EndPos="3878" StartPos="3867" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=76</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_5c0ecf87-cdbb-4157-921e-bdcf74a5c015" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns75">
+      <location EndPos="3866" StartPos="3855" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=75</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_2c079716-e938-443a-bab8-5db1739f3e37" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns74">
+      <location EndPos="3854" StartPos="3843" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=74</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_9d17d48a-a624-42fe-83e8-fc80a7a745ff" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns73">
+      <location EndPos="3842" StartPos="3831" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=73</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_c5323afc-3847-45d5-b195-769186ab737f" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns72">
+      <location EndPos="3830" StartPos="3819" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=72</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_487058a3-e7c9-436d-b558-23d13ef159f1" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns71">
+      <location EndPos="3818" StartPos="3807" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=71</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_b526f0c4-f787-4fe6-8b1d-27055830e1a1" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns70">
+      <location EndPos="3806" StartPos="3795" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=70</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_4d604c60-32b3-4f27-b4f7-2e3c9656c672" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns69">
+      <location EndPos="3794" StartPos="3783" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=69</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_aa1fc77e-d488-4349-9358-9b88b09f52f1" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns68">
+      <location EndPos="3782" StartPos="3771" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=68</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_a5893a12-e52f-4fa7-9700-7c1810eecdfd" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns67">
+      <location EndPos="3770" StartPos="3759" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=67</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_dcb25517-fb97-4210-8a30-a82148c0882d" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns66">
+      <location EndPos="3758" StartPos="3747" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=66</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d767b003-0960-432d-83ea-96cc14de84f9" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns65">
+      <location EndPos="3746" StartPos="3735" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=65</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_f83037be-44a0-4a19-98c3-0121933c9758" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns64">
+      <location EndPos="3734" StartPos="3723" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=64</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_fce0765f-8d47-4ed1-b5a8-f90028ba18e5" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns63">
+      <location EndPos="3722" StartPos="3711" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=63</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e02dcb2c-efae-400c-9c24-9dfab1dc4da7" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns62">
+      <location EndPos="3710" StartPos="3699" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=62</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_6b1b9a81-6f9b-4efc-a993-33bc753be583" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns61">
+      <location EndPos="3698" StartPos="3687" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=61</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d11be1c0-b6e8-4ae0-b0de-96d98413f384" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns60">
+      <location EndPos="3686" StartPos="3675" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=60</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e98e05a2-abbe-44fa-89d5-0806fddca16c" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns59">
+      <location EndPos="3674" StartPos="3663" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=59</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d847b941-95f8-4109-ac7a-4538d9beccd9" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns58">
+      <location EndPos="3662" StartPos="3651" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=58</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_27d73ed1-fbdb-4763-aa91-171e7fd3ea02" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns57">
+      <location EndPos="3650" StartPos="3639" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=57</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ad184153-3774-4239-ad3c-c28f7cfffc63" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns56">
+      <location EndPos="3638" StartPos="3627" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=56</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_668bdf68-2b7c-456f-8ff7-1588ca6e7a5a" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns55">
+      <location EndPos="3626" StartPos="3615" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=55</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d8e08332-03f4-401d-aa59-ec941957e740" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns54">
+      <location EndPos="3614" StartPos="3603" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=54</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_60160284-ceb7-49c1-ae3e-dae2aa9c4c5f" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns53">
+      <location EndPos="3602" StartPos="3591" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=53</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_c855e32c-cc45-4e54-aba3-08cc653988b0" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns52">
+      <location EndPos="3590" StartPos="3579" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=52</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_bcb4bf70-75e6-4974-ac9a-074ff21861b6" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns51">
+      <location EndPos="3578" StartPos="3567" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=51</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_25d9b466-0b30-4c9c-8a29-113cf7f84edc" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns50">
+      <location EndPos="3566" StartPos="3555" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=50</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_6a115879-55a1-4b30-b9c2-61645b5a598f" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns49">
+      <location EndPos="3554" StartPos="3543" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=49</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_3e974bd7-28a0-4071-b38d-17e98b61b54c" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns48">
+      <location EndPos="3542" StartPos="3531" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=48</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_5739b9ab-fa41-4b5b-8c43-84bad5da40cc" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns47">
+      <location EndPos="3530" StartPos="3519" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=47</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_df67d349-6fca-440d-a817-37f47449c503" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns46">
+      <location EndPos="3518" StartPos="3507" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=46</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_10699bbb-6366-4e5a-80bd-5c2f39601eb8" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns45">
+      <location EndPos="3506" StartPos="3495" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=45</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_8f88abfc-ec2a-4438-9ec0-9f4a43f6e553" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns44">
+      <location EndPos="3494" StartPos="3483" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=44</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_2181314a-eb1b-4061-ab04-1aec7766a8f8" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns43">
+      <location EndPos="3482" StartPos="3471" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=43</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_dc5cf409-b965-426f-a4f8-2b0b30d93a90" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns42">
+      <location EndPos="3470" StartPos="3459" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=42</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_b8d88942-ab28-4018-99fe-dbfccb7060c7" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns41">
+      <location EndPos="3458" StartPos="3447" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=41</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_1363f074-ac2d-46d1-8f71-191e9cdbdb72" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns40">
+      <location EndPos="3446" StartPos="3435" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=40</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_9c958a98-264a-4689-9edf-a59d89b12ff6" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns39">
+      <location EndPos="3434" StartPos="3423" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=39</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_7c2dcd7f-e9f4-41da-ba4f-1ad78571d96f" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns38">
+      <location EndPos="3422" StartPos="3411" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=38</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_c4dc0752-3718-49dd-81ab-f1a48a98fbec" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns37">
+      <location EndPos="3410" StartPos="3399" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=37</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_6f082f17-68bd-47af-a2ae-f1311b126de2" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns36">
+      <location EndPos="3398" StartPos="3387" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=36</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_09bdae1a-0a17-48c5-a56d-89e1a3ce8403" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns35">
+      <location EndPos="3386" StartPos="3375" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=35</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_5d2e10da-41b3-44b3-92ef-64c95d81372b" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns34">
+      <location EndPos="3374" StartPos="3363" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=34</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_8d186c7b-c80f-47dc-b5de-9adf50933c78" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns33">
+      <location EndPos="3362" StartPos="3351" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=33</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_58bd2ca4-a86a-4871-b80e-e8d251e4cd61" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns32">
+      <location EndPos="3350" StartPos="3339" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=32</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_aeefc42b-4c89-49e4-8bf5-b9ff2577e137" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns31">
+      <location EndPos="3338" StartPos="3327" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=31</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_0f6a7d54-c268-409f-b4af-200966e4d4aa" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns30">
+      <location EndPos="3326" StartPos="3315" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=30</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_3052f09d-680b-42c8-8056-79908949b5fd" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns29">
+      <location EndPos="3314" StartPos="3303" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=29</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_b450ef65-8e17-4584-aff7-b5464cc159b1" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns28">
+      <location EndPos="3302" StartPos="3291" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=28</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_6b033daa-ee09-4525-b6b2-b4a694a82a1e" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns27">
+      <location EndPos="3290" StartPos="3279" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=27</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_803db1b9-ab3f-426b-94ef-919b916b9ab9" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns26">
+      <location EndPos="3278" StartPos="3267" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=26</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_61186468-c240-4a46-9ac1-a17b7e6d44ee" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns25">
+      <location EndPos="3266" StartPos="3255" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=25</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_4049c113-fe1f-48be-aafa-daf100df122c" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns24">
+      <location EndPos="3254" StartPos="3243" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=24</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e3420ced-d49a-4586-b2e4-4c864021ab50" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns23">
+      <location EndPos="3242" StartPos="3231" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=23</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d28a993e-727e-459d-a4b6-fd5efb5bb1e2" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns22">
+      <location EndPos="3230" StartPos="3219" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=22</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e11b2468-d979-4df8-8953-313c0a4a3b87" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns21">
+      <location EndPos="3218" StartPos="3207" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=21</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_927602f5-7c62-4bf9-9e2a-8b6611b65b0c" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns20">
+      <location EndPos="3206" StartPos="3195" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=20</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_2169aa80-5346-4e74-bcd2-3fed64d86b27" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns19">
+      <location EndPos="3194" StartPos="3183" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=19</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_8d8c37c7-fb76-42d1-b11b-4590ecf1ed2f" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns18">
+      <location EndPos="3182" StartPos="3171" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=18</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ec311737-8cc4-4b05-a42b-62d76cc4f5ed" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns17">
+      <location EndPos="3170" StartPos="3159" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=17</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_6d4bad2b-a885-40c0-9b05-dcd1db1644d3" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns16">
+      <location EndPos="3158" StartPos="3147" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=16</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_5216ae0b-2475-441b-8618-328bb6a4c46f" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns15">
+      <location EndPos="3146" StartPos="3135" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=15</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_89c0219e-2559-4396-b92b-463780bfcbef" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns14">
+      <location EndPos="3134" StartPos="3123" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=14</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_2a8e92a2-9182-41e9-91f0-31a5d62e41c2" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns13">
+      <location EndPos="3122" StartPos="3111" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=13</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_1023b6bf-6aa5-44df-9a65-bc50d8b6b60d" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns12">
+      <location EndPos="3110" StartPos="3099" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=12</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d501847d-2ef2-4db1-b2f3-314f624c906a" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns11">
+      <location EndPos="3098" StartPos="3087" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=11</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_662d46e7-d6ba-4466-b0a4-d934aaa3c54e" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns10">
+      <location EndPos="3086" StartPos="3075" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=10</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_fd2414b9-0198-403d-9dec-ac34be8541fd" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns9">
+      <location EndPos="3074" StartPos="3063" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=9</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_20973c29-9680-4d93-804b-bf86202569b3" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns8">
+      <location EndPos="3062" StartPos="3051" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=8</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_f1aab0ed-d94a-44c2-aed7-1e176505dbe2" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns7">
+      <location EndPos="3050" StartPos="3039" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=7</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_70fe71fe-85ff-4b7c-80c6-3e3966f7f0f0" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns6">
+      <location EndPos="3038" StartPos="3027" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=6</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_b46fdd3c-6f7d-44c8-98e4-86abb88e9cc9" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns5">
+      <location EndPos="3026" StartPos="3015" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=5</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d203d31e-4d23-4162-b9ab-c2315f2a25ac" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns4">
+      <location EndPos="3014" StartPos="3003" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=4</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_9e38ab22-02bc-4d14-a242-f47b326af56a" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns3">
+      <location EndPos="3002" StartPos="2991" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=3</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d0f1ce8f-e74d-4930-9141-55b87bff271b" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns2">
+      <location EndPos="2990" StartPos="2979" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=2</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_97a87d52-8afc-44fd-a1fa-fe7b781c7846" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="numruns1">
+      <location EndPos="2978" StartPos="2967" width="12"/>
+      <labl xml-lang="en">Number of establishments in QTIME=1</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d09137bb-9bfc-4ab6-82d3-1df3757f043a" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es112">
+      <location EndPos="2966" StartPos="2955" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=112</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_de146185-2e71-4160-93f3-4bdc6e17a48e" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es111">
+      <location EndPos="2954" StartPos="2943" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=111</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_31bfb62e-0b7d-4a63-8bfa-16184eadfb11" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es110">
+      <location EndPos="2942" StartPos="2931" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=110</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_7f9f8b9a-fd98-4db1-8b54-9aa3b830f87c" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es109">
+      <location EndPos="2930" StartPos="2919" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=109</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ba99b4c4-3714-43e5-96a4-b5a10fd17add" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es108">
+      <location EndPos="2918" StartPos="2907" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=108</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_216b19fa-95dc-4e8b-b4ce-35e4f805bbe2" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es107">
+      <location EndPos="2906" StartPos="2895" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=107</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_f49f3fb0-61ba-4f68-a6f3-e8e7dff6f6c2" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es106">
+      <location EndPos="2894" StartPos="2883" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=106</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_c27cb348-969c-413c-a6e2-bb3037f7c1f3" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es105">
+      <location EndPos="2882" StartPos="2871" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=105</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_c424509a-dfba-4272-baf6-6bc9be5da2c6" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es104">
+      <location EndPos="2870" StartPos="2859" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=104</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_dcb71826-7363-40b1-b78c-4e83c26dca45" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es103">
+      <location EndPos="2858" StartPos="2847" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=103</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d9b32639-d0f1-4a41-ba9b-7a957edf8c89" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es102">
+      <location EndPos="2846" StartPos="2835" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=102</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_7c7cd921-35ae-4479-9ef4-9b54f48b2c4c" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es101">
+      <location EndPos="2834" StartPos="2823" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=101</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_92c1ed74-f7bd-48f6-9418-2a677b9540f7" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es100">
+      <location EndPos="2822" StartPos="2811" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=100</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_a6b55e90-5c05-47a5-bef9-de84e7c5f599" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es99">
+      <location EndPos="2810" StartPos="2799" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=99</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_5d9d8703-6480-46b4-b994-a60ad34da695" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es98">
+      <location EndPos="2798" StartPos="2787" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=98</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_cbba8704-39d7-4e19-bc80-423a8f8d598a" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es97">
+      <location EndPos="2786" StartPos="2775" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=97</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_2c4adf10-90cd-497c-b30c-6a04ee96b313" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es96">
+      <location EndPos="2774" StartPos="2763" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=96</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_8dd97c8c-3240-4544-9a09-08854e2a2866" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es95">
+      <location EndPos="2762" StartPos="2751" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=95</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_30bef458-4077-47e7-9047-c9d959fcab96" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es94">
+      <location EndPos="2750" StartPos="2739" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=94</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_c3c4582a-2536-427e-b372-3286d988e275" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es93">
+      <location EndPos="2738" StartPos="2727" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=93</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_a98ecfe6-5dae-430f-90dd-22801aec5821" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es92">
+      <location EndPos="2726" StartPos="2715" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=92</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_b30d3f70-adac-43cd-8073-3eac5d92b5a5" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es91">
+      <location EndPos="2714" StartPos="2703" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=91</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_8353de4e-bbdf-4269-801b-7a9121a45c73" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es90">
+      <location EndPos="2702" StartPos="2691" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=90</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_16369f27-467e-4fc4-ad60-09a3c6c7cad6" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es89">
+      <location EndPos="2690" StartPos="2679" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=89</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_44298d13-63a9-460f-ad0c-7eaba5ac2649" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es88">
+      <location EndPos="2678" StartPos="2667" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=88</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_cbb6db5f-7e51-4804-bf61-808728d25b36" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es87">
+      <location EndPos="2666" StartPos="2655" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=87</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_4ade885e-4397-4c79-a36c-0c80de1c70ee" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es86">
+      <location EndPos="2654" StartPos="2643" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=86</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_90c4bd99-cad7-41a4-93d0-c25a98b503f6" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es85">
+      <location EndPos="2642" StartPos="2631" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=85</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_a40de99c-d8b4-4627-b669-f45377d663b6" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es84">
+      <location EndPos="2630" StartPos="2619" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=84</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d623e72c-ebe7-4052-9c2d-8bf9fafe45b1" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es83">
+      <location EndPos="2618" StartPos="2607" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=83</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_7494c218-f467-4be5-b311-55749c527164" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es82">
+      <location EndPos="2606" StartPos="2595" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=82</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_6487f418-6e96-41ff-8937-fa18a8cdb9ee" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es81">
+      <location EndPos="2594" StartPos="2583" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=81</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_abaf3a04-e5e5-41c8-aeb3-2f5d1ded1dbe" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es80">
+      <location EndPos="2582" StartPos="2571" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=80</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ca848f8b-7be7-4999-85b2-033465197e4f" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es79">
+      <location EndPos="2570" StartPos="2559" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=79</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_0cd7c07c-f6ec-4a63-a0ee-ffbbb7d3c106" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es78">
+      <location EndPos="2558" StartPos="2547" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=78</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_890d6b43-f2ef-4ae7-b6c7-0cae7363f286" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es77">
+      <location EndPos="2546" StartPos="2535" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=77</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_29223d2d-1ff4-427b-99a6-cb92718e1b4a" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es76">
+      <location EndPos="2534" StartPos="2523" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=76</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_c49fa2cb-4dfb-48b3-b9b3-aab63c06ab5d" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es75">
+      <location EndPos="2522" StartPos="2511" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=75</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_5fbdd80b-9735-49f2-838e-64f4d2cdef31" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es74">
+      <location EndPos="2510" StartPos="2499" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=74</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_3812ebcb-84ea-42a3-b92c-58e70e05ff25" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es73">
+      <location EndPos="2498" StartPos="2487" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=73</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_66df1480-911c-414c-9684-9337d72e2502" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es72">
+      <location EndPos="2486" StartPos="2475" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=72</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_3be8665c-5fe0-4f53-9362-c1a6b42ed231" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es71">
+      <location EndPos="2474" StartPos="2463" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=71</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_c752b053-ffdf-47e8-917e-ddfb69ce23da" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es70">
+      <location EndPos="2462" StartPos="2451" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=70</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_8719cfba-d6b5-4264-a92a-0bac406f24c7" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es69">
+      <location EndPos="2450" StartPos="2439" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=69</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e7eaaf9f-701b-4426-8a56-00ae4a86c21b" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es68">
+      <location EndPos="2438" StartPos="2427" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=68</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_2411a8bc-99fa-41d4-ae7a-e1bc56447ee4" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es67">
+      <location EndPos="2426" StartPos="2415" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=67</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_98b0a7f6-a6eb-4bba-897a-043c022847c6" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es66">
+      <location EndPos="2414" StartPos="2403" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=66</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_9ed376eb-9af3-479d-a4cc-dfec54b97ef4" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es65">
+      <location EndPos="2402" StartPos="2391" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=65</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d08e1a1a-8835-4db9-9a25-64645dd191ab" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es64">
+      <location EndPos="2390" StartPos="2379" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=64</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_bf84517f-9cbf-448a-8d0e-05fc4ce6c4f7" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es63">
+      <location EndPos="2378" StartPos="2367" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=63</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d83b22f7-3446-4941-8de3-bb4dd0bcd07a" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es62">
+      <location EndPos="2366" StartPos="2355" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=62</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_077b1d39-990c-4d4b-876b-934297f29444" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es61">
+      <location EndPos="2354" StartPos="2343" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=61</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_2058f468-622a-462f-83f3-adc949f3de52" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es60">
+      <location EndPos="2342" StartPos="2331" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=60</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_77c616a5-f687-420f-8426-559564d269e8" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es59">
+      <location EndPos="2330" StartPos="2319" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=59</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_1dc582d8-ed3e-4002-b274-c10b3d0bc47b" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es58">
+      <location EndPos="2318" StartPos="2307" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=58</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_5e055698-e7bd-46fd-88c8-fa28de285495" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es57">
+      <location EndPos="2306" StartPos="2295" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=57</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_b592c4d2-2807-4595-9149-ae70e6b08ee2" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es56">
+      <location EndPos="2294" StartPos="2283" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=56</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_fe70d202-db40-4478-87ff-6310f49302e5" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es55">
+      <location EndPos="2282" StartPos="2271" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=55</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_eef4f514-5c71-4ec4-817c-0e9b3e8084d0" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es54">
+      <location EndPos="2270" StartPos="2259" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=54</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_9bf9a216-4d30-4801-898d-7512f2bb5212" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es53">
+      <location EndPos="2258" StartPos="2247" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=53</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ee1a413f-02c4-4557-9b0f-b6861a4b9248" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es52">
+      <location EndPos="2246" StartPos="2235" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=52</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_2231f610-e6b7-4866-be52-4b79c5698fb7" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es51">
+      <location EndPos="2234" StartPos="2223" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=51</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ec5c3e08-583e-419e-8443-608df585878a" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es50">
+      <location EndPos="2222" StartPos="2211" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=50</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_4e41daa8-566f-4779-b6d1-c35ea4713bde" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es49">
+      <location EndPos="2210" StartPos="2199" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=49</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_68606682-ed6c-400e-adac-bbc7a28d5605" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es48">
+      <location EndPos="2198" StartPos="2187" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=48</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e538a9f7-c19f-486e-a00a-5c7dff58da69" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es47">
+      <location EndPos="2186" StartPos="2175" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=47</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_2dec0346-dac9-4c9f-ad38-663ba6bf21e6" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es46">
+      <location EndPos="2174" StartPos="2163" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=46</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_77178590-afda-4c4d-b77d-12de9f5fd515" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es45">
+      <location EndPos="2162" StartPos="2151" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=45</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_b19315a8-420d-4e3f-b515-480619e4d033" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es44">
+      <location EndPos="2150" StartPos="2139" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=44</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_b708d91e-3153-4e7f-bcfe-4b9de7928d97" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es43">
+      <location EndPos="2138" StartPos="2127" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=43</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_9b1998e8-b9f1-4cd6-be41-e34c2d4b93b8" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es42">
+      <location EndPos="2126" StartPos="2115" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=42</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_7b38af50-3968-48d4-9e75-5ea15409826b" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es41">
+      <location EndPos="2114" StartPos="2103" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=41</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_b24534dc-6b06-4cc8-bfe1-0a410f2b867f" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es40">
+      <location EndPos="2102" StartPos="2091" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=40</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_6b258587-9461-45eb-af19-1a4fe4e29dcf" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es39">
+      <location EndPos="2090" StartPos="2079" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=39</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_73da9d25-989e-47cf-9419-7cd5734a70dd" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es38">
+      <location EndPos="2078" StartPos="2067" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=38</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_2f007d91-8367-46d8-8fe7-6dd2e99ea5b4" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es37">
+      <location EndPos="2066" StartPos="2055" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=37</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d68ff1ae-6ed2-4d91-9a2d-8ebfc562409d" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es36">
+      <location EndPos="2054" StartPos="2043" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=36</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_4506c39d-c524-4ec7-b5a2-233620908bb7" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es35">
+      <location EndPos="2042" StartPos="2031" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=35</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_305eec85-212d-465a-9ccd-777aae541cf6" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es34">
+      <location EndPos="2030" StartPos="2019" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=34</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_32b7c180-3c06-4492-9b79-ca361963d73f" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es33">
+      <location EndPos="2018" StartPos="2007" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=33</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_5a743ea0-3c25-4f9a-9009-de979f06d6c0" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es32">
+      <location EndPos="2006" StartPos="1995" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=32</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_388c6ab8-f46a-4486-ac1e-dc0a96444a54" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es31">
+      <location EndPos="1994" StartPos="1983" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=31</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_c0e7f8b1-55c4-4996-9ad1-e7bb41ba70c0" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es30">
+      <location EndPos="1982" StartPos="1971" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=30</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_8626e0f5-d4fc-49a5-9d78-663efb03a12c" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es29">
+      <location EndPos="1970" StartPos="1959" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=29</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ac4839e9-1b7c-4c6f-bdeb-9b8025e41e8e" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es28">
+      <location EndPos="1958" StartPos="1947" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=28</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_87ba3fee-8cc6-49ed-9736-8825dcaf4e16" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es27">
+      <location EndPos="1946" StartPos="1935" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=27</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d04df684-a36b-4df4-b651-f45bb03d6563" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es26">
+      <location EndPos="1934" StartPos="1923" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=26</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_2a68a250-1f5a-4152-b329-fe3c0c77abad" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es25">
+      <location EndPos="1922" StartPos="1911" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=25</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_db17e295-215b-4c1f-bf1b-427bbec57430" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es24">
+      <location EndPos="1910" StartPos="1899" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=24</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_5281a912-f7ad-4c06-b437-c23de90ff7bd" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es23">
+      <location EndPos="1898" StartPos="1887" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=23</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ef2e6e41-13f2-4b4e-9896-6b18b747af13" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es22">
+      <location EndPos="1886" StartPos="1875" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=22</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ec0c1a18-718d-4c78-b4a5-2350835af80b" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es21">
+      <location EndPos="1874" StartPos="1863" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=21</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_86e0b18b-751f-4f90-8733-b165bb031e9e" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es20">
+      <location EndPos="1862" StartPos="1851" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=20</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_9f5f1257-1472-4e7e-af03-282fdcc13952" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es19">
+      <location EndPos="1850" StartPos="1839" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=19</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_b813fcd1-958b-45ab-b3cf-5f6befc84c95" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es18">
+      <location EndPos="1838" StartPos="1827" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=18</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_acc83b22-acfb-415f-b720-022eaff8faad" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es17">
+      <location EndPos="1826" StartPos="1815" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=17</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_1ea67395-3fa4-41a6-a836-2b3640fa4b4b" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es16">
+      <location EndPos="1814" StartPos="1803" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=16</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_8a9355d2-0641-420a-85b2-d13afc940551" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es15">
+      <location EndPos="1802" StartPos="1791" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=15</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_566551ed-d92f-43ca-af5f-1f3d88c70137" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es14">
+      <location EndPos="1790" StartPos="1779" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=14</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_1f5f3d0c-ce48-4562-8693-8bd9d493ce4a" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es13">
+      <location EndPos="1778" StartPos="1767" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=13</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e1162b93-5768-45fa-b1de-8f2435695491" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es12">
+      <location EndPos="1766" StartPos="1755" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=12</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e62a3d63-c33d-4a3e-9aca-a6cc5fb3ba3e" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es11">
+      <location EndPos="1754" StartPos="1743" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=11</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_b8d1ff62-6807-4dd4-9616-9f1b537edc15" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es10">
+      <location EndPos="1742" StartPos="1731" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=10</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_b7c637a1-c4a0-4664-b5d2-71b977ffe61d" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es9">
+      <location EndPos="1730" StartPos="1719" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=9</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_44b7c43d-ec86-4235-95c4-4012d17e14f1" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es8">
+      <location EndPos="1718" StartPos="1707" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=8</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_cb7819d5-ad61-4b1c-bee6-9539b485e4b4" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es7">
+      <location EndPos="1706" StartPos="1695" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=7</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_f0f6c138-2825-428c-bf6a-8392727ee6b8" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es6">
+      <location EndPos="1694" StartPos="1683" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=6</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_167d7e64-a444-49d0-8e52-2f384927b8b7" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es5">
+      <location EndPos="1682" StartPos="1671" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=5</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_fea409fe-d62d-4c05-9223-5b061d8000c5" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es4">
+      <location EndPos="1670" StartPos="1659" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=4</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_fef22ed2-be4b-4afc-adac-f54648e68446" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es3">
+      <location EndPos="1658" StartPos="1647" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=3</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_84e39c80-329a-4b1a-84dd-6ba5bd96d705" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es2">
+      <location EndPos="1646" StartPos="1635" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=2</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ca5cc670-a96f-481f-be24-f6b41afb13b0" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="emp_es1">
+      <location EndPos="1634" StartPos="1623" width="12"/>
+      <labl xml-lang="en">Maximum monthly employment in QTIME=1</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e64f9da4-bb7b-456f-8f7f-6f0ab5a85c39" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es112">
+      <location EndPos="1622" StartPos="1611" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=112</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_5de99904-e68b-463b-8135-528eae2b2308" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es111">
+      <location EndPos="1610" StartPos="1599" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=111</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_13d047eb-7556-4bb3-bc90-9652210185cf" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es110">
+      <location EndPos="1598" StartPos="1587" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=110</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_3e19321b-cab4-41ba-b53a-4c13ac80e7f3" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es109">
+      <location EndPos="1586" StartPos="1575" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=109</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_f83ab57f-2ed4-46c6-befa-eb55478f4b69" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es108">
+      <location EndPos="1574" StartPos="1563" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=108</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_4d23bacf-dbb6-45ef-90d8-2d8043cedfc3" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es107">
+      <location EndPos="1562" StartPos="1551" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=107</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_51687cec-9274-47ce-9bc4-876b84f70c89" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es106">
+      <location EndPos="1550" StartPos="1539" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=106</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_620e321d-864e-4542-a23f-04af74e6d251" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es105">
+      <location EndPos="1538" StartPos="1527" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=105</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_4dba3b0b-9157-4b04-b031-186736356b81" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es104">
+      <location EndPos="1526" StartPos="1515" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=104</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_13e49ed4-fbdd-446c-a5d4-8bceda4b0c3e" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es103">
+      <location EndPos="1514" StartPos="1503" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=103</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_a784284a-a326-49b9-b96c-4a408849f445" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es102">
+      <location EndPos="1502" StartPos="1491" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=102</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_17b1f492-895a-4f7e-b821-39dba73fa7a8" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es101">
+      <location EndPos="1490" StartPos="1479" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=101</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d6ef10c8-9738-4aee-8971-dfe72c21e772" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es100">
+      <location EndPos="1478" StartPos="1467" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=100</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_327f146d-43a2-4be3-b96c-650b84a915f0" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es99">
+      <location EndPos="1466" StartPos="1455" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=99</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_188c8b4e-521d-495b-ae65-83a2d622380e" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es98">
+      <location EndPos="1454" StartPos="1443" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=98</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_0ccb9e96-9948-4a83-bdc3-ea55fbf0d9f6" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es97">
+      <location EndPos="1442" StartPos="1431" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=97</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e03ab741-f7ae-4713-923e-a44fd188e5b2" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es96">
+      <location EndPos="1430" StartPos="1419" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=96</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_a5189d09-3901-4a62-8921-368bf401b9bc" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es95">
+      <location EndPos="1418" StartPos="1407" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=95</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_78bf547a-c8be-46c9-a05c-f2b95da1c041" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es94">
+      <location EndPos="1406" StartPos="1395" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=94</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_0de376aa-270b-4e6b-b9c5-bb223338e47c" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es93">
+      <location EndPos="1394" StartPos="1383" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=93</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_5759e85d-163a-4163-8e99-9c4841f7a1dd" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es92">
+      <location EndPos="1382" StartPos="1371" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=92</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_27186f2c-7cbf-46db-9c79-8311b8cda70a" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es91">
+      <location EndPos="1370" StartPos="1359" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=91</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_88bed984-e5b9-41f0-92a8-8ed09e209a16" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es90">
+      <location EndPos="1358" StartPos="1347" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=90</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_da7c93db-18a0-4889-9828-264e967224c8" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es89">
+      <location EndPos="1346" StartPos="1335" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=89</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_b3373c60-db2f-4f55-8cff-733142bc1cfb" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es88">
+      <location EndPos="1334" StartPos="1323" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=88</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_042c3976-bf37-4536-8957-ec08cb1bf237" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es87">
+      <location EndPos="1322" StartPos="1311" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=87</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_b234e6fd-3b4e-480b-8f44-63d4fcfb6f73" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es86">
+      <location EndPos="1310" StartPos="1299" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=86</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_a4d741a3-7efa-42ab-ab72-40c33ed5df1e" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es85">
+      <location EndPos="1298" StartPos="1287" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=85</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_bb9e93de-eccd-49bf-ae37-98b08d4bbc1c" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es84">
+      <location EndPos="1286" StartPos="1275" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=84</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_756af314-2f1c-4bd6-b7a3-46e1078c6686" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es83">
+      <location EndPos="1274" StartPos="1263" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=83</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ec5120d4-f539-4e46-80b0-3f3443569024" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es82">
+      <location EndPos="1262" StartPos="1251" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=82</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_dd9cd735-db6d-480e-9068-49aabdd2a2df" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es81">
+      <location EndPos="1250" StartPos="1239" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=81</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e0095a35-4913-4bdb-b1c3-81204b0140e3" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es80">
+      <location EndPos="1238" StartPos="1227" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=80</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_db131896-608e-4201-9f91-95782c641108" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es79">
+      <location EndPos="1226" StartPos="1215" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=79</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_18ddda1d-94ba-4ff8-a899-182ec9195b33" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es78">
+      <location EndPos="1214" StartPos="1203" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=78</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_f95844d7-61d2-41ae-a68b-448a9a8e1e86" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es77">
+      <location EndPos="1202" StartPos="1191" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=77</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_9229acdc-398b-4a5c-b897-ad95c6a04adb" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es76">
+      <location EndPos="1190" StartPos="1179" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=76</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_628479b4-2819-490d-80c7-7dc78fb58fe3" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es75">
+      <location EndPos="1178" StartPos="1167" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=75</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_6bae521e-09af-4e8b-a058-89a04356b29d" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es74">
+      <location EndPos="1166" StartPos="1155" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=74</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_673b1f54-6890-4d75-a584-99e6c520b8b8" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es73">
+      <location EndPos="1154" StartPos="1143" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=73</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_fb195789-8c6d-4cce-9cbc-7a46f8fa5e28" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es72">
+      <location EndPos="1142" StartPos="1131" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=72</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_dceed5d8-3d50-4596-bb49-69c6b534ad36" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es71">
+      <location EndPos="1130" StartPos="1119" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=71</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_84bf16f4-941c-42b4-bfdf-f8a473880dd9" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es70">
+      <location EndPos="1118" StartPos="1107" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=70</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_006befde-0f44-4eef-a350-fce44b79a4e2" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es69">
+      <location EndPos="1106" StartPos="1095" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=69</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_c87528d9-4229-4011-85d3-728b13dba912" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es68">
+      <location EndPos="1094" StartPos="1083" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=68</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_cd6edacb-ee85-45e3-a5ac-7f0e8e94ea46" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es67">
+      <location EndPos="1082" StartPos="1071" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=67</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_0dce90cc-0565-4a04-a179-51975e1ae88c" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es66">
+      <location EndPos="1070" StartPos="1059" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=66</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_7b56ed3d-d724-41e0-a1ed-7de01c99f746" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es65">
+      <location EndPos="1058" StartPos="1047" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=65</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ac438e03-e6b9-485e-ae5d-3a1d40969336" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es64">
+      <location EndPos="1046" StartPos="1035" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=64</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_71086f11-f30d-4ecc-9bc1-a10e9b61260f" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es63">
+      <location EndPos="1034" StartPos="1023" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=63</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d91eb915-2336-41f6-b6b2-99aaa8272a77" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es62">
+      <location EndPos="1022" StartPos="1011" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=62</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d5e0d8f4-b1e8-4ab1-a082-fffb0d3dc43d" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es61">
+      <location EndPos="1010" StartPos="999" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=61</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_06101a67-e8dd-4501-8035-52294d35eab7" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es60">
+      <location EndPos="998" StartPos="987" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=60</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_85973133-17c7-4afc-b740-bb20e61903be" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es59">
+      <location EndPos="986" StartPos="975" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=59</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e7182285-24d3-4243-8af6-51318079344b" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es58">
+      <location EndPos="974" StartPos="963" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=58</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_fe04ec8a-d875-4e5c-ad0e-fa99f0690fed" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es57">
+      <location EndPos="962" StartPos="951" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=57</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_5e8b6bb9-91a0-4f1a-923a-33e7d563696f" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es56">
+      <location EndPos="950" StartPos="939" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=56</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_00810c6a-ab17-4ab0-b88c-976bc9a16b6c" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es55">
+      <location EndPos="938" StartPos="927" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=55</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_89876dbf-a1d3-4b4b-b2fa-d1e15b9a0caf" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es54">
+      <location EndPos="926" StartPos="915" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=54</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_9c4d7dec-106e-4c36-8dfe-2bbb743600c0" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es53">
+      <location EndPos="914" StartPos="903" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=53</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_b17696de-5522-45f1-b5e5-d6e345ff18a7" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es52">
+      <location EndPos="902" StartPos="891" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=52</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e4673baa-b3b8-4b69-b8ae-bb343d10ee63" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es51">
+      <location EndPos="890" StartPos="879" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=51</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_84ee93ba-81f4-4cb2-9e69-fc4903a00e2a" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es50">
+      <location EndPos="878" StartPos="867" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=50</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_afa5d19f-d29b-46ab-98e9-1760fa1ab822" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es49">
+      <location EndPos="866" StartPos="855" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=49</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_7008105f-73a6-4f4d-9e31-c996d769d83e" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es48">
+      <location EndPos="854" StartPos="843" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=48</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_29209f5f-0e3a-4d75-8e96-c15edd433ce5" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es47">
+      <location EndPos="842" StartPos="831" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=47</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ecf131ca-ab09-443b-adef-f5a86a6d9497" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es46">
+      <location EndPos="830" StartPos="819" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=46</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_9e25cca8-8d4f-4e62-9f9c-9db3ec03ed72" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es45">
+      <location EndPos="818" StartPos="807" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=45</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_86ee635d-0017-483e-a3c8-babf4d1d579d" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es44">
+      <location EndPos="806" StartPos="795" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=44</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_75f0e555-f350-44f0-b8d8-308b89a22df0" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es43">
+      <location EndPos="794" StartPos="783" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=43</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_5d775925-e21d-455f-a45e-a10ac0dd55e4" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es42">
+      <location EndPos="782" StartPos="771" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=42</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_a68f54c9-c99a-42ab-aa74-1bb83dbaa5ed" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es41">
+      <location EndPos="770" StartPos="759" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=41</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_016b0f38-ff90-47b5-bb78-80a6285ea821" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es40">
+      <location EndPos="758" StartPos="747" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=40</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_4cb81294-d290-4280-95b9-16f116844d89" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es39">
+      <location EndPos="746" StartPos="735" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=39</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_6858ffb0-603d-4e76-821b-d1c52d94a4df" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es38">
+      <location EndPos="734" StartPos="723" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=38</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_a8c9836b-de73-4d85-86e0-68f020ee2549" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es37">
+      <location EndPos="722" StartPos="711" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=37</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_1e18623e-fdd6-456e-85eb-4a280da39345" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es36">
+      <location EndPos="710" StartPos="699" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=36</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_02e8f557-a918-4d7e-a718-66c27cd244d1" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es35">
+      <location EndPos="698" StartPos="687" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=35</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_76c4db85-2a2f-4d8c-b24a-880284ea6e6c" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es34">
+      <location EndPos="686" StartPos="675" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=34</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_062bdd4c-4305-419f-b215-aa500e6de1cc" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es33">
+      <location EndPos="674" StartPos="663" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=33</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_37f0ccad-ff2c-414d-ba9a-44d9fcb1f49f" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es32">
+      <location EndPos="662" StartPos="651" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=32</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_a8828723-7979-4682-b196-86bb42be67b6" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es31">
+      <location EndPos="650" StartPos="639" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=31</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_20ead6d7-be48-4af1-bd44-ebe8085ccdb0" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es30">
+      <location EndPos="638" StartPos="627" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=30</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_46dd24e9-c981-49a7-acd2-ecf5a6c63a9d" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es29">
+      <location EndPos="626" StartPos="615" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=29</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_f75ca06b-9819-47c7-8e4a-a628d22a6572" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es28">
+      <location EndPos="614" StartPos="603" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=28</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_7e19ae4e-f852-474a-ab34-29ccb8e38f48" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es27">
+      <location EndPos="602" StartPos="591" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=27</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_86f8913f-044b-4448-aab5-58cdc52522e2" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es26">
+      <location EndPos="590" StartPos="579" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=26</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_47f90541-8b7b-477d-8fbb-3085a83e2ccc" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es25">
+      <location EndPos="578" StartPos="567" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=25</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_60f32155-2af5-4bd5-a608-df2c2a17fa24" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es24">
+      <location EndPos="566" StartPos="555" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=24</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_585e8451-cbf6-4fd0-9cdc-413943ff85cf" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es23">
+      <location EndPos="554" StartPos="543" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=23</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_c605efbc-ffdc-476c-b8fb-ac6310c6ba11" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es22">
+      <location EndPos="542" StartPos="531" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=22</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_1136ff1b-337f-43ef-8c66-bdb83314e2cf" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es21">
+      <location EndPos="530" StartPos="519" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=21</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_13b28b1f-0aeb-438b-a148-9d691dd67904" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es20">
+      <location EndPos="518" StartPos="507" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=20</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_19277c31-129b-427f-8ed6-da44534c495b" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es19">
+      <location EndPos="506" StartPos="495" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=19</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_6a53a33f-59f5-4b63-9223-0ccce862a856" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es18">
+      <location EndPos="494" StartPos="483" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=18</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_4a7905d6-d544-434a-ab17-22e2be84c2e8" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es17">
+      <location EndPos="482" StartPos="471" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=17</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_3a4f43fd-d8d4-4234-970a-d1db0c4ea59f" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es16">
+      <location EndPos="470" StartPos="459" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=16</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_feac3642-729b-4a2b-80f3-8d99f1cc7e3a" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es15">
+      <location EndPos="458" StartPos="447" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=15</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_b78826c8-d87f-43b5-95a6-f002372c0cc1" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es14">
+      <location EndPos="446" StartPos="435" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=14</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_3dadb6e6-504b-43d1-b8c2-0ad7fdcbe40e" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es13">
+      <location EndPos="434" StartPos="423" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=13</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_6a842528-327c-4280-8696-51999df26226" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es12">
+      <location EndPos="422" StartPos="411" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=12</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_6b6be7d3-b1ef-4bf7-91ce-2bbcfda5007f" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es11">
+      <location EndPos="410" StartPos="399" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=11</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_8f803409-4957-4a1c-b5d4-921e026fd85f" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es10">
+      <location EndPos="398" StartPos="387" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=10</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_4febe737-b480-4357-8391-275d7c1df96e" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es9">
+      <location EndPos="386" StartPos="375" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=9</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_b6fe57b9-3be5-452b-aad6-532fc3da9e96" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es8">
+      <location EndPos="374" StartPos="363" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=8</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_92084b2d-ee43-42f1-ad9f-5aa52a46e736" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es7">
+      <location EndPos="362" StartPos="351" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=7</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_f75d0ac1-485f-471c-8587-15d77d1754f5" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es6">
+      <location EndPos="350" StartPos="339" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=6</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e8b10f05-a543-4025-ad3c-189effe9e3f0" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es5">
+      <location EndPos="338" StartPos="327" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=5</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_c1cb0ef1-6ec7-402e-9182-5eaafb2ee4c0" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es4">
+      <location EndPos="326" StartPos="315" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=4</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_96099138-d25f-4e1f-acdd-64fb2a7d422e" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es3">
+      <location EndPos="314" StartPos="303" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=3</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d8f4c2af-403a-49d4-b67b-a58abfacff52" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es2">
+      <location EndPos="302" StartPos="291" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=2</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_2fca2bdc-f407-477e-97d4-aa7086a8c51c" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="bpemp_es1">
+      <location EndPos="290" StartPos="279" width="12"/>
+      <labl xml-lang="en">Month 1 employment in QTIME=1</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_74333413-07f9-4dd2-9702-f849f99148e1" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="mu_code">
+      <location EndPos="278" StartPos="167" width="112"/>
+      <labl xml-lang="en">...1... if part of multi-establishment, ...2... if master unit</labl>
+      <varFormat formatname="String" schema="other" type="character">%112s</varFormat>
+    </var><var ID="_43f2239e-77b1-4a31-9d20-9c1d2b032e9c" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="active_employ_es">
+      <location EndPos="166" StartPos="55" width="112"/>
+      <labl xml-lang="en">= ...1.. if positive employment in QTIME i</labl>
+      <varFormat formatname="String" schema="other" type="character">%112s</varFormat>
+    </var><var ID="_cbe4be10-6442-43f2-ac39-f8ec12852f50" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="active_qtrs_es">
+      <location EndPos="54" StartPos="43" width="12"/>
+      <labl xml-lang="en">Number of quarters with positive employment</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_cf8e1283-6581-40c6-8aca-c4955c311abe" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="active_end_qtr_es">
+      <location EndPos="42" StartPos="31" width="12"/>
+      <labl xml-lang="en">Last QTIME with positive employment</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_74a82c3b-2926-44b8-9d58-4bcc99075a21" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="active_beg_qtr_es">
+      <location EndPos="30" StartPos="19" width="12"/>
+      <labl xml-lang="en">First QTIME with positive employment</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_5fb8fb5d-b825-4a29-bb67-d2bd6ff99c58" dcml="0" files="_72f23583-2eff-4084-ade9-de9eacf0ec45" name="w1">
+      <location EndPos="84" StartPos="73" width="12"/>
+      <labl xml-lang="en">Total earnings during the quarter</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_75dce9bd-c811-4f03-8b93-8dda8bcda762" dcml="0" files="_72f23583-2eff-4084-ade9-de9eacf0ec45" name="b">
+      <location EndPos="72" StartPos="61" width="12"/>
+      <labl xml-lang="en">Beginning of quarter employment</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_0de66768-b618-4adb-a691-477afe4dc554" dcml="0" files="_72f23583-2eff-4084-ade9-de9eacf0ec45" name="e">
+      <location EndPos="60" StartPos="49" width="12"/>
+      <labl xml-lang="en">End of quarter employment</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_17c8f72d-e942-4867-9c68-b4cecdfd3209" dcml="0" files="_72f23583-2eff-4084-ade9-de9eacf0ec45" name="m">
+      <location EndPos="48" StartPos="37" width="12"/>
+      <labl xml-lang="en">Flow employment</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_0d9cc908-d263-4bbd-a25c-7e7eaa3d195d" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="flag_seinunit_imputed">
+      <location EndPos="96" StartPos="85" width="12"/>
+      <labl xml-lang="en">Flag: SEINUNIT is imputed=1</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_dc6088db-e301-4881-a68c-8d55901b4a27" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e112">
+      <location EndPos="744" StartPos="733" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=112</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_5a7f5cc5-2d49-4f2c-89ed-c67ff24ea08d" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e111">
+      <location EndPos="732" StartPos="721" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=111</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_440f2fc3-2123-4c78-bbf5-5de68d136133" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e110">
+      <location EndPos="720" StartPos="709" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=110</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_8c1e68f3-5eae-4b67-8844-3a4e39f0331f" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e109">
+      <location EndPos="708" StartPos="697" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=109</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_4a2c150d-2532-41e6-a578-14977c92ab66" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e108">
+      <location EndPos="696" StartPos="685" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=108</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_f378a71e-2251-4a05-8542-e6b52789865e" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e107">
+      <location EndPos="684" StartPos="673" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=107</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_aa10432e-4be6-4f0f-b1f5-d216a969ddff" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e106">
+      <location EndPos="672" StartPos="661" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=106</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_f4eb1076-ab18-4030-bdb5-031950593de0" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e105">
+      <location EndPos="660" StartPos="649" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=105</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_84310713-4bdb-45f4-9ab9-897422d85d91" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e104">
+      <location EndPos="648" StartPos="637" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=104</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_05105016-ed51-4d1e-a545-99d9a2ce10bb" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e103">
+      <location EndPos="636" StartPos="625" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=103</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_665b05ef-be19-40da-b87e-01e1bbe50a2c" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e102">
+      <location EndPos="624" StartPos="613" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=102</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_c92a1cd4-6bf2-4f01-b64c-df8c10063e3d" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e101">
+      <location EndPos="612" StartPos="601" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=101</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_b5e420db-c55e-4430-83a5-472b2c3f3570" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e100">
+      <location EndPos="600" StartPos="589" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=100</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_48e11468-5f50-4dd5-8dc0-ed02dade3962" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e99">
+      <location EndPos="588" StartPos="577" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=99</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_eadcfedc-796b-4f16-8423-f2cf8b4e3626" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e98">
+      <location EndPos="576" StartPos="565" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=98</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_015c41fa-2f7c-4998-87be-5ad468184f4b" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e97">
+      <location EndPos="564" StartPos="553" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=97</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_13b92f12-efe7-48cc-b5d0-d33ef7a015ea" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e96">
+      <location EndPos="552" StartPos="541" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=96</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_32614978-20b7-498c-ba9e-e0ad7b4c5ee1" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e95">
+      <location EndPos="540" StartPos="529" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=95</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_44dc0b80-26e7-4574-8b0b-c589d56698db" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e94">
+      <location EndPos="528" StartPos="517" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=94</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_3644ea7b-7e06-4791-88b1-727abe1a7e94" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e93">
+      <location EndPos="516" StartPos="505" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=93</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_0813e7d0-c308-43d3-bfef-bd825fb9408b" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e92">
+      <location EndPos="504" StartPos="493" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=92</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_13d9b6fb-7ec7-43db-9c25-4cc39da7b2e6" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e91">
+      <location EndPos="492" StartPos="481" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=91</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_c7cec478-274a-4d6f-9f4a-ec00bd1dc8fc" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e90">
+      <location EndPos="480" StartPos="469" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=90</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_5eafe3d2-363a-47e0-a5b3-d451a457a4d6" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e89">
+      <location EndPos="468" StartPos="457" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=89</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d50a48f3-96ca-4c87-be74-d247e6a30b69" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e88">
+      <location EndPos="456" StartPos="445" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=88</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_1856d9dd-b867-45de-bba8-23997dc8521b" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e87">
+      <location EndPos="444" StartPos="433" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=87</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_553398fc-b782-4ec5-948e-08283eb69715" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e86">
+      <location EndPos="432" StartPos="421" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=86</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_160a80de-35e4-42c3-95f7-e4ec62571a78" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e85">
+      <location EndPos="420" StartPos="409" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=85</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_0121a68b-faec-47b7-a9d0-94a9fa348ae6" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e84">
+      <location EndPos="408" StartPos="397" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=84</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d851fc56-7ef3-4713-86f2-88760c6552a3" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e83">
+      <location EndPos="396" StartPos="385" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=83</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_6db57c15-d529-4a0a-9e6e-51c8333b21a7" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e82">
+      <location EndPos="384" StartPos="373" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=82</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_66891f07-ecfb-4565-b116-e5626d662450" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e81">
+      <location EndPos="372" StartPos="361" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=81</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_c22350b0-a346-4034-a147-120e492d4c71" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e80">
+      <location EndPos="360" StartPos="349" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=80</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_38e45103-32f4-44e9-825f-2f930f32d3b9" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e79">
+      <location EndPos="348" StartPos="337" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=79</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_6d3cdaa5-ebb8-45ac-a468-770a32dcd52b" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e78">
+      <location EndPos="336" StartPos="325" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=78</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e436eea6-519a-4b44-8ff8-f0c6ecc91de5" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e77">
+      <location EndPos="324" StartPos="313" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=77</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_dcd8daea-001d-454b-8f74-9671ec1169bb" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e76">
+      <location EndPos="312" StartPos="301" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=76</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_b783e222-b530-48b5-acbd-60d79e501199" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e75">
+      <location EndPos="300" StartPos="289" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=75</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_0f4884e5-fac2-4fa3-a66b-412a61e14a71" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e74">
+      <location EndPos="288" StartPos="277" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=74</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_9a3ac0b5-b97d-4ef4-ada9-6a8f3a1e7aef" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e73">
+      <location EndPos="276" StartPos="265" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=73</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_bd7625dd-b1b3-46bd-8315-e8eaa65291ff" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e72">
+      <location EndPos="264" StartPos="253" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=72</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_8dc5b3dd-0a22-4586-82c6-f7ff14f7bf33" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e71">
+      <location EndPos="252" StartPos="241" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=71</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_81f8b63b-07dd-4677-bc41-16b68592933a" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e70">
+      <location EndPos="240" StartPos="229" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=70</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_f992e210-0da4-4ed9-93ac-524ae71383db" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e69">
+      <location EndPos="228" StartPos="217" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=69</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e4e088f4-c2a2-443d-b931-7364bb385000" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e68">
+      <location EndPos="216" StartPos="205" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=68</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_fa124028-26d6-475c-872e-2a74decb25df" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e67">
+      <location EndPos="204" StartPos="193" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=67</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_f2185565-076d-497f-8d7d-b425985dc822" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e66">
+      <location EndPos="192" StartPos="181" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=66</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_7944efe2-48ad-4d12-8fba-c1f900c5eefd" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e65">
+      <location EndPos="180" StartPos="169" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=65</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_6329b16f-a741-4b11-a292-17e75724a391" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e64">
+      <location EndPos="168" StartPos="157" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=64</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_85752a49-d532-4021-81d8-28b95e679a8b" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e63">
+      <location EndPos="156" StartPos="145" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=63</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_dd2ea344-5c5e-4b43-b973-bf45bfaa5311" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e62">
+      <location EndPos="144" StartPos="133" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=62</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_3043d40f-a71f-4f22-8844-f94bad6a45dc" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="e61">
+      <location EndPos="132" StartPos="121" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=61</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_07ebc134-41f3-40af-8a72-4ec13b463213" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e60">
+      <location EndPos="614" StartPos="603" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=60</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_873b93df-3243-4c2c-b2f7-32b0d5dcf8d8" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e59">
+      <location EndPos="602" StartPos="591" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=59</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_8aec4f8d-bd8d-4a75-8ccf-4946f02125ff" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e58">
+      <location EndPos="590" StartPos="579" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=58</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_4416ca99-4e4e-4086-90a1-fa77846dd244" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e57">
+      <location EndPos="578" StartPos="567" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=57</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_a5b694e3-77db-449e-8b0e-a0b794f1e0cc" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e56">
+      <location EndPos="566" StartPos="555" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=56</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_907e38b3-f784-44d7-a39e-190d518d73cd" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e55">
+      <location EndPos="554" StartPos="543" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=55</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_cea71d48-50e6-4c6e-a608-b55470b50b8b" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e54">
+      <location EndPos="542" StartPos="531" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=54</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_7e1dc0eb-cb2d-47e7-ac3f-6b10c4c48892" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e53">
+      <location EndPos="530" StartPos="519" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=53</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_91b71278-f4d4-496a-8b13-19abf0c8c254" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e52">
+      <location EndPos="518" StartPos="507" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=52</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_29255895-d075-4ad7-acd0-8559bb6b45ea" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e51">
+      <location EndPos="506" StartPos="495" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=51</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_fcc59573-95e1-4186-8914-0a12ac6c3e1a" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e50">
+      <location EndPos="494" StartPos="483" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=50</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_7217d8d2-346a-44d5-9974-b140609044e4" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e49">
+      <location EndPos="482" StartPos="471" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=49</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_f8b4e33a-355d-4633-89c1-344dc4eb19fe" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e48">
+      <location EndPos="470" StartPos="459" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=48</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_6272ea4f-6c73-4521-889d-74f9cd9b8bbb" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e47">
+      <location EndPos="458" StartPos="447" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=47</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_96850aa7-b624-4f76-97f1-6d759335903e" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e46">
+      <location EndPos="446" StartPos="435" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=46</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_6911f68d-8676-4998-bd20-5adde3d84a18" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e45">
+      <location EndPos="434" StartPos="423" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=45</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_896f0548-66f5-43f7-ba37-9b36a55fde7d" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e44">
+      <location EndPos="422" StartPos="411" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=44</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_2c2cf186-1830-433b-bb04-b313f8b5a45d" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e43">
+      <location EndPos="410" StartPos="399" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=43</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_dbcca128-2fcc-469b-9c23-4b29479771a2" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e42">
+      <location EndPos="398" StartPos="387" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=42</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_f4beb4d9-babe-4bd7-96e6-94d588806a76" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e41">
+      <location EndPos="386" StartPos="375" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=41</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_be7b7653-655d-4a5a-a045-46dcad17ec9c" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e40">
+      <location EndPos="374" StartPos="363" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=40</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_a6daeb8c-8acb-480d-89cf-43b95afc25fc" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e39">
+      <location EndPos="362" StartPos="351" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=39</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_30b1a586-c461-45bd-9208-a95b3abf4286" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e38">
+      <location EndPos="350" StartPos="339" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=38</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_2db6ea44-5fa9-432b-961e-044bbf59ea15" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e37">
+      <location EndPos="338" StartPos="327" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=37</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_139428ee-690a-4f46-8e2e-ee804b4b5530" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e36">
+      <location EndPos="326" StartPos="315" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=36</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_a37b64c1-5b47-48db-bda5-d1c723fa2f94" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e35">
+      <location EndPos="314" StartPos="303" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=35</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ecbf8fa1-424a-4084-99af-33090fe06c31" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e34">
+      <location EndPos="302" StartPos="291" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=34</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_897cde82-0983-439a-aba6-a6cb1e8a95f8" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e33">
+      <location EndPos="290" StartPos="279" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=33</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_6ac2defd-c8f5-4916-8f2e-bbf332cd5233" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e32">
+      <location EndPos="278" StartPos="267" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=32</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_a72948fd-9689-431b-9ff0-b08325d4e966" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e31">
+      <location EndPos="266" StartPos="255" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=31</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_fb8902af-41f8-45be-ac3c-82052672731f" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e30">
+      <location EndPos="254" StartPos="243" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=30</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_39e765c8-258f-4a9a-96a9-4b5462b17115" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e29">
+      <location EndPos="242" StartPos="231" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=29</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_f39908f0-16fa-47e6-bc64-9c1ecfe2f932" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e28">
+      <location EndPos="230" StartPos="219" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=28</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_fb13011a-3f05-4031-b691-508ee3cc17fb" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e27">
+      <location EndPos="218" StartPos="207" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=27</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_9a697f7e-f66b-4608-aa8c-c0350187b91e" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e26">
+      <location EndPos="206" StartPos="195" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=26</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_85b21246-d94d-4356-8ddc-ae89d65ca394" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e25">
+      <location EndPos="194" StartPos="183" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=25</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_fb76e896-0a0b-411e-848c-a0cc0109bff4" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e24">
+      <location EndPos="182" StartPos="171" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=24</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_0fe34e69-edfd-4c58-b51e-2b4564351e70" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e23">
+      <location EndPos="170" StartPos="159" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=23</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_add7682e-d742-4bcc-8b1f-592c3ae85934" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e22">
+      <location EndPos="158" StartPos="147" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=22</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_64c0185c-cac4-4400-a058-cb3ed4d2fd40" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="e21">
+      <location EndPos="146" StartPos="135" width="12"/>
+      <labl xml-lang="en">Employment in QTIME=21</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_2d0bea65-3d27-4a3a-bc78-5d25e16262da" dcml="0" files="_08327eef-0b4f-4a72-91e2-b25a403f89e7" name="work">
+      <location EndPos="134" StartPos="23" width="112"/>
+      <labl xml-lang="en">Binary workhistory ...00111000... 1=employed</labl>
+      <varFormat formatname="String" schema="other" type="character">%112s</varFormat>
+    </var><var ID="_9def0580-d9b5-45a7-b409-4b3056228de0" dcml="0" files="_6d9c9b9d-c709-4506-a5a7-371cc17151ac" name="estimated">
+      <location EndPos="122" StartPos="121" width="2"/>
+      <labl xml-lang="en">Flag: Estimated from raw ES202</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_ae8f294c-3d01-41fe-8e6a-bdbe55b8ef06" dcml="0" files="_72f23583-2eff-4084-ade9-de9eacf0ec45" name="yr_qtr">
+      <location EndPos="90" StartPos="85" width="6"/>
+      <labl xml-lang="en">Year-Quarter YYYY:Q</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_7512b9c8-d524-4eed-bd57-67ff49eb7e44" dcml="0" files="_6d9c9b9d-c709-4506-a5a7-371cc17151ac" name="state_name">
+      <location EndPos="114" StartPos="113" width="2"/>
+      <labl xml-lang="en">State name</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_2f3a71c5-f2ec-461d-a055-0c3e2c1f733d" dcml="0" files="_6d9c9b9d-c709-4506-a5a7-371cc17151ac" name="bls_emp_month3">
+      <location EndPos="112" StartPos="101" width="12"/>
+      <labl xml-lang="en">Employment, Month 3</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_21567091-3e33-42d6-b64a-4b62e76fcfd7" dcml="0" files="_6d9c9b9d-c709-4506-a5a7-371cc17151ac" name="bls_emp_month1">
+      <location EndPos="100" StartPos="89" width="12"/>
+      <labl xml-lang="en">Employment, Month 1</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e6da0d83-4d9d-44dc-abc4-9c337679cb92" dcml="0" files="_6d9c9b9d-c709-4506-a5a7-371cc17151ac" name="bls_total_wage">
+      <location EndPos="88" StartPos="77" width="12"/>
+      <labl xml-lang="en">Total Quarterly Wages</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ee75cfa5-527c-4ec0-8c9e-9f34f754629c" dcml="0" files="_6d9c9b9d-c709-4506-a5a7-371cc17151ac" name="ownership_code">
+      <location EndPos="76" StartPos="75" width="2"/>
+      <labl xml-lang="en">Ownership Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_621d7b34-7ab5-45c9-941b-6a12b6bc3358" dcml="0" files="_6d9c9b9d-c709-4506-a5a7-371cc17151ac" name="leg_state">
+      <location EndPos="74" StartPos="73" width="2"/>
+      <labl xml-lang="en">State FIPS Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_093b520f-283b-4590-960f-1b6569a01752" dcml="0" files="_6d9c9b9d-c709-4506-a5a7-371cc17151ac" name="lehd_total_wage">
+      <location EndPos="72" StartPos="61" width="12"/>
+      <labl xml-lang="en">Total Quarterly Wages (raw ES202, private)</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_d81754d0-705e-4ec6-aab6-4c716e43e4ba" dcml="0" files="_6d9c9b9d-c709-4506-a5a7-371cc17151ac" name="lehd_emp_month1">
+      <location EndPos="60" StartPos="49" width="12"/>
+      <labl xml-lang="en">Employment Month 1 (raw ES202, private)</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_30f71655-1f2d-4354-bca9-0c98364cee86" dcml="0" files="_6d9c9b9d-c709-4506-a5a7-371cc17151ac" name="n">
+      <location EndPos="48" StartPos="37" width="12"/>
+      <labl xml-lang="en">Number of private establishments</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_881f0943-4b57-4a95-a21a-9e83d1a6146a" dcml="0" files="_6d9c9b9d-c709-4506-a5a7-371cc17151ac" name="_type_">
+      <location EndPos="36" StartPos="25" width="12"/>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_2ee7274a-b867-422b-9a4d-f9bb488603c9" dcml="0" files="_72f23583-2eff-4084-ade9-de9eacf0ec45" name="quarter">
+      <location EndPos="36" StartPos="25" width="12"/>
+      <labl xml-lang="en">Quarter</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_73e25ee6-b31e-42fb-a1e3-b2681f464b47" dcml="0" files="_f8e4c136-8b20-4402-9e47-33a9a18279c2" name="seinunit">
+      <location EndPos="18" StartPos="13" width="6"/>
+      <labl xml-lang="en">State UI reporting unit, xwalk value</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_2053dedf-6447-4e9c-876a-3032d8f8f2ec" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="sein">
+      <location EndPos="120" StartPos="109" width="12"/>
+      <labl xml-lang="en">State Employer Identification Number</labl>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var><var ID="_86b1478c-fa9b-4648-b84e-d4048e9e64cc" dcml="0" files="_a3471d9f-fec4-45e1-aceb-20294d98d056" name="earn4">
+      <location EndPos="86" StartPos="75" width="12"/>
+      <labl xml-lang="en">Qtr 4 earnings</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_651bfc3f-b2c4-46c2-8a1c-3297fcd405c5" dcml="0" files="_a3471d9f-fec4-45e1-aceb-20294d98d056" name="earn3">
+      <location EndPos="74" StartPos="63" width="12"/>
+      <labl xml-lang="en">Qtr 3 earnings</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_ba2440f9-90d0-45e9-8647-c9abfb7bb4a6" dcml="0" files="_a3471d9f-fec4-45e1-aceb-20294d98d056" name="earn2">
+      <location EndPos="62" StartPos="51" width="12"/>
+      <labl xml-lang="en">Qtr 2 earnings</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_aae66bc0-191b-4175-8f1f-a4748f3daba4" dcml="0" files="_a3471d9f-fec4-45e1-aceb-20294d98d056" name="earn1">
+      <location EndPos="50" StartPos="39" width="12"/>
+      <labl xml-lang="en">Qtr 1 earnings</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_1b2ea8aa-1618-4aad-9c24-30fa5dba9125" dcml="0" files="_a3471d9f-fec4-45e1-aceb-20294d98d056" name="sourcetp">
+      <location EndPos="38" StartPos="37" width="2"/>
+      <labl xml-lang="en">Type of source</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_67c3d0ca-a1da-4c9f-b974-43079cd186f3" dcml="0" files="_a3471d9f-fec4-45e1-aceb-20294d98d056" name="earn_ann">
+      <location EndPos="36" StartPos="25" width="12"/>
+      <labl xml-lang="en">Annual earnings</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_02bb7af7-8115-4300-8296-a9a0f3fa8191" dcml="0" files="_a3471d9f-fec4-45e1-aceb-20294d98d056" name="source">
+      <location EndPos="24" StartPos="23" width="2"/>
+      <labl xml-lang="en">Source of data (FIPS state code/0=Fed)</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_c47a1ad2-7d9c-473e-b025-29518365fa8e" dcml="0" files="_72f23583-2eff-4084-ade9-de9eacf0ec45" name="year">
+      <location EndPos="24" StartPos="13" width="12"/>
+      <labl xml-lang="en">Year</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_8566e80b-a51a-4a2c-a498-548e1ff38e4a" dcml="0" files="_35066e67-94f1-4304-960a-7fac7ffd3c59" name="pik">
+      <location EndPos="108" StartPos="99" width="10"/>
+      <labl xml-lang="en">Protected Identification Key</labl>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var></dataDscr>
+</codeBook>

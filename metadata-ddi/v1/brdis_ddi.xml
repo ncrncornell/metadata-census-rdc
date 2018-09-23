@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><codeBook xmlns="ddi:codebook:2_5" xmlns:dc="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:ns0="http://purl.org/dc/elements/1.1/" xmlns:saxon="http://xml.apache.org/xslt" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ncrn.cornell.edu/docs/ddi/2.5.NCRN/schemas/codebook.xsd">
+  <docDscr>
+    <docSrc>
+      <titlStmt>
+        <titl>Census Bureau Survey - sponsorship</titl>
+      </titlStmt>
+    </docSrc>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>Census Bureau Survey - sponsorship</titl>
+        <IDNo>215</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Bureau of the Census</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer>Other</producer>
+      </prodStmt>
+      <distStmt>
+        <distrbtr>United States Department of Commerce. Bureau of the Census. Research Data Center</distrbtr>
+      </distStmt>
+    </citation>
+    <stdyInfo>
+      <abstract>The Business R&amp;D and Innovation Survey (BRDIS) is conducted jointly by the U.S.
+Census Bureau and the National Science Foundation (NSF). This survey replaces the Survey of Industrial Research and Development (SIRD) beginning in 2008 which has been the official federal source of data on R&amp;D in the business sector since the 1950s. The goal of the survey is to collect a variety of data on the R&amp;D activities of companies operating in the United States which will be useful to decision makers in both the public and private sectors.  Survey content includes financial measures of R&amp;D activity measures related to R&amp;D employment measures related to R&amp;D management and strategy and measures related to intellectual property and technology transfer.  The National Science Foundation website contains detailed information on the BRDIS (http:www.nsf.govstatisticssrvyindustry).
+
+Researchers who wish to access both the original R&amp;D survey (SIRD) data and the new BRDIS survey data must select both datasets as the BRDIS completely replaces the SIRD from 2008 onwards.</abstract>
+      <sumDscr>
+        <nation abbr="U.S.">United States of America</nation>
+        <anlyUnit>Annually</anlyUnit>
+        <anlyUnit>Calendar Year</anlyUnit>
+        <anlyUnit>Enterprise (firm)</anlyUnit>
+        <universe>Business</universe>
+        <universe>Combination (industries)</universe>
+        <universe>28 different manufacturing sectors</universe>
+      </sumDscr>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <dataCollector>$organization_name</dataCollector>
+        <sampProc>y</sampProc>
+      </dataColl>
+    </method>
+    <dataAccs>
+      <useStmt>
+        <confDec>To obtain this dataset, the user must complete the RDC application process, and be approved for use of this dataset.</confDec>
+        <restrctn>Title 13</restrctn>
+        <restrctn>y</restrctn>
+        <conditions>Users must (I) successfully apply for RDC access (ii) pass review by agencies (iii) pass security clearance</conditions>
+      </useStmt>
+    </dataAccs>
+    <othrStdyMat>
+      <relPubl>http:www.census.govmanufacturingbrdisindex.html</relPubl>
+    </othrStdyMat>
+  </stdyDscr>
+  <fileDscr>
+    <fileTxt>
+      <dimensns>
+        <recNumTot>40000</recNumTot>
+      </dimensns>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr><var ID="sI9p9bzFaxKuQHsm" dcml="0" files="fRi9T9jG68OaKkbk" name="rtext">
+      <location EndPos="4" StartPos="4" width="1"/>
+      <labl xml-lang="en">Respondent Text</labl>
+      <varFormat formatname="String" schema="other" type="character">%160s</varFormat>
+    </var><var ID="pSy6edoEqVjn6tlr" dcml="0" files="fRi9T9jG68OaKkbk" name="ritem">
+      <location EndPos="3" StartPos="3" width="1"/>
+      <labl xml-lang="en">Item code for Respondent Text</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="zwQYpStT8GoJkR2Q" dcml="0" files="fRi9T9jG68OaKkbk" name="rdataflg">
+      <location EndPos="2" StartPos="2" width="1"/>
+      <labl xml-lang="en">Data Flag for Respondent Text</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="jOWpPBLcnyWCuUox" dcml="0" files="oFBTSspmjUhExsQW" name="zrdp_i">
+      <location EndPos="44" StartPos="44" width="1"/>
+      <labl xml-lang="en">Item ZRDP  Imputed Data: FBO DOM PERF BY BUS CODE</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="nTjFD4E6PKYlnZMK" dcml="0" files="oFBTSspmjUhExsQW" name="wsa_i">
+      <location EndPos="43" StartPos="43" width="1"/>
+      <labl xml-lang="en">Item WSA   Imputed Data: WW SALES BY BUS CODE</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="DW7Cbpyd7xWqIQz3" dcml="0" files="oFBTSspmjUhExsQW" name="wrdx_i">
+      <location EndPos="42" StartPos="42" width="1"/>
+      <labl xml-lang="en">Item WRDX  Imputed Data: WW RD EXP BY BUS CODE</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="PJWBxY4KAHN7hYiP" dcml="0" files="oFBTSspmjUhExsQW" name="ussa_i">
+      <location EndPos="41" StartPos="41" width="1"/>
+      <labl xml-lang="en">Item USSA  Imputed Data: DOM SALES BY BUS CODE</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="ZnukbVSnvdt3XBGB" dcml="0" files="oFBTSspmjUhExsQW" name="rdx_i">
+      <location EndPos="40" StartPos="40" width="1"/>
+      <labl xml-lang="en">Item RDX   Imputed Data: DOM RD EXP BY BUS CODE</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="yQ1o4R5VFL7KOku8" dcml="0" files="oFBTSspmjUhExsQW" name="rdp_i">
+      <location EndPos="39" StartPos="39" width="1"/>
+      <labl xml-lang="en">Item RDP   Imputed Data: DOM RD PERF BY BUS CODE</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="BndrXK59RvzUKA0k" dcml="0" files="oFBTSspmjUhExsQW" name="zrdp_g">
+      <location EndPos="38" StartPos="38" width="1"/>
+      <labl xml-lang="en">Item ZRDP  Eflags Data: FBO DOM PERF BY BUS CODE</labl>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var><var ID="zyoqFdwEc7WzcJKC" dcml="0" files="oFBTSspmjUhExsQW" name="wsa_g">
+      <location EndPos="37" StartPos="37" width="1"/>
+      <labl xml-lang="en">Item WSA   Eflags Data: WW SALES BY BUS CODE</labl>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var><var ID="q3QXdE7ka9KlwT7A" dcml="0" files="oFBTSspmjUhExsQW" name="wrdx_g">
+      <location EndPos="36" StartPos="36" width="1"/>
+      <labl xml-lang="en">Item WRDX  Eflags Data: WW RD EXP BY BUS CODE</labl>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var><var ID="GN70L4qc310wdP4V" dcml="0" files="oFBTSspmjUhExsQW" name="ussa_g">
+      <location EndPos="35" StartPos="35" width="1"/>
+      <labl xml-lang="en">Item USSA  Eflags Data: DOM SALES BY BUS CODE</labl>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var><var ID="Nr79Ksu45fsZX92M" dcml="0" files="oFBTSspmjUhExsQW" name="rdx_g">
+      <location EndPos="34" StartPos="34" width="1"/>
+      <labl xml-lang="en">Item RDX   Eflags Data: DOM RD EXP BY BUS CODE</labl>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var><var ID="s08RcuYj2zyRwpOY" dcml="0" files="oFBTSspmjUhExsQW" name="rdp_g">
+      <location EndPos="33" StartPos="33" width="1"/>
+      <labl xml-lang="en">Item RDP   Eflags Data: DOM RD PERF BY BUS CODE</labl>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var><var ID="uxc2LkuuVRMOdgkT" dcml="0" files="oFBTSspmjUhExsQW" name="zrdp_f">
+      <location EndPos="32" StartPos="32" width="1"/>
+      <labl xml-lang="en">Item ZRDP  DataFlag Data: FBO DOM PERF BY BUS CODE</labl>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var><var ID="V8U9hH0tEu0FrM2r" dcml="0" files="oFBTSspmjUhExsQW" name="wsa_f">
+      <location EndPos="31" StartPos="31" width="1"/>
+      <labl xml-lang="en">Item WSA   DataFlag Data: WW SALES BY BUS CODE</labl>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var><var ID="AURySVCwaVGvsz7H" dcml="0" files="oFBTSspmjUhExsQW" name="wrdx_f">
+      <location EndPos="30" StartPos="30" width="1"/>
+      <labl xml-lang="en">Item WRDX  DataFlag Data: WW RD EXP BY BUS CODE</labl>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var><var ID="C22uFzpe3G1qJxVg" dcml="0" files="oFBTSspmjUhExsQW" name="ussa_f">
+      <location EndPos="29" StartPos="29" width="1"/>
+      <labl xml-lang="en">Item USSA  DataFlag Data: DOM SALES BY BUS CODE</labl>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var><var ID="u1jl2n1USn5U1vRH" dcml="0" files="oFBTSspmjUhExsQW" name="rdx_f">
+      <location EndPos="28" StartPos="28" width="1"/>
+      <labl xml-lang="en">Item RDX   DataFlag Data: DOM RD EXP BY BUS CODE</labl>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var><var ID="RzD9X8UWCrBpgks4" dcml="0" files="oFBTSspmjUhExsQW" name="rdp_f">
+      <location EndPos="27" StartPos="27" width="1"/>
+      <labl xml-lang="en">Item RDP   DataFlag Data: DOM RD PERF BY BUS CODE</labl>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var><var ID="S0C68SMUqVh8cyXH" dcml="0" files="oFBTSspmjUhExsQW" name="zrdp_w">
+      <location EndPos="26" StartPos="26" width="1"/>
+      <labl xml-lang="en">Item ZRDP  Weighted Data: FBO DOM PERF BY BUS CODE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="XE3nsGhtnAkSmdCk" dcml="0" files="oFBTSspmjUhExsQW" name="wsa_w">
+      <location EndPos="25" StartPos="25" width="1"/>
+      <labl xml-lang="en">Item WSA   Weighted Data: WW SALES BY BUS CODE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="SY48UmmGT488mjON" dcml="0" files="oFBTSspmjUhExsQW" name="wrdx_w">
+      <location EndPos="24" StartPos="24" width="1"/>
+      <labl xml-lang="en">Item WRDX  Weighted Data: WW RD EXP BY BUS CODE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="jDKuZV6TukxHikf1" dcml="0" files="oFBTSspmjUhExsQW" name="ussa_w">
+      <location EndPos="23" StartPos="23" width="1"/>
+      <labl xml-lang="en">Item USSA  Weighted Data: DOM SALES BY BUS CODE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="wleOwxghnEKWSaHm" dcml="0" files="oFBTSspmjUhExsQW" name="rdx_w">
+      <location EndPos="22" StartPos="22" width="1"/>
+      <labl xml-lang="en">Item RDX   Weighted Data: DOM RD EXP BY BUS CODE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="qfBWXX4DSDR2S6Yh" dcml="0" files="oFBTSspmjUhExsQW" name="rdp_w">
+      <location EndPos="21" StartPos="21" width="1"/>
+      <labl xml-lang="en">Item RDP   Weighted Data: DOM RD PERF BY BUS CODE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="Dxqvl4qyOZG14aQY" dcml="0" files="oFBTSspmjUhExsQW" name="zrdp_a">
+      <location EndPos="20" StartPos="20" width="1"/>
+      <labl xml-lang="en">Item ZRDP  Adjusted Data: FBO DOM PERF BY BUS CODE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="YGRgRfqKiG2jANhr" dcml="0" files="oFBTSspmjUhExsQW" name="wsa_a">
+      <location EndPos="19" StartPos="19" width="1"/>
+      <labl xml-lang="en">Item WSA   Adjusted Data: WW SALES BY BUS CODE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="BYqjabd5CJ0Qhhew" dcml="0" files="oFBTSspmjUhExsQW" name="wrdx_a">
+      <location EndPos="18" StartPos="18" width="1"/>
+      <labl xml-lang="en">Item WRDX  Adjusted Data: WW RD EXP BY BUS CODE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="f8VRu1DsMsXmF2K5" dcml="0" files="oFBTSspmjUhExsQW" name="ussa_a">
+      <location EndPos="17" StartPos="17" width="1"/>
+      <labl xml-lang="en">Item USSA  Adjusted Data: DOM SALES BY BUS CODE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="mMc2z2T6mND4XSmV" dcml="0" files="oFBTSspmjUhExsQW" name="rdx_a">
+      <location EndPos="16" StartPos="16" width="1"/>
+      <labl xml-lang="en">Item RDX   Adjusted Data: DOM RD EXP BY BUS CODE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="PjtT5br3C3Z7PQ8m" dcml="0" files="oFBTSspmjUhExsQW" name="rdp_a">
+      <location EndPos="15" StartPos="15" width="1"/>
+      <labl xml-lang="en">Item RDP   Adjusted Data: DOM RD PERF BY BUS CODE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="RtgVQEre9C2zWLUQ" dcml="0" files="oFBTSspmjUhExsQW" name="zrdp_e">
+      <location EndPos="14" StartPos="14" width="1"/>
+      <labl xml-lang="en">Item ZRDP  Edited Data: FBO DOM PERF BY BUS CODE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="NR9cBrVLjE2KaPns" dcml="0" files="oFBTSspmjUhExsQW" name="wsa_e">
+      <location EndPos="13" StartPos="13" width="1"/>
+      <labl xml-lang="en">Item WSA   Edited Data: WW SALES BY BUS CODE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="Jl2bOB8MoGGS2UvU" dcml="0" files="oFBTSspmjUhExsQW" name="wrdx_e">
+      <location EndPos="12" StartPos="12" width="1"/>
+      <labl xml-lang="en">Item WRDX  Edited Data: WW RD EXP BY BUS CODE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="OP8o23jvSgeEqoVW" dcml="0" files="oFBTSspmjUhExsQW" name="ussa_e">
+      <location EndPos="11" StartPos="11" width="1"/>
+      <labl xml-lang="en">Item USSA  Edited Data: DOM SALES BY BUS CODE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="Zg7lKnp1Q208ofdc" dcml="0" files="oFBTSspmjUhExsQW" name="rdx_e">
+      <location EndPos="10" StartPos="10" width="1"/>
+      <labl xml-lang="en">Item RDX   Edited Data: DOM RD EXP BY BUS CODE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="ewEEHdCXOqsEOfRD" dcml="0" files="oFBTSspmjUhExsQW" name="rdp_e">
+      <location EndPos="9" StartPos="9" width="1"/>
+      <labl xml-lang="en">Item RDP   Edited Data: DOM RD PERF BY BUS CODE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="cwOFIZ9CsUN9tgbr" dcml="0" files="oFBTSspmjUhExsQW" name="zrdp_r">
+      <location EndPos="8" StartPos="8" width="1"/>
+      <labl xml-lang="en">Item ZRDP  Reported Data: FBO DOM PERF BY BUS CODE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="kgqxNIyvPVf6XNs5" dcml="0" files="oFBTSspmjUhExsQW" name="wsa_r">
+      <location EndPos="7" StartPos="7" width="1"/>
+      <labl xml-lang="en">Item WSA   Reported Data: WW SALES BY BUS CODE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="SX1auotHdd71xXT3" dcml="0" files="oFBTSspmjUhExsQW" name="wrdx_r">
+      <location EndPos="6" StartPos="6" width="1"/>
+      <labl xml-lang="en">Item WRDX  Reported Data: WW RD EXP BY BUS CODE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="dOZQ9gm3C0a5HqL7" dcml="0" files="oFBTSspmjUhExsQW" name="ussa_r">
+      <location EndPos="5" StartPos="5" width="1"/>
+      <labl xml-lang="en">Item USSA  Reported Data: DOM SALES BY BUS CODE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="QjOUn0bbWlgY2S5K" dcml="0" files="oFBTSspmjUhExsQW" name="rdx_r">
+      <location EndPos="4" StartPos="4" width="1"/>
+      <labl xml-lang="en">Item RDX   Reported Data: DOM RD EXP BY BUS CODE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="OWGcE6ePzzuYY0MH" dcml="0" files="oFBTSspmjUhExsQW" name="rdp_r">
+      <location EndPos="3" StartPos="3" width="1"/>
+      <labl xml-lang="en">Item RDP   Reported Data: DOM RD PERF BY BUS CODE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="WmPqrwfKKcZHb2E9" dcml="0" files="oFBTSspmjUhExsQW" name="buscde">
+      <location EndPos="2" StartPos="2" width="1"/>
+      <labl xml-lang="en">Business Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var><var ID="yIjFLzGBGZvBCVUi" dcml="0" files="fRi9T9jG68OaKkbk" name="id">
+      <location EndPos="1" StartPos="1" width="1"/>
+      <labl xml-lang="en">Respondent ID Number</labl>
+      <varFormat formatname="String" schema="other" type="character">%16s</varFormat>
+    </var></dataDscr>
+</codeBook>

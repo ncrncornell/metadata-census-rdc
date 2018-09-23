@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><codeBook xmlns="ddi:codebook:2_5" xmlns:dc="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:ns0="http://purl.org/dc/elements/1.1/" xmlns:saxon="http://xml.apache.org/xslt" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ncrn.cornell.edu/docs/ddi/2.5.NCRN/schemas/codebook.xsd">
+  <docDscr>
+    <docSrc>
+      <titlStmt>
+        <titl>Census Bureau Survey - no sponsorship</titl>
+      </titlStmt>
+    </docSrc>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>Census Bureau Survey - no sponsorship</titl>
+        <IDNo>153</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Bureau of the Census</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer>Bureau of the Census</producer>
+      </prodStmt>
+      <distStmt>
+        <distrbtr>United States Department of Commerce. Bureau of the Census. Research Data Center</distrbtr>
+      </distStmt>
+    </citation>
+    <stdyInfo>
+      <abstract>The ownership change files tract changes in ownership of manufacturing establishments between consecutive census years.  That is there is one file for ownership changes between 1963 and 1967 a second file for ownership changes between 1967 and 1972 etc.  through ownership changes between 1992 and 1997.  Select the file on the pick list according to the initial census year e.g. select the 1963 file for changes between 1963 and 1967; select the 1967 file for changes between 1967 and 1972 etc.</abstract>
+      <sumDscr>
+        <nation abbr="U.S.">United States of America</nation>
+        <anlyUnit>Quinquenially (every five years)</anlyUnit>
+        <anlyUnit>Calendar Year</anlyUnit>
+        <anlyUnit>Establishment</anlyUnit>
+        <universe>Business</universe>
+        <universe>Manufacturing</universe>
+        <universe>Manufacturing sectors 31-33.</universe>
+      </sumDscr>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <dataCollector>$organization_name</dataCollector>
+        <sampProc>y</sampProc>
+      </dataColl>
+    </method>
+    <dataAccs>
+      <useStmt>
+        <confDec>To obtain this dataset, the user must complete the RDC application process, and be approved for use of this dataset.</confDec>
+        <restrctn>U.S.Code Title 13 Section 131 and 182.</restrctn>
+        <restrctn>y</restrctn>
+        <conditions>Users must (I) successfully apply for RDC access (ii) pass review by agencies (iii) pass security clearance</conditions>
+      </useStmt>
+    </dataAccs>
+    <othrStdyMat>
+      <relPubl>http:www.ces.census.govindex.phpcescespapers?detail_key=101593</relPubl>
+    </othrStdyMat>
+  </stdyDscr>
+  <fileDscr>
+    <fileTxt>
+      <dimensns>
+        <recNumTot>Approximately 7200 to 21000 records depending on year.</recNumTot>
+      </dimensns>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr><var ID="E0sC71gCQqLnFytq" dcml="0" files="lmE7EDNIeousVUB7" name="buyid">
+      <location EndPos="23" StartPos="23" width="1"/>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="TskPCS0reUHUZk7N" dcml="0" files="lmE7EDNIeousVUB7" name="sellid">
+      <location EndPos="22" StartPos="22" width="1"/>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="j3jWjTGG0j5KLbX7" dcml="0" files="lmE7EDNIeousVUB7" name="status">
+      <location EndPos="21" StartPos="21" width="1"/>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var><var ID="JQQMWnspGkhy8Uz1" dcml="0" files="lmE7EDNIeousVUB7" name="pltstat">
+      <location EndPos="20" StartPos="20" width="1"/>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var><var ID="vzWQoSP8LKKfISMw" dcml="0" files="lmE7EDNIeousVUB7" name="id01">
+      <location EndPos="19" StartPos="19" width="1"/>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="WFrIeOG8H0eYUZDG" dcml="0" files="lmE7EDNIeousVUB7" name="cc01">
+      <location EndPos="18" StartPos="18" width="1"/>
+      <labl xml-lang="en">Coverage Code</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%2.0g</varFormat>
+    </var><var ID="aRLMYfItEtD2q1hO" dcml="0" files="lmE7EDNIeousVUB7" name="id00">
+      <location EndPos="17" StartPos="17" width="1"/>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="vZFODFfUjkkNDaaU" dcml="0" files="lmE7EDNIeousVUB7" name="cc00">
+      <location EndPos="16" StartPos="16" width="1"/>
+      <labl xml-lang="en">Coverage Code</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%2.0g</varFormat>
+    </var><var ID="pZLEVnqBc8m6KAoJ" dcml="0" files="lmE7EDNIeousVUB7" name="id99">
+      <location EndPos="15" StartPos="15" width="1"/>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="JO7CQHyaD3JMfBVL" dcml="0" files="lmE7EDNIeousVUB7" name="cc99">
+      <location EndPos="14" StartPos="14" width="1"/>
+      <labl xml-lang="en">Coverage Code</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%2.0g</varFormat>
+    </var><var ID="Ivrjcbt9tLKqtZuF" dcml="0" files="lmE7EDNIeousVUB7" name="id98">
+      <location EndPos="13" StartPos="13" width="1"/>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="yrivxEBbrxYiBGa8" dcml="0" files="lmE7EDNIeousVUB7" name="cc98">
+      <location EndPos="12" StartPos="12" width="1"/>
+      <labl xml-lang="en">Coverage Code</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%2.0g</varFormat>
+    </var><var ID="PDmZ1JfS8m4qZ7aR" dcml="0" files="lmE7EDNIeousVUB7" name="id02">
+      <location EndPos="11" StartPos="11" width="1"/>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="DieD7oziTezFVbud" dcml="0" files="lmE7EDNIeousVUB7" name="nind02">
+      <location EndPos="10" StartPos="10" width="1"/>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var><var ID="RCggAiy3goHuKZik" dcml="0" files="lmE7EDNIeousVUB7" name="cc02">
+      <location EndPos="9" StartPos="9" width="1"/>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="i9XbRk4zKIzBVnwQ" dcml="0" files="lmE7EDNIeousVUB7" name="tvs02">
+      <location EndPos="8" StartPos="8" width="1"/>
+      <labl xml-lang="en">Total Value of Shipments ($K)</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var><var ID="M7CVEEpnkCgHbF0X" dcml="0" files="lmE7EDNIeousVUB7" name="te02">
+      <location EndPos="7" StartPos="7" width="1"/>
+      <labl xml-lang="en">Total Employment (Leased + Non-Leased)</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var><var ID="vAgQrUwdqtNAjCbv" dcml="0" files="lmE7EDNIeousVUB7" name="id97">
+      <location EndPos="6" StartPos="6" width="1"/>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="Cm6ZCXfrO06YGB2N" dcml="0" files="lmE7EDNIeousVUB7" name="oind97">
+      <location EndPos="5" StartPos="5" width="1"/>
+      <labl xml-lang="en">Original Industry Code</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="u6l9bn4BfgedHnlX" dcml="0" files="lmE7EDNIeousVUB7" name="nind97">
+      <location EndPos="4" StartPos="4" width="1"/>
+      <labl xml-lang="en">NAICS Industry Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="yf6e6uflrwRFl5PB" dcml="0" files="lmE7EDNIeousVUB7" name="te97">
+      <location EndPos="3" StartPos="3" width="1"/>
+      <labl xml-lang="en">Total Employment</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="xqvAIcadPBYWy2ua" dcml="0" files="lmE7EDNIeousVUB7" name="tvs97">
+      <location EndPos="2" StartPos="2" width="1"/>
+      <labl xml-lang="en">Total Value of Shipments</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="A2l8tq6KBKvuUH48" dcml="0" files="lmE7EDNIeousVUB7" name="ppn">
+      <location EndPos="1" StartPos="1" width="1"/>
+      <labl xml-lang="en">Permanent Plant Number</labl>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var></dataDscr>
+</codeBook>

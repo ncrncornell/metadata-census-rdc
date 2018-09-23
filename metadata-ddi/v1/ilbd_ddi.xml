@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><codeBook xmlns="ddi:codebook:2_5" xmlns:dc="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:ns0="http://purl.org/dc/elements/1.1/" xmlns:saxon="http://xml.apache.org/xslt" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ncrn.cornell.edu/docs/ddi/2.5.NCRN/schemas/codebook.xsd">
+  <docDscr>
+    <docSrc>
+      <titlStmt>
+        <titl>Center for Economic Studies constructed data</titl>
+      </titlStmt>
+    </docSrc>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>Center for Economic Studies constructed data</titl>
+        <IDNo>199</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Bureau of the Census</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer>Bureau of the Census</producer>
+      </prodStmt>
+      <distStmt>
+        <distrbtr>United States Department of Commerce. Bureau of the Census. Research Data Center</distrbtr>
+      </distStmt>
+    </citation>
+    <stdyInfo>
+      <abstract>The Integrated Longitudinal Business Database (ILBD) is a research dataset constructed at the Center for Economic Studies.  Currently the ILBD contains the universe of all U.S. business establishments without paid employees with linkages that allow a full integration with employer businesses covered by the Longitudinal Business Database (LBD) and Economic Censuses.  Currently annual ILBD files are available for 1977 1982 1987 1992 and 1994-2001 and there are plans to extend the timeframe to 2005 in the near future.  The ILBD is an invaluable tool for researchers investigating the dynamics of the roughly 20 million nonemployer businesses in the U.S. economy.  Researchers armed with the ILBD can investigate nonemployer business entry and exit gross revenue flows and when used in conjunction with the ILBD transitions between nonemployer and employer status over time.  The ILBD can be used alone or in conjunction with several other Census Bureau datasets on firms and individuals.
+
+The ILBD was developed with support of the Census Bureau and the Kauffman Foundation.</abstract>
+      <sumDscr>
+        <nation abbr="U.S.">United States of America</nation>
+        <anlyUnit>Annually</anlyUnit>
+        <anlyUnit>Calendar Year</anlyUnit>
+        <anlyUnit>Other Business Unit</anlyUnit>
+        <universe>Business</universe>
+        <universe>Combination (industries)</universe>
+      </sumDscr>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <dataCollector>$organization_name</dataCollector>
+        <sampProc>y</sampProc>
+      </dataColl>
+    </method>
+    <dataAccs>
+      <useStmt>
+        <confDec>To obtain this dataset, the user must complete the RDC application process, and be approved for use of this dataset.</confDec>
+        <restrctn>Title 13 U.S.C.</restrctn>
+        <restrctn>y</restrctn>
+        <conditions>Users must (I) successfully apply for RDC access (ii) pass review by agencies (iii) pass security clearance</conditions>
+        <disclaimer>The ILBD is a universe file constructed largely from adminstrative records.  It does not contain the rich information available in other Census Bureau business surveys.
+
+Researchers needing the full ILBD (integrated nonemployer and employer universes) should request the LBD as well.</disclaimer>
+      </useStmt>
+    </dataAccs>
+    <othrStdyMat>
+      <relMat>Constructing an Integrated Longitudinal Business Database
+
+A.  Overview of Main Tasks and Previous Work
+
+In terms of data development our objective is to build a fully Integrated Longitudinal Business-level Database (ILBD) that covers all employer and nonemployer business units in the nonfarm private U.S. economy. We construct the initial version of the ILBD for the years 1992 and 1994-2000 and we plan updates for later years in future enhancements of the ILBD.  Key data on nonemployers are unavailable for 1993. 
+
+From an analytical perspective the presence or absence of employees is simply another business characteristic to be measured. From a database development perspective however integrating the Census Bureau’s employer and nonemployer business universes is a major undertaking.  The main tasks fall into three categories.  One task is to integrate the employer and nonemployer universes on a year-by-year basis ensuring that each unique business entity is counted once and only once.  A second task is to construct longitudinal links for business units within each universe.  A third task is to construct contemporaneous and dynamic ownership links across universes between employer and nonemployer business units.  To carry out these tasks we build on previous work by Jarmin and Miranda (2003) to create the Longitudinal Business Database (LBD) which contains annual data from 1975 to 2001 for all nonfarm private employers. We also build on previous efforts to construct longitudinal links within the nonemployer universe by Nucci and Boden (2003) and Boden and Nucci (2004). 
+
+B.  Source Data for the ILBD
+
+Census Bureau business registers draw on payroll tax records corporate and individual income tax returns applications for an Employer Identification Number (EIN) and various Census Bureau business surveys.  The data available to the Census Bureau depend on the legal and tax status of a business and in certain respects on the size of the business and the number of its locations. For large corporations routine data inputs include payroll records and particular items from corporate income tax returns augmented by direct Census Bureau collections for multi-location companies. For sole proprietors partnerships and single-location corporations with employees routine data inputs include payroll records certain items from income tax returns and periodic Census Bureau surveys such as the quinquennial Economic Census.  For nonemployer businesses routine data inputs derive mainly from income tax returns. 
+   
+Linking records from different sources requires common business identifiers.  Businesses with employees have unique Employer Identification Numbers (EINs) and other Census Bureau identifiers.  Some nonemployer businesses also have an EIN but most do not and instead are tracked by the person ID of the business owner i.e. his or her Protected Identification Key (PIK) (the PIK is a Census Bureau analog to the SSN). 
+
+To construct the ILBD we must first ensure that administrative data from each universe are cleaned and ready for integration.  On the employer side this task has been largely accomplished in the work to create the LBD. The LBD contains high-quality longitudinal links for establishments and for the most part it is easy to accurately determine establishment age.  Longitudinal establishment links are relatively straightforward to construct because they are one to one and because establishments typically have well-defined physical locations.  Firms are more difficult to track over time partly because firm-level links can be many to many.  Work is underway at the Census Bureau to develop a rich set of longitudinal firm linkages.  In the meantime we define the age of a firm in the LBD as the age of its oldest establishment.
+
+Longitudinal links are difficult to construct in the nonemployer universe for some of the same reasons that they are difficult to construct for firms in the employer universe.  For example when there is a change in the legal or tax status of a nonemployer business its EIN or person ID can also change. (Person IDs do not change for individuals but ownership changes can yield a change in the person ID associated with a business.)  In these instances it is not straightforward to maintain longitudinal links for nonemployer businesses using data items that are routinely included in the Census Bureau’s administrative records systems. On the employer side direct Census Bureau collections provide this additional information but there is no ready equivalent on the nonemployer side. Hence in the face of changes in legal and tax status longitudinal links for nonemployers require matching algorithms based on data items such as business name location and industry.
+
+Linking records across the employer and nonemployer business universes is further complicated by differences in the underlying administrative data and differences in the unit of analysis.  The Census Bureau’s Employer Business Register which underlies the LBD is a list of establishments (physical locations) maintained to serve as a mailing list for the Economic Census and as a frame for a variety of surveys. It relies heavily on administrative data and is augmented by direct Census Bureau collections.  Longitudinal linking is facilitated by establishment IDs (LBD Numbers and Permanent Plant Numbers or PPNs) EINs enterprise IDs (Alphas) and business name and address information.  In contrast the Census Bureau’s Nonemployer Business Register consists entirely of administrative data.  The unit of analysis is a business entity as recorded on a tax return.  Our longitudinal links for nonemployer businesses currently exploit EINs person IDs in the form of PIKs business name information and geographic information.  One complication arises when an individual taxpayer reports income for multiple nonemployer businesses. For example multiple Schedule C forms can be attached to a single 1040 tax form. We deal with these cases by aggregating to the level of a single tax filing which is associated with a unique person ID or EIN.  We then create longitudinal links across years using these numeric identifiers and business name.  We describe our procedure for linking records across the business universes below. 
+
+C.	The Matching Algorithm
+
+[Note: This section describes the matching algorithm used to construct a prototype ILBD.  It utilizes both matches based on common numeric identifiers (e.g. EINs) and character based information such as business name and address.  The vast majority of all linkages (both longitidinal links within the nonemployer universe and links across the nonemployer and employer universes) where based on numeric linkages.  Due to time and other constraints the first version of the ILBD to be deployed to the RDCs is based on numeric linkages only.  Subsequent versions will incorporate name and address linkages as well.]
+
+In addition to the longitudinal links within each universe we created a set of links between the employer and nonemployer universes for our selected industries.  These links make use of numeric identifiers business names and other data items found on records in both universes. The numeric identifier for most nonemployer businesses is the owner’s PIK.  We have several numeric identifiers available in the Employer Business Register and from the LBD.  The most useful for our purposes is the EIN but many records in the Employer Business Register contain both an EIN and a PIK.  For example when a business owner applies for an EIN he or she must fill out an SS-4 form for the IRS.  This form includes the business name the PIK of the business owner or chief officer and the EIN all of which are included in the administrative records system in the Census Bureau business registers.  
+
+We take a conservative approach in matching records across the nonemployer and employer universes.  In particular we rely only on the EIN and PIK numeric identifiers and business name. Previous efforts to develop longitudinal identifiers for the LBD have shown that linkages can be significantly improved by the use of more sophisticated probabilistic matching algorithms that exploit all of the relevant available information and that take into account the reliability of the information.  We plan to incorporate some of these techniques in future enhancements of the ILBD.  For now given the conservative nature of our algorithm we understate the incidence of linkages between the two universes.  For the same reason we also understate the contribution of nonemployer businesses to the formation of employer businesses. 
+
+Since multiple establishments can have the same numeric and name identifiers it is important to “unduplicate” the files by year and identifier before proceeding to match them to the nonemployer universe by EIN PIK or name.  In the employer universe the most common form of duplication arises when a multi-location company operates many establishments under one EIN or business name.  We perform the match using a file that contains only one record per unique value of the linking variables.  We are most confident about cross-universe matches based on numeric identifiers.  Therefore we search for matches based on EIN PIK and business name in that order. We experimented with a number of name-matching procedures including the removal of vowels various symbols and commonly used abbreviations (“inc.” “ltd” etc.).  However after examining a sample of matches we concluded that literal name strings produced highly reliable matches and appeared to miss very few “good” matches.
+</relMat>
+      <relPubl>http:www.ces.census.govindex.phpcescespapers?detail_key=101744</relPubl>
+    </othrStdyMat>
+  </stdyDscr>
+  <fileDscr>
+    <fileTxt>
+      <dimensns>
+        <recNumTot>More than 20 million records per year</recNumTot>
+      </dimensns>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr><var ID="OyyPvfSDrOILoOQF" dcml="0" files="EwX5t5fRnThQrJ89" name="firmid">
+      <location EndPos="31" StartPos="31" width="1"/>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var><var ID="nbmtfQTRi4BmnRH7" dcml="0" files="EwX5t5fRnThQrJ89" name="ilbdnum">
+      <location EndPos="30" StartPos="30" width="1"/>
+      <labl xml-lang="en">ILBD Number - firstyear leads</labl>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var><var ID="dAxPCYG8VG4GTc0Z" dcml="0" files="EwX5t5fRnThQrJ89" name="income3">
+      <location EndPos="29" StartPos="29" width="1"/>
+      <labl xml-lang="en">Income from 3rd + pik record(s)</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="VtHNd4JSWySPlN3R" dcml="0" files="EwX5t5fRnThQrJ89" name="rcpts3">
+      <location EndPos="28" StartPos="28" width="1"/>
+      <labl xml-lang="en">Receipts from 3rd + pik record(s)</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="FWyvohXTEvseOYb9" dcml="0" files="EwX5t5fRnThQrJ89" name="third_ind">
+      <location EndPos="27" StartPos="27" width="1"/>
+      <labl xml-lang="en">Ind 3rd + pik record(s)</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="H9G4oVaJHfh6bRlI" dcml="0" files="EwX5t5fRnThQrJ89" name="income2">
+      <location EndPos="26" StartPos="26" width="1"/>
+      <labl xml-lang="en">Income from 2nd pik record</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="XQamIztXcogjnUFw" dcml="0" files="EwX5t5fRnThQrJ89" name="rcpts2">
+      <location EndPos="25" StartPos="25" width="1"/>
+      <labl xml-lang="en">Receipts from 2nd pik record</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="tULUSGnxaY2AvkA0" dcml="0" files="EwX5t5fRnThQrJ89" name="second_ind">
+      <location EndPos="24" StartPos="24" width="1"/>
+      <labl xml-lang="en">Ind 2nd pik record</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="SXYBixQFhAw0Eubj" dcml="0" files="EwX5t5fRnThQrJ89" name="income1">
+      <location EndPos="23" StartPos="23" width="1"/>
+      <labl xml-lang="en">Income from first (biggest) pik record</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="yKNqlpBqhTASUhhd" dcml="0" files="EwX5t5fRnThQrJ89" name="rcpts1">
+      <location EndPos="22" StartPos="22" width="1"/>
+      <labl xml-lang="en">Receipts from first (biggest) pik record</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="WO68QKv1Dl08SaFA" dcml="0" files="EwX5t5fRnThQrJ89" name="ind">
+      <location EndPos="21" StartPos="21" width="1"/>
+      <labl xml-lang="en">2-digit Firm Industry</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="hAE9XYuzPsY6wG2O" dcml="0" files="EwX5t5fRnThQrJ89" name="spouseid">
+      <location EndPos="20" StartPos="20" width="1"/>
+      <labl xml-lang="en">Spouse pik when provided</labl>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var><var ID="dn5ui3P3mgSHaP84" dcml="0" files="EwX5t5fRnThQrJ89" name="assets">
+      <location EndPos="19" StartPos="19" width="1"/>
+      <labl xml-lang="en">For EINs = Total Assets FROM EINUNITS2002_FINAL FILE</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="DpAYJ9S1jPX7gv0L" dcml="0" files="EwX5t5fRnThQrJ89" name="rents">
+      <location EndPos="18" StartPos="18" width="1"/>
+      <labl xml-lang="en">For EINs = Gross Rents = rcpt_grossrent_irs_captr_2002</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="Q18ckdsULsU5FvUS" dcml="0" files="EwX5t5fRnThQrJ89" name="interest">
+      <location EndPos="17" StartPos="17" width="1"/>
+      <labl xml-lang="en">For EINs = Interest Income = rcpt_interest_irs_captr_2002</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="Gqw7iKhMUxikG9He" dcml="0" files="EwX5t5fRnThQrJ89" name="income">
+      <location EndPos="16" StartPos="16" width="1"/>
+      <labl xml-lang="en">For EINs = Gross Receipts, Gross Income, Total Income | For piks = Net Rcpts</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="TwszMDgekOmVduCi" dcml="0" files="EwX5t5fRnThQrJ89" name="ne_rcpts">
+      <location EndPos="15" StartPos="15" width="1"/>
+      <labl xml-lang="en">Tabbed Receipts = rcpt_net_irs_captr_2002</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="hYSkDUL4wlzkgba2" dcml="0" files="EwX5t5fRnThQrJ89" name="pik">
+      <location EndPos="14" StartPos="14" width="1"/>
+      <labl xml-lang="en">Person ID - Census Bureau Generated</labl>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var><var ID="YVlKKpYnpuQ4uMPG" dcml="0" files="EwX5t5fRnThQrJ89" name="tabbed">
+      <location EndPos="13" StartPos="13" width="1"/>
+      <labl xml-lang="en">Flag for Included in Publication</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="nWR9LajSYT8oZecK" dcml="0" files="EwX5t5fRnThQrJ89" name="naics">
+      <location EndPos="12" StartPos="12" width="1"/>
+      <labl xml-lang="en">NAICS code from PBA code on tax form</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="XItkljDUH2Ub4rf8" dcml="0" files="EwX5t5fRnThQrJ89" name="lfo">
+      <location EndPos="11" StartPos="11" width="1"/>
+      <labl xml-lang="en">Legal Form Organization:0=Corp, 1 =Sole Prop, 2=Partner</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="KlstlO6yrcaacGkV" dcml="0" files="EwX5t5fRnThQrJ89" name="tract">
+      <location EndPos="10" StartPos="10" width="1"/>
+      <labl xml-lang="en">Census Tract: Available 2002 forward</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="fzUnT9L0A3ROSCbj" dcml="0" files="EwX5t5fRnThQrJ89" name="csa">
+      <location EndPos="9" StartPos="9" width="1"/>
+      <labl xml-lang="en">Metro Area</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="wmbXTiwq98MJqlaS" dcml="0" files="EwX5t5fRnThQrJ89" name="county">
+      <location EndPos="8" StartPos="8" width="1"/>
+      <labl xml-lang="en">Use with State</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="o97dPDQoBbRWklwM" dcml="0" files="EwX5t5fRnThQrJ89" name="zip">
+      <location EndPos="7" StartPos="7" width="1"/>
+      <labl xml-lang="en">5 digit ZIP code</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="napAlum6ZbA0LJjW" dcml="0" files="EwX5t5fRnThQrJ89" name="st_geo">
+      <location EndPos="6" StartPos="6" width="1"/>
+      <labl xml-lang="en">FIPS State Code</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="maeR6XwH4nzdnvns" dcml="0" files="EwX5t5fRnThQrJ89" name="ein">
+      <location EndPos="5" StartPos="5" width="1"/>
+      <labl xml-lang="en">EIN from either id or ACSR4</labl>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var><var ID="SiaRp1XmroaRIS7o" dcml="0" files="EwX5t5fRnThQrJ89" name="neid">
+      <location EndPos="4" StartPos="4" width="1"/>
+      <labl xml-lang="en">EIN or pik</labl>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var><var ID="zg1xFUB1EF1KYfa1" dcml="0" files="EwX5t5fRnThQrJ89" name="ne_type">
+      <location EndPos="3" StartPos="3" width="1"/>
+      <labl xml-lang="en">pik or EIN unit</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="VaBCq4PyNDiUpN1Q" dcml="0" files="EwX5t5fRnThQrJ89" name="pik_id">
+      <location EndPos="2" StartPos="2" width="1"/>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%10.0g</varFormat>
+    </var><var ID="UodOCwmUBGu22qCL" dcml="0" files="EwX5t5fRnThQrJ89" name="einunit_id">
+      <location EndPos="1" StartPos="1" width="1"/>
+      <labl xml-lang="en">EINUNIT_ID</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <varFormat formatname="Double" schema="other" type="numeric">%11.0g</varFormat>
+    </var></dataDscr>
+</codeBook>

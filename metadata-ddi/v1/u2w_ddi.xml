@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><codeBook xmlns="ddi:codebook:2_5" xmlns:dc="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:ns0="http://purl.org/dc/elements/1.1/" xmlns:saxon="http://xml.apache.org/xslt" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ncrn.cornell.edu/docs/ddi/2.5.NCRN/schemas/codebook.xsd">
+  <docDscr>
+    <docSrc>
+      <titlStmt>
+        <titl>Census Bureau constructed data</titl>
+        <altTitl>Unit-to-Worker</altTitl>
+      </titlStmt>
+    </docSrc>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>Census Bureau constructed data</titl>
+        <IDNo/>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Bureau of the Census</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer>Bureau of the Census</producer>
+      </prodStmt>
+      <distStmt>
+        <distrbtr>United States Department of Commerce. Bureau of the Census. Research Data Center</distrbtr>
+      </distStmt>
+    </citation>
+    <stdyInfo>
+      <abstract>The unit-to-worker file contains contains ten (10) imputed establishments for each worker of a multi-unit employer.</abstract>
+      <sumDscr>
+        <nation abbr="U.S.">United States of America</nation>
+        <anlyUnit>Irregular</anlyUnit>
+        <anlyUnit>Three (3) Months</anlyUnit>
+        <anlyUnit>Job</anlyUnit>
+        <universe>Business</universe>
+        <universe>Combination (industries)</universe>
+        <universe>All except for agricultural workers</universe>
+      </sumDscr>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <dataCollector/>
+        <sampProc>n</sampProc>
+      </dataColl>
+    </method>
+    <dataAccs>
+      <useStmt>
+        <confDec>To obtain this dataset, the user must complete the RDC application process, and be approved for use of this dataset.</confDec>
+        <restrctn>Title 13, U.S.C.</restrctn>
+        <restrctn>n</restrctn>
+        <conditions>Users must (I) successfully apply for RDC access (ii) pass review by agencies (iii) pass security clearance</conditions>
+        <disclaimer/>
+      </useStmt>
+    </dataAccs>
+    <othrStdyMat>
+      <relMat/>
+      <relPubl/>
+    </othrStdyMat>
+  </stdyDscr>
+  <fileDscr>
+    <fileTxt>
+      <dimensns>
+        <recNumTot>625 million records across 49 states + DC (one file per state). Record counts per state vary.</recNumTot>
+      </dimensns>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr><var ID="_14205bde-5c61-458b-ae36-d80e932724f3" dcml="0" files="_3c68ea20-c7bb-4759-a9f3-b6c5f31c5402" name="imputed_unit_10">
+      <location EndPos="118" StartPos="113" width="6"/>
+      <labl xml-lang="en">State UI Reporting Unit Number (Impute 10)</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_17b983ee-8704-4685-a001-5d5fba76dba8" dcml="0" files="_3c68ea20-c7bb-4759-a9f3-b6c5f31c5402" name="imputed_unit_9">
+      <location EndPos="112" StartPos="107" width="6"/>
+      <labl xml-lang="en">State UI Reporting Unit Number (Impute 9)</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_0c4433d7-932f-44aa-9369-b628be34c31b" dcml="0" files="_3c68ea20-c7bb-4759-a9f3-b6c5f31c5402" name="imputed_unit_8">
+      <location EndPos="106" StartPos="101" width="6"/>
+      <labl xml-lang="en">State UI Reporting Unit Number (Impute 8)</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_e6a6d15e-3eb7-461e-b34c-edbcf98da8b1" dcml="0" files="_3c68ea20-c7bb-4759-a9f3-b6c5f31c5402" name="imputed_unit_7">
+      <location EndPos="100" StartPos="95" width="6"/>
+      <labl xml-lang="en">State UI Reporting Unit Number (Impute 7)</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_b4f1a26f-1630-4adb-90f4-8ffc2d91adb1" dcml="0" files="_3c68ea20-c7bb-4759-a9f3-b6c5f31c5402" name="imputed_unit_6">
+      <location EndPos="94" StartPos="89" width="6"/>
+      <labl xml-lang="en">State UI Reporting Unit Number (Impute 6)</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_38a67fdb-2b0f-4fb0-81bc-b095e445ca6c" dcml="0" files="_3c68ea20-c7bb-4759-a9f3-b6c5f31c5402" name="imputed_unit_5">
+      <location EndPos="88" StartPos="83" width="6"/>
+      <labl xml-lang="en">State UI Reporting Unit Number (Impute 5)</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_334d9a15-70a5-41c4-9718-70aaea8cf50f" dcml="0" files="_3c68ea20-c7bb-4759-a9f3-b6c5f31c5402" name="imputed_unit_4">
+      <location EndPos="82" StartPos="77" width="6"/>
+      <labl xml-lang="en">State UI Reporting Unit Number (Impute 4)</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_a23e37b2-aa1d-4aef-a0e8-0b24710db2db" dcml="0" files="_3c68ea20-c7bb-4759-a9f3-b6c5f31c5402" name="imputed_unit_3">
+      <location EndPos="76" StartPos="71" width="6"/>
+      <labl xml-lang="en">State UI Reporting Unit Number (Impute 3)</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_881e2d9e-3190-48ac-afb0-073979285503" dcml="0" files="_3c68ea20-c7bb-4759-a9f3-b6c5f31c5402" name="imputed_unit_2">
+      <location EndPos="70" StartPos="65" width="6"/>
+      <labl xml-lang="en">State UI Reporting Unit Number (Impute 2)</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_2ec4c9eb-b82d-4ac4-91ae-293976f4dea2" dcml="0" files="_3c68ea20-c7bb-4759-a9f3-b6c5f31c5402" name="imputed_unit_1">
+      <location EndPos="64" StartPos="59" width="6"/>
+      <labl xml-lang="en">State UI Reporting Unit Number (Impute 1)</labl>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var><var ID="_06cf107c-5ebc-4fab-bc7c-cb643a9c5fb6" dcml="0" files="_3c68ea20-c7bb-4759-a9f3-b6c5f31c5402" name="sein">
+      <location EndPos="58" StartPos="47" width="12"/>
+      <labl xml-lang="en">State Employer Identification Number</labl>
+      <varFormat formatname="String" schema="other" type="character">%12s</varFormat>
+    </var><var ID="_aa300ec5-ac06-4bde-ae14-7d57889445ad" dcml="0" files="_3c68ea20-c7bb-4759-a9f3-b6c5f31c5402" name="new_hist_flag">
+      <location EndPos="46" StartPos="35" width="12"/>
+      <labl xml-lang="en">Spell number for same SEIN</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_4e925259-ba13-45ce-99d4-3060273d9e92" dcml="0" files="_3c68ea20-c7bb-4759-a9f3-b6c5f31c5402" name="last_date">
+      <location EndPos="34" StartPos="23" width="12"/>
+      <labl xml-lang="en">End of spell YYYY.F (e.g. 2000Q4=2000.75)</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_e2a500a9-6ee5-4bd8-8187-d2d1f2077633" dcml="0" files="_3c68ea20-c7bb-4759-a9f3-b6c5f31c5402" name="first_date">
+      <location EndPos="22" StartPos="11" width="12"/>
+      <labl xml-lang="en">Start of spell YYYY.F (e.g. 2000Q2=2000.25)</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_668d760d-c060-466d-9ce2-9cc2352806eb" dcml="0" files="_3c68ea20-c7bb-4759-a9f3-b6c5f31c5402" name="pik">
+      <location EndPos="10" StartPos="1" width="10"/>
+      <labl xml-lang="en">Protected Identification Key</labl>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var></dataDscr>
+</codeBook>

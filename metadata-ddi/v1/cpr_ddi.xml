@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><codeBook xmlns="ddi:codebook:2_5" xmlns:dc="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:ns0="http://purl.org/dc/elements/1.1/" xmlns:saxon="http://xml.apache.org/xslt" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ncrn.cornell.edu/docs/ddi/2.5.NCRN/schemas/codebook.xsd">
+  <docDscr>
+    <docSrc>
+      <titlStmt>
+        <titl>Federal Government Agency, Census Bureau</titl>
+        <altTitl>Composite Person Record</altTitl>
+      </titlStmt>
+    </docSrc>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>Federal Government Agency, Census Bureau</titl>
+        <IDNo/>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Bureau of the Census</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer>Other (SSA?)</producer>
+      </prodStmt>
+      <distStmt>
+        <distrbtr>United States Department of Commerce. Bureau of the Census. Research Data Center</distrbtr>
+      </distStmt>
+    </citation>
+    <stdyInfo>
+      <abstract>The CPR is a legacy file that, until 2011, was used by LEHD to attach residence information to the infrastructure files. It is generally not available for external projects. The residence information is available in the ICF T26 files, subject to relevant approvals, </abstract>
+      <sumDscr>
+        <nation abbr="U.S.">United States of America</nation>
+        <anlyUnit>Yearly</anlyUnit>
+        <anlyUnit>Year</anlyUnit>
+        <anlyUnit>Individual Person</anlyUnit>
+        <universe>Individuals</universe>
+        <universe>None</universe>
+        <universe>All </universe>
+      </sumDscr>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <dataCollector>$organization_name</dataCollector>
+        <sampProc>y</sampProc>
+      </dataColl>
+    </method>
+    <dataAccs>
+      <useStmt>
+        <confDec>To obtain this dataset, the user must complete the RDC application process, and be approved for use of this dataset.</confDec>
+        <restrctn/>
+        <restrctn>y</restrctn>
+        <conditions>Users must (I) successfully apply for RDC access (ii) pass review by agencies (iii) pass security clearance</conditions>
+        <disclaimer>Only available to internal researchers. LEHD approval required.</disclaimer>
+      </useStmt>
+    </dataAccs>
+    <othrStdyMat>
+      <relMat>The CPR is a legacy file that, until 2011, was used by LEHD to attach residence information to the infrastructure files. It is generally not available for external projects. The residence information is available in the ICF T26 files, subject to relevant approvals, </relMat>
+      <relPubl/>
+    </othrStdyMat>
+  </stdyDscr>
+  <fileDscr>
+    <fileTxt>
+      <dimensns>
+        <recNumTot>3,542,578,000 records in yearly (national) files</recNumTot>
+      </dimensns>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr><var ID="_05f3ed37-35d1-4c70-adcb-13126f0d5e3e" dcml="0" files="_1a6de9ba-20c4-479e-b210-6035a175ca0d" name="longitude_live">
+      <location EndPos="124" StartPos="113" width="12"/>
+      <labl xml-lang="en">Longitude of residence, 6 implied decimal places</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_361521e0-8c2a-4cbb-9349-2923c4bc6a18" dcml="0" files="_1a6de9ba-20c4-479e-b210-6035a175ca0d" name="latitude_live">
+      <location EndPos="112" StartPos="101" width="12"/>
+      <labl xml-lang="en">Latitude of residence, 6 implied decimal places</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_3945ccb8-d882-47c9-810c-e73f6e9bd36c" dcml="0" files="_1a6de9ba-20c4-479e-b210-6035a175ca0d" name="flag_latlong">
+      <location EndPos="100" StartPos="89" width="12"/>
+      <labl xml-lang="en">Flag quality of latitude/longitude of residence</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_21c0a3bd-2891-411c-a3ef-b47a1549a32e" dcml="0" files="_1a6de9ba-20c4-479e-b210-6035a175ca0d" name="geocodefull">
+      <location EndPos="88" StartPos="73" width="16"/>
+      <labl xml-lang="en">FIPS State(2) ||FIPS County(3) ||Tract(6)||Block(4)</labl>
+      <varFormat formatname="String" schema="other" type="character">%16s</varFormat>
+    </var><var ID="_9cd096af-8526-41ab-aad8-46327cb01228" dcml="0" files="_1a6de9ba-20c4-479e-b210-6035a175ca0d" name="address_year">
+      <location EndPos="72" StartPos="61" width="12"/>
+      <labl xml-lang="en">Year</labl>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var><var ID="_fe8276e4-d049-4955-a34a-f6b576bc6318" dcml="0" files="_1a6de9ba-20c4-479e-b210-6035a175ca0d" name="county">
+      <location EndPos="60" StartPos="57" width="4"/>
+      <labl xml-lang="en">FIPS County Code 2010</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_b618c3c1-25a2-4143-8e83-a421a77681b9" dcml="0" files="_1a6de9ba-20c4-479e-b210-6035a175ca0d" name="state">
+      <location EndPos="56" StartPos="55" width="2"/>
+      <labl xml-lang="en">FIPS State Code 2010</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_634f02e5-f5d2-4fab-8bde-eab2b8a965ff" dcml="0" files="_1a6de9ba-20c4-479e-b210-6035a175ca0d" name="huid">
+      <location EndPos="54" StartPos="19" width="36"/>
+      <labl xml-lang="en">HUID - Admin Record Housing Unit Identifier</labl>
+      <varFormat formatname="String" schema="other" type="character">%36s</varFormat>
+    </var><var ID="_8fb28046-bff3-4fa7-98a0-1638543abfe3" dcml="0" files="_1a6de9ba-20c4-479e-b210-6035a175ca0d" name="pik">
+      <location EndPos="18" StartPos="9" width="10"/>
+      <labl xml-lang="en">PIK - Protected Identification Key</labl>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var><var ID="_475e1336-98d6-4fa4-9931-e212bddbcf96" dcml="0" files="_1a6de9ba-20c4-479e-b210-6035a175ca0d" name="geo_src">
+      <location EndPos="8" StartPos="7" width="2"/>
+      <labl xml-lang="en">Source of geocodefull is Cpr, Maf, Tiger</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var><var ID="_c6bae672-e367-4edc-aa64-1a9b5fe4a745" dcml="0" files="_1a6de9ba-20c4-479e-b210-6035a175ca0d" name="ccc">
+      <location EndPos="6" StartPos="3" width="4"/>
+      <labl xml-lang="en">County (FIPS)</labl>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var><var ID="_7ac4486b-eea5-4119-92b2-cae70a5b329f" dcml="0" files="_1a6de9ba-20c4-479e-b210-6035a175ca0d" name="ss">
+      <location EndPos="2" StartPos="1" width="2"/>
+      <labl xml-lang="en">State (FIPS)</labl>
+      <varFormat formatname="String" schema="other" type="character">%2s</varFormat>
+    </var></dataDscr>
+</codeBook>

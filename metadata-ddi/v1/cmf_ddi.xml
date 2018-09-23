@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codeBook xmlns:act="http://ced2ar.org/ns/activities#" xmlns:ced2ar="http://ced2ar.org/ns/core#" xmlns:RePEc="https://ideas.repec.org/#" xmlns:exn="http://ced2ar.org/ns/external#" xmlns:repeca="https://ideas.repec.org/e/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:tr="http://example.com/ns/tr#" xmlns:ex="http://example.com/ns/ex#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:saxon="http://xml.apache.org/xslt" xmlns:ns0="http://purl.org/dc/elements/1.1/" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dc="http://purl.org/dc/terms/" xmlns="ddi:codebook:2_5" xsi:schemaLocation="ddi:codebook:2_5 http://www.ncrn.cornell.edu/docs/ddi/2.5.NCRN.P/schemas/codebook.xsd">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>Census of Manufactures</titl>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="Cornell University">Virtual RDC</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="Cornell NCRN Project">Cornell NSF-Census Research Network</producer>
+        <copyright>Cornell NCRN Project</copyright>
+        <prodDate date="December 2015">December 2015</prodDate>
+        <prodPlac>Cornell Institute for Social and Economic Research (CISER), Cornell University, Ithaca NY<ExtLink URI="http://ciser.cornell.edu"/>
+        </prodPlac>
+        <software>The Comprehensive Extensible Data Documentation and Access Repository 2.7</software>
+        <software>The Comprehensive Extensible Data Documentation and Access Repository 2.6</software>
+        <software>The Comprehensive Extensible Data Documentation and Access Repository 2.6</software>
+        <fundAg abbr="NSF">National Science Foundation (NSF)</fundAg>
+        <grantNo agency="National Science Foundation">1131848</grantNo>
+      </prodStmt>
+      <distStmt source="producer">
+        <distrbtr URI="http://www.ncrn.cornell.edu" abbr="Cornell NCRN Project">NSF-Census Research Network - Cornell node</distrbtr>
+        <distrbtr URI="http://www.ciser.cornell.edu" abbr="CISER">Cornell Institute for Social and Economic Research</distrbtr>
+        <distrbtr URI="http://www.ilr.cornell.edu/ldi" abbr="LDI">Labor Dynamics Institute</distrbtr>
+        <distDate date="2015">2015</distDate>
+      </distStmt>
+      <verStmt>
+        <version date="2017-04-12 11:24:02 (auto-generated)"/>
+      </verStmt>
+      <biblCit>
+        <p>Lars Vilhuber. DDI Codebook for the Census of Manufactures [Codebook file]. Cornell Institute for Social and Economic Research and Labor Dynamics Institute [distributor]. Cornell University, Ithaca, NY, 2015</p>
+      </biblCit>
+    </citation>
+    <docSrc>
+      <titlStmt>
+        <titl>Codebook for Census of Manufactures</titl>
+      </titlStmt>
+    </docSrc>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>Census of Manufactures</titl>
+        <IDNo>3</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>United States Department of Commerce. Bureau of the Census.</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="Census">United States Department of Commerce. Bureau of the Census.</producer>
+        <copyright>none</copyright>
+        <prodPlac>Washington, DC, USA</prodPlac>
+      </prodStmt>
+      <distStmt>
+        <distrbtr>United States Department of Commerce. Bureau of the Census. Research Data Center</distrbtr>
+      </distStmt>
+      <biblCit>
+        <p>U.S. Census Bureau. Census of Manufactures [Computer file]. Washington DC; United States Department of Commerce. Bureau of the Census. Research Data Center [access], Washington DC, 2017</p>
+      </biblCit>
+    </citation>
+    <stdyInfo>
+      <abstract><p>The Census of Manufactures (CMF) comprises establishments primarily engaged in the mechanical physical or chemical transformation of materials substances or components into new products.</p>
+<p>Firms in the Economic Census are divided into those sent report forms and those not sent report forms. Establishments sent a report form include large employers i.e. all multi-establishment firms and all single-establishment employer firms with payroll above a specified cutoff as well as a sample of small employers i.e. single-establishment firms with payroll below a specified cutoff in industries for which specialized data precludes reliance solely on administrative records sources. The sample is stratified by industry and geography.</p>
+<p>Small employers i.e. single-establishment firms with payroll below a specified cutoff are not selected into the small employer sample. Although the payroll cutoff varies by kind of business small employers not sent a report form generally include firms with less than 10 employees and represent about 10 percent of total revenue of establishments covered in the census.  Data on revenue payroll and employment for these small employers were derived or estimated from administrative records of other federal agencies. Some of these firms were sent a shorter version of a report form to obtain industry classification information only.</p></abstract>
+      <sumDscr>
+        <nation abbr="U.S.">United States of America</nation>
+        <anlyUnit>Quinquenially (every five years)</anlyUnit>
+        <anlyUnit>Calendar Year</anlyUnit>
+        <anlyUnit>Establishment</anlyUnit>
+        <universe>Business</universe>
+        <universe>Manufacturing</universe>
+        <universe>The Census of Manufactures (CMF) covers NAICS sectors 31 through 33 which are designated as Manufacturing.</universe>
+      </sumDscr>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <dataCollector abbr="Census">U.S. Census Bureau</dataCollector>
+        <sampProc>y</sampProc>
+      </dataColl>
+    </method>
+    <dataAccs>
+      <useStmt>
+        <confDec>To obtain this dataset, the user must complete the RDC application process, and be approved for use of this dataset.</confDec>
+        <restrctn>The Census of Manufactures is collected under the authority of Title 13 United States Code</restrctn>
+        <restrctn>y</restrctn>
+        <conditions>Users must (i) successfully apply for RDC access (ii) pass review by agencies (iii) pass security clearance</conditions>
+        <disclaimer>Data from the 1997 Economic Census are published primarily on the basis of the North American Industry Classification System (NAICS) unlike earlier censuses which were published according to the Standard Industrial Classification (SIC) system. NAICS is in the process of being adopted in the United States Canada and Mexico.
+
+All dollar values presented are expressed in current dollars. Consequently when making comparisons with prior years users of the data should consider the changes in prices that have occurred.
+
+Data for cost of materials and value of shipments include varying amounts of duplication especially at higher levels of aggregation. This is because the products of one establishment may be the materials of another. The value added statistics avoid this duplication and are for most purposes the best measure for comparing the relative economic importance of industries and geographic areas.</disclaimer>
+      </useStmt>
+    </dataAccs>
+    <othrStdyMat>
+      <relMat>The Manufacturing Economic Census covers all manufacturing establishments with one or more paid employees. Manufacturing is defined as the mechanical physicalor chemical transformation of materials or substances into new products. The assembly of components into new products is also considered manufacturing except when it is appropriately classified as construction.
+
+Establishments in the manufacturing sector are often described as plantsfactoriesor mills and typically use power-driven machines and materials-handling equipment. Also included in the manufacturing sector are some establishments that make products by handlike custom tailors and the makers of custom draperies.While manufacturers typically do not sell to the publicsome establishments like bakeries and candy stores that make products on the premises may be included.
+
+The economic census is conducted on an establishment basis. A company operating at more than one location is required to file a separate report for each plant factory mill or other location. Each establishment is assigned a separate industry classification based on its primary activity and not that of its parent company.
+
+Data for the manufacturing sector are provided for payroll number of workers cost of fuels cost of electricity energy consumed cost of materials purchased servicescapital expenditures depreciation value of inventories and value of total and product shipments.</relMat>
+      <relPubl>http:www.census.govepcdwww97EC31.HTM</relPubl>
+    </othrStdyMat>
+  </stdyDscr>
+  <fileDscr ID="cmf_yyyy_mat">
+    <fileTxt>
+      <fileName>cmf_yyyy_mat.sas7bdat</fileName>
+      <dimensns>
+        <caseQnty></caseQnty>
+        <varQnty>18</varQnty>
+      </dimensns>
+      <fileType>SAS</fileType>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="cmf_yyyy_prod">
+    <fileTxt>
+      <fileName>cmf_yyyy_prod.sas7bdat</fileName>
+      <dimensns>
+        <caseQnty></caseQnty>
+        <varQnty>23</varQnty>
+      </dimensns>
+      <fileType>SAS</fileType>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr>
+    <var ID="vIQLTq9GWLn7ZVbu" dcml="0" files="cmf_yyyy_prod" name="seqnprod">
+      <location EndPos="22" StartPos="22" width="1"/>
+      <labl xml-lang="en">Product Record Sequence Number</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var>
+    <var ID="snufRO6ieih6rJmW" dcml="0" files="cmf_yyyy_prod" name="pv_rf">
+      <location EndPos="20" StartPos="20" width="1"/>
+      <labl xml-lang="en">Reported Flag - Product Value Shipped</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="UTDCZhoXRBthdys1" dcml="0" files="cmf_yyyy_prod" name="pqs_rf">
+      <location EndPos="19" StartPos="19" width="1"/>
+      <labl xml-lang="en">Reported Flag - Product Quantity Shipped</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="C9HMsWoCNFcK1O2i" dcml="0" files="cmf_yyyy_prod" name="pqp_rf">
+      <location EndPos="18" StartPos="18" width="1"/>
+      <labl xml-lang="en">Reported Flag - Product Quantity Produced</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="yE4DZEldtk02VmKK" dcml="0" files="cmf_yyyy_prod" name="pv_r">
+      <location EndPos="17" StartPos="17" width="1"/>
+      <labl xml-lang="en">Original Reported Value - Product Value Shipped</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="pZZuU4hHcP01dTm2" dcml="0" files="cmf_yyyy_prod" name="pqs_r">
+      <location EndPos="16" StartPos="16" width="1"/>
+      <labl xml-lang="en">Original Reported Value - Product Quantity Shipped</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="fLd0uP5IwFG9uF0o" dcml="0" files="cmf_yyyy_prod" name="pqp_r">
+      <location EndPos="15" StartPos="15" width="1"/>
+      <labl xml-lang="en">Original Reported Value - Product Quantity Produced</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="X7G5snOI4WNiEdvx" dcml="0" files="cmf_yyyy_prod" name="pv_ei">
+      <location EndPos="14" StartPos="14" width="1"/>
+      <labl xml-lang="en">Edit In Value - Product Value Shipped</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="MVSj840kZcJ26xYO" dcml="0" files="cmf_yyyy_prod" name="pqs_ei">
+      <location EndPos="13" StartPos="13" width="1"/>
+      <labl xml-lang="en">Edit In Value - Product Quantity Shipped</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="L2cPoexz6bDJ1kIt" dcml="0" files="cmf_yyyy_prod" name="pqp_ei">
+      <location EndPos="12" StartPos="12" width="1"/>
+      <labl xml-lang="en">Edit In Value - Product Quantity Produced</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="la9hU1i7q74xGEVj" dcml="0" files="cmf_yyyy_prod" name="pv_f">
+      <location EndPos="11" StartPos="11" width="1"/>
+      <labl xml-lang="en">Edit Flag - Product Value Shipped</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="AP8mOfyerpx3hqBS" dcml="0" files="cmf_yyyy_prod" name="pqs_f">
+      <location EndPos="10" StartPos="10" width="1"/>
+      <labl xml-lang="en">Edit Flag - Product Quantity Shipped</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="CUrWbu5IkC5ZlKWU" dcml="0" files="cmf_yyyy_prod" name="pqp_f">
+      <location EndPos="9" StartPos="9" width="1"/>
+      <labl xml-lang="en">Edit Flag - Product Quantity Produced</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="h3rd6QxVRwKbbr28" dcml="0" files="cmf_yyyy_prod" name="pv">
+      <location EndPos="8" StartPos="8" width="1"/>
+      <labl xml-lang="en">Product Value Shipped</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="GB4pcTE7HZzMf48j" dcml="0" files="cmf_yyyy_prod" name="pqs">
+      <location EndPos="7" StartPos="7" width="1"/>
+      <labl xml-lang="en">Product Quantity Shipped</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="jWgfbc1gI7s9dKq6" dcml="0" files="cmf_yyyy_prod" name="pqp">
+      <location EndPos="6" StartPos="6" width="1"/>
+      <labl xml-lang="en">Product Quantity Produced</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="smIC3YhI0iSsXBcA" dcml="0" files="cmf_yyyy_prod" name="naicspc">
+      <location EndPos="5" StartPos="5" width="1"/>
+      <labl xml-lang="en">NAICS Product Code</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var>
+    <var ID="XIlYOKO3AF8mLlUW" dcml="0" files="cmf_yyyy_prod" name="naicspc_col">
+      <location EndPos="4" StartPos="4" width="1"/>
+      <labl xml-lang="en">NAICS Product Code as Collected</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var>
+    <var ID="f4SUWkYhb1CkKaYK" dcml="0" files="cmf_yyyy_prod" name="tvpsd">
+      <location EndPos="2" StartPos="2" width="1"/>
+      <labl xml-lang="en">Total Value of Product Shipments Derived</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var>
+    <var ID="NHpgd3ZZKXaH2Q5T" dcml="0" files="cmf_yyyy_prod" name="year">
+      <location EndPos="23" StartPos="23" width="1"/>
+      <labl xml-lang="en">Survey Year</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var>
+    <var ID="o21S4Nj4gG04UzxB" dcml="0" files="cmf_yyyy_mat" name="seqnmats">
+      <location EndPos="17" StartPos="17" width="1"/>
+      <labl xml-lang="en">Materials Record Sequence Number</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var>
+    <var ID="DXvvE6mQk8bsHgjG" dcml="0" files="cmf_yyyy_prod" name="seqnmst">
+      <location EndPos="21" StartPos="21" width="1"/>
+      <labl xml-lang="en">Master Record Sequence Number (Within Year)</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var>
+    <var ID="msUqRZG8z3gkEV30" dcml="0" files="cmf_yyyy_mat" name="mc_rf">
+      <location EndPos="15" StartPos="15" width="1"/>
+      <labl xml-lang="en">Reported Flag - Delivered Cost of Materials</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="BFGuIq4AL8Sya1Nn" dcml="0" files="cmf_yyyy_mat" name="matqty_rf">
+      <location EndPos="14" StartPos="14" width="1"/>
+      <labl xml-lang="en">Reported Flag - Quantity of Materials Received and/or Produced and Consumed</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="zqTMYUkcNSONYBZG" dcml="0" files="cmf_yyyy_mat" name="mc_r">
+      <location EndPos="13" StartPos="13" width="1"/>
+      <labl xml-lang="en">Original Reported Value - Delivered Cost of Materials</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="UqwgpyhxVF7byvDW" dcml="0" files="cmf_yyyy_mat" name="matqty_r">
+      <location EndPos="12" StartPos="12" width="1"/>
+      <labl xml-lang="en">Original Reported Value - Quantity of Materials Received and/or Produced and Con</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="Gtin47Dcb7cwBowV" dcml="0" files="cmf_yyyy_mat" name="mc_f">
+      <location EndPos="11" StartPos="11" width="1"/>
+      <labl xml-lang="en">Edit Flag - Delivered Cost of Materials</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="cQqDEDWH2MZ79oWH" dcml="0" files="cmf_yyyy_mat" name="matqty_f">
+      <location EndPos="10" StartPos="10" width="1"/>
+      <labl xml-lang="en">Edit Flag - Quantity of Materials Received and/or Produced and Consumed</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%4s</varFormat>
+    </var>
+    <var ID="LGEqiAC5n7wXTxOX" dcml="0" files="cmf_yyyy_mat" name="mc_ei">
+      <location EndPos="9" StartPos="9" width="1"/>
+      <labl xml-lang="en">Edit In Value - Delivered Cost of Materials</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="B6Irazsojq0cwB97" dcml="0" files="cmf_yyyy_mat" name="matqty_ei">
+      <location EndPos="8" StartPos="8" width="1"/>
+      <labl xml-lang="en">Edit In Value - Quantity of Materials Received and/or Produced and Consumed</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="i4U7HUEWN7Iyy9OW" dcml="0" files="cmf_yyyy_mat" name="mc">
+      <location EndPos="7" StartPos="7" width="1"/>
+      <labl xml-lang="en">Delivered Cost of Materials</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="Q4Brl0uA72qcrZsT" dcml="0" files="cmf_yyyy_mat" name="matqty">
+      <location EndPos="6" StartPos="6" width="1"/>
+      <labl xml-lang="en">Quantity of Materials Received and/or Produced and Consumed</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%16.0g</varFormat>
+    </var>
+    <var ID="WhuMwp0hFgF8n6gb" dcml="0" files="cmf_yyyy_mat" name="mnaics">
+      <location EndPos="5" StartPos="5" width="1"/>
+      <labl xml-lang="en">NAICS Material Code Published</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var>
+    <var ID="YbrxF0VkmmXnCTxv" dcml="0" files="cmf_yyyy_mat" name="mnaics_col">
+      <location EndPos="4" StartPos="4" width="1"/>
+      <labl xml-lang="en">NAICS Material Code Collected</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%8s</varFormat>
+    </var>
+    <var ID="SBE4NghVZhWWBEKe" dcml="0" files="cmf_yyyy_prod" name="ref_period">
+      <location EndPos="3" StartPos="3" width="1"/>
+      <labl xml-lang="en">Reference Period</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%6s</varFormat>
+    </var>
+    <var ID="x69W4rLK8X7bUUHz" dcml="0" files="cmf_yyyy_mat" name="tvmc">
+      <location EndPos="2" StartPos="2" width="1"/>
+      <labl xml-lang="en">Total Value of Materials Consumed Derived</labl>
+      <sumStat type="invd" wgtd="not-wgtd">1</sumStat>
+      <sumStat type="vald" wgtd="not-wgtd">0</sumStat>
+      <txt/>
+      <varFormat formatname="Double" schema="other" type="numeric">%12.0g</varFormat>
+    </var>
+    <var ID="ieHWSo2SPU5UJGpc" dcml="0" files="cmf_yyyy_prod" name="survu_id">
+      <location EndPos="1" StartPos="1" width="1"/>
+      <labl xml-lang="en">Survey Unit (Estab) Identifier</labl>
+      <txt/>
+      <varFormat formatname="String" schema="other" type="character">%10s</varFormat>
+    </var>
+  </dataDscr>
+</codeBook>
