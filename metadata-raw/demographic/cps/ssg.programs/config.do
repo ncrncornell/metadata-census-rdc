@@ -1,0 +1,5 @@
+global dir "/data/virtualrdc/demographic/cps"
+global Programs "$dir/ssg.programs"
+global Output "$dir/microdata.enhanced"
+global CPSNBER "/ssgprojects/data/clean/cps-march"
+global ZEROOBS "/data/virtualrdc/demographic/cps/microdata"

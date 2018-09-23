@@ -1,0 +1,917 @@
+                                                           The SAS System                          11:39 Wednesday, May 23, 2012   1
+
+                                                       The CONTENTS Procedure
+
+             Data Set Name        CPS.CPS198603HH                                          Observations           58935
+             Member Type          DATA                                                     Variables              93   
+             Engine               V9                                                       Indexes                0    
+             Created              Thursday, April 11, 2002 02:54:30 PM                     Observation Length     283  
+             Last Modified        Thursday, April 11, 2002 02:54:30 PM                     Deleted Observations   .    
+             Protection                                                                    Compressed             CHAR 
+             Data Set Type                                                                 Reuse Space            YES  
+             Label                                                                         Point to Observations  NO   
+             Data Representation  SOLARIS_X86_64, LINUX_X86_64, ALPHA_TRU64, LINUX_IA64    Sorted                 NO   
+             Encoding             latin1  Western (ISO)                                                                
+
+
+                                                 Engine/Host Dependent Information
+
+                            Data Set Page Size          16384                                          
+                            Number of Data Set Pages    645                                            
+                            Number of Data Set Repairs  0                                              
+                            Filename                    /demographic/cps/microdata/cps198603hh.sas7bdat
+                            Release Created             9.0202M3                                       
+                            Host Created                Linux                                          
+                            Inode Number                282751451                                      
+                            Access Permission           rwxr-xr-x                                      
+                            Owner Name                  cesadmin                                       
+                            File Size (bytes)           10575872                                       
+
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                               #    Variable    Type    Len    Label
+
+                              14    B_LIVQRT    Char      2    Edited Type of Living Quarters-Base    
+                              23    CCINCOME    Char      2    Control Card Income Categories         
+                              12    FARMLEV     Char      1    Urban or Rural Plus Farm/Nonfarm       
+                              53    HADULTS     Char      1    Adults in HH - Sex Categories          
+                              67    HCSALVAL    Num       8    HHLD Inc-Child Support & Alimony       
+                              55    HEARNVAL    Num       8    Total Household Earnings               
+                              87    HENGAST     Char      1    Did HHLD Receive Energy Assistance     
+                              88    HENGVAL     Num       8    Value of Energy Assistance             
+                              93    HEVALUE     Num       8    Value of Residence/Land                
+                              86    HFDVAL      Num       8    Value of All Food Stamps               
+                              81    HFLUNCH     Char      1    Children Receive Lunch Program         
+                              82    HFLUNNO     Char      1    Number Receiving Free Lunch            
+                              85    HFOODMO     Char      2    Number of Months Covered by Food Stamps
+                              84    HFOODNO     Char      1    Number Covered by Food Stamps          
+                              83    HFOODSP     Char      1    Did Anyone in This HHLD Get Food Stamps
+                              59    HFRVAL      Num       8    HHLD Income-Farm Income                
+                              44    HGMSARNK    Char      2    Ranking of 98 Largest MSAs             
+                              33    HGPLCSZ     Char      2    Population Size of Place               
+                              32    HG_CBUR     Char      1    Central City, Urban/Rural Status       
+                              30    HG_CMSA     Char      2    Consolidated MSA Code                  
+                              37    HG_CNTY     Char      3    1970 FIPS County Code                  
+                              38    HG_FIPS     Char      2    FIPS State Code                        
+                              39    HG_MCD      Char      3    Minor Civil Division Code              
+                               2    HG_MSAC     Char      4    MSA (SMSA) Code-MST                    
+                              42    HG_MSAS     Char      1    MSA Status Inc CC Status               
+                              29    HG_MSSZ     Char      1    MSA/CMSA Size                          
+                                                           The SAS System                          11:39 Wednesday, May 23, 2012   2
+
+                                                       The CONTENTS Procedure
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                               #    Variable    Type    Len    Label
+
+                               5    HG_PLACE    Char      4    Place Code-MST                         
+                               4    HG_PLCDS    Char      1    Place Description-MST                  
+                              31    HG_PMSA     Char      2    Ranking of PMSA Within CMSA            
+                              35    HG_POV      Char      1    Poverty Code                           
+                              34    HG_POVX     Char      3    Poverty Rate by Tract or MCD           
+                              24    HG_PSU      Char      3    PSU From Master Segment Tape(MST)      
+                              26    HG_SAMP     Char      1    Sample Code From MST                   
+                              25    HG_SEG      Num       8    Segment Number From MST                
+                              36    HG_ST60     Char      2    1960 Census State Code                 
+                              43    HG_STRN     Char      2    State Rankings by Population           
+                              41    HG_TPSU     Char      1    Type of PSU                            
+                              40    HG_TSEG     Char      1    Type of Segment                        
+                               6    HG_UA       Char      4    Urban Area Code-MST       run          
+                              28    HG_UR       Char      1    Urban/Rural Indicator                  
+                              78    HH5TO18     Char      1    Number of Persons in HHLD Age 5 to 18  
+                              79    HHOTLUN     Char      1    Hot Lunch Offered at School            
+                              80    HHOTNO      Char      1    No of Children Eat Hot Lunch           
+                               8    HHPOS       Char      1    0 For Household Record                 
+                              51    HHSTATUS    Char      1    Household Status                       
+                              63    HINTVAL     Num       8    HHLD Income-Interest                   
+                              50    HLORENT     Char      1    Paying Lower Rent Because of Fed Govt  
+                              10    HNUMFAM     Char      2    Number of Families in Household        
+                              56    HOTHVAL     Num       8    Total Other Household Income           
+                              62    HPAWVAL     Num       8    HHLD Income-Public Assistance Income   
+                              77    HPCTCUT     Char      2    HHLD Income Percentiles                
+                              49    HPUBLIC     Char      1    Is This a Public Housing Project       
+                              68    HREC30      Char      1    Earnings Recipiency                    
+                              69    HREC31A     Char      1    Type A Other Income Recipiency         
+                              70    HREC31C     Char      1    Type C Other Income Recipiency         
+                              71    HREC31D     Char      1    Type D Other Income Recipiency         
+                              72    HREC31E     Char      1    Type E Other Income Recipiency         
+                              73    HREC31F     Char      1    Type F Other Income Recipiency         
+                              74    HREC31G     Char      1    Type G Other Income Recipiency         
+                              75    HREC31H     Char      1    Type H Other Income Recipiency         
+                               7    HRECORD     Char      1    1 = Household Record                   
+                              64    HRNDIVAL    Num       8    HHLD Income-Dividends, Rent, Estates   
+                              58    HSEVAL      Num       8    HHLD Income-Non-Farm Self-Employ Income
+                              61    HSSIVAL     Num       8    HHLD Income-Supplemental Security Inc  
+                              76    HTOP5PCT    Char      1    Top 5 Percent HHLD Income Indicator    
+                              54    HTOTVAL     Num       8    Total Household Income                 
+                              66    HTRETVAL    Num       8    HHLD Inc-All Pensions(Priv,Govt,Milt)  
+                              52    HUNDER18    Char      2    Number of Persons in HH < 18           
+                              60    HUSVAL      Num       8    HHLD Income-US Govt Payments(SS+RR)    
+                              65    HVPVAL      Num       8    HHLD Inc-Vet Pay, Unemp Comp, Wrk Comp 
+                              57    HWSVAL      Num       8    HHLD Income-Wages and Salaries         
+                              46    HXHHNUM     Char      1    Allocation Flag for HH-Number          
+                              45    HXLIVQRT    Char      1    Alloc Flag for Type of Living Qtrs     
+                              22    HXTENURE    Char      1    Allocation Flag-Tenure Item            
+                              13    H_HHNUM     Char      1    Household Number                       
+                               3    H_HHTYPE    Char      1    Type of Household                      
+                              47    H_LIVQRT    Char      2    Type of Living Qtrs-March Edited       
+                              15    H_MIS       Char      1    Month in Sample Code                   
+                                                           The SAS System                          11:39 Wednesday, May 23, 2012   3
+
+                                                       The CONTENTS Procedure
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                               #    Variable    Type    Len    Label
+
+                               9    H_NUMPER    Char      2    Number of Persons in Household         
+                              16    H_PSU       Char      3    Primary Sampling Unit                  
+                              18    H_SAMP      Char      1    Document Sample Code(Letter)           
+                              17    H_SEG       Num       8    Segment Number                         
+                               1    H_SEQ       Num       8    Household Sequence Number              
+                              19    H_SER       Char      2    Serial Number                          
+                              21    H_SPNFLG    Char      1    Spanish Half Weight Flag               
+                              20    H_SUBHH     Char      1    Family Number for Subdivided HHLD      
+                              48    H_TENURE    Char      1    Edited Tenure                          
+                              91    I_HENGAS    Char      1    Allocation Flag for Energy Assistance  
+                              92    I_HENGVA    Char      1    Allocation Flag for Energy Asst Value  
+                              90    MORTGAGE    Num       8    Monthly Mortgage Amount                
+                              11    PPINDX      Char      2    Index of Principal Person in HH        
+                              89    PROP_TAX    Num       8    Annual Property Tax                    
+                              27    SMSASIZE    Char      1    Pop Size of SMSA                       
+                                         proc contents for ZERO OBS version of cps198603hh         11:39 Wednesday, May 23, 2012   4
+
+                                                       The CONTENTS Procedure
+
+              Data Set Name        ZEROOBS.ZEROOBS_CPS198603HH                              Observations          0  
+              Member Type          DATA                                                     Variables             93 
+              Engine               V9                                                       Indexes               0  
+              Created              Wednesday, May 23, 2012 11:39:08 AM                      Observation Length    288
+              Last Modified        Wednesday, May 23, 2012 11:39:08 AM                      Deleted Observations  0  
+              Protection                                                                    Compressed            NO 
+              Data Set Type                                                                 Sorted                NO 
+              Label                                                                                                  
+              Data Representation  SOLARIS_X86_64, LINUX_X86_64, ALPHA_TRU64, LINUX_IA64                             
+              Encoding             latin1  Western (ISO)                                                             
+
+
+                                                 Engine/Host Dependent Information
+
+                       Data Set Page Size          24576                                                    
+                       Number of Data Set Pages    1                                                        
+                       First Data Page             1                                                        
+                       Max Obs per Page            85                                                       
+                       Obs in First Data Page      0                                                        
+                       Number of Data Set Repairs  0                                                        
+                       Filename                    /home/g/gardn301/ZeroObs/CPS/zeroobs_cps198603hh.sas7bdat
+                       Release Created             9.0202M3                                                 
+                       Host Created                Linux                                                    
+                       Inode Number                4268757                                                  
+                       Access Permission           rw-------                                                
+                       Owner Name                  gardn301                                                 
+                       File Size (bytes)           32768                                                    
+
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                               #    Variable    Type    Len    Label
+
+                              14    B_LIVQRT    Char      2    Edited Type of Living Quarters-Base    
+                              23    CCINCOME    Char      2    Control Card Income Categories         
+                              12    FARMLEV     Char      1    Urban or Rural Plus Farm/Nonfarm       
+                              53    HADULTS     Char      1    Adults in HH - Sex Categories          
+                              67    HCSALVAL    Num       8    HHLD Inc-Child Support & Alimony       
+                              55    HEARNVAL    Num       8    Total Household Earnings               
+                              87    HENGAST     Char      1    Did HHLD Receive Energy Assistance     
+                              88    HENGVAL     Num       8    Value of Energy Assistance             
+                              93    HEVALUE     Num       8    Value of Residence/Land                
+                              86    HFDVAL      Num       8    Value of All Food Stamps               
+                              81    HFLUNCH     Char      1    Children Receive Lunch Program         
+                              82    HFLUNNO     Char      1    Number Receiving Free Lunch            
+                              85    HFOODMO     Char      2    Number of Months Covered by Food Stamps
+                              84    HFOODNO     Char      1    Number Covered by Food Stamps          
+                              83    HFOODSP     Char      1    Did Anyone in This HHLD Get Food Stamps
+                              59    HFRVAL      Num       8    HHLD Income-Farm Income                
+                              44    HGMSARNK    Char      2    Ranking of 98 Largest MSAs             
+                              33    HGPLCSZ     Char      2    Population Size of Place               
+                              32    HG_CBUR     Char      1    Central City, Urban/Rural Status       
+                              30    HG_CMSA     Char      2    Consolidated MSA Code                  
+                              37    HG_CNTY     Char      3    1970 FIPS County Code                  
+                              38    HG_FIPS     Char      2    FIPS State Code                        
+                              39    HG_MCD      Char      3    Minor Civil Division Code              
+                                         proc contents for ZERO OBS version of cps198603hh         11:39 Wednesday, May 23, 2012   5
+
+                                                       The CONTENTS Procedure
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                               #    Variable    Type    Len    Label
+
+                               2    HG_MSAC     Char      4    MSA (SMSA) Code-MST                    
+                              42    HG_MSAS     Char      1    MSA Status Inc CC Status               
+                              29    HG_MSSZ     Char      1    MSA/CMSA Size                          
+                               5    HG_PLACE    Char      4    Place Code-MST                         
+                               4    HG_PLCDS    Char      1    Place Description-MST                  
+                              31    HG_PMSA     Char      2    Ranking of PMSA Within CMSA            
+                              35    HG_POV      Char      1    Poverty Code                           
+                              34    HG_POVX     Char      3    Poverty Rate by Tract or MCD           
+                              24    HG_PSU      Char      3    PSU From Master Segment Tape(MST)      
+                              26    HG_SAMP     Char      1    Sample Code From MST                   
+                              25    HG_SEG      Num       8    Segment Number From MST                
+                              36    HG_ST60     Char      2    1960 Census State Code                 
+                              43    HG_STRN     Char      2    State Rankings by Population           
+                              41    HG_TPSU     Char      1    Type of PSU                            
+                              40    HG_TSEG     Char      1    Type of Segment                        
+                               6    HG_UA       Char      4    Urban Area Code-MST       run          
+                              28    HG_UR       Char      1    Urban/Rural Indicator                  
+                              78    HH5TO18     Char      1    Number of Persons in HHLD Age 5 to 18  
+                              79    HHOTLUN     Char      1    Hot Lunch Offered at School            
+                              80    HHOTNO      Char      1    No of Children Eat Hot Lunch           
+                               8    HHPOS       Char      1    0 For Household Record                 
+                              51    HHSTATUS    Char      1    Household Status                       
+                              63    HINTVAL     Num       8    HHLD Income-Interest                   
+                              50    HLORENT     Char      1    Paying Lower Rent Because of Fed Govt  
+                              10    HNUMFAM     Char      2    Number of Families in Household        
+                              56    HOTHVAL     Num       8    Total Other Household Income           
+                              62    HPAWVAL     Num       8    HHLD Income-Public Assistance Income   
+                              77    HPCTCUT     Char      2    HHLD Income Percentiles                
+                              49    HPUBLIC     Char      1    Is This a Public Housing Project       
+                              68    HREC30      Char      1    Earnings Recipiency                    
+                              69    HREC31A     Char      1    Type A Other Income Recipiency         
+                              70    HREC31C     Char      1    Type C Other Income Recipiency         
+                              71    HREC31D     Char      1    Type D Other Income Recipiency         
+                              72    HREC31E     Char      1    Type E Other Income Recipiency         
+                              73    HREC31F     Char      1    Type F Other Income Recipiency         
+                              74    HREC31G     Char      1    Type G Other Income Recipiency         
+                              75    HREC31H     Char      1    Type H Other Income Recipiency         
+                               7    HRECORD     Char      1    1 = Household Record                   
+                              64    HRNDIVAL    Num       8    HHLD Income-Dividends, Rent, Estates   
+                              58    HSEVAL      Num       8    HHLD Income-Non-Farm Self-Employ Income
+                              61    HSSIVAL     Num       8    HHLD Income-Supplemental Security Inc  
+                              76    HTOP5PCT    Char      1    Top 5 Percent HHLD Income Indicator    
+                              54    HTOTVAL     Num       8    Total Household Income                 
+                              66    HTRETVAL    Num       8    HHLD Inc-All Pensions(Priv,Govt,Milt)  
+                              52    HUNDER18    Char      2    Number of Persons in HH < 18           
+                              60    HUSVAL      Num       8    HHLD Income-US Govt Payments(SS+RR)    
+                              65    HVPVAL      Num       8    HHLD Inc-Vet Pay, Unemp Comp, Wrk Comp 
+                              57    HWSVAL      Num       8    HHLD Income-Wages and Salaries         
+                              46    HXHHNUM     Char      1    Allocation Flag for HH-Number          
+                              45    HXLIVQRT    Char      1    Alloc Flag for Type of Living Qtrs     
+                              22    HXTENURE    Char      1    Allocation Flag-Tenure Item            
+                              13    H_HHNUM     Char      1    Household Number                       
+                                         proc contents for ZERO OBS version of cps198603hh         11:39 Wednesday, May 23, 2012   6
+
+                                                       The CONTENTS Procedure
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                               #    Variable    Type    Len    Label
+
+                               3    H_HHTYPE    Char      1    Type of Household                      
+                              47    H_LIVQRT    Char      2    Type of Living Qtrs-March Edited       
+                              15    H_MIS       Char      1    Month in Sample Code                   
+                               9    H_NUMPER    Char      2    Number of Persons in Household         
+                              16    H_PSU       Char      3    Primary Sampling Unit                  
+                              18    H_SAMP      Char      1    Document Sample Code(Letter)           
+                              17    H_SEG       Num       8    Segment Number                         
+                               1    H_SEQ       Num       8    Household Sequence Number              
+                              19    H_SER       Char      2    Serial Number                          
+                              21    H_SPNFLG    Char      1    Spanish Half Weight Flag               
+                              20    H_SUBHH     Char      1    Family Number for Subdivided HHLD      
+                              48    H_TENURE    Char      1    Edited Tenure                          
+                              91    I_HENGAS    Char      1    Allocation Flag for Energy Assistance  
+                              92    I_HENGVA    Char      1    Allocation Flag for Energy Asst Value  
+                              90    MORTGAGE    Num       8    Monthly Mortgage Amount                
+                              11    PPINDX      Char      2    Index of Principal Person in HH        
+                              89    PROP_TAX    Num       8    Annual Property Tax                    
+                              27    SMSASIZE    Char      1    Pop Size of SMSA                       
+                                         proc contents for ZERO OBS version of cps198603hh         11:39 Wednesday, May 23, 2012   7
+
+                                                       The CONTENTS Procedure
+
+             Data Set Name        CPS.CPS198603FF                                          Observations           64450
+             Member Type          DATA                                                     Variables              57   
+             Engine               V9                                                       Indexes                0    
+             Created              Thursday, April 11, 2002 02:54:28 PM                     Observation Length     251  
+             Last Modified        Thursday, April 11, 2002 02:54:28 PM                     Deleted Observations   .    
+             Protection                                                                    Compressed             CHAR 
+             Data Set Type                                                                 Reuse Space            YES  
+             Label                                                                         Point to Observations  NO   
+             Data Representation  SOLARIS_X86_64, LINUX_X86_64, ALPHA_TRU64, LINUX_IA64    Sorted                 NO   
+             Encoding             latin1  Western (ISO)                                                                
+
+
+                                                 Engine/Host Dependent Information
+
+                            Data Set Page Size          16384                                          
+                            Number of Data Set Pages    463                                            
+                            Number of Data Set Repairs  0                                              
+                            Filename                    /demographic/cps/microdata/cps198603ff.sas7bdat
+                            Release Created             9.0202M3                                       
+                            Host Created                Linux                                          
+                            Inode Number                282749592                                      
+                            Access Permission           rwxr-xr-x                                      
+                            Owner Name                  cesadmin                                       
+                            File Size (bytes)           7593984                                        
+
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                               #    Variable    Type    Len    Label
+
+                              30    ALLOKIDS    Char      1    Own Kids, Any Age, Any Marital Stat    
+                              29    FAGEU18     Char      1    Own Never Married Children<18 by Age   
+                              24    FCSALVAL    Num       8    Family Inc-Child Support & Alimony     
+                              33    FEARNS      Char      2    No of Earners,Relationship,Family Type 
+                              26    FEARNVAL    Num       8    Total Family Earnings                  
+                              52    FFNGCAID    Num       8    Family Fungible Value of Medicaid      
+                              53    FFNGCARE    Num       8    Family Fungible Value of Medicare      
+                              49    FFOODREQ    Num       8    Used to Compute Fung Value Medicare    
+                               4    FFPOS       Char      2    Family Record (01-39)                  
+                               3    FFPOSOLD    Char      2    Family Record (41-79)                  
+                              16    FFRVAL      Num       8    Family Income-Farm Income              
+                               8    FHEADIDX    Char      2    Index of Family Reference Person       
+                              50    FHOUSSUB    Char      3    Family Market Value of Housing Subsidy 
+                              11    FHUSBIDX    Char      2    Index of Husband                       
+                               2    FH_SEQ      Num       8    Household Sequence Number              
+                              20    FINTVAL     Num       8    Family Income-Interest                 
+                               6    FKIND       Char      1    Kind of Family                         
+                              12    FLASTIDX    Char      2    Index of Last Member of Family         
+                              44    FMVAWOI     Num       8    Market Value All Benefits w/o Inst Pay 
+                              45    FMVMDWOI    Num       8    Market Value Med Ben w/o Inst Pay      
+                              54    FNUMEARN    Char      1    Number of Earners in Family            
+                              27    FOTHVAL     Num       8    Total Other Family Income              
+                              32    FOWNU6      Char      1    Own Children in Family Under 6         
+                              31    FOWNU18     Char      1    No of Own Never Married Children<18    
+                              19    FPAWVAL     Num       8    Family Income-Public Assistance Income 
+                              42    FPCTCUT     Char      2    Income Percentiles                     
+                                         proc contents for ZERO OBS version of cps198603hh         11:39 Wednesday, May 23, 2012   8
+
+                                                       The CONTENTS Procedure
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                               #    Variable    Type    Len    Label
+
+                               7    FPERSONS    Char      2    Number of Persons in Family            
+                              43    FPOVCUT     Num       8    Low Income Cutoff Dollar Amount        
+                              28    FRAGEU18    Char      1    Presence of Related Children by Age    
+                              34    FREC30      Char      1    Earnings Recipiency Recode(Family)     
+                              35    FREC31A     Char      1    Type A Other Inc Recipiency(Family)    
+                              36    FREC31C     Char      1    Type C Other Inc Recipiency(Family)    
+                              37    FREC31D     Char      1    Type D Other Inc Recipiency(Family)    
+                              38    FREC31E     Char      1    Type E Other Inc Recipiency(Family)    
+                              39    FREC31F     Char      1    Type F Other Inc Recipiency(Family)    
+                              40    FREC31G     Char      1    Type G Other Inc Recipiency(Family)    
+                              41    FREC31H     Char      1    Type H Other Inc Recipiency(Family)    
+                               1    FRECORD     Char      1    2=Family Record                        
+                              57    FRELU6      Num       8    Number of Related Children < 6         
+                              56    FRELU18     Num       8    Number of Related Children < 18        
+                              21    FRNDIVAL    Num       8    Family Inc-Dividends, Rent, Estates    
+                              15    FSEVAL      Num       8    Family Inc-Non-Farm Self-Employ Income 
+                              13    FSPANISH    Char      1    Is Reference Person or Spouse Hispanic 
+                               9    FSPOUIDX    Char      2    Index of Spouse                        
+                              18    FSSIVAL     Num       8    Family Income Supplemental Security Inc
+                              55    FTOP5PCT    Char      1    Top 5 Percent Family Income Indicator  
+                              25    FTOTVAL     Num       8    Total Family Income                    
+                              23    FTRETVAL    Num       8    Fam Inc-All Pensions(Priv,Govt,Milt)   
+                               5    FTYPE       Char      1    Type of Family                         
+                              17    FUSVAL      Num       8    Family Income-US Govt Payments(SS&RR)  
+                              22    FVPVAL      Num       8    Fam Inc-Vet Pay, Unemp Comp, Wrk Comp  
+                              10    FWIFEIDX    Char      2    Index of Wife                          
+                              14    FWSVAL      Num       8    Family Income-Wages and Salaries       
+                              47    F_MV_FS     Num       8    Family Market Value Food Stamps        
+                              48    F_MV_PH     Num       8    Family Market Value Subsidized Housing 
+                              46    F_MV_SL     Num       8    Family Market Value of School Lunch    
+                              51    NUM_BRMS    Char      1    Number of Bedrooms For Family          
+                                         proc contents for ZERO OBS version of cps198603ff         11:39 Wednesday, May 23, 2012   9
+
+                                                       The CONTENTS Procedure
+
+              Data Set Name        ZEROOBS.ZEROOBS_CPS198603FF                              Observations          0  
+              Member Type          DATA                                                     Variables             57 
+              Engine               V9                                                       Indexes               0  
+              Created              Wednesday, May 23, 2012 11:39:08 AM                      Observation Length    256
+              Last Modified        Wednesday, May 23, 2012 11:39:08 AM                      Deleted Observations  0  
+              Protection                                                                    Compressed            NO 
+              Data Set Type                                                                 Sorted                NO 
+              Label                                                                                                  
+              Data Representation  SOLARIS_X86_64, LINUX_X86_64, ALPHA_TRU64, LINUX_IA64                             
+              Encoding             latin1  Western (ISO)                                                             
+
+
+                                                 Engine/Host Dependent Information
+
+                       Data Set Page Size          24576                                                    
+                       Number of Data Set Pages    1                                                        
+                       First Data Page             1                                                        
+                       Max Obs per Page            95                                                       
+                       Obs in First Data Page      0                                                        
+                       Number of Data Set Repairs  0                                                        
+                       Filename                    /home/g/gardn301/ZeroObs/CPS/zeroobs_cps198603ff.sas7bdat
+                       Release Created             9.0202M3                                                 
+                       Host Created                Linux                                                    
+                       Inode Number                4268759                                                  
+                       Access Permission           rw-------                                                
+                       Owner Name                  gardn301                                                 
+                       File Size (bytes)           32768                                                    
+
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                               #    Variable    Type    Len    Label
+
+                              30    ALLOKIDS    Char      1    Own Kids, Any Age, Any Marital Stat    
+                              29    FAGEU18     Char      1    Own Never Married Children<18 by Age   
+                              24    FCSALVAL    Num       8    Family Inc-Child Support & Alimony     
+                              33    FEARNS      Char      2    No of Earners,Relationship,Family Type 
+                              26    FEARNVAL    Num       8    Total Family Earnings                  
+                              52    FFNGCAID    Num       8    Family Fungible Value of Medicaid      
+                              53    FFNGCARE    Num       8    Family Fungible Value of Medicare      
+                              49    FFOODREQ    Num       8    Used to Compute Fung Value Medicare    
+                               4    FFPOS       Char      2    Family Record (01-39)                  
+                               3    FFPOSOLD    Char      2    Family Record (41-79)                  
+                              16    FFRVAL      Num       8    Family Income-Farm Income              
+                               8    FHEADIDX    Char      2    Index of Family Reference Person       
+                              50    FHOUSSUB    Char      3    Family Market Value of Housing Subsidy 
+                              11    FHUSBIDX    Char      2    Index of Husband                       
+                               2    FH_SEQ      Num       8    Household Sequence Number              
+                              20    FINTVAL     Num       8    Family Income-Interest                 
+                               6    FKIND       Char      1    Kind of Family                         
+                              12    FLASTIDX    Char      2    Index of Last Member of Family         
+                              44    FMVAWOI     Num       8    Market Value All Benefits w/o Inst Pay 
+                              45    FMVMDWOI    Num       8    Market Value Med Ben w/o Inst Pay      
+                              54    FNUMEARN    Char      1    Number of Earners in Family            
+                              27    FOTHVAL     Num       8    Total Other Family Income              
+                              32    FOWNU6      Char      1    Own Children in Family Under 6         
+                                         proc contents for ZERO OBS version of cps198603ff         11:39 Wednesday, May 23, 2012  10
+
+                                                       The CONTENTS Procedure
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                               #    Variable    Type    Len    Label
+
+                              31    FOWNU18     Char      1    No of Own Never Married Children<18    
+                              19    FPAWVAL     Num       8    Family Income-Public Assistance Income 
+                              42    FPCTCUT     Char      2    Income Percentiles                     
+                               7    FPERSONS    Char      2    Number of Persons in Family            
+                              43    FPOVCUT     Num       8    Low Income Cutoff Dollar Amount        
+                              28    FRAGEU18    Char      1    Presence of Related Children by Age    
+                              34    FREC30      Char      1    Earnings Recipiency Recode(Family)     
+                              35    FREC31A     Char      1    Type A Other Inc Recipiency(Family)    
+                              36    FREC31C     Char      1    Type C Other Inc Recipiency(Family)    
+                              37    FREC31D     Char      1    Type D Other Inc Recipiency(Family)    
+                              38    FREC31E     Char      1    Type E Other Inc Recipiency(Family)    
+                              39    FREC31F     Char      1    Type F Other Inc Recipiency(Family)    
+                              40    FREC31G     Char      1    Type G Other Inc Recipiency(Family)    
+                              41    FREC31H     Char      1    Type H Other Inc Recipiency(Family)    
+                               1    FRECORD     Char      1    2=Family Record                        
+                              57    FRELU6      Num       8    Number of Related Children < 6         
+                              56    FRELU18     Num       8    Number of Related Children < 18        
+                              21    FRNDIVAL    Num       8    Family Inc-Dividends, Rent, Estates    
+                              15    FSEVAL      Num       8    Family Inc-Non-Farm Self-Employ Income 
+                              13    FSPANISH    Char      1    Is Reference Person or Spouse Hispanic 
+                               9    FSPOUIDX    Char      2    Index of Spouse                        
+                              18    FSSIVAL     Num       8    Family Income Supplemental Security Inc
+                              55    FTOP5PCT    Char      1    Top 5 Percent Family Income Indicator  
+                              25    FTOTVAL     Num       8    Total Family Income                    
+                              23    FTRETVAL    Num       8    Fam Inc-All Pensions(Priv,Govt,Milt)   
+                               5    FTYPE       Char      1    Type of Family                         
+                              17    FUSVAL      Num       8    Family Income-US Govt Payments(SS&RR)  
+                              22    FVPVAL      Num       8    Fam Inc-Vet Pay, Unemp Comp, Wrk Comp  
+                              10    FWIFEIDX    Char      2    Index of Wife                          
+                              14    FWSVAL      Num       8    Family Income-Wages and Salaries       
+                              47    F_MV_FS     Num       8    Family Market Value Food Stamps        
+                              48    F_MV_PH     Num       8    Family Market Value Subsidized Housing 
+                              46    F_MV_SL     Num       8    Family Market Value of School Lunch    
+                              51    NUM_BRMS    Char      1    Number of Bedrooms For Family          
+                                         proc contents for ZERO OBS version of cps198603ff         11:39 Wednesday, May 23, 2012  11
+
+                                                       The CONTENTS Procedure
+
+            Data Set Name        CPS.CPS198603PP                                          Observations           157661
+            Member Type          DATA                                                     Variables              154   
+            Engine               V9                                                       Indexes                0     
+            Created              Thursday, April 11, 2002 02:54:33 PM                     Observation Length     429   
+            Last Modified        Thursday, April 11, 2002 02:54:33 PM                     Deleted Observations   .     
+            Protection                                                                    Compressed             CHAR  
+            Data Set Type                                                                 Reuse Space            YES   
+            Label                                                                         Point to Observations  NO    
+            Data Representation  SOLARIS_X86_64, LINUX_X86_64, ALPHA_TRU64, LINUX_IA64    Sorted                 NO    
+            Encoding             latin1  Western (ISO)                                                                 
+
+
+                                                 Engine/Host Dependent Information
+
+                            Data Set Page Size          24576                                          
+                            Number of Data Set Pages    1138                                           
+                            Number of Data Set Repairs  0                                              
+                            Filename                    /demographic/cps/microdata/cps198603pp.sas7bdat
+                            Release Created             9.0202M3                                       
+                            Host Created                Linux                                          
+                            Inode Number                282754040                                      
+                            Access Permission           rwxr-xr-x                                      
+                            Owner Name                  cesadmin                                       
+                            File Size (bytes)           27975680                                       
+
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                               #    Variable    Type    Len    Label
+
+                             133    ADD_UMP     Num       8    Taxable Part of Unemployment Comp       
+                             130    AGI         Num       8    Adjusted Gross Income                   
+                              31    ALSTAT      Char      1    Work Exp, Job, Earnings Alloc Status    
+                               9    ASHLFTPT    Char      1    Attended School Full/Part-Time          
+                              24    A_AGE       Char      2    Age                                     
+                             146    A_ERNLWT    Num       8    Earnings/Not in Labor Force Weight      
+                               7    A_EXPLF     Char      1    Exp Labor Force Employment Status       
+                              14    A_EXPRRP    Char      1    Relationship to Householder             
+                              17    A_FAMNUM    Char      1    Family Number(Sub/Sec)                  
+                              18    A_FAMREL    Char      1    Family Relationship(Sub/Sec)            
+                              16    A_FAMTYP    Char      1    Family Type(Code Box)                   
+                             145    A_FNLWGT    Num       8    Adult Final Weight                      
+                              27    A_HGA       Char      2    Highest Grade Attended                  
+                              28    A_HGC       Char      1    Was High Grade Completed                
+                               6    A_LFSR      Char      1    Employment Status Recode                
+                               5    A_LINENO    Char      2    Edited Line Number                      
+                              10    A_MAJACT    Char      1    Major Activity Last Week                
+                              21    A_MARITL    Char      1    Marital Status                          
+                              26    A_ORIGIN    Char      2    Ethnic Origin                           
+                              29    A_PARENT    Char      2    Parents Line Number                     
+                              23    A_RACE      Char      1    Race                                    
+                              22    A_SEX       Char      1    Sex                                     
+                              30    A_SPOUSE    Char      2    Spouses Line Number                     
+                              25    A_VET       Char      1    Veteran Status                          
+                               8    A_WKSTAT    Char      1    Full/Part-Time Work Status Recode       
+                             131    CAP_GAIN    Num       8    Amount of Capital Gains                 
+                                         proc contents for ZERO OBS version of cps198603ff         11:39 Wednesday, May 23, 2012  12
+
+                                                       The CONTENTS Procedure
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                               #    Variable    Type    Len    Label
+
+                             132    CAP_LOSS    Num       8    Amount of Capital Losses                
+                             135    CC_CRED     Num       8    Child Care Credit                       
+                             124    CHAMP       Char      1    Covered By Champus or Milit Health Plan 
+                             121    COV_GH      Char      1    Covered By Group Health Plan            
+                             126    COV_HI      Char      1    Covered By Other Health Insurance       
+                             129    DEP_STAT    Char      2    Dependency Status Pointer               
+                              68    DIV_YN      Char      1    Dividend Recipiency                     
+                              35    EARNSTAT    Char      1    Earnings Allocation Status              
+                             134    EIT_CRED    Num       8    Earned Income Tax Credit                
+                             144    EMCONTRB    Num       8    Employer Contrib for Health Insurance   
+                             139    FED_TAX     Num       8    Federal Income Tax Liability            
+                             128    FILESTAT    Char      1    Tax Filer Status                        
+                              79    FIN_YN      Char      1    Other Reg Contribution Recipiency       
+                              94    FRSE_VAL    Num       8    Amt of Farm Income                      
+                              61    FRSE_YN     Char      1    Farm Income Recipiency                  
+                             150    GRIN_ST     Char      2    FIPS State Code from GRIN File          
+                             118    HIEMP       Char      1    Group Health Plan Offered By Employer   
+                             119    HIPAID      Char      1    Health Plan Paid By Employer            
+                             125    HI_YN       Char      1    Have Any Other Health Insurance         
+                              52    HRCHECK     Char      1    Did Usually Work Full or Part-Time      
+                              43    HRSWK       Char      2    Hours Per Week Worked Last Year         
+                              45    I40         Char      1    Did Look for Work Between Jobs          
+                              46    I41         Char      1    Check Item for Weeks Worked(i34 wk)     
+                              81    I51AST      Char      1    Allocation Status-Wage & Salary         
+                              82    I51BST      Char      1    Allocation Status-Self Emp Earnings     
+                              83    I51CST      Char      1    Allocation Status-Farm Income           
+                              63    I52ARR      Char      1    Railroad Retirement Recipiency          
+                              84    I52AST      Char      1    Allocation Status-Soc Sec/Railroad Ret  
+                              95    I52A_VAL    Num       8    Amt of US Govt Payments, Inc Soc Sec    
+                              85    I52BST      Char      1    Allocation Status-SSI                   
+                              65    I53AADC     Char      1    Aid to Dependent Children Recipiency    
+                              66    I53AOTH     Char      1    Other Public Assistance Recipiency      
+                              86    I53AST      Char      1    Allocation Status-Public Assistance     
+                              87    I53BST      Char      1    Allocation Status-Interest              
+                              70    I53CEST     Char      1    Estates/Trust Recipiency                
+                              88    I53CST      Char      1    Allocation Status-Divnds, Rent, Estates 
+                              99    I53C_VAL    Num       8    Amt of Dividends and Rent               
+                              89    I53DST      Char      1    Alloc Vet Pay, Unemp Comp, Work Comp    
+                              73    I53DWC      Char      1    Workmans Comp Recipiency                
+                             100    I53D_VAL    Num       8    Amt of Vet Payment, Work Comp, Etc      
+                              76    I53EFG      Char      1    Federal Govt Pension Recipiency         
+                              77    I53ELG      Char      1    State/Local Govt Pension Recipiency     
+                              75    I53EMR      Char      1    Military Retirement Recipiency          
+                              74    I53EPP      Char      1    Private Pensions Recipiency             
+                              90    I53EST      Char      1    Alloc Priv, Govt, Milt Pensions         
+                             101    I53E_VAL    Num       8    Amt of Retirement Income, Etc           
+                              80    I53FAE      Char      1    Anything Else Recipiency                
+                              78    I53FAL      Char      1    Alimony/Child Support Recipiency        
+                              91    I53FST      Char      1    Alloc Al/Cs, Oth Reg Contr, All Other   
+                             102    I53F_VAL    Num       8    Amt of Alimony, Child Support, Etc      
+                              15    INCORFLG    Char      1    Income Correction Flag                  
+                              13    INCTOPCD    Char      1    Top Code Status of Wage & Salary        
+                                         proc contents for ZERO OBS version of cps198603ff         11:39 Wednesday, May 23, 2012  13
+
+                                                       The CONTENTS Procedure
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                               #    Variable    Type    Len    Label
+
+                              57    INDUSTRY    Char      3    Industry of Longest Job                 
+                              98    INT_VAL     Num       8    Amt of Interest                         
+                              67    INT_YN      Char      1    Interest Recipiency                     
+                             137    ITEM_AMT    Num       8    Itemized Deduction Amount               
+                              34    JOBSTAT     Char      1    Job Allocation Status                   
+                              56    LJCW        Char      1    Class of Worker for Longest Job         
+                              48    LKNONE      Char      1    Looking for Work or on Layoff from a Job
+                              50    LKSTRCH     Char      1    Stretches of Unemployment               
+                              49    LKWEEKS     Char      2    Weeks Looking for Work or on Layoff     
+                              47    LOSEWKS     Char      1    Did Loss Work Due to Layoff or Lost Job 
+                             138    MARG_TAX    Char      2    Marginal Tax Rate                       
+                             147    MARSUPWT    Num       8    March Supplement Weight                 
+                              12    MATSEQNO    Num       8    Person Sequence Number Match            
+                             123    MCAID       Char      1    Covered By Medicaid                     
+                             122    MCARE       Char      1    Covered By Medicare                     
+                             151    MIGCO       Char      3    What County was Living 1 Year Ago       
+                             109    MIGMCD      Char      3    What MCD Was Living 1 Year Ago          
+                             149    MIGSAME     Char      1    Was Living in This House 1 Year Ago     
+                             110    MIGSCR      Char      1    Migration SCR(Contiguous/Non-Contig)    
+                             113    MIG_MTR1    Char      2    Migration Recode                        
+                             114    MIG_MTR3    Char      1    Migration Recode                        
+                             108    MOBFLAG     Char      1    Mobility Allocation Status              
+                             106    MOBSAME     Char      1    Was Living in This House 5 Years Ago    
+                             148    MOBSTATE    Char      2    What State Was Living 5 Years Ago       
+                             107    MOBWHERE    Char      1    Where was Living 5 Years Ago            
+                              40    NWLKWK      Char      2    Weeks Looking for Work or on Layoff     
+                              39    NWLOOK      Char      1    Did Look for Work Last Year             
+                              58    OCCUP       Char      3    Occupation of Longest Job               
+                              37    OINCALEV    Char      2    Other Income Allocation Level           
+                              97    PAW_VAL     Num       8    Amt of Public Assistance                
+                             140    PAY_DEDT    Num       8    Payroll Deductions(FICA or Fed Ret)     
+                             104    PEARNVAL    Num       8    Total Person Earnings                   
+                             117    PENINCL     Char      1    Included in Pension Plan                
+                             116    PENPLAN     Char      1    Employer Pension Plan                   
+                              20    PF_SEQ      Char      2    Pointer to FFPOS of Primary Family in HH
+                              19    PHF_SEQ     Char      2    Pointer to FFPOS of Own Family in HHLD  
+                              44    PHMEMPRS    Char      1    No of Employers Last Year               
+                               2    PH_SEQ      Num       8    Household Sequence Number               
+                             115    PLOWINC     Num       8    Low Income Dollar Amt Cutoff            
+                             105    POTHVAL     Num       8    Total Other Person Income               
+                               4    PPPOS       Char      2    Person Record(41-79)                    
+                               3    PPPOSOLD    Char      2    Person Record(01-39)                    
+                               1    PRECORD     Char      1    3=Person Record                         
+                             103    PTOTVAL     Num       8    Total Person Income                     
+                              55    PTRSN       Char      1    Reason Worked Less Than 35 Hours        
+                              54    PTWEEKS     Char      2    Weeks Worked Less Than 35 Hours         
+                              53    PTYN        Char      1    Did Work Less Than 35 Hours Some Time   
+                              51    PYRSN       Char      1    Main Reason for Part-Year Work          
+                             143    P_MVCAID    Num       8    Person Market Value of Medicaid         
+                             142    P_MVCARE    Num       8    Person Market Value of Medicare         
+                              11    P_STAT      Char      1    Status(Reject) Item for Persons         
+                              69    RNT_YN      Char      1    Rent/Royalties Recipiency               
+                                         proc contents for ZERO OBS version of cps198603ff         11:39 Wednesday, May 23, 2012  14
+
+                                                       The CONTENTS Procedure
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                               #    Variable    Type    Len    Label
+
+                              41    RSNNOTW     Char      1    Main Reason for not Working Last Year   
+                              93    SEMP_VAL    Num       8    Amt of Non-Farm Self-Employ Income      
+                              60    SEMP_YN     Char      1    Non-Farm Self-Employ Income Recipiency  
+                              96    SSI_VAL     Num       8    Amt of SSI Payments                     
+                              64    SSI_YN      Char      1    Supplemental Security Inc Recipiency    
+                              62    SS_YN       Char      1    Social Security Recipiency              
+                             141    STATETAX    Num       8    State Tax Liability                     
+                             136    TAX_INC     Num       8    Taxable Income Amount                   
+                             153    UACMSASZ    Char      1    SMSA Size Code From UAC Tape            
+                             154    UACPLACE    Char      1    Place Type(CC,BAL,NON-SMSA) from UAC    
+                             112    UACPLCDS    Char      1    Place Description from UAC Tape         
+                             111    UACSMSA     Char      4    SMSA Code from UAC Tape                 
+                             152    UAC_CODE    Char      5    Migration Code from UAC Tape            
+                              72    UC_YN       Char      1    Unemployment Comp Recipiency            
+                              71    VET_YN      Char      1    Veterans Payments Recipiency            
+                              36    WERNALEV    Char      2    Work Exp, Earnings, Job Alloc Level     
+                              33    WESTAT      Char      1    Work Experience Alloc Status            
+                             120    WHOELSGH    Char      1    Who Else Covered By Group Health Plan   
+                             127    WHOELSHI    Char      1    Who Else Covered By Other Health Ins    
+                              42    WKSWORK     Char      2    Weeks Worked Last Year                  
+                              32    WORKSTAT    Char      1    Worker/Non-Worker Alloc Status          
+                              38    WORKYN      Char      1    Did Work at a Job Anytime Last Year     
+                              92    WSAL_VAL    Num       8    Amt of Wages and Salaries               
+                              59    WSAL_YN     Char      1    Wage and Salary Recipiency              
+                                         proc contents for ZERO OBS version of cps198603pp         11:39 Wednesday, May 23, 2012  15
+
+                                                       The CONTENTS Procedure
+
+              Data Set Name        ZEROOBS.ZEROOBS_CPS198603PP                              Observations          0  
+              Member Type          DATA                                                     Variables             154
+              Engine               V9                                                       Indexes               0  
+              Created              Wednesday, May 23, 2012 11:39:08 AM                      Observation Length    432
+              Last Modified        Wednesday, May 23, 2012 11:39:08 AM                      Deleted Observations  0  
+              Protection                                                                    Compressed            NO 
+              Data Set Type                                                                 Sorted                NO 
+              Label                                                                                                  
+              Data Representation  SOLARIS_X86_64, LINUX_X86_64, ALPHA_TRU64, LINUX_IA64                             
+              Encoding             latin1  Western (ISO)                                                             
+
+
+                                                 Engine/Host Dependent Information
+
+                       Data Set Page Size          40960                                                    
+                       Number of Data Set Pages    1                                                        
+                       First Data Page             1                                                        
+                       Max Obs per Page            94                                                       
+                       Obs in First Data Page      0                                                        
+                       Number of Data Set Repairs  0                                                        
+                       Filename                    /home/g/gardn301/ZeroObs/CPS/zeroobs_cps198603pp.sas7bdat
+                       Release Created             9.0202M3                                                 
+                       Host Created                Linux                                                    
+                       Inode Number                4268804                                                  
+                       Access Permission           rw-------                                                
+                       Owner Name                  gardn301                                                 
+                       File Size (bytes)           49152                                                    
+
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                               #    Variable    Type    Len    Label
+
+                             133    ADD_UMP     Num       8    Taxable Part of Unemployment Comp       
+                             130    AGI         Num       8    Adjusted Gross Income                   
+                              31    ALSTAT      Char      1    Work Exp, Job, Earnings Alloc Status    
+                               9    ASHLFTPT    Char      1    Attended School Full/Part-Time          
+                              24    A_AGE       Char      2    Age                                     
+                             146    A_ERNLWT    Num       8    Earnings/Not in Labor Force Weight      
+                               7    A_EXPLF     Char      1    Exp Labor Force Employment Status       
+                              14    A_EXPRRP    Char      1    Relationship to Householder             
+                              17    A_FAMNUM    Char      1    Family Number(Sub/Sec)                  
+                              18    A_FAMREL    Char      1    Family Relationship(Sub/Sec)            
+                              16    A_FAMTYP    Char      1    Family Type(Code Box)                   
+                             145    A_FNLWGT    Num       8    Adult Final Weight                      
+                              27    A_HGA       Char      2    Highest Grade Attended                  
+                              28    A_HGC       Char      1    Was High Grade Completed                
+                               6    A_LFSR      Char      1    Employment Status Recode                
+                               5    A_LINENO    Char      2    Edited Line Number                      
+                              10    A_MAJACT    Char      1    Major Activity Last Week                
+                              21    A_MARITL    Char      1    Marital Status                          
+                              26    A_ORIGIN    Char      2    Ethnic Origin                           
+                              29    A_PARENT    Char      2    Parents Line Number                     
+                              23    A_RACE      Char      1    Race                                    
+                              22    A_SEX       Char      1    Sex                                     
+                              30    A_SPOUSE    Char      2    Spouses Line Number                     
+                                         proc contents for ZERO OBS version of cps198603pp         11:39 Wednesday, May 23, 2012  16
+
+                                                       The CONTENTS Procedure
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                               #    Variable    Type    Len    Label
+
+                              25    A_VET       Char      1    Veteran Status                          
+                               8    A_WKSTAT    Char      1    Full/Part-Time Work Status Recode       
+                             131    CAP_GAIN    Num       8    Amount of Capital Gains                 
+                             132    CAP_LOSS    Num       8    Amount of Capital Losses                
+                             135    CC_CRED     Num       8    Child Care Credit                       
+                             124    CHAMP       Char      1    Covered By Champus or Milit Health Plan 
+                             121    COV_GH      Char      1    Covered By Group Health Plan            
+                             126    COV_HI      Char      1    Covered By Other Health Insurance       
+                             129    DEP_STAT    Char      2    Dependency Status Pointer               
+                              68    DIV_YN      Char      1    Dividend Recipiency                     
+                              35    EARNSTAT    Char      1    Earnings Allocation Status              
+                             134    EIT_CRED    Num       8    Earned Income Tax Credit                
+                             144    EMCONTRB    Num       8    Employer Contrib for Health Insurance   
+                             139    FED_TAX     Num       8    Federal Income Tax Liability            
+                             128    FILESTAT    Char      1    Tax Filer Status                        
+                              79    FIN_YN      Char      1    Other Reg Contribution Recipiency       
+                              94    FRSE_VAL    Num       8    Amt of Farm Income                      
+                              61    FRSE_YN     Char      1    Farm Income Recipiency                  
+                             150    GRIN_ST     Char      2    FIPS State Code from GRIN File          
+                             118    HIEMP       Char      1    Group Health Plan Offered By Employer   
+                             119    HIPAID      Char      1    Health Plan Paid By Employer            
+                             125    HI_YN       Char      1    Have Any Other Health Insurance         
+                              52    HRCHECK     Char      1    Did Usually Work Full or Part-Time      
+                              43    HRSWK       Char      2    Hours Per Week Worked Last Year         
+                              45    I40         Char      1    Did Look for Work Between Jobs          
+                              46    I41         Char      1    Check Item for Weeks Worked(i34 wk)     
+                              81    I51AST      Char      1    Allocation Status-Wage & Salary         
+                              82    I51BST      Char      1    Allocation Status-Self Emp Earnings     
+                              83    I51CST      Char      1    Allocation Status-Farm Income           
+                              63    I52ARR      Char      1    Railroad Retirement Recipiency          
+                              84    I52AST      Char      1    Allocation Status-Soc Sec/Railroad Ret  
+                              95    I52A_VAL    Num       8    Amt of US Govt Payments, Inc Soc Sec    
+                              85    I52BST      Char      1    Allocation Status-SSI                   
+                              65    I53AADC     Char      1    Aid to Dependent Children Recipiency    
+                              66    I53AOTH     Char      1    Other Public Assistance Recipiency      
+                              86    I53AST      Char      1    Allocation Status-Public Assistance     
+                              87    I53BST      Char      1    Allocation Status-Interest              
+                              70    I53CEST     Char      1    Estates/Trust Recipiency                
+                              88    I53CST      Char      1    Allocation Status-Divnds, Rent, Estates 
+                              99    I53C_VAL    Num       8    Amt of Dividends and Rent               
+                              89    I53DST      Char      1    Alloc Vet Pay, Unemp Comp, Work Comp    
+                              73    I53DWC      Char      1    Workmans Comp Recipiency                
+                             100    I53D_VAL    Num       8    Amt of Vet Payment, Work Comp, Etc      
+                              76    I53EFG      Char      1    Federal Govt Pension Recipiency         
+                              77    I53ELG      Char      1    State/Local Govt Pension Recipiency     
+                              75    I53EMR      Char      1    Military Retirement Recipiency          
+                              74    I53EPP      Char      1    Private Pensions Recipiency             
+                              90    I53EST      Char      1    Alloc Priv, Govt, Milt Pensions         
+                             101    I53E_VAL    Num       8    Amt of Retirement Income, Etc           
+                              80    I53FAE      Char      1    Anything Else Recipiency                
+                              78    I53FAL      Char      1    Alimony/Child Support Recipiency        
+                              91    I53FST      Char      1    Alloc Al/Cs, Oth Reg Contr, All Other   
+                                         proc contents for ZERO OBS version of cps198603pp         11:39 Wednesday, May 23, 2012  17
+
+                                                       The CONTENTS Procedure
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                               #    Variable    Type    Len    Label
+
+                             102    I53F_VAL    Num       8    Amt of Alimony, Child Support, Etc      
+                              15    INCORFLG    Char      1    Income Correction Flag                  
+                              13    INCTOPCD    Char      1    Top Code Status of Wage & Salary        
+                              57    INDUSTRY    Char      3    Industry of Longest Job                 
+                              98    INT_VAL     Num       8    Amt of Interest                         
+                              67    INT_YN      Char      1    Interest Recipiency                     
+                             137    ITEM_AMT    Num       8    Itemized Deduction Amount               
+                              34    JOBSTAT     Char      1    Job Allocation Status                   
+                              56    LJCW        Char      1    Class of Worker for Longest Job         
+                              48    LKNONE      Char      1    Looking for Work or on Layoff from a Job
+                              50    LKSTRCH     Char      1    Stretches of Unemployment               
+                              49    LKWEEKS     Char      2    Weeks Looking for Work or on Layoff     
+                              47    LOSEWKS     Char      1    Did Loss Work Due to Layoff or Lost Job 
+                             138    MARG_TAX    Char      2    Marginal Tax Rate                       
+                             147    MARSUPWT    Num       8    March Supplement Weight                 
+                              12    MATSEQNO    Num       8    Person Sequence Number Match            
+                             123    MCAID       Char      1    Covered By Medicaid                     
+                             122    MCARE       Char      1    Covered By Medicare                     
+                             151    MIGCO       Char      3    What County was Living 1 Year Ago       
+                             109    MIGMCD      Char      3    What MCD Was Living 1 Year Ago          
+                             149    MIGSAME     Char      1    Was Living in This House 1 Year Ago     
+                             110    MIGSCR      Char      1    Migration SCR(Contiguous/Non-Contig)    
+                             113    MIG_MTR1    Char      2    Migration Recode                        
+                             114    MIG_MTR3    Char      1    Migration Recode                        
+                             108    MOBFLAG     Char      1    Mobility Allocation Status              
+                             106    MOBSAME     Char      1    Was Living in This House 5 Years Ago    
+                             148    MOBSTATE    Char      2    What State Was Living 5 Years Ago       
+                             107    MOBWHERE    Char      1    Where was Living 5 Years Ago            
+                              40    NWLKWK      Char      2    Weeks Looking for Work or on Layoff     
+                              39    NWLOOK      Char      1    Did Look for Work Last Year             
+                              58    OCCUP       Char      3    Occupation of Longest Job               
+                              37    OINCALEV    Char      2    Other Income Allocation Level           
+                              97    PAW_VAL     Num       8    Amt of Public Assistance                
+                             140    PAY_DEDT    Num       8    Payroll Deductions(FICA or Fed Ret)     
+                             104    PEARNVAL    Num       8    Total Person Earnings                   
+                             117    PENINCL     Char      1    Included in Pension Plan                
+                             116    PENPLAN     Char      1    Employer Pension Plan                   
+                              20    PF_SEQ      Char      2    Pointer to FFPOS of Primary Family in HH
+                              19    PHF_SEQ     Char      2    Pointer to FFPOS of Own Family in HHLD  
+                              44    PHMEMPRS    Char      1    No of Employers Last Year               
+                               2    PH_SEQ      Num       8    Household Sequence Number               
+                             115    PLOWINC     Num       8    Low Income Dollar Amt Cutoff            
+                             105    POTHVAL     Num       8    Total Other Person Income               
+                               4    PPPOS       Char      2    Person Record(41-79)                    
+                               3    PPPOSOLD    Char      2    Person Record(01-39)                    
+                               1    PRECORD     Char      1    3=Person Record                         
+                             103    PTOTVAL     Num       8    Total Person Income                     
+                              55    PTRSN       Char      1    Reason Worked Less Than 35 Hours        
+                              54    PTWEEKS     Char      2    Weeks Worked Less Than 35 Hours         
+                              53    PTYN        Char      1    Did Work Less Than 35 Hours Some Time   
+                              51    PYRSN       Char      1    Main Reason for Part-Year Work          
+                             143    P_MVCAID    Num       8    Person Market Value of Medicaid         
+                                         proc contents for ZERO OBS version of cps198603pp         11:39 Wednesday, May 23, 2012  18
+
+                                                       The CONTENTS Procedure
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                               #    Variable    Type    Len    Label
+
+                             142    P_MVCARE    Num       8    Person Market Value of Medicare         
+                              11    P_STAT      Char      1    Status(Reject) Item for Persons         
+                              69    RNT_YN      Char      1    Rent/Royalties Recipiency               
+                              41    RSNNOTW     Char      1    Main Reason for not Working Last Year   
+                              93    SEMP_VAL    Num       8    Amt of Non-Farm Self-Employ Income      
+                              60    SEMP_YN     Char      1    Non-Farm Self-Employ Income Recipiency  
+                              96    SSI_VAL     Num       8    Amt of SSI Payments                     
+                              64    SSI_YN      Char      1    Supplemental Security Inc Recipiency    
+                              62    SS_YN       Char      1    Social Security Recipiency              
+                             141    STATETAX    Num       8    State Tax Liability                     
+                             136    TAX_INC     Num       8    Taxable Income Amount                   
+                             153    UACMSASZ    Char      1    SMSA Size Code From UAC Tape            
+                             154    UACPLACE    Char      1    Place Type(CC,BAL,NON-SMSA) from UAC    
+                             112    UACPLCDS    Char      1    Place Description from UAC Tape         
+                             111    UACSMSA     Char      4    SMSA Code from UAC Tape                 
+                             152    UAC_CODE    Char      5    Migration Code from UAC Tape            
+                              72    UC_YN       Char      1    Unemployment Comp Recipiency            
+                              71    VET_YN      Char      1    Veterans Payments Recipiency            
+                              36    WERNALEV    Char      2    Work Exp, Earnings, Job Alloc Level     
+                              33    WESTAT      Char      1    Work Experience Alloc Status            
+                             120    WHOELSGH    Char      1    Who Else Covered By Group Health Plan   
+                             127    WHOELSHI    Char      1    Who Else Covered By Other Health Ins    
+                              42    WKSWORK     Char      2    Weeks Worked Last Year                  
+                              32    WORKSTAT    Char      1    Worker/Non-Worker Alloc Status          
+                              38    WORKYN      Char      1    Did Work at a Job Anytime Last Year     
+                              92    WSAL_VAL    Num       8    Amt of Wages and Salaries               
+                              59    WSAL_YN     Char      1    Wage and Salary Recipiency              
