@@ -1,0 +1,315 @@
+
+  ___  ____  ____  ____  ____ (R)
+ /__    /   ____/   /   ____/
+___/   /   /___/   /   /___/   14.0   Copyright 1985-2015 StataCorp LP
+  Statistics/Data Analysis            StataCorp
+                                      4905 Lakeway Drive
+                                      College Station, Texas 77845 USA
+                                      800-STATA-PC        http://www.stata.com
+                                      979-696-4600        stata@stata.com
+                                      979-696-4601 (fax)
+
+8-user Stata network perpetual license:
+       Serial number:  501406244326
+         Licensed to:  ECCO Cornell University
+                       Ithaca, NY
+
+Notes:
+      1.  Stata is running in batch mode.
+
+Welcome to the ECCO!
+      2.  Unicode is supported; see help unicode_advice.
+
+
+running /usr/local/stata14/profile.do ...
+set processors allowed only with Stata/MP.
+r(198);
+
+. do "_tmp.do" 
+
+. use cmf1982prod.dta
+
+. set obs 1
+number of observations (_N) was 0, now 1
+
+. codebook  
+
+-------------------------------------------------------------------------------
+ppn                                                      permanent plant number
+-------------------------------------------------------------------------------
+
+                  type:  string (str1), but longest is str0
+
+         unique values:  0                        missing "":  1/1
+
+            tabulation:  Freq.  Value
+                             1  ""
+
+-------------------------------------------------------------------------------
+cfn                                                          census file number
+-------------------------------------------------------------------------------
+
+                  type:  string (str1), but longest is str0
+
+         unique values:  0                        missing "":  1/1
+
+            tabulation:  Freq.  Value
+                             1  ""
+
+-------------------------------------------------------------------------------
+tvs                                                    total value of shipments
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+tvps                                           total value of product shipments
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+tvpsd                                  total value of product shipments derived
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+ind                                                     tabulated industry code
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+statp                                                        statistical period
+-------------------------------------------------------------------------------
+
+                  type:  string (str1), but longest is str0
+
+         unique values:  0                        missing "":  1/1
+
+            tabulation:  Freq.  Value
+                             1  ""
+
+-------------------------------------------------------------------------------
+curpc                                            current sic based product code
+-------------------------------------------------------------------------------
+
+                  type:  string (str1), but longest is str0
+
+         unique values:  0                        missing "":  1/1
+
+            tabulation:  Freq.  Value
+                             1  ""
+
+-------------------------------------------------------------------------------
+pcol                                              product sic code as collected
+-------------------------------------------------------------------------------
+
+                  type:  string (str1), but longest is str0
+
+         unique values:  0                        missing "":  1/1
+
+            tabulation:  Freq.  Value
+                             1  ""
+
+-------------------------------------------------------------------------------
+pcolf                                        product sic code as collected flag
+-------------------------------------------------------------------------------
+
+                  type:  string (str1), but longest is str0
+
+         unique values:  0                        missing "":  1/1
+
+            tabulation:  Freq.  Value
+                             1  ""
+
+-------------------------------------------------------------------------------
+naicspc                                                      naics product code
+-------------------------------------------------------------------------------
+
+                  type:  string (str1), but longest is str0
+
+         unique values:  0                        missing "":  1/1
+
+            tabulation:  Freq.  Value
+                             1  ""
+
+-------------------------------------------------------------------------------
+ppc                                              primary sic product class code
+-------------------------------------------------------------------------------
+
+                  type:  string (str1), but longest is str0
+
+         unique values:  0                        missing "":  1/1
+
+            tabulation:  Freq.  Value
+                             1  ""
+
+-------------------------------------------------------------------------------
+pqit                                           quantity of interplant transfers
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+pqp                                                   product quantity produced
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+pqpc                                           quantity purchased and consummed
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+pqpf                                             product quantity produced flag
+-------------------------------------------------------------------------------
+
+                  type:  string (str1), but longest is str0
+
+         unique values:  0                        missing "":  1/1
+
+            tabulation:  Freq.  Value
+                             1  ""
+
+-------------------------------------------------------------------------------
+pqs                                                    product quantity shipped
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+pqsf                                              product quantity shipped flag
+-------------------------------------------------------------------------------
+
+                  type:  string (str1), but longest is str0
+
+         unique values:  0                        missing "":  1/1
+
+            tabulation:  Freq.  Value
+                             1  ""
+
+-------------------------------------------------------------------------------
+pv                                                        product value shipped
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+pvf                                                  product value shipped flag
+-------------------------------------------------------------------------------
+
+                  type:  string (str1), but longest is str0
+
+         unique values:  0                        missing "":  1/1
+
+            tabulation:  Freq.  Value
+                             1  ""
+
+-------------------------------------------------------------------------------
+pvit                                              value of interplant transfers
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+seqnmst                                           master record sequence number
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+seqnprod                                         product record sequence number
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+year                                                                survey year
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+. 
+end of do-file

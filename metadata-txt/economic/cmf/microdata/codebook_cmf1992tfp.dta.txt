@@ -1,0 +1,1552 @@
+
+  ___  ____  ____  ____  ____ (R)
+ /__    /   ____/   /   ____/
+___/   /   /___/   /   /___/   14.0   Copyright 1985-2015 StataCorp LP
+  Statistics/Data Analysis            StataCorp
+                                      4905 Lakeway Drive
+                                      College Station, Texas 77845 USA
+                                      800-STATA-PC        http://www.stata.com
+                                      979-696-4600        stata@stata.com
+                                      979-696-4601 (fax)
+
+8-user Stata network perpetual license:
+       Serial number:  501406244326
+         Licensed to:  ECCO Cornell University
+                       Ithaca, NY
+
+Notes:
+      1.  Stata is running in batch mode.
+
+Welcome to the ECCO!
+      2.  Unicode is supported; see help unicode_advice.
+
+
+running /usr/local/stata14/profile.do ...
+set processors allowed only with Stata/MP.
+r(198);
+
+. do "_tmp.do" 
+
+. use cmf1992tfp.dta
+
+. set obs 1
+number of observations (_N) was 0, now 1
+
+. codebook  
+
+-------------------------------------------------------------------------------
+ppn                                                      permanent plant number
+-------------------------------------------------------------------------------
+
+                  type:  string (str1), but longest is str0
+
+         unique values:  0                        missing "":  1/1
+
+            tabulation:  Freq.  Value
+                             1  ""
+
+-------------------------------------------------------------------------------
+cfn                                                       identification number
+-------------------------------------------------------------------------------
+
+                  type:  string (str1), but longest is str0
+
+         unique values:  0                        missing "":  1/1
+
+            tabulation:  Freq.  Value
+                             1  ""
+
+-------------------------------------------------------------------------------
+ind                                                     tabulated industry code
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+tvs                                                    total value of shipments
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+te                                                             total employment
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+pw                                                           production workers
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+ph                                                      production worker hours
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+ph1                                                 production worker hours: q1
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+ph2                                                 production worker hours: q2
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+ph3                                                 production worker hours: q3
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+ph4                                                 production worker hours: q4
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+pw1                                                      production workers: q1
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+sw                                                     total salaries and wages
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+ww                                                     production workers wages
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+pw2                                                      production workers: q2
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+pw3                                                      production workers: q3
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+cp                                                    cost of materials & parts
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+cr                                                              cost of resales
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+cf                                                                cost of fuels
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+ee                                                cost of purchased electricity
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+pe                                               quantity purchased electricity
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+cw                                                        cost of contract work
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+pw4                                                      production workers: q4
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+fib                                               finished goods inventory :beg
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+wib                                              work-in-progress inventory:beg
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+mib                                                     materials inventory:beg
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+fie                                               finished goods inventory :end
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+wie                                              work-in-progress inventory:end
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+mie                                                     materials inventory:end
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+nb                                                    new building expenditures
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+nm                                                   new machinery expenditures
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+bab                                                        building assests:beg
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+mab                                                       machinery assests:beg
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+bae                                                        building assests:end
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+mae                                                       machinery assests:end
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+brt                                                        building retirements
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+mrt                                                       machinery retirements
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+oind                                                     original industry code
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+year                                                                survey year
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+oe                                                              other employees
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+cm                                                            cost of materials
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+ub                                       capital expendsitures - used buildings
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+um                                       capital expendsitures - used machinery
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+vs                                                     total value of shipments
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+tvps                                           total value of product shipments
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+tae                                                        total assets- ending
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+myind                                          oind if year<1987, ind otherwise
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+wt                                         asm sample weight (1/selection prob)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+gkheq                 historical-cost net stock: equipment, millions of dollars
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+gkhst                 historical-cost net stock: structure, millions of dollars
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+nkceq               current-cost net stock: equipment, millions of 1996 dollars
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+nkcst               current-cost net stock: structure, millions of 1996 dollars
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+eqky                                  capital income (equipment), billions of $
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+stky                                  capital income (structure), billions of $
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+eqpk                      productive capital stock (equipment), billions of 87$
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+stpk                      productive capital stock (structure), billions of 87$
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+eqkc                                   capital composition, ratio of capital
+                                       input to productive stock, (equipment),
+                                       19
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+stkc                                   capital composition, ratio of capital
+                                       input to productive stock, (structure),
+                                       19
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+eqrkl                             rental price of capital in levels (equipment)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+strkl                             rental price of capital in levels (structure)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+eqdpr                                              depreciation rate: equipment
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+stdpr                                              depreciation rate: structure
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+piinve                                           investment deflator: equipment
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+piinvs                                           investment deflator: structure
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+pay                                             total payroll            in $1m
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+matcost                                         total cost of materials  in $1m
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+energy                                          cost of electric & fuels in $1m
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+equip                                           real capital: equipment  in $1m
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+plant                                           real capital: structures in $1m
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+piship                                          deflator for vship   1987=1.000
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+pimat                                           deflator for matcost 1987=1.000
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+pien                                            deflator for energy  1987=1.000
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+sic2                                                            two digit sic87
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+tc                                                           total costs in $1m
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+iake                                        industry level equipment cost share
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+iaks                                        industry level structure cost share
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+iam                           industry level materials (less energy) cost share
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+iae                                            industry level energy cost share
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+ial                                             industry level labor cost share
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+dyear                                    time difference between two data years
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+tem                                                    total employment (march)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+th                                                                  total hours
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+lpw4                                                                 lag of pw4
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+lph4                                                                 lag of ph4
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+ltem                                                                 lag of tem
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+lph                                                                   lag of ph
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+x                                                    random number from u[0, 1]
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+pwf                               production workers q1: retimed as of february
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+gtem                     employment growth (davis, haltiwanger and schuh (dhs))
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+dtem                             employment growth (log first difference (lfd))
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+gph                                                          hours growth (dhs)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+dph                                                          hours growth (dhs)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+gpw1                                          production worker growth q1 (dhs)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+dpw1                                          production worker growth q1 (lfd)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+gph1                                          production worker growth q1 (dhs)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+dph1                                          production worker growth q1 (lfd)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+gpw2                                          production worker growth q2 (dhs)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+dpw2                                          production worker growth q2 (lfd)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+gpw3                                          production worker growth q3 (dhs)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+dpw3                                          production worker growth q3 (lfd)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+gpw4                                          production worker growth q4 (dhs)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+dpw4                                          production worker growth q4 (lfd)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+gph2                                          production worker growth q2 (dhs)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+dph2                                          production worker growth q2 (lfd)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+gph3                                          production worker growth q3 (dhs)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+dph3                                          production worker growth q3 (lfd)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+gph4                                          production worker growth q4 (dhs)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+dph4                                          production worker growth q4 (lfd)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+df                                         finished goods inventory investments
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+dw                                       work-in-progress inventory investments
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+di                                                        inventory investments
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+q                                                                   real output
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+m                                                                real materials
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+e                                                        real materials: energy
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+va                                                                  value added
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+lpq                                            labor productivity: gross output
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+lpva                                            labor productivity: value added
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+ninve                          total nominal expenditures on equipment (=nm+um)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+ninvs                         total nominal expenditures on structures (=nb+ub)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+inve                       total real expenditures on equipment (=ninve/piinve)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+invs                      total real expenditures on structures (=ninvs/piinvs)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+ksteq          capital stock - equipment (cooper, haltiwanger, and power (chp))
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+kstst                                          capital stock - structures (chp)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+dksteq                                   capital stock - equipment growth (lfd)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+dkstst                                  capital stock - structures growth (lfd)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+ltfp                                          total factor productivity in logs
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+. 
+end of do-file

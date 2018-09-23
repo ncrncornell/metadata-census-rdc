@@ -1,0 +1,217 @@
+
+  ___  ____  ____  ____  ____ (R)
+ /__    /   ____/   /   ____/
+___/   /   /___/   /   /___/   14.0   Copyright 1985-2015 StataCorp LP
+  Statistics/Data Analysis            StataCorp
+                                      4905 Lakeway Drive
+                                      College Station, Texas 77845 USA
+                                      800-STATA-PC        http://www.stata.com
+                                      979-696-4600        stata@stata.com
+                                      979-696-4601 (fax)
+
+8-user Stata network perpetual license:
+       Serial number:  501406244326
+         Licensed to:  ECCO Cornell University
+                       Ithaca, NY
+
+Notes:
+      1.  Stata is running in batch mode.
+
+Welcome to the ECCO!
+      2.  Unicode is supported; see help unicode_advice.
+
+
+running /usr/local/stata14/profile.do ...
+set processors allowed only with Stata/MP.
+r(198);
+
+. do "_tmp.do" 
+
+. use cmf1977fuel.dta
+
+. set obs 1
+number of observations (_N) was 0, now 1
+
+. codebook  
+
+-------------------------------------------------------------------------------
+ppn                                                      permanent plant number
+-------------------------------------------------------------------------------
+
+                  type:  string (str1), but longest is str0
+
+         unique values:  0                        missing "":  1/1
+
+            tabulation:  Freq.  Value
+                             1  ""
+
+-------------------------------------------------------------------------------
+orgppn                                             original ppn - prior to 1987
+-------------------------------------------------------------------------------
+
+                  type:  string (str1), but longest is str0
+
+         unique values:  0                        missing "":  1/1
+
+            tabulation:  Freq.  Value
+                             1  ""
+
+-------------------------------------------------------------------------------
+q_coal                                 quantity of purchased bituminous coal,
+                                       lignite, and anthracite (short tons)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+c_coal      cost of purchased bituminous coal, lignite, and anthracite (1000 $)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+q_ngas                           quantity of purchased natural gas (1000 cu ft)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+c_ngas                                   cost of purchased natural gas (1000 $)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+q_doil                          quantity of purchased distillate fuel oil (bbl)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+c_doil                           cost of purchased distillate fuel oil (1000 $)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+q_coke                       quantity of purchased coke and breeze (short tons)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+c_coke                               cost of purchased coke and breeze (1000 $)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+q_othr                                              quantity of purchased other
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+c_othr                                         cost of purchased other (1000 $)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+q_roil                            quantity of purchased residual fuel oil (bbl)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+c_roil                             cost of purchased residual fuel oil (1000 $)
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+-------------------------------------------------------------------------------
+year                                                                survey year
+-------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [.,.]                        units:  .
+         unique values:  0                        missing .:  1/1
+
+            tabulation:  Freq.  Value
+                             1  .
+
+. 
+end of do-file
